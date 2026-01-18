@@ -1,0 +1,294 @@
+{
+  "report_metadata": {
+    "title": "Hidden Tax & Wealth Strategies for Orthopedic Surgeons Approaching Retirement",
+    "subtitle": "A Strategic Guide for Surgeons 5-10 Years from Retirement",
+    "date": "January 2026",
+    "author": "Capable Wealth",
+    "article_name": "Tax & Wealth Strategies Report"
+  },
+  
+  "pages": [
+    {
+      "template": "cover_dark",
+      "content": {
+        "title": "Hidden Tax & Wealth Strategies",
+        "subtitle": "for Orthopedic Surgeons Approaching Retirement",
+        "date": "January 2026"
+      }
+    },
+    
+    {
+      "template": "quote_key_findings",
+      "content": {
+        "quote_text": "**75% of physicians** feel they pay too much in taxes, yet nearly half prepare their own returns without specialized help",
+        "quote_bold_parts": ["75% of physicians"],
+        "findings_header": "Key Findings",
+        "findings": [
+          {
+            "label": "Tax Savings Potential",
+            "summary": "$100,000+ annually through comprehensive optimization"
+          },
+          {
+            "label": "Retirement Accumulation",
+            "summary": "$1M+ extra over 10 years from strategic tax deferral"
+          },
+          {
+            "label": "Cash Balance Plans",
+            "summary": "$150K-$350K+ annual contributions for surgeons 50+"
+          },
+          {
+            "label": "Practice Exit Planning",
+            "summary": "Personal goodwill treatment can save $200K+ on sale"
+          },
+          {
+            "label": "Estate Tax Window",
+            "summary": "$13.99M exemption may sunset after 2025"
+          }
+        ],
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 2
+      }
+    },
+    
+    {
+      "template": "introduction",
+      "content": {
+        "drop_cap_letter": "O",
+        "introduction_text": "rthopedic surgeons in their peak earning years face a steep tax burden that can quietly erode their wealth as retirement nears. Earning between $700,000 and $2 million annually, many surgeons pay effective tax rates of 40% or more. In fact, the average full-time orthopedic surgeon earns around $745,000, placing them in the highest tax brackets. Yet most physicians feel overtaxed and prepare their own returns—a recipe for missed opportunities. This guide reveals hidden strategies tailored for surgeons aged 50-65 who are 5-10 years from retirement.",
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 3
+      }
+    },
+    
+    {
+      "template": "body_text",
+      "content": {
+        "section_header": "The Problem: Why Surgeons Overpay",
+        "section_subheader": "Understanding the gap between what you owe and what you pay",
+        "body_text": "High-income professionals like orthopedic surgeons often overpay in taxes—not by breaking any rules, but by failing to leverage the full scope of legal strategies available. Surgeons typically fall into the top 1% of earners, facing the top 37% federal bracket plus state taxes exceeding 10% in high-tax states.\n\nThe result: taxes are often the single largest expense in a surgeon's life, larger than any mortgage or tuition bill. An $800,000 income in a high-tax state might result in $320,000 paid to the IRS and state—a 40% effective rate.\n\nWhy does this happen? Surgeons have complex, high-income finances but limited time to manage them. They often default to straightforward approaches—W-2 salaries, simple pass-through income, basic 401(k) contributions—that are easy but not optimized.\n\nThree out of four physicians feel overtaxed, and nearly half do their own taxes. Additionally, physicians generally do not qualify for the 20% QBI deduction due to income thresholds, and all face the 3.8% Net Investment Income Tax.",
+        "has_callout": true,
+        "callout_text": "For a surgeon paying $350,000+ annually in taxes, even a 15% reduction represents over $50,000 per year—enough to meaningfully change retirement outcomes.",
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 4
+      }
+    },
+    
+    {
+      "template": "chart_bar_grouped",
+      "content": {
+        "section_header": "The Cost of Inaction",
+        "section_subheader": "Quantifying the 10-year impact of tax optimization",
+        "exhibit_number": 1,
+        "chart_title": "10-Year Impact by Optimization Level ($900K Annual Income)",
+        "legend_items": ["Annual Tax Savings", "10-Year Accumulation", "Additional Retirement Income"],
+        "chart_data": {
+          "categories": ["No Optimization", "Basic Optimization", "Comprehensive Optimization"],
+          "series": [
+            { "name": "Annual Tax Savings", "values": [0, 50, 100] },
+            { "name": "10-Year Accumulation", "values": [0, 650, 1300] },
+            { "name": "Additional Retirement Income/yr", "values": [0, 26, 52] }
+          ]
+        },
+        "footnote": "Assumes 6% annual growth on tax savings invested. Additional retirement income based on 4% safe withdrawal rate. Values shown in thousands.",
+        "citation": "Source: Capable Wealth Analysis, 2026",
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 5
+      }
+    },
+    
+    {
+      "template": "section_opener",
+      "content": {
+        "section_number": "01",
+        "section_title": "The Five-Strategy Framework",
+        "section_description": "Five interconnected areas where mid-career and late-career surgeons find hidden savings",
+        "key_points": [
+          "Entity & Income Structuring",
+          "Advanced Retirement Vehicles",
+          "Investment Tax Optimization",
+          "Practice Exit Planning",
+          "Legacy & Estate Planning"
+        ],
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 6
+      }
+    },
+    
+    {
+      "template": "body_text",
+      "content": {
+        "section_header": "Entity & Income Structuring",
+        "section_subheader": "Choosing the optimal practice structure and income allocation",
+        "body_text": "The way you structure your practice and allocate income can significantly impact your tax burden. Many surgeons operate as sole proprietors or partners without optimizing for tax efficiency.\n\nS-Corporation Election: For surgeons operating as sole proprietors or single-member LLCs, electing S-Corp status can yield significant savings on self-employment taxes. As an S-Corp owner, you pay yourself a \"reasonable salary\" subject to payroll taxes, while additional profits distributed as dividends avoid the 15.3% self-employment tax (up to Social Security wage base) and 2.9% Medicare tax on amounts above.\n\nExample: A surgeon with $800,000 in practice income might pay themselves a $350,000 salary and take $450,000 as distributions. The Medicare savings alone on that distribution equals approximately $13,000 annually.\n\nTypical Annual Savings:\n• S-Corp election vs. sole proprietor: $15,000 – $40,000\n• Family employment optimization: $5,000 – $20,000\n• Business expense optimization: $10,000 – $30,000\n\nIRS Red Flags to Avoid: Setting salary unreasonably low, failing to document reasonable compensation basis, and not paying salary through proper payroll.",
+        "has_callout": false,
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 7
+      }
+    },
+    
+    {
+      "template": "body_text",
+      "content": {
+        "section_header": "Advanced Retirement Vehicles",
+        "section_subheader": "Super-charging contributions beyond the basic 401(k)",
+        "body_text": "Most surgeons max out their 401(k) contributions and stop there. But for high earners, the basic $23,500 annual limit (plus $7,500 catch-up for those 50+) barely scratches the surface of available tax deferral.\n\nThe Cash Balance Plan: The \"Super Saver\" for Surgeons\n\nCash balance pension plans allow dramatically higher contributions than traditional 401(k) plans, especially for older participants:\n\n• Age 50: ~$150,000 maximum annual contribution\n• Age 55: ~$200,000 maximum annual contribution\n• Age 60: ~$280,000 maximum annual contribution\n• Age 62+: ~$350,000+ maximum annual contribution\n\nThese are combined 401(k) and cash balance contributions. Contributions are fully tax-deductible as business expenses and grow tax-deferred until distribution.\n\nWho This Is Ideal For: Practice owners with stable, high income; those within 10 years of retirement (contributions increase with age); and surgeons who have \"catching up\" to do on retirement savings.\n\nBackdoor Roth IRA: For high earners above income limits, contribute to a non-deductible traditional IRA, then convert to Roth IRA for tax-free growth. Warning: The pro-rata rule applies if you have existing pre-tax IRA balances.",
+        "has_callout": true,
+        "callout_text": "Dr. Smith, age 58, earns $1.2M annually. By implementing a cash balance plan alongside his 401(k), he contributes $265,000 tax-deferred annually—reducing his tax bill by ~$98,000.",
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 8
+      }
+    },
+    
+    {
+      "template": "body_text",
+      "content": {
+        "section_header": "Investment Tax Optimization",
+        "section_subheader": "Asset location, tax-loss harvesting, and efficient investing",
+        "body_text": "Even after maximizing retirement contributions, surgeons typically have substantial taxable investment accounts. How these assets are managed can create significant tax drag—or tax efficiency.\n\nAsset Location Strategy: Place tax-inefficient investments in tax-advantaged accounts; hold tax-efficient investments in taxable accounts.\n\n• Tax-deferred (401k, IRA): Bonds, REITs, actively managed funds, high-yield investments\n• Roth accounts: Highest expected growth (small cap, emerging markets)\n• Taxable accounts: Index funds, ETFs, municipal bonds, long-term holdings\n\nWhy This Matters: Bond interest is taxed as ordinary income (up to 37%), while long-term capital gains and qualified dividends are taxed at 15-20%. Municipal bond interest is often tax-free.\n\nExample Savings: A surgeon with $2M in investments earning 6% annually:\n• Poor asset location: ~$28,000 annual tax drag\n• Optimal asset location: ~$16,000 annual tax drag\n• Annual savings: $12,000+\n\nTax-Loss Harvesting: Systematically sell investments at a loss to offset capital gains. Net losses up to $3,000 annually can offset ordinary income, with excess losses carrying forward indefinitely.",
+        "has_callout": false,
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 9
+      }
+    },
+    
+    {
+      "template": "body_text",
+      "content": {
+        "section_header": "Practice Exit & Pre-Liquidity Planning",
+        "section_subheader": "Structuring the sale for capital gains treatment",
+        "body_text": "For surgeon-owners, the sale or transition of a medical practice represents one of the largest financial events of their career. Proper planning can mean the difference between capital gains treatment (20% + 3.8% NIIT) and ordinary income (37%+).\n\nPersonal Goodwill: One of the most valuable tax planning concepts for practice sales. Goodwill attributable to the selling surgeon's personal reputation, relationships, and skills is taxed as capital gains vs. ordinary income for corporate goodwill.\n\nExample: Dr. Jones sells her practice for $3M. With proper structuring:\n• $1.5M allocated to personal goodwill (capital gains: 23.8%)\n• Tax on goodwill: $357,000\n\nWithout personal goodwill treatment (ordinary income: 40.8%):\n• Tax on same amount: $612,000\n• Tax savings: $255,000\n\nInstallment Sales: Spreading sale proceeds over multiple years can defer tax liability and potentially keep income in lower brackets.\n\n1031 Exchange: If your practice includes real estate you own separately, a 1031 exchange can defer capital gains. Requirements: like-kind property, 45 days to identify replacement, 180 days to close.",
+        "has_callout": true,
+        "callout_text": "Starting 5-7 years before transition isn't too early—it's optimal. The highest-value outcomes occur when financial, legal, and operational planning are coordinated as an integrated strategy.",
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 10
+      }
+    },
+    
+    {
+      "template": "chart_line",
+      "content": {
+        "section_header": "Estate Tax Exemption",
+        "section_subheader": "Current high exemptions and potential sunset",
+        "exhibit_number": 2,
+        "chart_title": "Federal Estate Tax Exemption (Individual, in Millions)",
+        "chart_data": {
+          "labels": ["2020", "2021", "2022", "2023", "2024", "2025", "2026 (if sunset)"],
+          "series": [
+            {
+              "name": "Exemption Amount",
+              "values": [11.58, 11.70, 12.06, 12.92, 13.61, 13.99, 7.00]
+            }
+          ]
+        },
+        "footnote": "The 2026 value assumes the exemption sunsets to approximately half the current level absent legislative action. State estate taxes may apply at much lower thresholds.",
+        "citation": "Source: IRS Estate Tax Data, 2026",
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 11
+      }
+    },
+    
+    {
+      "template": "case_study",
+      "content": {
+        "case_study_title": "The Solo Practitioner Maximizing Retirement Contributions",
+        "profile_name": "Dr. Martinez",
+        "profile_details": [
+          { "key": "Age", "value": "57" },
+          { "key": "Practice Type", "value": "Solo Orthopedic" },
+          { "key": "Net Income", "value": "$950,000" },
+          { "key": "Years to Retirement", "value": "7" }
+        ],
+        "issue_text": "Dr. Martinez was maxing his 401(k) at $31,000 (with catch-up) but leaving significant tax exposure on the table. Despite his high income, he was only deferring about 3% of his earnings into tax-advantaged accounts.",
+        "strategy_items": [
+          "Implemented cash balance pension plan alongside existing 401(k)",
+          "Increased total annual contributions to $245,000",
+          "Maintained S-Corp structure with reasonable salary",
+          "Optimized salary vs. distribution ratio for Medicare tax savings"
+        ],
+        "impact_metrics": [
+          { "value": "$214,000", "label": "Additional Deferred Income" },
+          { "value": "$79,000", "label": "Annual Tax Savings" },
+          { "value": "7 Years", "label": "Planning Horizon" },
+          { "value": "$553,000+", "label": "Total Tax Savings" }
+        ],
+        "outcome_text": "By implementing a coordinated strategy, Dr. Martinez will enter retirement with significantly more tax-advantaged assets and substantially lower lifetime tax liability.",
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 12
+      }
+    },
+    
+    {
+      "template": "checklist",
+      "content": {
+        "page_header": "Summary Checklist",
+        "page_subheader": "Use this checklist to guide conversations with your financial advisors and CPAs",
+        "checklist_groups": [
+          {
+            "header": "Entity & Income Structure",
+            "items": [
+              "Is practice structured optimally (S-Corp)?",
+              "Am I paying a documented reasonable salary?",
+              "Are there legitimate family employment opportunities?"
+            ]
+          },
+          {
+            "header": "Retirement Vehicles",
+            "items": [
+              "Am I maximizing all available contributions?",
+              "Would a cash balance plan provide additional deferral?",
+              "Do I have a Roth conversion strategy?",
+              "Am I utilizing backdoor Roth contributions?"
+            ]
+          },
+          {
+            "header": "Investment Optimization",
+            "items": [
+              "Are investments properly located across accounts?",
+              "Is my advisor actively harvesting tax losses?",
+              "Should I hold municipal bonds in taxable accounts?"
+            ]
+          },
+          {
+            "header": "Practice Exit Planning",
+            "items": [
+              "Is personal goodwill being recognized?",
+              "Should I consider an installment sale?",
+              "Does state relocation make financial sense?"
+            ]
+          },
+          {
+            "header": "Estate Planning",
+            "items": [
+              "Is estate plan updated for current exemptions?",
+              "Should we accelerate gifting before sunset?",
+              "Would SLAT, GRAT, or ILIT benefit my situation?"
+            ]
+          }
+        ],
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 13
+      }
+    },
+    
+    {
+      "template": "quote_network",
+      "content": {
+        "research_paragraph": "Proactive tax planning in your final working years can dramatically boost your retirement lifestyle and legacy. High-income surgeons often leave six-figure sums on the table by not leveraging advanced strategies in entity structuring, retirement plans, investment allocation, practice sale planning, and estate optimization.",
+        "pull_quote": "A surgeon who reduces their tax outflow by $100,000 per year in the last decade before retirement could accumulate $1+ million in extra savings",
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 14
+      }
+    },
+    
+    {
+      "template": "back_cover",
+      "content": {
+        "cta_header": "Ready to Optimize Your Tax Strategy?",
+        "cta_text": "Schedule a consultation to discuss how these strategies apply to your specific situation and timeline.",
+        "contact_info": "capablewealth.com",
+        "disclaimer_text": "The strategies and examples in this guide are for educational purposes and general guidance. Every surgeon's financial situation is unique. Before implementing any tax or investment strategy, consult with qualified professionals (CPA, CFP, attorney) who can tailor recommendations to your personal circumstances and the most current laws. Tax laws are subject to change, and strategies must comply with all IRS rules to be effective. Nothing in this guide constitutes specific tax, legal, or investment advice.",
+        "copyright": "© 2026 Capable Wealth. All rights reserved."
+      }
+    }
+  ]
+}

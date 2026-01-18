@@ -1,0 +1,105 @@
+{
+  "component_id": "expert_panel",
+  "component_name": "Expert Quote Panel",
+  "component_version": "1.0",
+  "description": "Reusable expert photo and quote block for testimonials or expert perspectives",
+  
+  "dimensions": {
+    "width": 816,
+    "height": 280,
+    "unit": "px"
+  },
+  
+  "background": {
+    "type": "solid",
+    "color": "$colors.primary.hex"
+  },
+  
+  "elements": [
+    {
+      "id": "expert_photo",
+      "type": "image",
+      "source": "{{expert_photo}}",
+      "position": { "x": 60, "y": 40 },
+      "size": { "width": 180, "height": 180 },
+      "shape": "circle",
+      "border": {
+        "width": 3,
+        "color": "$colors.secondary.hex"
+      },
+      "fallback": "graphics/placeholder_portrait.svg",
+      "description": "Circular cropped professional headshot"
+    },
+    {
+      "id": "expert_name",
+      "type": "text",
+      "content": "{{expert_name}}",
+      "font": "$typography.heading.family",
+      "font_weight": 600,
+      "font_size": 24,
+      "color": "#FFFFFF",
+      "position": { "x": 280, "y": 60 },
+      "max_width": 480
+    },
+    {
+      "id": "expert_title",
+      "type": "text",
+      "content": "{{expert_title}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 14,
+      "color": "$colors.accent.hex",
+      "position": { "x": 280, "y": 95 },
+      "max_width": 480
+    },
+    {
+      "id": "expert_quote",
+      "type": "text",
+      "content": "{{expert_quote}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 16,
+      "color": "#FFFFFF",
+      "position": { "x": 280, "y": 130 },
+      "max_width": 480,
+      "line_height": 1.5
+    }
+  ],
+  
+  "variables": {
+    "expert_photo": {
+      "type": "string",
+      "required": false,
+      "description": "Path to expert headshot image",
+      "example": "images/dr_jane_smith.jpg"
+    },
+    "expert_name": {
+      "type": "string",
+      "required": true,
+      "max_length": 50,
+      "description": "Expert's full name",
+      "example": "Dr. Jane Smith"
+    },
+    "expert_title": {
+      "type": "string",
+      "required": true,
+      "max_length": 100,
+      "description": "Professional title, credentials, or affiliation",
+      "example": "Chief Medical Officer, Orthopedic Associates"
+    },
+    "expert_quote": {
+      "type": "string",
+      "required": true,
+      "max_length": 280,
+      "description": "Quote or perspective from the expert",
+      "example": "The transition from practice ownership requires careful planning that most physicians underestimate..."
+    }
+  },
+  
+  "usage_notes": [
+    "Use to add credibility through expert voices",
+    "Photo should be professional headshot with neutral background",
+    "Title should establish authority and relevance to audience",
+    "Quote should support or illustrate key report findings"
+  ]
+}

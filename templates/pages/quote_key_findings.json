@@ -1,0 +1,156 @@
+{
+  "template_id": "quote_key_findings",
+  "template_name": "Quote with Key Findings",
+  "template_version": "1.0",
+  "page_type": "content",
+  "description": "Split page with dark hero quote section at top and numbered key findings list below on light background",
+  
+  "dimensions": {
+    "width": 816,
+    "height": 1056,
+    "unit": "px"
+  },
+  
+  "sections": [
+    {
+      "id": "hero_quote_section",
+      "type": "section",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 816, "height": 350 },
+      "background": {
+        "type": "solid",
+        "color": "$colors.primary.hex"
+      },
+      "elements": [
+        {
+          "id": "quote_text",
+          "type": "text",
+          "content": "{{quote_text}}",
+          "font": "$typography.heading.family",
+          "font_weight": 400,
+          "font_size": 42,
+          "color": "#FFFFFF",
+          "position": { "x": 60, "y": 80 },
+          "max_width": 696,
+          "line_height": 1.3,
+          "text_style": {
+            "bold_parts": "{{quote_bold_parts}}",
+            "bold_color": "#FFFFFF"
+          },
+          "description": "Large quote with key words bolded, rest in regular weight"
+        }
+      ]
+    },
+    {
+      "id": "key_findings_section",
+      "type": "section",
+      "position": { "x": 0, "y": 350 },
+      "size": { "width": 816, "height": 660 },
+      "background": {
+        "type": "solid",
+        "color": "$colors.neutral_light"
+      },
+      "elements": [
+        {
+          "id": "findings_header",
+          "type": "text",
+          "content": "{{findings_header}}",
+          "font": "$typography.heading.family",
+          "font_weight": 400,
+          "font_size": 36,
+          "color": "$colors.accent.hex",
+          "position": { "x": 200, "y": 60 },
+          "description": "Section header like 'Key Findings' in gold"
+        },
+        {
+          "id": "findings_list",
+          "type": "numbered_list",
+          "items": "{{findings}}",
+          "position": { "x": 200, "y": 120 },
+          "max_width": 500,
+          "item_spacing": 24,
+          "styling": {
+            "number_font": "$typography.body.family",
+            "number_weight": 600,
+            "number_size": 18,
+            "number_color": "$colors.neutral_dark.hex",
+            "label_font": "$typography.body.family",
+            "label_weight": 600,
+            "label_size": 18,
+            "label_color": "$colors.neutral_dark.hex",
+            "description_font": "$typography.body.family",
+            "description_weight": 400,
+            "description_size": 18,
+            "description_color": "$colors.neutral_mid.hex"
+          },
+          "description": "Numbered list with bold label followed by description"
+        },
+        {
+          "id": "footer",
+          "type": "component",
+          "source": "components/footer.json",
+          "position": { "x": 0, "y": 610 },
+          "description": "Standard page footer"
+        }
+      ]
+    }
+  ],
+  
+  "variables": {
+    "quote_text": {
+      "type": "string",
+      "required": true,
+      "max_length": 200,
+      "description": "Full quote text - use **bold** markers around key words",
+      "example": "**Quote with main idea** then continued with additional context"
+    },
+    "quote_bold_parts": {
+      "type": "array",
+      "required": false,
+      "description": "Array of text segments to render in bold within the quote",
+      "example": ["Quote with main idea"]
+    },
+    "findings_header": {
+      "type": "string",
+      "required": true,
+      "default": "Key Findings",
+      "description": "Header for the findings section"
+    },
+    "findings": {
+      "type": "array",
+      "required": true,
+      "min_items": 3,
+      "max_items": 7,
+      "description": "Array of finding objects with label and summary",
+      "schema": {
+        "items": {
+          "label": "Bold Main Idea",
+          "summary": "basic summary text that follows"
+        }
+      },
+      "example": [
+        { "label": "Tax-Advantaged Exit Strategies", "summary": "minimize capital gains through structured transitions" },
+        { "label": "Practice Succession Timing", "summary": "optimal windows for partnership buyouts" },
+        { "label": "Asset Protection Planning", "summary": "shielding wealth from liability exposure" }
+      ]
+    },
+    "article_name": {
+      "type": "string",
+      "required": true,
+      "description": "Name of the article for footer"
+    },
+    "page_number": {
+      "type": "number",
+      "required": true,
+      "description": "Page number for footer"
+    }
+  },
+  
+  "usage_notes": [
+    "Use as an executive summary or opening page after the cover",
+    "Quote should capture the main thesis or most compelling insight",
+    "Key findings should be scannable - bold labels with brief summaries",
+    "Limit to 5-7 findings for readability",
+    "Bold parts of quote should be the most memorable/impactful words"
+  ]
+}

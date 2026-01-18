@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Output files (generated PDFs, etc.)
+outputs/drafts/
+outputs/final/infographics/
+outputs/final/social_media/
+
+# Keep the final lead_magnets output
+!outputs/final/lead_magnets/
+
+# Logs
+*.log
+
+# Local environment files
+.env
+.env.local

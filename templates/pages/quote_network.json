@@ -1,0 +1,86 @@
+{
+  "template_id": "quote_network",
+  "template_name": "Pull Quote with Network Graphic",
+  "template_version": "1.0",
+  "page_type": "content",
+  "description": "Light page with research paragraph, large pull quote, and decorative node network graphic",
+  
+  "dimensions": {
+    "width": 816,
+    "height": 1056,
+    "unit": "px"
+  },
+  
+  "background": {
+    "type": "solid",
+    "color": "$colors.neutral_light"
+  },
+  
+  "elements": [
+    {
+      "id": "research_paragraph",
+      "type": "text",
+      "content": "{{research_paragraph}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 18,
+      "color": "$colors.neutral_dark.hex",
+      "position": { "x": 120, "y": 50 },
+      "max_width": 576,
+      "line_height": 1.6,
+      "description": "Introductory or contextual paragraph about the research"
+    },
+    {
+      "id": "pull_quote",
+      "type": "text",
+      "content": "{{pull_quote}}",
+      "font": "$typography.heading.family",
+      "font_weight": 400,
+      "font_size": 40,
+      "color": "$colors.primary.hex",
+      "position": { "x": 60, "y": 220 },
+      "max_width": 450,
+      "line_height": 1.25,
+      "description": "Large, impactful quote or data highlight"
+    },
+    {
+      "id": "node_network_graphic",
+      "type": "graphic",
+      "source": "graphics/node_network_light_rising.svg",
+      "position": { "x": 100, "y": 450 },
+      "size": { "width": 716, "height": 560 },
+      "description": "Decorative node network rising from bottom-left to top-right"
+    },
+    {
+      "id": "footer",
+      "type": "component",
+      "source": "components/footer.json",
+      "position": { "x": 0, "y": 1010 }
+    }
+  ],
+  
+  "variables": {
+    "research_paragraph": {
+      "type": "string",
+      "required": false,
+      "max_length": 400,
+      "description": "Context paragraph introducing or explaining the research finding"
+    },
+    "pull_quote": {
+      "type": "string",
+      "required": true,
+      "max_length": 180,
+      "description": "Key insight or data-driven statement to highlight",
+      "example": "Quote or snippet from data that drives idea of the report"
+    },
+    "article_name": { "type": "string", "required": true },
+    "page_number": { "type": "number", "required": true }
+  },
+  
+  "usage_notes": [
+    "Use to create visual breathing room between data-heavy sections",
+    "Pull quote should be the most compelling or surprising finding",
+    "Node network provides visual interest without competing with text",
+    "Good for section transitions or before conclusions"
+  ]
+}

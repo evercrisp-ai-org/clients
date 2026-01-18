@@ -1,0 +1,157 @@
+{
+  "template_id": "section_opener",
+  "template_name": "Section Opener Page",
+  "template_version": "1.0",
+  "page_type": "divider",
+  "description": "Dark background page with section number, title, and brief description for introducing major report sections",
+  
+  "dimensions": {
+    "width": 816,
+    "height": 1056,
+    "unit": "px"
+  },
+  
+  "background": {
+    "type": "solid",
+    "color": "$colors.primary.hex"
+  },
+  
+  "elements": [
+    {
+      "id": "node_network_background",
+      "type": "graphic",
+      "source": "graphics/node_network_dark_subtle.svg",
+      "position": { "x": 0, "y": 400 },
+      "size": { "width": 816, "height": 656 },
+      "opacity": 0.4,
+      "description": "Subtle node network in background"
+    },
+    {
+      "id": "section_number",
+      "type": "text",
+      "content": "{{section_number}}",
+      "font": "$typography.heading.family",
+      "font_weight": 400,
+      "font_size": 100,
+      "color": "$colors.secondary.hex",
+      "position": { "x": 80, "y": 180 },
+      "opacity": 0.6,
+      "description": "Large section number as visual anchor"
+    },
+    {
+      "id": "section_title",
+      "type": "text",
+      "content": "{{section_title}}",
+      "font": "$typography.heading.family",
+      "font_weight": 600,
+      "font_size": 44,
+      "color": "#FFFFFF",
+      "position": { "x": 80, "y": 340 },
+      "max_width": 600,
+      "line_height": 1.2,
+      "description": "Section title in white"
+    },
+    {
+      "id": "section_description",
+      "type": "text",
+      "content": "{{section_description}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 18,
+      "color": "$colors.accent.hex",
+      "position": { "x": 80, "y": 430 },
+      "max_width": 550,
+      "line_height": 1.5,
+      "description": "Brief description of what this section covers"
+    },
+    {
+      "id": "key_points_header",
+      "type": "text",
+      "content": "In This Section",
+      "font": "$typography.body.family",
+      "font_weight": 600,
+      "font_size": 12,
+      "color": "$colors.neutral_mid.hex",
+      "position": { "x": 80, "y": 520 },
+      "text_transform": "uppercase",
+      "letter_spacing": 2,
+      "description": "Header for key points list"
+    },
+    {
+      "id": "key_points",
+      "type": "bullet_list",
+      "items": "{{key_points}}",
+      "position": { "x": 80, "y": 550 },
+      "max_width": 550,
+      "item_spacing": 14,
+      "styling": {
+        "bullet_color": "$colors.accent.hex",
+        "bullet_size": 6,
+        "text_font": "$typography.body.family",
+        "text_size": 15,
+        "text_color": "#FFFFFF",
+        "line_height": 1.4
+      },
+      "description": "List of key topics covered in this section"
+    },
+    {
+      "id": "accent_line",
+      "type": "rectangle",
+      "position": { "x": 80, "y": 340 },
+      "size": { "width": 60, "height": 4 },
+      "background": "$colors.accent.hex",
+      "description": "Gold accent line above title"
+    },
+    {
+      "id": "footer",
+      "type": "component",
+      "source": "components/footer.json",
+      "position": { "x": 0, "y": 1010 },
+      "variant": "dark"
+    }
+  ],
+  
+  "variables": {
+    "section_number": {
+      "type": "string",
+      "required": true,
+      "max_length": 3,
+      "description": "Section number (e.g., '01', '02')",
+      "example": "01"
+    },
+    "section_title": {
+      "type": "string",
+      "required": true,
+      "max_length": 60,
+      "description": "Section title"
+    },
+    "section_description": {
+      "type": "string",
+      "required": false,
+      "max_length": 200,
+      "description": "Brief description of section content"
+    },
+    "key_points": {
+      "type": "array",
+      "required": false,
+      "max_items": 5,
+      "description": "Array of key topics covered in this section",
+      "example": ["Entity structuring options", "S-Corp election benefits", "Family employment strategies"]
+    },
+    "article_name": {
+      "type": "string",
+      "required": true
+    },
+    "page_number": {
+      "type": "number",
+      "required": true
+    }
+  },
+  
+  "usage_notes": [
+    "Use to introduce major sections of the report",
+    "Creates visual break and helps readers navigate",
+    "Section number creates strong visual hierarchy",
+    "Key points give readers a preview of what's coming"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "component_id": "footer",
+  "component_name": "Page Footer",
+  "component_version": "1.0",
+  "description": "Standard page footer with article name (left) and page number (right)",
+  
+  "dimensions": {
+    "width": 816,
+    "height": 46,
+    "unit": "px"
+  },
+  
+  "variants": {
+    "light": {
+      "background": "transparent",
+      "text_color": "$colors.neutral_dark.hex",
+      "accent_color": "$colors.accent.hex"
+    },
+    "dark": {
+      "background": "transparent",
+      "text_color": "#FFFFFF",
+      "accent_color": "$colors.accent.hex"
+    }
+  },
+  
+  "elements": [
+    {
+      "id": "article_name",
+      "type": "text",
+      "content": "{{article_name}}",
+      "font": "$typography.body.family",
+      "font_weight": 600,
+      "font_size": 14,
+      "color": "{{variant.accent_color}}",
+      "position": { "x": 120, "y": 20 },
+      "text_align": "left",
+      "description": "Article/report name in gold accent color"
+    },
+    {
+      "id": "page_number",
+      "type": "text",
+      "content": "{{page_number}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 14,
+      "color": "{{variant.text_color}}",
+      "position": { "x": 756, "y": 20 },
+      "text_align": "right",
+      "description": "Page number right-aligned"
+    }
+  ],
+  
+  "variables": {
+    "article_name": {
+      "type": "string",
+      "required": true,
+      "description": "Name of the article or report"
+    },
+    "page_number": {
+      "type": "number",
+      "required": true,
+      "description": "Current page number"
+    },
+    "variant": {
+      "type": "string",
+      "required": false,
+      "default": "light",
+      "options": ["light", "dark"],
+      "description": "Footer color variant based on page background"
+    }
+  },
+  
+  "usage_notes": [
+    "Use 'light' variant on off-white/neutral backgrounds",
+    "Use 'dark' variant on primary blue backgrounds",
+    "Article name provides persistent branding throughout document",
+    "Page numbers help with navigation in multi-page reports"
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "manifest_version": "1.0",
+  "brand": "Capable Wealth",
+  "created": "2026-01-16",
+  "last_updated": "2026-01-16",
+  "description": "Template manifest for Capable Wealth brand assets - lead magnets, reports, and marketing materials",
+  
+  "brand_standards": {
+    "file": "../brand/brand_standards.json",
+    "version": "3.0",
+    "description": "Master brand standards including colors, typography, logos, spacing, and voice guidelines"
+  },
+  
+  "page_templates": {
+    "covers": [
+      {
+        "id": "cover_light",
+        "file": "pages/cover_light.json",
+        "name": "Cover Page - Light Background",
+        "description": "Title page with logo, title, subtitle on off-white background",
+        "typical_position": 1,
+        "use_cases": ["reports", "lead_magnets", "whitepapers"]
+      },
+      {
+        "id": "cover_dark",
+        "file": "pages/cover_dark.json",
+        "name": "Cover Page - Dark Background",
+        "description": "Title page with logo, title, subtitle on primary blue background",
+        "typical_position": 1,
+        "use_cases": ["reports", "lead_magnets", "whitepapers", "premium_content"]
+      }
+    ],
+    "content": [
+      {
+        "id": "quote_key_findings",
+        "file": "pages/quote_key_findings.json",
+        "name": "Quote with Key Findings",
+        "description": "Split page with hero quote and numbered findings list",
+        "typical_position": 2,
+        "use_cases": ["executive_summary", "opening_page"]
+      },
+      {
+        "id": "introduction",
+        "file": "pages/introduction.json",
+        "name": "Introduction Page",
+        "description": "Full dark page with drop cap and introduction text",
+        "typical_position": 3,
+        "use_cases": ["section_opener", "context_setting"]
+      },
+      {
+        "id": "expert_quote",
+        "file": "pages/expert_quote.json",
+        "name": "Expert Quote Panel",
+        "description": "Expert photo/quote panel with pull quote section",
+        "typical_position": "variable",
+        "use_cases": ["credibility", "testimonial", "expert_perspective"]
+      },
+      {
+        "id": "quote_network",
+        "file": "pages/quote_network.json",
+        "name": "Pull Quote with Network Graphic",
+        "description": "Light page with pull quote and decorative node network",
+        "typical_position": "variable",
+        "use_cases": ["section_transition", "key_insight", "visual_break"]
+      }
+    ],
+    "charts": [
+      {
+        "id": "chart_line",
+        "file": "pages/chart_line.json",
+        "name": "Line Chart Page",
+        "description": "Section header with single or multi-series line chart",
+        "chart_types": ["line", "line_multi"],
+        "use_cases": ["trends", "time_series", "comparisons"]
+      },
+      {
+        "id": "chart_bar_stacked",
+        "file": "pages/chart_bar_stacked.json",
+        "name": "Stacked Bar Chart Page",
+        "description": "Horizontal stacked bar chart showing composition",
+        "chart_types": ["bar_stacked_horizontal"],
+        "use_cases": ["composition", "percentage_breakdown", "portfolio_allocation"]
+      },
+      {
+        "id": "chart_bar_grouped",
+        "file": "pages/chart_bar_grouped.json",
+        "name": "Grouped Bar Chart Page",
+        "description": "Vertical grouped bar chart with follow-up section",
+        "chart_types": ["bar_grouped_vertical"],
+        "use_cases": ["comparison", "category_analysis"]
+      },
+      {
+        "id": "chart_dot",
+        "file": "pages/chart_dot.json",
+        "name": "Dot/Strip Chart Page",
+        "description": "Dot plot showing distribution across groups",
+        "chart_types": ["dot_strip", "scatter"],
+        "use_cases": ["distribution", "variability", "individual_data_points"]
+      },
+      {
+        "id": "chart_area_dual",
+        "file": "pages/chart_area_dual.json",
+        "name": "Dual Stacked Area Charts",
+        "description": "Two stacked area charts for comparison",
+        "chart_types": ["area_stacked"],
+        "use_cases": ["before_after", "scenario_comparison", "time_period_comparison"]
+      },
+      {
+        "id": "chart_with_sidebar",
+        "file": "pages/chart_with_sidebar.json",
+        "name": "Chart with Sidebar Callout",
+        "description": "Multi-series line chart with dark sidebar callout",
+        "chart_types": ["line_multi"],
+        "use_cases": ["key_insight", "data_with_context", "important_finding"]
+      }
+    ]
+  },
+  
+  "components": [
+    {
+      "id": "footer",
+      "file": "components/footer.json",
+      "name": "Page Footer",
+      "description": "Standard footer with article name and page number",
+      "variants": ["light", "dark"]
+    },
+    {
+      "id": "exhibit_label",
+      "file": "components/exhibit_label.json",
+      "name": "Exhibit Label",
+      "description": "Standardized exhibit numbering for charts"
+    },
+    {
+      "id": "expert_panel",
+      "file": "components/expert_panel.json",
+      "name": "Expert Quote Panel",
+      "description": "Reusable expert photo and quote block"
+    }
+  ],
+  
+  "template_selection_guide": {
+    "report_structure": {
+      "description": "Typical page sequence for a lead magnet report",
+      "sequence": [
+        { "position": 1, "template": "cover_light OR cover_dark", "required": true },
+        { "position": 2, "template": "quote_key_findings", "required": true },
+        { "position": 3, "template": "introduction", "required": false },
+        { "position": "4-N", "template": "chart_* OR content pages", "required": true },
+        { "position": "final", "template": "quote_network OR expert_quote", "required": false }
+      ]
+    },
+    "chart_selection": {
+      "trends_over_time": "chart_line",
+      "composition_breakdown": "chart_bar_stacked",
+      "group_comparison": "chart_bar_grouped",
+      "distribution_spread": "chart_dot",
+      "before_after_comparison": "chart_area_dual",
+      "key_finding_emphasis": "chart_with_sidebar"
+    }
+  },
+  
+  "variable_conventions": {
+    "$_prefix": "References to brand_standards.json values (resolved at render time)",
+    "{{double_braces}}": "Content variables to be filled with report-specific data",
+    "required_fields": "Variables marked required:true must be provided",
+    "max_length": "Soft limit for text truncation and layout fitting"
+  },
+  
+  "file_structure": {
+    "brand/": "Brand standards, fonts, logos, graphics",
+    "templates/pages/": "Full-page layout templates",
+    "templates/components/": "Reusable UI components",
+    "outputs/drafts/": "Work-in-progress renders",
+    "outputs/final/": "Approved final documents",
+    "src/": "Python rendering engine (future)"
+  }
+}

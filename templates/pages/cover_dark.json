@@ -1,0 +1,101 @@
+{
+  "template_id": "cover_dark",
+  "template_name": "Cover Page - Dark Background",
+  "template_version": "1.0",
+  "page_type": "cover",
+  "description": "Title page with logo, title, subtitle, date on primary blue background with decorative node network graphic",
+  
+  "dimensions": {
+    "width": 816,
+    "height": 1056,
+    "unit": "px"
+  },
+  
+  "background": {
+    "type": "solid",
+    "color": "$colors.primary.hex"
+  },
+  
+  "elements": [
+    {
+      "id": "logo",
+      "type": "image",
+      "source": "$logos.dark_bg.file",
+      "position": { "x": 40, "y": 40 },
+      "size": { "width": 200 },
+      "description": "Dark background logo variant (CAPABLE in gold/off-white, WEALTH in white)"
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "content": "{{title}}",
+      "font": "$typography.heading.family",
+      "font_weight": 600,
+      "font_size": 64,
+      "color": "#FFFFFF",
+      "position": { "x": 40, "y": 280 },
+      "max_width": 500,
+      "line_height": 1.1,
+      "description": "Main report title in white for contrast"
+    },
+    {
+      "id": "subtitle",
+      "type": "text",
+      "content": "{{subtitle}}",
+      "font": "$typography.heading.family",
+      "font_weight": 400,
+      "font_size": 36,
+      "color": "$colors.accent.hex",
+      "position": { "x": 40, "y": 380 },
+      "max_width": 500,
+      "line_height": 1.2,
+      "description": "Subtitle in gold accent color"
+    },
+    {
+      "id": "date_or_subheading",
+      "type": "text",
+      "content": "{{date}}",
+      "font": "$typography.body.family",
+      "font_weight": 500,
+      "font_size": 20,
+      "color": "#FFFFFF",
+      "position": { "x": 40, "y": 460 },
+      "description": "Date or additional subheading in white"
+    },
+    {
+      "id": "node_network_graphic",
+      "type": "graphic",
+      "source": "graphics/node_network_dark.svg",
+      "position": { "x": 0, "y": 550 },
+      "size": { "width": 816, "height": 506 },
+      "description": "Decorative node/network graphic adapted for dark background with muted nodes and gold/blue accents"
+    }
+  ],
+  
+  "variables": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "max_length": 80,
+      "description": "Main report title - displayed prominently in white"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "max_length": 120,
+      "description": "Optional subtitle or secondary title line in gold"
+    },
+    "date": {
+      "type": "string",
+      "required": false,
+      "max_length": 50,
+      "description": "Publication date, version, or additional context"
+    }
+  },
+  
+  "usage_notes": [
+    "Use for digital-first reports or when a more premium/authoritative feel is desired",
+    "This variant creates stronger visual impact",
+    "Node network uses adapted colors for dark background visibility"
+  ]
+}

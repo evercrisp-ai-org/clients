@@ -1,0 +1,187 @@
+{
+  "template_id": "chart_line",
+  "template_name": "Line Chart Page",
+  "template_version": "1.0",
+  "page_type": "chart",
+  "description": "Content page with section header, exhibit label, line chart, interpretation text, and footer",
+  
+  "dimensions": {
+    "width": 816,
+    "height": 1056,
+    "unit": "px"
+  },
+  
+  "background": {
+    "type": "solid",
+    "color": "$colors.neutral_light"
+  },
+  
+  "elements": [
+    {
+      "id": "section_header",
+      "type": "text",
+      "content": "{{section_header}}",
+      "font": "$typography.heading.family",
+      "font_weight": 400,
+      "font_size": 44,
+      "color": "$colors.primary.hex",
+      "position": { "x": 120, "y": 50 },
+      "max_width": 576,
+      "line_height": 1.2,
+      "description": "Large section headline in Playfair Display"
+    },
+    {
+      "id": "section_subheader",
+      "type": "text",
+      "content": "{{section_subheader}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 18,
+      "color": "$colors.neutral_dark.hex",
+      "position": { "x": 120, "y": 105 },
+      "max_width": 576,
+      "line_height": 1.5,
+      "description": "Explanatory text below the section header"
+    },
+    {
+      "id": "exhibit_label",
+      "type": "text",
+      "content": "Exhibit {{exhibit_number}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 16,
+      "color": "$colors.secondary.hex",
+      "position": { "x": 120, "y": 180 },
+      "description": "Exhibit number label in blue slate"
+    },
+    {
+      "id": "chart_title",
+      "type": "text",
+      "content": "{{chart_title}}",
+      "font": "$typography.body.family",
+      "font_weight": 600,
+      "font_size": 20,
+      "color": "$colors.neutral_dark.hex",
+      "position": { "x": 120, "y": 205 },
+      "max_width": 576,
+      "description": "Bold chart title describing what the data shows"
+    },
+    {
+      "id": "chart",
+      "type": "chart",
+      "chart_type": "line",
+      "data": "{{chart_data}}",
+      "position": { "x": 120, "y": 250 },
+      "size": { "width": 576, "height": 450 },
+      "styling": {
+        "line_colors": "$chart_colors.series",
+        "axis_color": "$colors.neutral_mid.hex",
+        "grid_color": "$colors.neutral_light.hex",
+        "label_font": "$typography.body.family",
+        "label_size": 13,
+        "label_color": "$colors.neutral_dark.hex",
+        "marker_style": "circle",
+        "marker_size": 6
+      },
+      "description": "Line chart visualization with brand-compliant colors"
+    },
+    {
+      "id": "footnote",
+      "type": "text",
+      "content": "{{footnote}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 13,
+      "color": "$colors.neutral_mid.hex",
+      "position": { "x": 120, "y": 720 },
+      "max_width": 576,
+      "line_height": 1.4,
+      "description": "Interpretive note about the data"
+    },
+    {
+      "id": "citation",
+      "type": "text",
+      "content": "{{citation}}",
+      "font": "$typography.body.family",
+      "font_weight": 600,
+      "font_size": 12,
+      "color": "$colors.neutral_dark.hex",
+      "position": { "x": 120, "y": 760 },
+      "max_width": 576,
+      "description": "Source citation in bold"
+    },
+    {
+      "id": "footer",
+      "type": "component",
+      "source": "components/footer.json",
+      "position": { "x": 0, "y": 1010 },
+      "description": "Standard page footer with article name and page number"
+    }
+  ],
+  
+  "variables": {
+    "section_header": {
+      "type": "string",
+      "required": true,
+      "max_length": 60,
+      "description": "Section headline - key words that stand out"
+    },
+    "section_subheader": {
+      "type": "string",
+      "required": false,
+      "max_length": 200,
+      "description": "Additional context expanding on the section header"
+    },
+    "exhibit_number": {
+      "type": "number",
+      "required": true,
+      "description": "Sequential exhibit number (1, 2, 3...)"
+    },
+    "chart_title": {
+      "type": "string",
+      "required": true,
+      "max_length": 100,
+      "description": "Descriptive title for the chart"
+    },
+    "chart_data": {
+      "type": "object",
+      "required": true,
+      "description": "Chart data object with labels and series arrays",
+      "schema": {
+        "labels": ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5"],
+        "series": [
+          { "name": "Series 1", "values": [18, 26, 23, 35, 37] }
+        ]
+      }
+    },
+    "footnote": {
+      "type": "string",
+      "required": false,
+      "max_length": 300,
+      "description": "Information pertaining to interpretation of data"
+    },
+    "citation": {
+      "type": "string",
+      "required": false,
+      "max_length": 150,
+      "description": "Data source citation"
+    },
+    "article_name": {
+      "type": "string",
+      "required": true,
+      "description": "Name of the article for footer"
+    },
+    "page_number": {
+      "type": "number",
+      "required": true,
+      "description": "Page number for footer"
+    }
+  },
+  
+  "usage_notes": [
+    "Best for showing trends over time or across categories",
+    "Limit to 3-4 series for readability",
+    "Use data markers (dots) at each point for clarity",
+    "Chart colors follow brand palette: Blue Slate, Deep Blue, Gold, Warm Gray"
+  ]
+}

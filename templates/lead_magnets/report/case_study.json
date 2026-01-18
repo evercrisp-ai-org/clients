@@ -1,0 +1,297 @@
+{
+  "template_id": "case_study",
+  "template_name": "Case Study Page",
+  "template_version": "1.0",
+  "page_type": "content",
+  "description": "Structured layout for case studies with profile sidebar, issue, strategy, and quantified impact",
+  
+  "dimensions": {
+    "width": 816,
+    "height": 1056,
+    "unit": "px"
+  },
+  
+  "sections": [
+    {
+      "id": "header_section",
+      "type": "section",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 816, "height": 180 },
+      "background": {
+        "type": "solid",
+        "color": "$colors.primary.hex"
+      },
+      "elements": [
+        {
+          "id": "case_study_label",
+          "type": "text",
+          "content": "Case Study",
+          "font": "$typography.body.family",
+          "font_weight": 600,
+          "font_size": 14,
+          "color": "$colors.accent.hex",
+          "position": { "x": 80, "y": 35 },
+          "text_transform": "uppercase",
+          "letter_spacing": 2
+        },
+        {
+          "id": "case_study_title",
+          "type": "text",
+          "content": "{{case_study_title}}",
+          "font": "$typography.heading.family",
+          "font_weight": 500,
+          "font_size": 36,
+          "color": "#FFFFFF",
+          "position": { "x": 80, "y": 65 },
+          "max_width": 656,
+          "line_height": 1.2
+        }
+      ]
+    },
+    {
+      "id": "content_section",
+      "type": "section",
+      "position": { "x": 0, "y": 180 },
+      "size": { "width": 816, "height": 830 },
+      "background": {
+        "type": "solid",
+        "color": "$colors.neutral_light"
+      },
+      "elements": [
+        {
+          "id": "profile_sidebar",
+          "type": "rectangle",
+          "position": { "x": 0, "y": 0 },
+          "size": { "width": 240, "height": 830 },
+          "background": "#FFFFFF"
+        },
+        {
+          "id": "profile_label",
+          "type": "text",
+          "content": "Profile",
+          "font": "$typography.body.family",
+          "font_weight": 600,
+          "font_size": 12,
+          "color": "$colors.secondary.hex",
+          "position": { "x": 30, "y": 30 },
+          "text_transform": "uppercase",
+          "letter_spacing": 1.5
+        },
+        {
+          "id": "profile_name",
+          "type": "text",
+          "content": "{{profile_name}}",
+          "font": "$typography.heading.family",
+          "font_weight": 500,
+          "font_size": 24,
+          "color": "$colors.primary.hex",
+          "position": { "x": 30, "y": 55 },
+          "max_width": 180
+        },
+        {
+          "id": "profile_details",
+          "type": "key_value_list",
+          "items": "{{profile_details}}",
+          "position": { "x": 30, "y": 100 },
+          "max_width": 180,
+          "item_spacing": 20,
+          "styling": {
+            "key_font": "$typography.body.family",
+            "key_weight": 600,
+            "key_size": 11,
+            "key_color": "$colors.neutral_mid.hex",
+            "value_font": "$typography.body.family",
+            "value_weight": 500,
+            "value_size": 15,
+            "value_color": "$colors.neutral_dark.hex"
+          }
+        },
+        {
+          "id": "issue_label",
+          "type": "text",
+          "content": "The Issue",
+          "font": "$typography.body.family",
+          "font_weight": 600,
+          "font_size": 12,
+          "color": "$colors.secondary.hex",
+          "position": { "x": 280, "y": 30 },
+          "text_transform": "uppercase",
+          "letter_spacing": 1.5
+        },
+        {
+          "id": "issue_text",
+          "type": "text",
+          "content": "{{issue_text}}",
+          "font": "$typography.body.family",
+          "font_weight": 400,
+          "font_size": 15,
+          "color": "$colors.neutral_dark.hex",
+          "position": { "x": 280, "y": 55 },
+          "max_width": 480,
+          "max_height": 100,
+          "line_height": 1.5,
+          "description": "Issue text with max_height to prevent overflow into strategy section"
+        },
+        {
+          "id": "strategy_label",
+          "type": "text",
+          "content": "Strategy Applied",
+          "font": "$typography.body.family",
+          "font_weight": 600,
+          "font_size": 12,
+          "color": "$colors.secondary.hex",
+          "position": { "x": 280, "y": 165 },
+          "text_transform": "uppercase",
+          "letter_spacing": 1.5
+        },
+        {
+          "id": "strategy_items",
+          "type": "numbered_list",
+          "items": "{{strategy_items}}",
+          "position": { "x": 280, "y": 190 },
+          "max_width": 480,
+          "item_spacing": 12,
+          "styling": {
+            "number_font": "$typography.body.family",
+            "number_weight": 600,
+            "number_size": 14,
+            "number_color": "$colors.accent.hex",
+            "text_font": "$typography.body.family",
+            "text_weight": 400,
+            "text_size": 14,
+            "text_color": "$colors.neutral_dark.hex",
+            "line_height": 1.4
+          }
+        },
+        {
+          "id": "impact_box",
+          "type": "rectangle",
+          "position": { "x": 280, "y": 400 },
+          "size": { "width": 480, "height": 180 },
+          "background": "$colors.primary.hex",
+          "border_radius": 8
+        },
+        {
+          "id": "impact_label",
+          "type": "text",
+          "content": "Tax Impact",
+          "font": "$typography.body.family",
+          "font_weight": 600,
+          "font_size": 12,
+          "color": "$colors.accent.hex",
+          "position": { "x": 310, "y": 420 },
+          "text_transform": "uppercase",
+          "letter_spacing": 1.5
+        },
+        {
+          "id": "impact_metrics",
+          "type": "metric_grid",
+          "items": "{{impact_metrics}}",
+          "position": { "x": 310, "y": 450 },
+          "columns": 2,
+          "column_width": 210,
+          "row_height": 55,
+          "styling": {
+            "value_font": "$typography.heading.family",
+            "value_weight": 600,
+            "value_size": 24,
+            "value_color": "#FFFFFF",
+            "label_font": "$typography.body.family",
+            "label_weight": 400,
+            "label_size": 11,
+            "label_color": "$colors.neutral_mid.hex"
+          }
+        },
+        {
+          "id": "outcome_text",
+          "type": "text",
+          "content": "{{outcome_text}}",
+          "font": "$typography.body.family",
+          "font_weight": 400,
+          "font_size": 14,
+          "color": "$colors.neutral_dark.hex",
+          "position": { "x": 280, "y": 610 },
+          "max_width": 480,
+          "line_height": 1.5
+        },
+        {
+          "id": "footer",
+          "type": "component",
+          "source": "components/footer.json",
+          "position": { "x": 0, "y": 785 }
+        }
+      ]
+    }
+  ],
+  
+  "variables": {
+    "case_study_title": {
+      "type": "string",
+      "required": true,
+      "max_length": 80,
+      "description": "Title summarizing the case study",
+      "example": "The Solo Practitioner Maximizing Retirement Contributions"
+    },
+    "profile_name": {
+      "type": "string",
+      "required": true,
+      "max_length": 40,
+      "description": "Name of the subject (e.g., 'Dr. Martinez')"
+    },
+    "profile_details": {
+      "type": "array",
+      "required": true,
+      "description": "Key-value pairs for profile details",
+      "example": [
+        { "key": "Age", "value": "57" },
+        { "key": "Practice Type", "value": "Solo Orthopedic" },
+        { "key": "Annual Income", "value": "$950,000" }
+      ]
+    },
+    "issue_text": {
+      "type": "string",
+      "required": true,
+      "max_length": 300,
+      "description": "Description of the tax/wealth issue identified"
+    },
+    "strategy_items": {
+      "type": "array",
+      "required": true,
+      "max_items": 5,
+      "description": "Array of strategy steps applied",
+      "example": ["Implemented cash balance pension plan", "Maintained S-Corp structure", "Optimized salary vs. distribution ratio"]
+    },
+    "impact_metrics": {
+      "type": "array",
+      "required": true,
+      "description": "Key metrics showing quantified impact",
+      "example": [
+        { "value": "$214,000", "label": "Additional Deferred Income" },
+        { "value": "$79,000", "label": "Annual Tax Savings" },
+        { "value": "7 Years", "label": "Planning Horizon" },
+        { "value": "$553,000+", "label": "Total Impact" }
+      ]
+    },
+    "outcome_text": {
+      "type": "string",
+      "required": false,
+      "max_length": 200,
+      "description": "Brief summary of the outcome"
+    },
+    "article_name": {
+      "type": "string",
+      "required": true
+    },
+    "page_number": {
+      "type": "number",
+      "required": true
+    }
+  },
+  
+  "usage_notes": [
+    "Use to showcase real-world applications of strategies",
+    "Profile sidebar provides quick context",
+    "Impact metrics should be quantified and specific",
+    "Strategy items should be actionable and numbered"
+  ]
+}

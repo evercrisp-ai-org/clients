@@ -1,0 +1,105 @@
+{
+  "template_id": "introduction",
+  "template_name": "Introduction Page",
+  "template_version": "1.0",
+  "page_type": "content",
+  "description": "Full-page dark background with decorative node network, large drop cap, and introduction text",
+  
+  "dimensions": {
+    "width": 816,
+    "height": 1056,
+    "unit": "px"
+  },
+  
+  "background": {
+    "type": "solid",
+    "color": "$colors.primary.hex"
+  },
+  
+  "elements": [
+    {
+      "id": "node_network_background",
+      "type": "graphic",
+      "source": "graphics/node_network_dark_full.svg",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 816, "height": 1056 },
+      "opacity": 0.7,
+      "description": "Full-page decorative node network with orthopedic icons"
+    },
+    {
+      "id": "content_panel",
+      "type": "rectangle",
+      "position": { "x": 250, "y": 400 },
+      "size": { "width": 526, "height": 450 },
+      "background": "$colors.secondary.hex",
+      "opacity": 0.85,
+      "description": "Semi-transparent content panel for text readability"
+    },
+    {
+      "id": "drop_cap",
+      "type": "text",
+      "content": "{{drop_cap_letter}}",
+      "font": "$typography.heading.family",
+      "font_weight": 400,
+      "font_size": 180,
+      "color": "#FFFFFF",
+      "position": { "x": 180, "y": 380 },
+      "description": "Large decorative drop cap letter"
+    },
+    {
+      "id": "introduction_text",
+      "type": "text",
+      "content": "{{introduction_text}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 20,
+      "color": "#FFFFFF",
+      "position": { "x": 290, "y": 450 },
+      "max_width": 460,
+      "line_height": 1.6,
+      "description": "Introduction paragraph text"
+    },
+    {
+      "id": "footer",
+      "type": "component",
+      "source": "components/footer.json",
+      "position": { "x": 0, "y": 1010 },
+      "variant": "dark",
+      "description": "Footer adapted for dark background"
+    }
+  ],
+  
+  "variables": {
+    "drop_cap_letter": {
+      "type": "string",
+      "required": true,
+      "max_length": 1,
+      "description": "Single letter for drop cap (usually first letter of introduction)",
+      "example": "I"
+    },
+    "introduction_text": {
+      "type": "string",
+      "required": true,
+      "max_length": 600,
+      "description": "Introduction paragraph explaining what the paper will cover",
+      "example": "ntroduction to what you're about to explain in this paper. This report examines the hidden tax strategies and wealth planning opportunities..."
+    },
+    "article_name": {
+      "type": "string",
+      "required": true,
+      "description": "Name of the article for footer"
+    },
+    "page_number": {
+      "type": "number",
+      "required": true,
+      "description": "Page number for footer"
+    }
+  },
+  
+  "usage_notes": [
+    "Use after the cover and key findings to set context",
+    "Drop cap creates visual impact and signals the start of content",
+    "Keep introduction concise - this is a visual page, not text-heavy",
+    "Node network creates atmosphere without distracting from content"
+  ]
+}

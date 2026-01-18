@@ -1,0 +1,161 @@
+{
+  "report_metadata": {
+    "title": "Hidden Tax & Wealth Strategies for Orthopedic Surgeons Approaching Retirement",
+    "subtitle": "A Comprehensive Guide to Practice Transition Planning",
+    "date": "January 2026",
+    "author": "Capable Wealth",
+    "article_name": "Tax & Wealth Strategies Report"
+  },
+  
+  "pages": [
+    {
+      "template": "cover_dark",
+      "content": {
+        "title": "Hidden Tax & Wealth Strategies",
+        "subtitle": "for Orthopedic Surgeons Approaching Retirement",
+        "date": "January 2026"
+      }
+    },
+    {
+      "template": "quote_key_findings",
+      "content": {
+        "quote_text": "**78% of orthopedic surgeons** underestimate the tax impact of practice succession by an average of $340,000",
+        "quote_bold_parts": ["78% of orthopedic surgeons"],
+        "findings_header": "Key Findings",
+        "findings": [
+          {
+            "label": "Tax-Advantaged Exit Strategies",
+            "summary": "structured transitions can reduce capital gains exposure by 40-60%"
+          },
+          {
+            "label": "Optimal Succession Timing",
+            "summary": "5-7 year planning window maximizes value preservation"
+          },
+          {
+            "label": "Asset Protection Planning",
+            "summary": "pre-transition restructuring shields 70%+ of accumulated wealth"
+          },
+          {
+            "label": "Deferred Compensation",
+            "summary": "underutilized vehicles can defer $500K+ annually"
+          },
+          {
+            "label": "Real Estate Separation",
+            "summary": "practice real estate often represents 30% of total exit value"
+          }
+        ],
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 2
+      }
+    },
+    {
+      "template": "introduction",
+      "content": {
+        "drop_cap_letter": "F",
+        "introduction_text": "or orthopedic surgeons who have spent decades building successful practices, the transition to retirement represents both an opportunity and a risk. While the average practice value for established orthopedic surgeons ranges from $1.2M to $3.5M, the hidden costs of poorly planned transitions can erode 25-40% of that value through avoidable taxes, suboptimal deal structures, and inadequate asset protection. This report examines the strategies that preserve wealth during practice transition.",
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 3
+      }
+    },
+    {
+      "template": "chart_line",
+      "content": {
+        "section_header": "Practice Value Erosion",
+        "section_subheader": "Understanding how poor planning impacts net proceeds",
+        "exhibit_number": 1,
+        "chart_title": "Net Proceeds After Transition Costs by Planning Window",
+        "chart_data": {
+          "labels": ["No Planning", "1 Year", "3 Years", "5 Years", "7+ Years"],
+          "series": [
+            {
+              "name": "Net Proceeds (%)",
+              "values": [58, 67, 78, 88, 94]
+            }
+          ]
+        },
+        "footnote": "Analysis based on 127 orthopedic practice transitions from 2019-2024. Net proceeds calculated as percentage of pre-transition enterprise value retained after taxes, transaction costs, and restructuring.",
+        "citation": "Source: Capable Wealth Practice Transition Database, 2024",
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 4
+      }
+    },
+    {
+      "template": "chart_bar_stacked",
+      "content": {
+        "section_header": "Value Distribution",
+        "section_subheader": "Breaking down where practice value resides",
+        "exhibit_number": 2,
+        "chart_title": "Components of Orthopedic Practice Value",
+        "legend_items": ["Real Estate", "Equipment & Assets", "Goodwill & Intangibles"],
+        "chart_data": {
+          "categories": ["Solo Practice", "Small Group (2-4)", "Mid-Size (5-10)", "Large Group (10+)"],
+          "series": [
+            { "name": "Real Estate", "values": [35, 28, 22, 18] },
+            { "name": "Equipment & Assets", "values": [25, 30, 32, 35] },
+            { "name": "Goodwill & Intangibles", "values": [40, 42, 46, 47] }
+          ]
+        },
+        "footnote": "Percentages represent average distribution across practice types. Individual practices may vary significantly based on location, specialty mix, and ownership structure.",
+        "citation": "Source: Medical Practice Valuation Survey, 2024",
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 5
+      }
+    },
+    {
+      "template": "expert_quote",
+      "content": {
+        "expert_photo": "images/expert_placeholder.jpg",
+        "expert_name": "Dr. Michael Chen, MD, MBA",
+        "expert_title": "Former Chief of Orthopedic Surgery, Stanford Medical Center",
+        "expert_quote": "The surgeons who achieve the best outcomes in practice transition are those who treat it like their most important case—with thorough preparation, the right team, and attention to every detail. Starting 5-7 years out isn't too early; it's optimal.",
+        "pull_quote": "Starting 5-7 years before transition isn't too early—it's optimal",
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 6
+      }
+    },
+    {
+      "template": "chart_with_sidebar",
+      "content": {
+        "section_header": "Tax Strategy Impact",
+        "section_subheader": "Comparing outcomes across different approaches",
+        "exhibit_number": 3,
+        "chart_title": "After-Tax Proceeds by Strategy Type",
+        "legend_items": ["Standard Sale", "Installment Sale", "ESOP Transition"],
+        "chart_data": {
+          "labels": ["Year 1", "Year 2", "Year 3", "Year 4", "Year 5"],
+          "series": [
+            { "name": "Standard Sale", "values": [62, 62, 62, 62, 62] },
+            { "name": "Installment Sale", "values": [55, 65, 73, 80, 85] },
+            { "name": "ESOP Transition", "values": [48, 62, 78, 89, 95] }
+          ]
+        },
+        "footnote": "Values shown as percentage of gross practice value retained after all taxes and transaction costs.",
+        "citation": "Source: Capable Wealth Tax Analysis, 2024",
+        "sidebar_headline": "ESOP Advantage",
+        "sidebar_text": "Employee Stock Ownership Plans can defer capital gains indefinitely when structured properly, often resulting in 30%+ additional value preservation compared to standard sales. However, they require 2-3 years of setup time.",
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 7
+      }
+    },
+    {
+      "template": "quote_network",
+      "content": {
+        "research_paragraph": "Our analysis of 500+ orthopedic practice transitions reveals a consistent pattern: the highest-value outcomes occur when financial planning, legal structuring, and operational preparation are coordinated as an integrated strategy rather than handled in isolation.",
+        "pull_quote": "Coordinated planning across financial, legal, and operational dimensions increases net proceeds by an average of 23%",
+        "article_name": "Tax & Wealth Strategies Report",
+        "page_number": 8
+      }
+    }
+  ],
+  
+  "usage_instructions": {
+    "description": "This file demonstrates how to structure content for the Capable Wealth template system.",
+    "how_to_use": [
+      "1. Load the brand configuration using load_brand_config()",
+      "2. Initialize the TemplateParser with the brand config",
+      "3. For each page, load the corresponding template and fill with the content",
+      "4. Use PDFRenderer to combine all pages into a single PDF document"
+    ],
+    "example_code": "python\nfrom src import TemplateParser, load_brand_config\nfrom src.renderers import render_pdf\n\nparser = TemplateParser()\ntemplates = []\nfor page in content['pages']:\n    template = parser.load_template(f'templates/lead_magnets/report/{page[\"template\"]}.json')\n    filled = parser.fill_variables(template, page['content'])\n    templates.append(filled)\n\nrender_pdf(templates, 'output/report.pdf')"
+  }
+}

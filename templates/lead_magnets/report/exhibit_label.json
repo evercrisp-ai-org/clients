@@ -1,0 +1,41 @@
+{
+  "component_id": "exhibit_label",
+  "component_name": "Exhibit Label",
+  "component_version": "1.0",
+  "description": "Standardized exhibit numbering label for charts and data visualizations",
+  
+  "dimensions": {
+    "width": 200,
+    "height": 24,
+    "unit": "px"
+  },
+  
+  "elements": [
+    {
+      "id": "label_text",
+      "type": "text",
+      "content": "Exhibit {{exhibit_number}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 16,
+      "color": "$colors.secondary.hex",
+      "position": { "x": 0, "y": 0 },
+      "text_align": "left"
+    }
+  ],
+  
+  "variables": {
+    "exhibit_number": {
+      "type": "number",
+      "required": true,
+      "description": "Sequential exhibit number (1, 2, 3...)",
+      "example": 1
+    }
+  },
+  
+  "usage_notes": [
+    "Place above chart title with consistent spacing",
+    "Exhibits should be numbered sequentially throughout the document",
+    "Color is Blue Slate to create visual hierarchy without competing with chart title"
+  ]
+}

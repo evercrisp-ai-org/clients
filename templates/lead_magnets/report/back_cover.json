@@ -1,0 +1,189 @@
+{
+  "template_id": "back_cover",
+  "template_name": "Back Cover Page",
+  "template_version": "1.0",
+  "page_type": "cover",
+  "description": "Dark background closing page with logo, disclaimer, and contact CTA",
+  
+  "dimensions": {
+    "width": 816,
+    "height": 1056,
+    "unit": "px"
+  },
+  
+  "background": {
+    "type": "solid",
+    "color": "$colors.primary.hex"
+  },
+  
+  "elements": [
+    {
+      "id": "logo",
+      "type": "image",
+      "source": "$logos.dark_bg.file",
+      "position": { "x": 108, "y": 40 },
+      "size": { "width": 600, "height": 100 },
+      "description": "Large centered logo at top with 40px buffer from edge"
+    },
+    {
+      "id": "tagline",
+      "type": "text",
+      "content": "Precision planning for life beyond the OR.",
+      "font": "$typography.body.family",
+      "font_weight": 500,
+      "font_size": 20,
+      "color": "$colors.accent.hex",
+      "position": { "x": 0, "y": 160 },
+      "max_width": 816,
+      "text_align": "center",
+      "description": "Brand tagline centered below logo"
+    },
+    {
+      "id": "cta_box",
+      "type": "rectangle",
+      "position": { "x": 158, "y": 260 },
+      "size": { "width": 500, "height": 160 },
+      "background": "$colors.secondary.hex",
+      "border_radius": 12,
+      "description": "CTA container box with rounded corners"
+    },
+    {
+      "id": "cta_header",
+      "type": "text",
+      "content": "{{cta_header}}",
+      "font": "$typography.heading.family",
+      "font_weight": 500,
+      "font_size": 28,
+      "color": "#FFFFFF",
+      "position": { "x": 158, "y": 290 },
+      "max_width": 500,
+      "text_align": "center",
+      "description": "CTA headline centered in box"
+    },
+    {
+      "id": "cta_text",
+      "type": "text",
+      "content": "{{cta_text}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 16,
+      "color": "#FFFFFF",
+      "position": { "x": 158, "y": 340 },
+      "max_width": 500,
+      "line_height": 1.5,
+      "text_align": "center",
+      "description": "CTA supporting text centered in box"
+    },
+    {
+      "id": "contact_info",
+      "type": "text",
+      "content": "{{contact_info}}",
+      "font": "$typography.body.family",
+      "font_weight": 600,
+      "font_size": 20,
+      "color": "$colors.accent.hex",
+      "position": { "x": 0, "y": 480 },
+      "max_width": 816,
+      "text_align": "center",
+      "description": "Website URL centered on page"
+    },
+    {
+      "id": "contact_underline",
+      "type": "rectangle",
+      "position": { "x": 308, "y": 510 },
+      "size": { "width": 200, "height": 2 },
+      "background": "$colors.accent.hex",
+      "description": "Gold underline beneath website URL"
+    },
+    {
+      "id": "divider_line",
+      "type": "rectangle",
+      "position": { "x": 80, "y": 570 },
+      "size": { "width": 656, "height": 1 },
+      "background": "$colors.neutral_mid.hex",
+      "opacity": 0.4,
+      "description": "Subtle divider before disclaimer"
+    },
+    {
+      "id": "disclaimer_header",
+      "type": "text",
+      "content": "Disclaimer",
+      "font": "$typography.body.family",
+      "font_weight": 600,
+      "font_size": 11,
+      "color": "$colors.neutral_mid.hex",
+      "position": { "x": 80, "y": 610 },
+      "text_transform": "uppercase",
+      "letter_spacing": 1
+    },
+    {
+      "id": "disclaimer_text",
+      "type": "text",
+      "content": "{{disclaimer_text}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 10,
+      "color": "$colors.neutral_mid.hex",
+      "position": { "x": 80, "y": 640 },
+      "max_width": 656,
+      "line_height": 1.6,
+      "description": "Legal disclaimer text"
+    },
+    {
+      "id": "copyright",
+      "type": "text",
+      "content": "{{copyright}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 11,
+      "color": "$colors.neutral_mid.hex",
+      "position": { "x": 0, "y": 1000 },
+      "max_width": 816,
+      "text_align": "center",
+      "description": "Copyright notice"
+    }
+  ],
+  
+  "variables": {
+    "cta_header": {
+      "type": "string",
+      "required": true,
+      "max_length": 60,
+      "default": "Ready to Optimize Your Tax Strategy?",
+      "description": "CTA headline"
+    },
+    "cta_text": {
+      "type": "string",
+      "required": false,
+      "max_length": 150,
+      "description": "CTA supporting text"
+    },
+    "contact_info": {
+      "type": "string",
+      "required": true,
+      "max_length": 80,
+      "description": "Contact email, phone, or URL",
+      "example": "capablewealth.com | (555) 123-4567"
+    },
+    "disclaimer_text": {
+      "type": "string",
+      "required": true,
+      "max_length": 800,
+      "description": "Legal disclaimer text"
+    },
+    "copyright": {
+      "type": "string",
+      "required": true,
+      "max_length": 80,
+      "default": "© 2026 Capable Wealth. All rights reserved.",
+      "description": "Copyright notice"
+    }
+  },
+  
+  "usage_notes": [
+    "Use as final page of any report or lead magnet",
+    "CTA should be clear and action-oriented",
+    "Disclaimer is required for financial content",
+    "Node network provides visual continuity with cover"
+  ]
+}

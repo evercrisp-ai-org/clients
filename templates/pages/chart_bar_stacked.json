@@ -1,0 +1,177 @@
+{
+  "template_id": "chart_bar_stacked",
+  "template_name": "Stacked Bar Chart Page",
+  "template_version": "1.0",
+  "page_type": "chart",
+  "description": "Content page with horizontal stacked bar chart showing percentage distributions",
+  
+  "dimensions": {
+    "width": 816,
+    "height": 1056,
+    "unit": "px"
+  },
+  
+  "background": {
+    "type": "solid",
+    "color": "$colors.neutral_light"
+  },
+  
+  "elements": [
+    {
+      "id": "section_header",
+      "type": "text",
+      "content": "{{section_header}}",
+      "font": "$typography.heading.family",
+      "font_weight": 400,
+      "font_size": 44,
+      "color": "$colors.primary.hex",
+      "position": { "x": 120, "y": 50 },
+      "max_width": 576,
+      "line_height": 1.2
+    },
+    {
+      "id": "section_subheader",
+      "type": "text",
+      "content": "{{section_subheader}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 18,
+      "color": "$colors.neutral_dark.hex",
+      "position": { "x": 120, "y": 105 },
+      "max_width": 576,
+      "line_height": 1.5
+    },
+    {
+      "id": "exhibit_label",
+      "type": "text",
+      "content": "Exhibit {{exhibit_number}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 16,
+      "color": "$colors.secondary.hex",
+      "position": { "x": 120, "y": 200 }
+    },
+    {
+      "id": "chart_title",
+      "type": "text",
+      "content": "{{chart_title}}",
+      "font": "$typography.body.family",
+      "font_weight": 600,
+      "font_size": 20,
+      "color": "$colors.neutral_dark.hex",
+      "position": { "x": 120, "y": 225 },
+      "max_width": 576
+    },
+    {
+      "id": "chart_legend",
+      "type": "legend",
+      "items": "{{legend_items}}",
+      "position": { "x": 280, "y": 270 },
+      "orientation": "horizontal",
+      "styling": {
+        "dot_size": 12,
+        "label_font": "$typography.body.family",
+        "label_size": 14,
+        "label_color": "$colors.neutral_dark.hex",
+        "item_spacing": 40
+      }
+    },
+    {
+      "id": "chart",
+      "type": "chart",
+      "chart_type": "bar_stacked_horizontal",
+      "data": "{{chart_data}}",
+      "position": { "x": 120, "y": 310 },
+      "size": { "width": 576, "height": 400 },
+      "styling": {
+        "bar_colors": "$chart_colors.series",
+        "bar_height": 60,
+        "bar_gap": 30,
+        "axis_color": "$colors.neutral_mid.hex",
+        "label_font": "$typography.body.family",
+        "label_size": 14,
+        "label_color": "$colors.neutral_dark.hex",
+        "show_percentages": true
+      }
+    },
+    {
+      "id": "footnote",
+      "type": "text",
+      "content": "{{footnote}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 13,
+      "color": "$colors.neutral_mid.hex",
+      "position": { "x": 120, "y": 740 },
+      "max_width": 576
+    },
+    {
+      "id": "citation",
+      "type": "text",
+      "content": "{{citation}}",
+      "font": "$typography.body.family",
+      "font_weight": 600,
+      "font_size": 12,
+      "color": "$colors.neutral_dark.hex",
+      "position": { "x": 120, "y": 770 },
+      "max_width": 576
+    },
+    {
+      "id": "footer",
+      "type": "component",
+      "source": "components/footer.json",
+      "position": { "x": 0, "y": 1010 }
+    }
+  ],
+  
+  "variables": {
+    "section_header": {
+      "type": "string",
+      "required": true,
+      "max_length": 60
+    },
+    "section_subheader": {
+      "type": "string",
+      "required": false,
+      "max_length": 200
+    },
+    "exhibit_number": {
+      "type": "number",
+      "required": true
+    },
+    "chart_title": {
+      "type": "string",
+      "required": true,
+      "max_length": 100
+    },
+    "legend_items": {
+      "type": "array",
+      "required": true,
+      "description": "Array of series names for legend",
+      "example": ["Series 1", "Series 2", "Series 3"]
+    },
+    "chart_data": {
+      "type": "object",
+      "required": true,
+      "schema": {
+        "categories": ["Item 1", "Item 2", "Item 3", "Item 4"],
+        "series": [
+          { "name": "Series 1", "values": [35, 40, 45, 30] },
+          { "name": "Series 2", "values": [35, 30, 25, 35] },
+          { "name": "Series 3", "values": [30, 30, 30, 35] }
+        ]
+      }
+    },
+    "footnote": { "type": "string", "required": false },
+    "citation": { "type": "string", "required": false },
+    "article_name": { "type": "string", "required": true },
+    "page_number": { "type": "number", "required": true }
+  },
+  
+  "usage_notes": [
+    "Best for showing composition/breakdown across categories",
+    "Values should sum to 100% for each category",
+    "Limit to 3-4 series for clarity",
+    "Horizontal orientation works better for longer category labels"
+  ]
+}

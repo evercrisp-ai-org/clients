@@ -1,0 +1,159 @@
+{
+  "template_id": "expert_quote",
+  "template_name": "Expert Quote Panel",
+  "template_version": "1.0",
+  "page_type": "content",
+  "description": "Split page with expert photo/quote panel at top (dark) and pull quote section below (light with decorative nodes)",
+  
+  "dimensions": {
+    "width": 816,
+    "height": 1056,
+    "unit": "px"
+  },
+  
+  "sections": [
+    {
+      "id": "expert_panel",
+      "type": "section",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 816, "height": 400 },
+      "background": {
+        "type": "solid",
+        "color": "$colors.primary.hex"
+      },
+      "elements": [
+        {
+          "id": "expert_photo",
+          "type": "image",
+          "source": "{{expert_photo}}",
+          "position": { "x": 60, "y": 60 },
+          "size": { "width": 200, "height": 200 },
+          "shape": "circle",
+          "border": {
+            "width": 3,
+            "color": "$colors.secondary.hex"
+          },
+          "fallback": "graphics/placeholder_portrait.svg",
+          "description": "Circular cropped expert photo"
+        },
+        {
+          "id": "expert_name",
+          "type": "text",
+          "content": "{{expert_name}}",
+          "font": "$typography.heading.family",
+          "font_weight": 600,
+          "font_size": 28,
+          "color": "#FFFFFF",
+          "position": { "x": 300, "y": 100 },
+          "max_width": 450
+        },
+        {
+          "id": "expert_title",
+          "type": "text",
+          "content": "{{expert_title}}",
+          "font": "$typography.body.family",
+          "font_weight": 400,
+          "font_size": 16,
+          "color": "$colors.accent.hex",
+          "position": { "x": 300, "y": 140 },
+          "max_width": 450
+        },
+        {
+          "id": "expert_quote",
+          "type": "text",
+          "content": "{{expert_quote}}",
+          "font": "$typography.body.family",
+          "font_weight": 400,
+          "font_size": 18,
+          "color": "#FFFFFF",
+          "position": { "x": 300, "y": 190 },
+          "max_width": 450,
+          "line_height": 1.6,
+          "description": "Quote or supporting statement from the expert"
+        }
+      ]
+    },
+    {
+      "id": "pull_quote_section",
+      "type": "section",
+      "position": { "x": 0, "y": 400 },
+      "size": { "width": 816, "height": 656 },
+      "background": {
+        "type": "solid",
+        "color": "$colors.neutral_light"
+      },
+      "elements": [
+        {
+          "id": "node_network_accent",
+          "type": "graphic",
+          "source": "graphics/node_network_light_partial.svg",
+          "position": { "x": 400, "y": 100 },
+          "size": { "width": 416, "height": 500 },
+          "opacity": 0.6,
+          "description": "Partial node network as decorative accent"
+        },
+        {
+          "id": "pull_quote",
+          "type": "text",
+          "content": "{{pull_quote}}",
+          "font": "$typography.heading.family",
+          "font_weight": 400,
+          "font_size": 36,
+          "color": "$colors.primary.hex",
+          "position": { "x": 60, "y": 150 },
+          "max_width": 500,
+          "line_height": 1.3,
+          "description": "Large pull quote from data or research"
+        },
+        {
+          "id": "footer",
+          "type": "component",
+          "source": "components/footer.json",
+          "position": { "x": 0, "y": 610 }
+        }
+      ]
+    }
+  ],
+  
+  "variables": {
+    "expert_photo": {
+      "type": "string",
+      "required": false,
+      "description": "Path to expert photo image file",
+      "example": "images/expert_john_smith.jpg"
+    },
+    "expert_name": {
+      "type": "string",
+      "required": true,
+      "max_length": 50,
+      "description": "Expert's full name"
+    },
+    "expert_title": {
+      "type": "string",
+      "required": true,
+      "max_length": 80,
+      "description": "Expert's professional title or credentials"
+    },
+    "expert_quote": {
+      "type": "string",
+      "required": true,
+      "max_length": 300,
+      "description": "Quote or perspective from the expert"
+    },
+    "pull_quote": {
+      "type": "string",
+      "required": true,
+      "max_length": 200,
+      "description": "Key insight or data point to highlight"
+    },
+    "article_name": { "type": "string", "required": true },
+    "page_number": { "type": "number", "required": true }
+  },
+  
+  "usage_notes": [
+    "Use to add credibility through expert voices",
+    "Photo should be professional headshot style",
+    "Pull quote should be the most compelling data point or insight",
+    "Expert title should establish authority (credentials, position)"
+  ]
+}

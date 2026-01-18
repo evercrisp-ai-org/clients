@@ -1,0 +1,103 @@
+{
+  "template_id": "quote_network",
+  "template_name": "Pull Quote with Network Graphic",
+  "template_version": "1.0",
+  "page_type": "content",
+  "description": "Light page with research paragraph, branded pull quote block, and decorative node network graphic",
+  
+  "dimensions": {
+    "width": 816,
+    "height": 1056,
+    "unit": "px"
+  },
+  
+  "background": {
+    "type": "solid",
+    "color": "$colors.neutral_light"
+  },
+  
+  "elements": [
+    {
+      "id": "research_paragraph",
+      "type": "text",
+      "content": "{{research_paragraph}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 16,
+      "color": "$colors.neutral_dark.hex",
+      "position": { "x": 80, "y": 60 },
+      "max_width": 656,
+      "line_height": 1.65,
+      "description": "Introductory or contextual paragraph about the research"
+    },
+    {
+      "id": "quote_background",
+      "type": "rectangle",
+      "position": { "x": 80, "y": 180 },
+      "size": { "width": 656, "height": 240 },
+      "background": "$colors.primary.hex",
+      "border_radius": 0,
+      "description": "Branded background block for the pull quote"
+    },
+    {
+      "id": "quote_accent_bar",
+      "type": "rectangle",
+      "position": { "x": 80, "y": 180 },
+      "size": { "width": 6, "height": 240 },
+      "background": "$colors.accent.hex",
+      "description": "Gold accent bar on left edge of quote block"
+    },
+    {
+      "id": "pull_quote",
+      "type": "text",
+      "content": "{{pull_quote}}",
+      "font": "$typography.heading.family",
+      "font_weight": 400,
+      "font_size": 28,
+      "color": "#FFFFFF",
+      "position": { "x": 110, "y": 210 },
+      "max_width": 600,
+      "line_height": 1.35,
+      "description": "Large, impactful quote or data highlight in white on branded background"
+    },
+    {
+      "id": "node_network_graphic",
+      "type": "graphic",
+      "source": "graphics/node_network_light_rising.svg",
+      "position": { "x": 100, "y": 450 },
+      "size": { "width": 716, "height": 560 },
+      "description": "Decorative node network rising from bottom-left to top-right"
+    },
+    {
+      "id": "footer",
+      "type": "component",
+      "source": "components/footer.json",
+      "position": { "x": 0, "y": 1010 }
+    }
+  ],
+  
+  "variables": {
+    "research_paragraph": {
+      "type": "string",
+      "required": false,
+      "max_length": 400,
+      "description": "Context paragraph introducing or explaining the research finding"
+    },
+    "pull_quote": {
+      "type": "string",
+      "required": true,
+      "max_length": 180,
+      "description": "Key insight or data-driven statement to highlight",
+      "example": "Quote or snippet from data that drives idea of the report"
+    },
+    "article_name": { "type": "string", "required": true },
+    "page_number": { "type": "number", "required": true }
+  },
+  
+  "usage_notes": [
+    "Use to create visual breathing room between data-heavy sections",
+    "Pull quote should be the most compelling or surprising finding",
+    "Node network provides visual interest without competing with text",
+    "Good for section transitions or before conclusions"
+  ]
+}

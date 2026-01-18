@@ -1,0 +1,172 @@
+{
+  "template_id": "chart_bar_grouped",
+  "template_name": "Grouped Bar Chart Page",
+  "template_version": "1.0",
+  "page_type": "chart",
+  "description": "Content page with vertical grouped bar chart and paragraph section below",
+  
+  "dimensions": {
+    "width": 816,
+    "height": 1056,
+    "unit": "px"
+  },
+  
+  "background": {
+    "type": "solid",
+    "color": "$colors.neutral_light"
+  },
+  
+  "elements": [
+    {
+      "id": "section_header",
+      "type": "text",
+      "content": "{{section_header}}",
+      "font": "$typography.heading.family",
+      "font_weight": 400,
+      "font_size": 36,
+      "color": "$colors.primary.hex",
+      "position": { "x": 80, "y": 50 },
+      "max_width": 656,
+      "line_height": 1.2,
+      "description": "Section headline"
+    },
+    {
+      "id": "section_subheader",
+      "type": "text",
+      "content": "{{section_subheader}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 16,
+      "color": "$colors.neutral_dark.hex",
+      "position": { "x": 80, "y": 100 },
+      "max_width": 656,
+      "line_height": 1.5,
+      "description": "Explanatory text below section header"
+    },
+    {
+      "id": "exhibit_label",
+      "type": "text",
+      "content": "Exhibit {{exhibit_number}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 14,
+      "color": "$colors.secondary.hex",
+      "position": { "x": 80, "y": 150 }
+    },
+    {
+      "id": "chart_title",
+      "type": "text",
+      "content": "{{chart_title}}",
+      "font": "$typography.body.family",
+      "font_weight": 600,
+      "font_size": 18,
+      "color": "$colors.neutral_dark.hex",
+      "position": { "x": 80, "y": 175 },
+      "max_width": 656
+    },
+    {
+      "id": "chart_legend",
+      "type": "legend",
+      "items": "{{legend_items}}",
+      "position": { "x": 80, "y": 210 },
+      "orientation": "horizontal",
+      "styling": {
+        "dot_size": 10,
+        "label_font": "$typography.body.family",
+        "label_size": 12,
+        "item_spacing": 30
+      }
+    },
+    {
+      "id": "chart",
+      "type": "chart",
+      "chart_type": "bar_grouped_vertical",
+      "data": "{{chart_data}}",
+      "position": { "x": 80, "y": 240 },
+      "size": { "width": 656, "height": 400 },
+      "styling": {
+        "bar_colors": "$chart_colors.series",
+        "bar_width": 25,
+        "group_gap": 40,
+        "bar_gap": 5,
+        "axis_color": "$colors.neutral_mid.hex",
+        "label_font": "$typography.body.family",
+        "label_size": 14
+      }
+    },
+    {
+      "id": "footnote",
+      "type": "text",
+      "content": "{{footnote}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 12,
+      "color": "$colors.neutral_mid.hex",
+      "position": { "x": 80, "y": 660 },
+      "max_width": 656,
+      "line_height": 1.4
+    },
+    {
+      "id": "citation",
+      "type": "text",
+      "content": "{{citation}}",
+      "font": "$typography.body.family",
+      "font_weight": 600,
+      "font_size": 11,
+      "color": "$colors.neutral_dark.hex",
+      "position": { "x": 80, "y": 720 }
+    },
+    {
+      "id": "footer",
+      "type": "component",
+      "source": "components/footer.json",
+      "position": { "x": 0, "y": 1010 }
+    }
+  ],
+  
+  "variables": {
+    "section_header": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "max_length": 80,
+      "description": "Section headline"
+    },
+    "section_subheader": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "max_length": 200,
+      "description": "Explanatory text below section header"
+    },
+    "exhibit_number": { "type": "number", "required": true },
+    "chart_title": { "type": "string", "required": true },
+    "legend_items": {
+      "type": "array",
+      "required": true,
+      "example": ["Item 1", "Item 2", "Item 3", "Item 4"]
+    },
+    "chart_data": {
+      "type": "object",
+      "required": true,
+      "schema": {
+        "categories": ["Item 1", "Item 2", "Item 3", "Item 4"],
+        "series": [
+          { "name": "Group A", "values": [7, 11, 15, 20] },
+          { "name": "Group B", "values": [8, 12, 15, 19] }
+        ]
+      }
+    },
+    "footnote": { "type": "string", "required": false, "default": "" },
+    "citation": { "type": "string", "required": false, "default": "" },
+    "article_name": { "type": "string", "required": true },
+    "page_number": { "type": "number", "required": true }
+  },
+  
+  "usage_notes": [
+    "Best for comparing values across multiple groups",
+    "Bars are grouped side-by-side for direct comparison",
+    "Use distinct colors from brand palette for each group",
+    "Include follow-up paragraph header to lead into next section"
+  ]
+}

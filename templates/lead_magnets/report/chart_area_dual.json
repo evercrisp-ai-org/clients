@@ -1,0 +1,163 @@
+{
+  "template_id": "chart_area_dual",
+  "template_name": "Dual Stacked Area Charts",
+  "template_version": "1.0",
+  "page_type": "chart",
+  "description": "Page with two stacked area charts for comparison",
+  
+  "dimensions": {
+    "width": 816,
+    "height": 1056,
+    "unit": "px"
+  },
+  
+  "background": {
+    "type": "solid",
+    "color": "$colors.neutral_light"
+  },
+  
+  "elements": [
+    {
+      "id": "exhibit_label_1",
+      "type": "text",
+      "content": "Exhibit {{exhibit_number_1}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 16,
+      "color": "$colors.secondary.hex",
+      "position": { "x": 120, "y": 40 }
+    },
+    {
+      "id": "chart_title_1",
+      "type": "text",
+      "content": "{{chart_title_1}}",
+      "font": "$typography.body.family",
+      "font_weight": 600,
+      "font_size": 20,
+      "color": "$colors.neutral_dark.hex",
+      "position": { "x": 120, "y": 65 },
+      "max_width": 576
+    },
+    {
+      "id": "chart_legend_1",
+      "type": "legend",
+      "items": "{{legend_items}}",
+      "position": { "x": 280, "y": 100 },
+      "orientation": "horizontal",
+      "styling": {
+        "dot_size": 12,
+        "label_font": "$typography.body.family",
+        "label_size": 14,
+        "item_spacing": 40
+      }
+    },
+    {
+      "id": "chart_1",
+      "type": "chart",
+      "chart_type": "area_stacked",
+      "data": "{{chart_data_1}}",
+      "position": { "x": 120, "y": 130 },
+      "size": { "width": 576, "height": 350 },
+      "styling": {
+        "area_colors": "$chart_colors.series",
+        "area_opacity": 0.85,
+        "line_width": 2,
+        "axis_color": "$colors.neutral_mid.hex",
+        "label_font": "$typography.body.family",
+        "label_size": 12,
+        "show_percentages": true
+      }
+    },
+    {
+      "id": "chart_legend_2",
+      "type": "legend",
+      "items": "{{legend_items}}",
+      "position": { "x": 280, "y": 510 },
+      "orientation": "horizontal",
+      "styling": {
+        "dot_size": 12,
+        "label_font": "$typography.body.family",
+        "label_size": 14,
+        "item_spacing": 40
+      }
+    },
+    {
+      "id": "chart_2",
+      "type": "chart",
+      "chart_type": "area_stacked",
+      "data": "{{chart_data_2}}",
+      "position": { "x": 120, "y": 540 },
+      "size": { "width": 576, "height": 350 },
+      "styling": {
+        "area_colors": "$chart_colors.series",
+        "area_opacity": 0.85,
+        "line_width": 2,
+        "axis_color": "$colors.neutral_mid.hex",
+        "label_font": "$typography.body.family",
+        "label_size": 12,
+        "show_percentages": true
+      }
+    },
+    {
+      "id": "footer",
+      "type": "component",
+      "source": "components/footer.json",
+      "position": { "x": 0, "y": 1010 }
+    }
+  ],
+  
+  "variables": {
+    "exhibit_number_1": {
+      "type": "number",
+      "required": true,
+      "description": "Exhibit number (both charts share this exhibit)"
+    },
+    "chart_title_1": {
+      "type": "string",
+      "required": true,
+      "max_length": 100,
+      "description": "Title for the chart pair"
+    },
+    "legend_items": {
+      "type": "array",
+      "required": true,
+      "description": "Series names for both charts",
+      "example": ["Series 1", "Series 2", "Series 3"]
+    },
+    "chart_data_1": {
+      "type": "object",
+      "required": true,
+      "description": "Data for first (top) area chart",
+      "schema": {
+        "labels": ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5"],
+        "series": [
+          { "name": "Series 1", "values": [10, 15, 28, 25, 27] },
+          { "name": "Series 2", "values": [30, 20, 17, 20, 12] },
+          { "name": "Series 3", "values": [60, 65, 55, 55, 61] }
+        ]
+      }
+    },
+    "chart_data_2": {
+      "type": "object",
+      "required": true,
+      "description": "Data for second (bottom) area chart",
+      "schema": {
+        "labels": ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5"],
+        "series": [
+          { "name": "Series 1", "values": [8, 12, 45, 35, 27] },
+          { "name": "Series 2", "values": [32, 23, 22, 25, 35] },
+          { "name": "Series 3", "values": [60, 65, 33, 40, 38] }
+        ]
+      }
+    },
+    "article_name": { "type": "string", "required": true },
+    "page_number": { "type": "number", "required": true }
+  },
+  
+  "usage_notes": [
+    "Use for showing two related datasets for comparison",
+    "Both charts should use the same series/legend for consistency",
+    "Good for before/after, two time periods, or scenario comparison",
+    "Values in each chart should sum to 100% at each point"
+  ]
+}

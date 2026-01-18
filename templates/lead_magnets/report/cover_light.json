@@ -1,0 +1,101 @@
+{
+  "template_id": "cover_light",
+  "template_name": "Cover Page - Light Background",
+  "template_version": "1.0",
+  "page_type": "cover",
+  "description": "Title page with logo, title, subtitle, date on off-white background with decorative node network graphic",
+  
+  "dimensions": {
+    "width": 816,
+    "height": 1056,
+    "unit": "px"
+  },
+  
+  "background": {
+    "type": "solid",
+    "color": "$colors.neutral_light"
+  },
+  
+  "elements": [
+    {
+      "id": "logo",
+      "type": "image",
+      "source": "$logos.primary.file",
+      "position": { "x": 40, "y": 40 },
+      "size": { "width": 200 },
+      "description": "Primary logo in top-left corner"
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "content": "{{title}}",
+      "font": "$typography.heading.family",
+      "font_weight": 600,
+      "font_size": 64,
+      "color": "$colors.primary.hex",
+      "position": { "x": 40, "y": 280 },
+      "max_width": 500,
+      "line_height": 1.1,
+      "description": "Main report title in Playfair Display"
+    },
+    {
+      "id": "subtitle",
+      "type": "text",
+      "content": "{{subtitle}}",
+      "font": "$typography.heading.family",
+      "font_weight": 400,
+      "font_size": 36,
+      "color": "$colors.secondary.hex",
+      "position": { "x": 40, "y": 380 },
+      "max_width": 500,
+      "line_height": 1.2,
+      "description": "Subtitle in lighter blue slate"
+    },
+    {
+      "id": "date_or_subheading",
+      "type": "text",
+      "content": "{{date}}",
+      "font": "$typography.body.family",
+      "font_weight": 500,
+      "font_size": 20,
+      "color": "$colors.accent.hex",
+      "position": { "x": 40, "y": 460 },
+      "description": "Date or additional subheading in gold accent"
+    },
+    {
+      "id": "node_network_graphic",
+      "type": "graphic",
+      "source": "graphics/node_network_light.svg",
+      "position": { "x": 0, "y": 550 },
+      "size": { "width": 816, "height": 506 },
+      "description": "Decorative node/network graphic spanning bottom portion of page with orthopedic-themed icons"
+    }
+  ],
+  
+  "variables": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "max_length": 80,
+      "description": "Main report title - displayed prominently in primary blue"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false,
+      "max_length": 120,
+      "description": "Optional subtitle or secondary title line"
+    },
+    "date": {
+      "type": "string",
+      "required": false,
+      "max_length": 50,
+      "description": "Publication date, version, or additional context"
+    }
+  },
+  
+  "usage_notes": [
+    "Use for reports targeting light backgrounds or when printing is expected",
+    "Title should be concise and impactful",
+    "The node network graphic contains orthopedic-themed icons (hand, spine, knee, caduceus) that reinforce the audience focus"
+  ]
+}

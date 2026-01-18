@@ -1,0 +1,294 @@
+{
+  "brand_name": "Capable Wealth",
+  "tagline": "Precision planning for life beyond the OR.",
+  "version": "3.0",
+  
+  "colors": {
+    "primary": {
+      "name": "Deep Muted Blue",
+      "hex": "#243A4B",
+      "rgb": [36, 58, 75],
+      "usage": "Hero backgrounds, headers, dark emphasis sections"
+    },
+    "secondary": {
+      "name": "Blue Slate",
+      "hex": "#5F7483",
+      "rgb": [95, 116, 131],
+      "usage": "Supporting backgrounds, cards, subtle contrast blocks"
+    },
+    "accent": {
+      "name": "Antique Gold",
+      "hex": "#B08D57",
+      "rgb": [176, 141, 87],
+      "usage": "Buttons, links, icons, highlights (use sparingly, 10-12% max)"
+    },
+    "neutral_light": {
+      "name": "Off-White",
+      "hex": "#F6F7F5",
+      "rgb": [246, 247, 245],
+      "usage": "Default content backgrounds"
+    },
+    "neutral_dark": {
+      "name": "Charcoal",
+      "hex": "#1E2428",
+      "rgb": [30, 36, 40],
+      "usage": "Primary body text on light backgrounds"
+    },
+    "neutral_mid": {
+      "name": "Warm Gray",
+      "hex": "#9AA3A8",
+      "rgb": [154, 163, 168],
+      "usage": "Secondary text, strokes/dividers, captions/metadata"
+    }
+  },
+  
+  "color_ratio": {
+    "primary": 60,
+    "secondary_neutrals": 30,
+    "accent": 10,
+    "description": "60-30-10 guideline: 60% Primary Blue, 30% Secondary/Neutrals, 10% Accent Gold"
+  },
+  
+  "typography": {
+    "heading": {
+      "family": "Playfair Display",
+      "weights": [400, 500, 600],
+      "style": "serif",
+      "files": {
+        "400": "fonts/PlayfairDisplay-Regular.ttf",
+        "500": "fonts/PlayfairDisplay-Medium.ttf",
+        "600": "fonts/PlayfairDisplay-SemiBold.ttf"
+      }
+    },
+    "body": {
+      "family": "Inter",
+      "weights": [400, 500, 600],
+      "style": "sans-serif",
+      "files": {
+        "400": "fonts/Inter-Regular.ttf",
+        "500": "fonts/Inter-Medium.ttf",
+        "600": "fonts/Inter-SemiBold.ttf"
+      }
+    }
+  },
+  
+  "type_scale": {
+    "h1_hero": {
+      "font": "heading",
+      "weight": 600,
+      "size_rem": [3.25, 4.0],
+      "size_px": [52, 64],
+      "usage": "Primary page headlines"
+    },
+    "h2": {
+      "font": "heading",
+      "weight": 500,
+      "size_rem": [2.25, 2.75],
+      "size_px": [36, 44],
+      "usage": "Section headers"
+    },
+    "h3": {
+      "font": "heading",
+      "weight": 400,
+      "size_rem": [1.6, 1.9],
+      "size_px": [26, 30],
+      "usage": "Subsections"
+    },
+    "body": {
+      "font": "body",
+      "weight": 400,
+      "size_rem": [1.0625, 1.125],
+      "size_px": [17, 18],
+      "usage": "Primary reading text"
+    },
+    "lead": {
+      "font": "body",
+      "weight": 500,
+      "size_rem": [1.125, 1.25],
+      "size_px": [18, 20],
+      "usage": "Intro emphasis"
+    },
+    "navigation": {
+      "font": "body",
+      "weight": 500,
+      "size_rem": [0.875, 0.9375],
+      "size_px": [14, 15],
+      "usage": "Navigation items"
+    },
+    "button": {
+      "font": "body",
+      "weight": 600,
+      "size_rem": [0.9375, 1.0],
+      "size_px": [15, 16],
+      "usage": "CTAs and buttons"
+    },
+    "caption": {
+      "font": "body",
+      "weight": 400,
+      "size_rem": [0.75, 0.8125],
+      "size_px": [12, 13],
+      "usage": "Disclaimers, metadata, citations"
+    }
+  },
+  
+  "typography_guardrails": [
+    "Do not use all-caps headings",
+    "Do not use condensed fonts",
+    "Do not use decorative styles",
+    "Maintain relaxed line height for long-form financial content",
+    "Allow Squarespace to handle responsive scaling"
+  ],
+  
+  "logos": {
+    "primary": {
+      "file": "logos/logo_light_bg.png",
+      "usage": "Default logo on light/off-white backgrounds"
+    },
+    "dark_bg": {
+      "file": "logos/logo_dark_bg.png",
+      "usage": "Logo on dark sections (brand-blue hero areas)"
+    },
+    "icon": {
+      "file": "logos/logo_light_bg.png",
+      "usage": "Constrained spaces (favicon, social avatar, small UI)"
+    }
+  },
+  
+  "logo_rules": {
+    "clear_space": "Height of the 'C' in Capable logotype on all sides",
+    "minimum_size_digital": "160px wide (primary), 32px (icon-only)",
+    "minimum_size_print": "1.5 inches wide",
+    "do_not": [
+      "Recolor outside approved versions",
+      "Stretch, skew, or distort",
+      "Apply drop shadows, outlines, or effects",
+      "Place on busy or low-contrast backgrounds",
+      "Alter spacing, alignment, or typography"
+    ]
+  },
+  
+  "spacing": {
+    "page_margin": 40,
+    "section_padding_top": [96, 128],
+    "section_padding_bottom": [96, 128],
+    "narrow_section_padding": [64, 80],
+    "element_gap": 24,
+    "content_width": [640, 760],
+    "unit": "px"
+  },
+  
+  "dividers": {
+    "color": "#9AA3A8",
+    "thickness": 1,
+    "usage": "Use sparingly, only when content transitions abruptly",
+    "style": "Full-width or content-width only, surrounded by generous vertical space"
+  },
+  
+  "chart_colors": {
+    "series": ["#5F7483", "#243A4B", "#B08D57", "#9AA3A8"],
+    "description": "Blue Slate, Deep Muted Blue, Antique Gold, Warm Gray"
+  },
+  
+  "ui_components": {
+    "button_primary": {
+      "background": "#B08D57",
+      "text": "#FFFFFF",
+      "font": "body",
+      "weight": 600,
+      "border_radius": "subtle",
+      "usage": "Primary calls-to-action only"
+    },
+    "button_secondary": {
+      "background": "transparent",
+      "border": "1px solid #9AA3A8",
+      "text": "#1E2428",
+      "usage": "Secondary or supporting actions"
+    },
+    "link": {
+      "color": "#B08D57",
+      "decoration": "none",
+      "hover_decoration": "underline",
+      "usage": "Use sparingly within body text"
+    },
+    "card": {
+      "background": "#F6F7F5",
+      "border": "optional, subtle, Warm Gray",
+      "shadow": "Avoid or keep extremely subtle",
+      "padding": "consistent"
+    }
+  },
+  
+  "voice_and_tone": {
+    "attributes": [
+      "Calm and composed",
+      "Clear and structured",
+      "Direct, not verbose",
+      "Professional, not academic",
+      "Authoritative without being promotional"
+    ],
+    "tone_by_context": {
+      "educational": "Neutral, explanatory, clarity-first",
+      "advisory": "Confident, reassuring, acknowledges complexity",
+      "cta": "Calm, invitational, conversation-focused"
+    },
+    "language_to_use": [
+      "Strategic, deliberate, coordinated",
+      "Complexity, trade-offs, options",
+      "Alignment, structure, planning",
+      "Conversation, process, decision-making"
+    ],
+    "language_to_avoid": [
+      "Guaranteed, no-brainer, can't miss",
+      "Secrets, hacks, shortcuts",
+      "Crush, dominate, optimize everything",
+      "Fear-based urgency"
+    ],
+    "final_rule": "If it sounds like marketing, rewrite it. If it sounds like a thoughtful professional explaining a decision, it's correct."
+  },
+  
+  "imagery": {
+    "audience_context": "Orthopedic surgeons, typically ages 45-65, who own or co-own private practices and are approaching transition, succession, or exit",
+    "tone": "Confidence, composure, long-term thinking — not urgency, hype, or aspiration",
+    "people_imagery": {
+      "percentage": 50,
+      "characteristics": [
+        "Professional-heavy, reflecting seniority and experience",
+        "Demographics reflect orthopedic surgeon realities: mostly male-presenting, with meaningful inclusion of women",
+        "Age representation skews mid-career to late-career",
+        "Professional or medical-adjacent environments",
+        "Natural or soft professional lighting",
+        "Calm, neutral expressions",
+        "Neutral, professional wardrobe"
+      ]
+    },
+    "environment_imagery": {
+      "percentage": 50,
+      "examples": [
+        "Medical office interiors (clean, modern, professional)",
+        "Architectural exteriors (medical or institutional buildings)",
+        "Neutral professional interiors with natural light",
+        "Landscapes suggesting openness and transition (mountains, coastlines, open horizons)"
+      ],
+      "color_treatment": "Muted and neutral — imagery should never overpower typography or brand colors"
+    },
+    "disallowed": [
+      "Generic finance or corporate stock photography",
+      "Young, startup-style professionals",
+      "Cartoon or illustrated figures",
+      "Overly dramatic or cinematic lighting",
+      "Flashy luxury or lifestyle flex imagery",
+      "Extreme sports or adrenaline-focused visuals",
+      "Abstract imagery with no grounding or relevance"
+    ],
+    "final_rule": "If removing an image improves clarity or calm, the image should not be used. White space is always acceptable."
+  },
+  
+  "page_dimensions": {
+    "pdf_report": {
+      "width": 816,
+      "height": 1056,
+      "unit": "px",
+      "description": "US Letter at 96 DPI (8.5\" x 11\")"
+    }
+  }
+}

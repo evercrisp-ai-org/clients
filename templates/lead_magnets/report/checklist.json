@@ -1,0 +1,148 @@
+{
+  "template_id": "checklist",
+  "template_name": "Summary Checklist Page",
+  "template_version": "1.0",
+  "page_type": "content",
+  "description": "Light background page with categorized checkbox items for action-oriented summary",
+  
+  "dimensions": {
+    "width": 816,
+    "height": 1056,
+    "unit": "px"
+  },
+  
+  "background": {
+    "type": "solid",
+    "color": "$colors.neutral_light"
+  },
+  
+  "elements": [
+    {
+      "id": "page_header",
+      "type": "text",
+      "content": "{{page_header}}",
+      "font": "$typography.heading.family",
+      "font_weight": 500,
+      "font_size": 40,
+      "color": "$colors.primary.hex",
+      "position": { "x": 80, "y": 50 },
+      "max_width": 656,
+      "description": "Main header for checklist page"
+    },
+    {
+      "id": "page_subheader",
+      "type": "text",
+      "content": "{{page_subheader}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 16,
+      "color": "$colors.neutral_mid.hex",
+      "position": { "x": 80, "y": 100 },
+      "max_width": 656,
+      "line_height": 1.5,
+      "description": "Brief instruction or context"
+    },
+    {
+      "id": "checklist_container",
+      "type": "checklist_groups",
+      "groups": "{{checklist_groups}}",
+      "position": { "x": 80, "y": 160 },
+      "max_width": 656,
+      "columns": 2,
+      "column_gap": 40,
+      "group_spacing": 30,
+      "styling": {
+        "group_header_font": "$typography.body.family",
+        "group_header_weight": 600,
+        "group_header_size": 14,
+        "group_header_color": "$colors.accent.hex",
+        "group_header_transform": "uppercase",
+        "group_header_spacing": 12,
+        "checkbox_size": 16,
+        "checkbox_border_color": "$colors.secondary.hex",
+        "checkbox_border_width": 2,
+        "item_font": "$typography.body.family",
+        "item_weight": 400,
+        "item_size": 14,
+        "item_color": "$colors.neutral_dark.hex",
+        "item_spacing": 12,
+        "line_height": 1.4
+      },
+      "description": "Grouped checkbox items organized by category"
+    },
+    {
+      "id": "sidebar_accent",
+      "type": "rectangle",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 6, "height": 1056 },
+      "background": "$colors.accent.hex"
+    },
+    {
+      "id": "footer",
+      "type": "component",
+      "source": "components/footer.json",
+      "position": { "x": 0, "y": 1010 }
+    }
+  ],
+  
+  "variables": {
+    "page_header": {
+      "type": "string",
+      "required": true,
+      "max_length": 60,
+      "default": "Summary Checklist",
+      "description": "Main header for checklist page"
+    },
+    "page_subheader": {
+      "type": "string",
+      "required": false,
+      "max_length": 200,
+      "description": "Brief instruction or context for using the checklist"
+    },
+    "checklist_groups": {
+      "type": "array",
+      "required": true,
+      "description": "Array of checklist groups with headers and items",
+      "schema": {
+        "items": {
+          "header": "Category Name",
+          "items": ["Checklist item 1", "Checklist item 2"]
+        }
+      },
+      "example": [
+        {
+          "header": "Entity & Income Structure",
+          "items": [
+            "Review practice structure for tax optimization",
+            "Evaluate S-Corp election benefits",
+            "Document reasonable salary basis"
+          ]
+        },
+        {
+          "header": "Retirement Vehicles",
+          "items": [
+            "Maximize 401(k) contributions",
+            "Evaluate cash balance plan benefits",
+            "Plan Roth conversion strategy"
+          ]
+        }
+      ]
+    },
+    "article_name": {
+      "type": "string",
+      "required": true
+    },
+    "page_number": {
+      "type": "number",
+      "required": true
+    }
+  },
+  
+  "usage_notes": [
+    "Use as summary/action page near end of report",
+    "Group items by category for easy navigation",
+    "Keep items concise and actionable",
+    "Two-column layout maximizes space efficiency",
+    "Checkboxes provide interactive feel even in PDF"
+  ]
+}

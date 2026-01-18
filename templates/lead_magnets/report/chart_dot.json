@@ -1,0 +1,143 @@
+{
+  "template_id": "chart_dot",
+  "template_name": "Dot/Strip Chart Page",
+  "template_version": "1.0",
+  "page_type": "chart",
+  "description": "Content page with dot/strip plot showing distribution of values across groups",
+  
+  "dimensions": {
+    "width": 816,
+    "height": 1056,
+    "unit": "px"
+  },
+  
+  "background": {
+    "type": "solid",
+    "color": "$colors.neutral_light"
+  },
+  
+  "elements": [
+    {
+      "id": "context_text",
+      "type": "text",
+      "content": "{{context_text}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 18,
+      "color": "$colors.neutral_dark.hex",
+      "position": { "x": 120, "y": 50 },
+      "max_width": 576,
+      "line_height": 1.5,
+      "description": "Connecting text from previous page or context"
+    },
+    {
+      "id": "exhibit_label",
+      "type": "text",
+      "content": "Exhibit {{exhibit_number}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 16,
+      "color": "$colors.secondary.hex",
+      "position": { "x": 120, "y": 140 }
+    },
+    {
+      "id": "chart_title",
+      "type": "text",
+      "content": "{{chart_title}}",
+      "font": "$typography.body.family",
+      "font_weight": 600,
+      "font_size": 20,
+      "color": "$colors.neutral_dark.hex",
+      "position": { "x": 120, "y": 165 },
+      "max_width": 576
+    },
+    {
+      "id": "chart",
+      "type": "chart",
+      "chart_type": "dot_strip",
+      "data": "{{chart_data}}",
+      "position": { "x": 120, "y": 210 },
+      "size": { "width": 576, "height": 520 },
+      "styling": {
+        "dot_colors": ["$colors.accent.hex", "$colors.secondary.hex"],
+        "dot_size": 10,
+        "axis_color": "$colors.neutral_mid.hex",
+        "grid_color": "#E8E8E8",
+        "label_font": "$typography.body.family",
+        "label_size": 14,
+        "label_color": "$colors.neutral_dark.hex",
+        "group_spacing": 100
+      },
+      "description": "Dot/strip plot showing individual data points by group"
+    },
+    {
+      "id": "footnote",
+      "type": "text",
+      "content": "{{footnote}}",
+      "font": "$typography.body.family",
+      "font_weight": 400,
+      "font_size": 13,
+      "color": "$colors.neutral_mid.hex",
+      "position": { "x": 120, "y": 760 },
+      "max_width": 576
+    },
+    {
+      "id": "citation",
+      "type": "text",
+      "content": "{{citation}}",
+      "font": "$typography.body.family",
+      "font_weight": 600,
+      "font_size": 12,
+      "color": "$colors.neutral_dark.hex",
+      "position": { "x": 120, "y": 790 }
+    },
+    {
+      "id": "footer",
+      "type": "component",
+      "source": "components/footer.json",
+      "position": { "x": 0, "y": 1010 }
+    }
+  ],
+  
+  "variables": {
+    "context_text": {
+      "type": "string",
+      "required": false,
+      "max_length": 300,
+      "description": "Text connecting to previous content or providing context"
+    },
+    "exhibit_number": {
+      "type": "number",
+      "required": true
+    },
+    "chart_title": {
+      "type": "string",
+      "required": true,
+      "max_length": 100
+    },
+    "chart_data": {
+      "type": "object",
+      "required": true,
+      "schema": {
+        "groups": ["Group 1", "Group 2", "Group 3"],
+        "values": [
+          [4, 6, 8, 15, 17, 18, 19, 20, 21, 23, 36],
+          [8, 11, 12, 15, 16, 17, 20, 22, 24, 25, 30],
+          [11, 15, 16, 17, 18, 19, 20, 21, 24, 25, 27]
+        ]
+      },
+      "description": "Array of value arrays for each group"
+    },
+    "footnote": { "type": "string", "required": false },
+    "citation": { "type": "string", "required": false },
+    "article_name": { "type": "string", "required": true },
+    "page_number": { "type": "number", "required": true }
+  },
+  
+  "usage_notes": [
+    "Best for showing distribution and spread of values",
+    "Each dot represents an individual data point",
+    "Good for comparing variability across groups",
+    "Use alternating colors (gold/blue) for visual interest"
+  ]
+}

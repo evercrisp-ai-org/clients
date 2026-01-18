@@ -1,0 +1,216 @@
+{
+  "template_id": "chart_with_sidebar",
+  "template_name": "Chart with Sidebar Callout",
+  "template_version": "1.0",
+  "page_type": "chart",
+  "description": "Content page with multi-series line chart and dark sidebar callout at bottom",
+  
+  "dimensions": {
+    "width": 816,
+    "height": 1056,
+    "unit": "px"
+  },
+  
+  "sections": [
+    {
+      "id": "chart_section",
+      "type": "section",
+      "position": { "x": 0, "y": 0 },
+      "size": { "width": 816, "height": 780 },
+      "background": {
+        "type": "solid",
+        "color": "$colors.neutral_light"
+      },
+      "elements": [
+        {
+          "id": "section_header",
+          "type": "text",
+          "content": "{{section_header}}",
+          "font": "$typography.heading.family",
+          "font_weight": 400,
+          "font_size": 44,
+          "color": "$colors.primary.hex",
+          "position": { "x": 120, "y": 40 },
+          "max_width": 576,
+          "line_height": 1.2
+        },
+        {
+          "id": "section_subheader",
+          "type": "text",
+          "content": "{{section_subheader}}",
+          "font": "$typography.body.family",
+          "font_weight": 400,
+          "font_size": 18,
+          "color": "$colors.neutral_dark.hex",
+          "position": { "x": 120, "y": 95 },
+          "max_width": 576
+        },
+        {
+          "id": "exhibit_label",
+          "type": "text",
+          "content": "Exhibit {{exhibit_number}}",
+          "font": "$typography.body.family",
+          "font_weight": 400,
+          "font_size": 16,
+          "color": "$colors.secondary.hex",
+          "position": { "x": 120, "y": 160 }
+        },
+        {
+          "id": "chart_title",
+          "type": "text",
+          "content": "{{chart_title}}",
+          "font": "$typography.body.family",
+          "font_weight": 600,
+          "font_size": 20,
+          "color": "$colors.neutral_dark.hex",
+          "position": { "x": 120, "y": 185 },
+          "max_width": 576
+        },
+        {
+          "id": "chart_legend",
+          "type": "legend",
+          "items": "{{legend_items}}",
+          "position": { "x": 280, "y": 220 },
+          "orientation": "horizontal",
+          "styling": {
+            "dot_size": 12,
+            "label_font": "$typography.body.family",
+            "label_size": 14,
+            "item_spacing": 40
+          }
+        },
+        {
+          "id": "chart",
+          "type": "chart",
+          "chart_type": "line_multi",
+          "data": "{{chart_data}}",
+          "position": { "x": 120, "y": 260 },
+          "size": { "width": 576, "height": 380 },
+          "styling": {
+            "line_colors": "$chart_colors.series",
+            "line_width": 2,
+            "axis_color": "$colors.neutral_mid.hex",
+            "marker_style": "circle",
+            "marker_size": 6
+          }
+        },
+        {
+          "id": "footnote",
+          "type": "text",
+          "content": "{{footnote}}",
+          "font": "$typography.body.family",
+          "font_weight": 400,
+          "font_size": 13,
+          "color": "$colors.neutral_mid.hex",
+          "position": { "x": 120, "y": 660 },
+          "max_width": 576
+        },
+        {
+          "id": "citation",
+          "type": "text",
+          "content": "{{citation}}",
+          "font": "$typography.body.family",
+          "font_weight": 600,
+          "font_size": 12,
+          "color": "$colors.neutral_dark.hex",
+          "position": { "x": 120, "y": 690 }
+        }
+      ]
+    },
+    {
+      "id": "sidebar_section",
+      "type": "section",
+      "position": { "x": 0, "y": 780 },
+      "size": { "width": 816, "height": 276 },
+      "background": {
+        "type": "solid",
+        "color": "$colors.primary.hex"
+      },
+      "elements": [
+        {
+          "id": "sidebar_label",
+          "type": "text",
+          "content": "Sidebar",
+          "font": "$typography.body.family",
+          "font_weight": 400,
+          "font_size": 16,
+          "color": "$colors.accent.hex",
+          "position": { "x": 60, "y": 30 }
+        },
+        {
+          "id": "sidebar_headline",
+          "type": "text",
+          "content": "{{sidebar_headline}}",
+          "font": "$typography.heading.family",
+          "font_weight": 400,
+          "font_size": 32,
+          "color": "#FFFFFF",
+          "position": { "x": 60, "y": 60 },
+          "max_width": 696,
+          "line_height": 1.2
+        },
+        {
+          "id": "sidebar_text",
+          "type": "text",
+          "content": "{{sidebar_text}}",
+          "font": "$typography.body.family",
+          "font_weight": 400,
+          "font_size": 16,
+          "color": "#FFFFFF",
+          "position": { "x": 60, "y": 120 },
+          "max_width": 696,
+          "line_height": 1.5
+        },
+        {
+          "id": "footer",
+          "type": "component",
+          "source": "components/footer.json",
+          "position": { "x": 0, "y": 230 },
+          "variant": "dark"
+        }
+      ]
+    }
+  ],
+  
+  "variables": {
+    "section_header": { "type": "string", "required": true },
+    "section_subheader": { "type": "string", "required": false },
+    "exhibit_number": { "type": "number", "required": true },
+    "chart_title": { "type": "string", "required": true },
+    "legend_items": { "type": "array", "required": true },
+    "chart_data": {
+      "type": "object",
+      "required": true,
+      "schema": {
+        "labels": ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5"],
+        "series": [
+          { "name": "Series 1", "values": [10, 12, 38, 30, 32] },
+          { "name": "Series 2", "values": [18, 30, 20, 40, 50] },
+          { "name": "Series 3", "values": [12, 4, 20, 15, 42] }
+        ]
+      }
+    },
+    "footnote": { "type": "string", "required": false },
+    "citation": { "type": "string", "required": false },
+    "sidebar_headline": {
+      "type": "string",
+      "required": true,
+      "max_length": 80,
+      "description": "Key insight headline for sidebar"
+    },
+    "sidebar_text": {
+      "type": "string",
+      "required": true,
+      "max_length": 300,
+      "description": "Explanatory text for the sidebar insight"
+    },
+    "article_name": { "type": "string", "required": true },
+    "page_number": { "type": "number", "required": true }
+  },
+  
+  "usage_notes": [
+    "Use when chart requires additional context or callout",
+    "Sidebar provides emphasis for key takeaway",
+    "Good for highlighting counter-intuitive findings"
+  ]
+}
