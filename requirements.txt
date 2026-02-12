@@ -16,6 +16,9 @@ matplotlib>=3.7.0       # Chart generation
 numpy>=1.24.0           # Numerical operations for charts
 seaborn>=0.12.0         # Statistical visualization
 
+# Excel export
+openpyxl>=3.1.0         # Excel (.xlsx) workbook generation
+
 # Utilities
 python-dotenv>=1.0.0    # Environment configuration
 click>=8.1.0            # CLI interface

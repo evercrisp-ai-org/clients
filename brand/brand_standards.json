@@ -241,14 +241,16 @@
       "Guaranteed, no-brainer, can't miss",
       "Secrets, hacks, shortcuts",
       "Crush, dominate, optimize everything",
-      "Fear-based urgency"
+      "Fear-based urgency",
+      "Em dashes (use commas, periods, parentheses, or colons instead; Jared never uses em dashes)",
+      "'It's not X. It's Y.' pivot construction (weave contrarian reframes naturally into the argument)"
     ],
     "final_rule": "If it sounds like marketing, rewrite it. If it sounds like a thoughtful professional explaining a decision, it's correct."
   },
   
   "imagery": {
     "audience_context": "Orthopedic surgeons, typically ages 45-65, who own or co-own private practices and are approaching transition, succession, or exit",
-    "tone": "Confidence, composure, long-term thinking — not urgency, hype, or aspiration",
+    "tone": "Confidence, composure, long-term thinking, not urgency, hype, or aspiration",
     "people_imagery": {
       "percentage": 50,
       "characteristics": [
@@ -269,7 +271,7 @@
         "Neutral professional interiors with natural light",
         "Landscapes suggesting openness and transition (mountains, coastlines, open horizons)"
       ],
-      "color_treatment": "Muted and neutral — imagery should never overpower typography or brand colors"
+      "color_treatment": "Muted and neutral; imagery should never overpower typography or brand colors"
     },
     "disallowed": [
       "Generic finance or corporate stock photography",
@@ -280,7 +282,14 @@
       "Extreme sports or adrenaline-focused visuals",
       "Abstract imagery with no grounding or relevance"
     ],
-    "final_rule": "If removing an image improves clarity or calm, the image should not be used. White space is always acceptable."
+    "final_rule": "If removing an image improves clarity or calm, the image should not be used. White space is always acceptable.",
+    "social_image_specs": {
+      "linkedin": { "width": 1200, "height": 627, "alt_square": { "width": 1080, "height": 1080 }, "unit": "px" },
+      "facebook": { "width": 1200, "height": 630, "unit": "px" },
+      "blog_hero": { "width": 1200, "height": 628, "unit": "px" },
+      "blog_in_body": { "width": 1200, "height": 628, "unit": "px", "note": "Context-dependent; infographics may vary" },
+      "youtube_thumbnail": { "width": 1280, "height": 720, "unit": "px" }
+    }
   },
   
   "page_dimensions": {
