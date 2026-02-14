@@ -47,7 +47,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 **ANCHOR PIECE**
 
 - **Working title:** "You're Not Overtaxed. You're Understructured."
-- **Target angle & key argument:** Most orthopedic surgeons fixate on their tax bill and assume they need a "better accountant." The real driver of how much they keep is not the tax code — it is their entity structure. Walk through the three structural gaps that cost the most: (1) a misaligned S-Corp salary, (2) an underfunded or nonexistent cash balance plan, and (3) a missing cost segregation study on owned practice or investment real estate. The argument: fixing structure is worth more than chasing deductions.
+- **Target angle & key argument:** Most orthopedic surgeons fixate on their tax bill and assume they need a "better accountant." The real driver of how much they keep comes down to their entity structure. Walk through the three structural gaps that cost the most: (1) a misaligned S-Corp salary, (2) an underfunded or nonexistent cash balance plan, and (3) a missing cost segregation study on owned practice or investment real estate. The argument: fixing structure is worth more than chasing deductions.
 - **Math example:** An $800K-earning orthopedic surgeon with an unoptimized S-Corp salary of $400K, no cash balance plan, and no cost segregation study. Show the annual leakage: ~$25K from excess self-employment tax on the mis-set salary, ~$45K–$80K in lost tax-deferred compounding from the missing cash balance plan, and ~$15K–$30K in missed depreciation from the absent cost seg study. Total: $85K–$130K left on the table annually through structural neglect.
 - **Structural approach:** Contrarian Reframe Opening — challenge the "I'm overtaxed" complaint, then pivot to the Diagnostic Framework mirroring a clinical assessment: symptoms (high tax bill), diagnosis (structural misalignment), treatment plan (three specific interventions). Close with the philosophical tie-back: structure is control, and control is what separates wealth from high income.
 
@@ -55,8 +55,8 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 **LINKEDIN POST 1**
 
-- **Hook line:** "Your tax bill isn't the problem. Your structure is."
-- **Core insight:** The difference between an $800K earner who keeps $480K and one who keeps $560K isn't a better CPA — it's a better entity structure.
+- **Hook line:** "Every week, I sit down with a surgeon who's frustrated about taxes. And every week, the conversation ends in the same place: their entity structure."
+- **Core insight:** The difference between an $800K earner who keeps $480K and one who keeps $560K comes down to three structural decisions within their entity, not a better CPA.
 - **Relationship to anchor:** Distillation of the anchor's central argument into a single LinkedIn-length insight. Drives traffic to the full piece.
 
 **LINKEDIN POST 2**
@@ -76,7 +76,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 **YOUTUBE CONCEPT**
 
 - **Topic and angle:** "The Three Leaks Draining Your Surgeon Paycheck" — a visual walkthrough of the three structural gaps, using a "bucket with holes" metaphor.
-- **Contrarian hook (first 15 seconds):** "If you make $800K a year and feel like you should have more to show for it... you're right. And no, it's not because taxes are too high. It's because your financial structure has three holes in it that nobody has told you about."
+- **Contrarian hook (first 15 seconds):** "If you make $800K a year and feel like you should have more to show for it... you're right. The answer comes down to three holes in your financial structure that nobody has told you about."
 - **Key talking points:**
   1. The S-Corp salary trap — how the "reasonable compensation" your CPA set five years ago is probably wrong in both directions
   2. The cash balance plan gap — the $150K–$350K shelter most surgeons miss
@@ -89,7 +89,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 **FACEBOOK POST 1**
 
-- **Core idea:** Quick, conversational version of the anchor's thesis — your tax frustration is a symptom, not the disease. The disease is a structure that hasn't been updated since your CPA set it up. One question to ask your advisor this week: "When was the last time we stress-tested my entity structure?"
+- **Core idea:** Quick, conversational version of the anchor's thesis — your tax frustration is really a symptom of a structure that hasn't been updated since your CPA set it up. One question to ask your advisor this week: "When was the last time we stress-tested my entity structure?"
 - **Tone adjustment notes:** Warmer and more personal than LinkedIn. Open with something like "I had a conversation this week that I keep coming back to..." Avoid listing all three gaps — just tease the idea and invite curiosity.
 
 **FACEBOOK POST 2**
@@ -119,7 +119,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 - **Working title:** "The S-Corp Salary Trap: Why Your CPA's 'Reasonable Compensation' Might Be Costing You"
 - **Target angle & key argument:** S-Corp reasonable compensation review window opens in Q1, and most surgeon-owners are running on a number their CPA set years ago. Challenge the assumption that "reasonable" means "optimal." The S-Corp salary is a balancing act: set it too high and you overpay self-employment tax; set it too low and you limit retirement plan contributions (which are based on W-2 compensation). At $745K+ in total income, getting this wrong in either direction costs real money — and most surgeons have never been shown the math on the trade-off.
 - **Math example:** A surgeon with $745K in practice income. Scenario A: S-Corp salary set at $300K (the "low" default). Self-employment tax savings are maximized, but the 401(k) employer match and cash balance plan contributions are capped by the lower W-2. Scenario B: Salary set at $360K (the IRS compensation cap). Higher self-employment tax, but unlocks an additional $35K–$60K in retirement plan contributions depending on age and cash balance plan design. Net benefit of Scenario B: ~$15K–$25K per year in additional tax-deferred compounding, even after the higher payroll tax cost. The "lower salary saves money" assumption is wrong once retirement plan math enters the picture.
-- **Structural approach:** Conversation Hook — open with a conversation with a surgeon client who says "my CPA told me to keep my salary as low as possible." Then Reframe: "Your CPA is optimizing for one variable. There are three." Core Teaching via a decision framework: the three variables (payroll tax, retirement contributions, QBI deduction) and how they interact. Math example as the persuasion anchor. Close with: the right salary isn't the lowest one — it's the one that puts the most money to work.
+- **Structural approach:** Conversation Hook — open with a conversation with a surgeon client who says "my CPA told me to keep my salary as low as possible." Then Reframe: "Your CPA is optimizing for one variable. There are three." Core Teaching via a decision framework: the three variables (payroll tax, retirement contributions, QBI deduction) and how they interact. Math example as the persuasion anchor. Close with: the right salary is the one that puts the most money to work.
 
 ---
 
@@ -283,7 +283,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 **FACEBOOK POST 1**
 
-- **Core idea:** "I've been working with surgeons long enough to know that most of them can quote their collections number but have never calculated what they actually keep per hour. This week, one surgeon ran the math and the look on his face told me everything. The number was $146/hour — not the $350+ he'd assumed. That gap isn't a failure. It's a diagnosis. And like any good diagnosis, it points directly to the treatment plan."
+- **Core idea:** "I've been working with surgeons long enough to know that most of them can quote their collections number but have never calculated what they actually keep per hour. This week, one surgeon ran the math and the look on his face told me everything. The number was $146/hour — not the $350+ he'd assumed. That gap is a diagnosis, and like any good diagnosis, it points directly to the treatment plan."
 - **Tone adjustment notes:** Story-driven, personal. Make it about the human reaction to the number, not the math itself. Warm, not clinical.
 
 **FACEBOOK POST 2**
@@ -491,7 +491,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 **ANCHOR PIECE**
 
 - **Working title:** "The Financial Second Opinion: Why Every Surgeon Should Get One Before Making a Major Move"
-- **Target angle & key argument:** Surgeons routinely seek second opinions on complex cases — it's considered good medicine, not a sign of doubt. Yet most surgeons have never sought a second opinion on their financial structure. They have one CPA, one advisor (or none), and one plan that hasn't been stress-tested. Make the case that a financial second opinion — an independent review of your tax strategy, entity structure, retirement plan design, and investment allocation — is the financial equivalent of a second read on a complex imaging study. It's not about doubting your advisor. It's about validating the plan.
+- **Target angle & key argument:** Surgeons routinely seek second opinions on complex cases — it's considered good medicine, not a sign of doubt. Yet most surgeons have never sought a second opinion on their financial structure. They have one CPA, one advisor (or none), and one plan that hasn't been stress-tested. Make the case that a financial second opinion — an independent review of your tax strategy, entity structure, retirement plan design, and investment allocation — is the financial equivalent of a second read on a complex imaging study. The value comes from validating the plan, not contradicting the advisor.
 - **Math example:** A surgeon whose CPA-recommended strategy includes a 401(k) ($24,500 + $8,000 catch-up = $32,500 total), a standard SEP contribution, and individual investment accounts. A second-opinion review reveals: (1) a cash balance plan could add $150K–$250K in tax-deferred contributions above the 401(k), (2) the SEP conflicts with the 401(k) employer contribution structure and should be restructured, and (3) the individual investment accounts should be rebalanced for tax-loss harvesting coordination. Total value of the second opinion: $50K–$80K in Year 1 tax savings, with compounding benefits over a decade exceeding $400K.
 - **Structural approach:** Extended Metaphor — build the entire piece around the "second opinion" concept that surgeons know intimately. Open: "You've ordered the second opinion dozens of times. You've been the second opinion. You know that the value isn't in contradicting the first reading — it's in seeing what the first reader missed." Core Teaching walks through four areas where a second opinion delivers the most value: (1) entity structure, (2) retirement plan design, (3) tax strategy, (4) investment allocation. Close with the tie-back: the best surgeons welcome second opinions because they know the stakes of getting it wrong.
 
@@ -724,7 +724,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 **ANCHOR PIECE**
 
-- **Working title:** "What Buyers Actually See When They Look at Your Practice Financials — and It's Not What You Think"
+- **Working title:** "What Buyers Actually See When They Look at Your Practice Financials"
 - **Target angle & key argument:** Surgeons are used to looking at their practice financials through the lens of collections, overhead ratios, and net income. Buyers — whether PE firms, hospital systems, or individual acquirers — look at a completely different set of numbers: normalized EBITDA. Normalization strips out owner-specific expenses (the surgeon's above-market salary, personal vehicles on the business, family members on payroll, one-time expenses), and what remains is the practice's transferable earning power. Most surgeons are shocked by the gap between their reported net income and their normalized EBITDA — and that gap determines valuation. Walk through the most common normalization adjustments and what they mean for the seller.
 - **Math example:** A practice with reported net income of $1.1M. The surgeon pays herself $800K (above-market by $150K — market rate for a replacement surgeon is $650K). A family member is on payroll at $120K for a part-time administrative role (market rate: $55K). The practice leases a luxury vehicle ($1,800/month, $21,600/year) through the business. One-time legal expenses of $45K last year. Normalized EBITDA: $1.1M (net income) + $150K (salary adjustment) + $65K (family member adjustment) + $21.6K (vehicle) + $45K (one-time expense) = $1.38M. At a 4x multiple, the practice is valued at $5.5M on normalized EBITDA vs. $4.4M on reported net income — a $1.1M valuation difference. Understanding normalization isn't just accounting. It's wealth.
 - **Structural approach:** Math-First Approach — open with the normalization math as a "reveal" moment: "A surgeon told me her practice was worth $4.4M. After normalization, it was $5.5M. Neither number was wrong — they were just measuring different things." Core Teaching walks through the five most common normalization adjustments for surgeon practices (owner compensation, family employment, personal expenses through the business, one-time costs, and below-market lease terms). Each adjustment includes the typical dollar range for orthopedic practices. Close: "Buyers will normalize your financials whether you understand the process or not. The question is whether you'll be ready to tell the story those normalized numbers should tell."
@@ -779,15 +779,15 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 **ANCHOR PIECE**
 
 - **Working title:** "Stop Planning Your Exit. Start Planning Your Next Chapter."
-- **Target angle & key argument:** The last four weeks have been about practice transition mechanics — timelines, PE deals, personal goodwill, valuation. This week pivots from the mechanics to the meaning. The most common regret among surgeons who sell their practice isn't about the money — it's about not having a plan for what comes after. The identity loss of leaving the OR is real, documented, and more financially damaging than any tax mistake. Surgeons who exit without a "next chapter" plan tend to make poor financial decisions in the first 18 months post-exit: overspending, impulsive investments, lifestyle inflation. The argument: your financial exit plan is only as good as your life plan. Design the next chapter with the same intentionality you brought to the last one.
-- **Math example:** The financial cost of an unplanned transition. A surgeon who sells a practice for $4M, pays $1.1M in taxes, and nets $2.9M. Without a structured post-exit plan, the typical pattern: lifestyle spending increases 30% in Year 1 (from $350K to $455K), a $500K "investment" in a friend's business that fails, and a portfolio drawdown of $200K to cover the gap. By Year 3, the $2.9M has become $1.7M — a 41% decline with no practice income to replenish it. Compare: the same surgeon with a structured transition plan including a defined annual spending budget ($375K), a systematic investment strategy, and a purposeful "next chapter" that generates meaning (and possibly income). By Year 3, the $2.9M has grown to $3.2M while funding a $375K/year lifestyle. The difference isn't financial sophistication. It's having a plan for the life, not just the money.
+- **Target angle & key argument:** The last four weeks have been about practice transition mechanics — timelines, PE deals, personal goodwill, valuation. This week pivots from the mechanics to the meaning. The most common regret among surgeons who sell their practice centers on not having a plan for what comes after. The identity loss of leaving the OR is real, documented, and more financially damaging than any tax mistake. Surgeons who exit without a "next chapter" plan tend to make poor financial decisions in the first 18 months post-exit: overspending, impulsive investments, lifestyle inflation. The argument: your financial exit plan is only as good as your life plan. Design the next chapter with the same intentionality you brought to the last one.
+- **Math example:** The financial cost of an unplanned transition. A surgeon who sells a practice for $4M, pays $1.1M in taxes, and nets $2.9M. Without a structured post-exit plan, the typical pattern: lifestyle spending increases 30% in Year 1 (from $350K to $455K), a $500K "investment" in a friend's business that fails, and a portfolio drawdown of $200K to cover the gap. By Year 3, the $2.9M has become $1.7M — a 41% decline with no practice income to replenish it. Compare: the same surgeon with a structured transition plan including a defined annual spending budget ($375K), a systematic investment strategy, and a purposeful "next chapter" that generates meaning (and possibly income). By Year 3, the $2.9M has grown to $3.2M while funding a $375K/year lifestyle. The difference comes down to having a plan for the life, not just the money.
 - **Structural approach:** Philosophical Anchor — this is the contemplative, big-picture piece that closes the May arc. Open with: "You've spent the last month thinking about valuations, deal terms, and tax strategies. Good. Now let me ask you a harder question: what are you transitioning to?" Core Teaching covers three elements of a "next chapter" plan: (1) identity work (who are you when you're not a surgeon?), (2) purpose architecture (what gives your days structure and meaning?), and (3) financial guardrails (how do you prevent the emotional decisions that erode exit wealth?). Close with the tie-back to Jared's core belief: wealth is control, and control means having a plan — for your money and for your life.
 
 ---
 
 **LINKEDIN POST 1**
 
-- **Hook line:** "The most expensive mistake in practice transition isn't a bad deal. It's not having a plan for what comes after."
+- **Hook line:** "The most expensive mistake in practice transition is walking away without a plan for what comes after."
 - **Core insight:** Surgeons who exit without a structured "next chapter" plan lose an average of 30–40% of their exit wealth within three years — not to bad investments, but to the unplanned spending and impulsive decisions that come from a life without structure.
 - **Relationship to anchor:** Leads with the financial consequence to hook the LinkedIn audience, then redirects to the life-planning message.
 
@@ -826,7 +826,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 **FACEBOOK POST 2**
 
-- **Core idea:** Quarter wrap: "Three months of content, one message: the foundation of your financial life isn't your income, your tax strategy, or your practice valuation. It's your structure — the system that turns all of those things into the life you actually want to live. If anything from the last three months resonated, the best next step is the simplest one: a single conversation with someone who can look at your full financial picture and tell you where the gaps are."
+- **Core idea:** Quarter wrap: "Three months of content, one message: the foundation of your financial life is your structure, the system that turns your income, your tax strategy, and your practice valuation into the life you actually want to live. If anything from the last three months resonated, the best next step is the simplest one: a single conversation with someone who can look at your full financial picture and tell you where the gaps are."
 - **Tone adjustment notes:** Invitational, not salesy. This is the quarter's closing handshake — warm, reflective, and forward-looking. The "single conversation" CTA is soft and natural.
 
 ---

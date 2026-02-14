@@ -265,7 +265,7 @@ This 12-month editorial plan is built on the static annual cycles from the Conte
 
 **Content 4: "The Surgeon's Spending Trap: Why the Parking Lot Is Your Worst Financial Advisor"**
 
-- **Target angle:** A direct application of Jared's "raccoon trap" metaphor. At $800K median compensation, the spending trap is both more seductive and more expensive. Walk through the math: if lifestyle expenses consume 85–90% of after-tax income, a surgeon earning $800K keeps roughly $60K–$80K per year building wealth. Compare that to a surgeon who restructures to keep 25% of after-tax income compounding — the 10-year difference is $1.2M+. The diagnosis: you don't have an income problem. You have a structure problem.
+- **Target angle:** A direct application of Jared's "raccoon trap" metaphor. At $800K median compensation, the spending trap is both more seductive and more expensive. Walk through the math: if lifestyle expenses consume 85–90% of after-tax income, a surgeon earning $800K keeps roughly $60K–$80K per year building wealth. Compare that to a surgeon who restructures to keep 25% of after-tax income compounding — the 10-year difference is $1.2M+. The diagnosis: the income was never the issue. The structure surrounding it determines whether wealth actually builds.
 - **Theme mapping:** The surgeon spending trap ("Keeping up with the Joneses" → "Why the surgeon parking lot is the worst financial advisor")
 - **Primary channel:** YouTube
 
@@ -330,7 +330,7 @@ This 12-month editorial plan is built on the static annual cycles from the Conte
 - **Theme mapping:** Tax structure optimization
 - **Primary channel:** Blog
 
-**Content 2: "Tax-Loss Harvesting at the $3M Portfolio Level: It's Not About the Losses — It's About the Reset"**
+**Content 2: "Tax-Loss Harvesting at the $3M Portfolio Level: The Reset That Matters"**
 
 - **Target angle:** Most tax-loss harvesting content is written for $100K–$500K portfolios. At $3M+, the strategy changes: the goal isn't just offsetting gains — it's strategically resetting cost basis across concentrated positions, managing capital gains brackets, and coordinating with practice income timing. Show how a deliberate harvesting strategy can produce $30K–$50K in annual tax value at surgeon portfolio levels.
 - **Theme mapping:** Concentrated position risk
@@ -410,7 +410,7 @@ This 12-month editorial plan is built on the static annual cycles from the Conte
 
 **Content 2: "What This Year Taught You About Wealth — If You Were Paying Attention"**
 
-- **Target angle:** The philosophical year-end piece. Reflect on 2026: the OBBBA changed the tax landscape permanently, practice economics shifted, PE continued reshaping orthopedics, and the Fed navigated a new rate environment. But the real lesson isn't about policy — it's about whether the surgeon spent the year reacting to events or executing a plan. Connect to Jared's core belief: wealth is control, and control comes from structure, not luck.
+- **Target angle:** The philosophical year-end piece. Reflect on 2026: the OBBBA changed the tax landscape permanently, practice economics shifted, PE continued reshaping orthopedics, and the Fed navigated a new rate environment. But the real lesson centers on whether the surgeon spent the year reacting to events or executing a plan. Connect to Jared's core belief: wealth is control, and control comes from structure, not luck.
 - **Theme mapping:** Life beyond the OR + The surgeon spending trap
 - **Primary channel:** Blog
 
@@ -453,9 +453,9 @@ This 12-month editorial plan is built on the static annual cycles from the Conte
 - **Theme mapping:** Practice exit number + Tax structure optimization
 - **Primary channel:** Blog
 
-**Content 3: "Debt Isn't the Enemy. Unstructured Debt Is."**
+**Content 3: "When Practice Debt Becomes a Wealth-Building Tool"**
 
-- **Target angle:** Challenge the assumption that all debt is bad. With rates in the 3.50–3.75% range and potentially declining, practice debt can be a wealth-building tool — if it's structured correctly. Walk through the difference between a practice line of credit used to smooth cash flow vs. fund lifestyle, equipment financing at sub-4% vs. depleting cash reserves, and how to evaluate whether paying down practice debt or funding retirement plans creates more wealth. The reframe: the question isn't "should I have debt?" — it's "is my debt working as hard as I am?"
+- **Target angle:** Challenge the assumption that all debt is bad. With rates in the 3.50–3.75% range and potentially declining, practice debt can be a wealth-building tool — if it's structured correctly. Walk through the difference between a practice line of credit used to smooth cash flow vs. fund lifestyle, equipment financing at sub-4% vs. depleting cash reserves, and how to evaluate whether paying down practice debt or funding retirement plans creates more wealth. The reframe: the real question is whether your debt is working as hard as you are.
 - **Theme mapping:** Optimize practice debt structure ("Pay down debt" → "Why your practice line of credit might be your best wealth-building tool")
 - **Primary channel:** YouTube
 
