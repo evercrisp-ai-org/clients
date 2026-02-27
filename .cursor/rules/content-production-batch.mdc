@@ -1,0 +1,61 @@
+---
+description: Weekly content production standards for Capable Wealth content batches. Defines required volume, formats, file naming, and podcast structure.
+globs: outputs/drafts/content-batch-*/**/*.md
+alwaysApply: false
+---
+
+# Content Production Batch Standards
+
+## Weekly Content Volume (Non-Negotiable)
+
+Every week in a production batch must contain exactly 12 pieces:
+
+| Channel | Pieces per Week | Format |
+|---------|----------------|--------|
+| Anchor blog post | 1 | Long-form article, signs off "Capably Yours, Jared" |
+| Podcast script | 1 | Solo episode (max 25 min), also distributed as YouTube video |
+| LinkedIn posts | 5 | Professional insight posts, no sign-off |
+| Facebook posts | 5 | Warmer/personal tone, no sign-off |
+
+## File Naming Convention
+
+```
+week-N-blog-slug.md
+week-N-podcast-slug.md
+week-N-linkedin-1.md through week-N-linkedin-5.md
+week-N-facebook-1.md through week-N-facebook-5.md
+```
+
+## File Template (All Content Types)
+
+1. **Title** (H1)
+2. **Post Metadata** -- Type, Week, Theme, Quarterly plan reference, Strategic context
+3. **Visual Assets** -- Image type, Rationale, AI image prompt (9-point standard, Capable Wealth palette only), Text overlay, Platform/dimensions
+4. **Full content draft** -- Jared's voice per voice-profile.md and content-recipe.md
+5. **Quality Checklist** -- Voice Alignment, Audience Specificity, Relevance Validation, Pull Signal Design, Visual Assets
+
+## Podcast Script Structure
+
+Podcast scripts replace the old YouTube script format. Structure:
+
+- **COLD OPEN** (30-60s) -- Hook that pulls the listener in immediately
+- **INTRO AND CONTEXT** (1-2 min) -- Set the stakes, why this matters now
+- **MAIN SEGMENTS** (3-5 segments, each 3-5 min) -- Core teaching, math examples, frameworks
+- **LISTENER TAKEAWAY** (1-2 min) -- Actionable summary, one thing to do this week
+- **PHILOSOPHICAL CLOSE** (1-2 min) -- Connect to bigger life principles
+
+Tone: Conversational, exploratory, Jared thinking out loud with the listener. More depth and nuance than blog. Audio must stand alone; video version is a different consumption angle.
+
+Visual asset: Podcast cover art card (1400x1400 for podcast feeds, 1280x720 variant for YouTube thumbnail).
+
+## Social Post Expansion
+
+When the quarterly plan briefs fewer than 5 posts for a channel, create additional posts by:
+- Isolating individual talking points from the anchor/podcast as standalone insights
+- Creating story-driven variations (especially for Facebook)
+- Adding action prompts ("one question to ask", "calculate this number")
+- Building week-to-week narrative continuity
+
+## Capable Wealth Palette (Exclusive)
+
+#243A4B (Deep Muted Blue), #5F7483 (Blue Slate), #B08D57 (Antique Gold), #F6F7F5 (Off-White), #1E2428 (Charcoal), #9AA3A8 (Warm Gray)
