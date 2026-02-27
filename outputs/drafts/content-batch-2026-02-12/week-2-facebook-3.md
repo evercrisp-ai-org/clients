@@ -1,0 +1,74 @@
+# The Q1 Structure Check-In
+
+## Post Metadata
+- **Type:** Facebook Post
+- **Week:** Week 2 (March 9–15)
+- **Theme:** S-Corp Salary Optimization
+- **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 2, Facebook 3
+- **Strategic context:** End-of-week reflective wrap that ties Weeks 1 and 2 together. Distills two weeks of structural content (entity structure, three leaks, S-Corp salary, three-variable trade-off) into a single, warm takeaway: the structure you set up years ago probably needs updating, and Q1 is the natural time to do it. Closes the two-week opening arc before the batch moves to new themes.
+
+---
+## Visual Assets
+
+### Primary Image
+- **Image type:** Quote/insight card
+- **Rationale:** A reflective close deserves a quiet, invitational visual. A quote card with the post's core reframe gives the two-week arc a memorable closing image. The warm tone matches the reflective, forward-looking content.
+- **AI image prompt:** Create a 1200x630px landscape social media graphic. Background: solid Deep Muted Blue (#243A4B). Layout: centered text composition with generous margins (minimum 100px all sides). Primary text: "The structure that got you here may not be the structure that gets you where you're going." in Playfair Display Medium, approximately 32pt, Off-White (#F6F7F5), centered horizontally and vertically on the canvas, with a maximum text width of approximately 900px for comfortable line breaks. A thin horizontal rule (1px, Antique Gold #B08D57) spans 25% of the canvas width, centered horizontally, positioned 40px below the quote text. Attribution text: "Jared, Capable Wealth" in Inter Regular, approximately 14pt, Warm Gray (#9AA3A8), centered horizontally, 16px below the horizontal rule. Bottom-right corner: Capable Wealth logo mark in Off-White (#F6F7F5), 24px from edges, approximately 60px wide. No imagery, no illustrations, no photographs, no gradients, no drop shadows. Brand constraints: only Capable Wealth palette (#243A4B, #5F7483, #B08D57, #F6F7F5, #1E2428, #9AA3A8), 60/30/10 ratio. No cartoons, no clip art, no generic stock, no clickbait styling, no flashy or sensational elements, no busy compositions. Mood: reflective, warm, forward-looking. Professional financial advisory aesthetic for orthopedic surgeons ages 45-65.
+- **Text overlay:** Quote: "The structure that got you here may not be the structure that gets you where you're going." in Playfair Display Medium, ~32pt, Off-White (#F6F7F5), centered. Attribution: "Jared, Capable Wealth" in Inter Regular, ~14pt, Warm Gray (#9AA3A8), centered below rule.
+- **Platform and dimensions:** Facebook, 1200x630
+
+---
+
+I've been thinking about a pattern I see over and over again.
+
+A surgeon builds a practice, sets up an S-Corp, picks a salary, opens a 401(k), and moves on. The structure works well enough, so it never gets revisited.
+
+Five years pass. Income has grown. Tax law has changed. Contribution limits have shifted. New planning tools (like cash balance plans) have become available. But the structure stays the same.
+
+That gap between where your structure is and where it could be is almost always measured in six figures per year. Not because anything is broken. Because the financial landscape moved and the structure didn't.
+
+Q1 is the natural time to close that gap. The year is young enough to make changes that matter, and the numbers are fresh enough to model accurately.
+
+One coordinated look at your entity, your salary, your retirement plans, and your tax strategy. That's the check-in. And it's one of the most valuable conversations you can have before April 15.
+
+---
+
+## Quality Checklist
+
+### Voice Alignment
+- [x] Opens with a story, conversation, or specific scenario (a pattern observed across clients)
+- [x] Contains at least one contrarian reframe or myth-bust (nothing is broken, but the landscape moved)
+- [x] Uses direct "you" address throughout
+- [x] Reads like a conversation with a trusted advisor, not a brochure or sales piece
+- [x] Avoids all banned language from brand standards (no em dashes, no formulaic "not X / it's Y" pivot constructions)
+- [x] Ends with a clear takeaway and appropriate sign-off (one coordinated look before April 15)
+- [x] Tone matches the voice profile: warm, encouraging, gently contrarian
+- [x] Free of em dashes and formulaic "not X / it's Y" pivot constructions
+
+### Audience Specificity
+- [x] Could only have been written for orthopedic surgeons (not generic financial advice)
+- [x] Includes a concrete numerical example relevant to surgeon-level income (six figures per year)
+- [x] References practice-specific context where appropriate (S-Corp, salary, 401(k), cash balance plans, entity structure)
+- [x] Respects the reader's intelligence and time (no unnecessary explanation of basics)
+
+### Relevance Validation
+- [x] All facts, figures, and legal references are current as of publication date
+- [x] Content is appropriately timed relative to the annual calendar (Q1 review window, pre-April 15)
+- [x] No conflicting current events that would undermine the message
+- [x] Relevance Score is Green
+
+### Pull Signal Design
+- [x] Content provides genuine value that a surgeon would share with a colleague
+- [x] Ties tactical advice back to a bigger life principle (intentional structure, deliberate evolution)
+- [x] Includes a natural next step that deepens the relationship (coordinated structure review before April 15)
+- [x] The reader finishes feeling more informed and more in control, not more anxious
+
+### Visual Assets
+- [x] Every content piece includes a Visual Asset Brief in the standard draft file format (Section 12)
+- [x] Image type is appropriate for the platform and content (quote/insight card for Facebook)
+- [x] AI image prompt follows the full 9-point standard (Section 10): canvas, background, layout, typography, graphic elements, photographic direction, brand constraints, mood, audience context
+- [x] AI image prompt is self-contained and production-ready
+- [x] No cartoons, clip art, generic stock imagery, or clickbait styling
+- [x] Text on images specifies exact font, weight, size, color hex, and position
+- [x] Image uses only the Capable Wealth color palette with correct hex codes
+- [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"

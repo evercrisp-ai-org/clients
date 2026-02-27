@@ -35,7 +35,6 @@ env/
 .DS_Store
 
 # Output files (generated PDFs, etc.)
-outputs/drafts/
 outputs/final/infographics/
 outputs/final/social_media/
 
