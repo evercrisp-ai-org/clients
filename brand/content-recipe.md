@@ -414,6 +414,39 @@ Every piece of content gets a corresponding visual asset. The image reinforces t
 
 **Data visualization:** A branded chart or graph when the math example is the centerpiece of the post. Bar charts, comparison tables, or before/after visuals. Use the brand chart color series. No chart junk, no 3D effects, no decorative elements.
 
+### Weekly Image Type Distribution (Mandatory)
+
+A feed full of identical text-on-block cards looks monotonous and signals low effort. Every week's images must feel visually distinct when scrolled as a set.
+
+**Per 5 social posts per platform per week:**
+
+| Slot | Required Image Type |
+|------|-------------------|
+| 1 of 5 | Stat highlight card or quote card (text-on-block) |
+| 2 of 5 | Conceptual photograph (photorealistic people or environment) |
+| 3 of 5 | Simple infographic or data visualization |
+| 4 of 5 | Conceptual photograph (photorealistic, different subject from slot 2) |
+| 5 of 5 | Any type not already used this week |
+
+**Hard distribution rules:**
+
+- **Maximum 1 text-on-block card** (stat highlight or quote card) per 5 posts. The remaining 4 must use infographic, conceptual photograph, or data visualization.
+- **At least 2 conceptual photographs per week per platform.** These must be photorealistic (AI-generated photography, never cartoon, never illustrated, never clip art). Follow `brand_config.json` imagery rules: professional people in medical-adjacent or professional environments, natural or soft lighting, calm neutral expressions, mid-to-late career age representation.
+- **At least 1 infographic or data visualization per week per platform** that uses chart elements, process flows, comparison layouts, or visual data representation.
+- **Blog heroes** default to conceptual photograph unless the post is math-heavy (then use data visualization).
+- **Podcast/YouTube thumbnails** use conceptual photograph or scene-based imagery, never text-only cards.
+
+**Conceptual photograph guidance:**
+
+Photorealistic scenes should illustrate the post's theme clearly and simply. Prefer:
+- A surgeon reviewing financial documents at a modern desk (strategy, planning)
+- A medical professional walking through a clean hospital corridor (transition, forward movement)
+- Two professionals in a calm, well-lit conference setting (advisory, collaboration)
+- A precision surgical instrument on a clean surface (structure, precision metaphors)
+- An open landscape or coastline at golden hour (life beyond the OR, long-term vision)
+
+Always: photorealistic, clean composition, muted color grading toward brand palette, shallow depth of field, natural or soft professional lighting. Never: cartoon, illustrated, clip art, generic stock cliches (handshakes, thumbs up, stethoscope on money).
+
 ### Visual Style Rules (Hard Constraints)
 
 - Must use the Capable Wealth color palette: Deep Muted Blue #243A4B, Blue Slate #5F7483, Antique Gold #B08D57, Off-White #F6F7F5, Charcoal #1E2428, Warm Gray #9AA3A8
@@ -458,6 +491,14 @@ A vague prompt like "minimalist branded quote card, navy background, serif text"
 **Example C: Data visualization (LinkedIn, landscape)**
 
 > Create a 1200x627px landscape infographic. Background: Off-White (#F6F7F5). Layout: two vertical bar chart columns centered on the canvas with equal spacing. Left bar: shorter, filled with Blue Slate (#5F7483), labeled below in Inter Medium 14pt Charcoal (#1E2428): "401(k) Only: $32,500/yr". Right bar: approximately 6x taller, filled with Deep Muted Blue (#243A4B) with a thin Antique Gold (#B08D57) top cap accent (4px), labeled below in Inter Medium 14pt Charcoal: "401(k) + Cash Balance: $200K+/yr". Headline above the bars: "The Retirement Contribution Gap" in Playfair Display Medium, approximately 28pt, Charcoal (#1E2428), centered. A thin Warm Gray (#9AA3A8) baseline connects the two bars. Bottom-right: Capable Wealth logo mark in Charcoal, 24px from edges, approximately 60px wide. No 3D effects, no chart junk, no decorative elements, no gradients. Mood: clear, precise, authoritative. Professional financial infographic for orthopedic surgeons ages 45-65.
+
+**Example D: Conceptual photograph with people (LinkedIn, square)**
+
+> Create a 1080x1080px square photorealistic image. A senior male surgeon in his late 50s, wearing a crisp white dress shirt with sleeves rolled to the forearms, seated at a clean modern walnut desk reviewing a multi-page financial document. The setting is a private office with floor-to-ceiling windows on the right, soft late-afternoon natural light casting warm highlights across the desk surface. Background is softly out of focus: minimal bookshelves, a single framed credential on the wall. The surgeon's expression is calm, focused, and quietly confident. Color grading: desaturated and cool-toned, shadows shifted toward Deep Muted Blue (#243A4B), midtones toward Blue Slate (#5F7483), highlights neutral Off-White (#F6F7F5). Shallow depth of field, sharp focus on the surgeon's hands and the document. No text overlays, no logos, no graphic elements. No cartoon, no illustration, no clip art, no generic stock cliches. Mood: deliberate, composed, authoritative. Photorealistic editorial photography style suitable for a financial advisory brand serving orthopedic surgeons ages 45-65.
+
+**Example E: Conceptual photograph, environment (Facebook, landscape)**
+
+> Create a 1200x630px landscape photorealistic image. A modern medical office building exterior at golden hour, viewed from a low angle across a manicured courtyard. The architecture is clean and contemporary: glass, steel, and light stone. Warm golden light rakes across the facade from the left, while the sky transitions from soft amber near the horizon to a cool blue overhead. A single mature tree in the courtyard provides natural framing on the right third of the image. No people, no text, no logos, no graphic overlays. Color grading: slightly desaturated, warm tones in the highlights, shadows shifted toward Deep Muted Blue (#243A4B). Shallow depth of field with the foreground courtyard surface gently blurred. The image should evoke stability, success, and quiet confidence. No cartoon, no illustration, no clip art. Mood: aspirational, grounded, professional. Photorealistic editorial photography for a financial advisory brand serving orthopedic surgeons ages 45-65.
 
 ---
 

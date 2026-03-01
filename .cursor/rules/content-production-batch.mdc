@@ -34,6 +34,28 @@ week-N-facebook-1.md through week-N-facebook-5.md
 4. **Full content draft** -- Jared's voice per voice-profile.md and content-recipe.md
 5. **Quality Checklist** -- Voice Alignment, Audience Specificity, Relevance Validation, Pull Signal Design, Visual Assets
 
+## Image Type Variety (Non-Negotiable)
+
+Each week's 5 social posts per platform must use a mix of visual styles. A feed of identical text-on-block cards is not acceptable.
+
+| Post # | Required Image Type |
+|--------|-------------------|
+| 1 of 5 | Stat highlight card OR quote card (text-on-block) |
+| 2 of 5 | Conceptual photograph (photorealistic people or environment) |
+| 3 of 5 | Simple infographic or data visualization |
+| 4 of 5 | Conceptual photograph (photorealistic, different subject from #2) |
+| 5 of 5 | Any type not already used this week |
+
+Hard rules:
+
+- Max 1 text-on-block card per 5 posts per platform per week
+- Conceptual photographs must be photorealistic (AI-generated photography), never cartoon or illustrated
+- People in images: professional, mid-to-late career, natural lighting, calm expressions, medical-adjacent or professional environments
+- Each week's images must look visually distinct when viewed as a set in a feed
+- Blog heroes default to conceptual photograph; podcast/YouTube thumbnails use conceptual photograph or scene-based imagery
+
+See content-recipe.md Section 10 "Weekly Image Type Distribution" for full guidance and example prompts (Examples D and E).
+
 ## Podcast Script Structure
 
 Podcast scripts replace the old YouTube script format. Structure:
