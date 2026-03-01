@@ -78,6 +78,16 @@ When the quarterly plan briefs fewer than 5 posts for a channel, create addition
 - Adding action prompts ("one question to ask", "calculate this number")
 - Building week-to-week narrative continuity
 
+## Excel Summary Sync (Non-Negotiable)
+
+Whenever any content draft in a batch folder is created, modified, or deleted, the Excel summary must be regenerated immediately:
+
+```
+python3 src/export_content_batch.py outputs/drafts/content-batch-[YYYY-MM-DD]/
+```
+
+This produces `content-batch-summary-[YYYYMMDD].xlsx` in the same folder. The spreadsheet is the primary handoff artifact and must always reflect the current state of the markdown drafts. Never leave the xlsx out of sync.
+
 ## Capable Wealth Palette (Exclusive)
 
 #243A4B (Deep Muted Blue), #5F7483 (Blue Slate), #B08D57 (Antique Gold), #F6F7F5 (Off-White), #1E2428 (Charcoal), #9AA3A8 (Warm Gray)
