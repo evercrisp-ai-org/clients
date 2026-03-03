@@ -1,11 +1,12 @@
-# Your Q1 Revenue Is In. Here's the One Number That Matters More Than Collections.
+# Before Q1 Closes: The One Number That Matters More Than Collections
 
 ## Post Metadata
 - **Type:** Blog Post
-- **Week:** Week 4 (March 23–29)
+- **Week:** Week 4 (March 16–22)
 - **Theme:** The number that matters more than collections
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 4, Anchor
 - **Strategic context:** This is the capstone piece of the Q1 Financial Health Check arc. Weeks 1 through 3 laid the foundation: entity structure, S-Corp salary optimization, and the impact of reimbursement cuts. Week 4 brings it all together with a single unifying metric, the surgeon effective hourly rate, that captures the cumulative effect of every structural decision. It gives surgeons a concrete number to track and a reason to revisit every topic covered this quarter.
+- **Story classifications used:** [ILLUSTRATIVE] — surgeon effective hourly rate scenario ($2.4M practice, "Dr. A"); [GENERAL-PRINCIPLE] — five components framework, structural improvement model
 
 ---
 ## Visual Assets
@@ -26,17 +27,17 @@
 
 ---
 
-Last Tuesday I sat across from a surgeon (let's call him Dr. M) who had just finished reviewing his Q1 practice numbers. Collections were strong. In fact, they were up 4% over the same quarter last year. He was genuinely pleased, and he should have been. Running a busy orthopedic practice and growing collections in an environment of tightening reimbursements is no small thing.
+Let's build a hypothetical profile for a surgeon we'll call Dr. A. He's pulling together his year-to-date practice numbers. Collections are tracking strong. In fact, they're up 4% over the same period last year. He's genuinely pleased, and he should be. Running a busy orthopedic practice and growing collections in an environment of tightening reimbursements is no small thing.
 
-Then I asked him a question he hadn't considered.
+But here's a question he hasn't considered.
 
 "What's your effective hourly rate?"
 
-He paused. He knew his collections. He knew his overhead percentage (roughly). He had a general sense of his tax burden. But he had never pulled those numbers together into a single figure that captured what he actually keeps for every hour of clinical work.
+He knows his collections. He knows his overhead percentage (roughly). He has a general sense of his tax burden. But he's never pulled those numbers together into a single figure that captures what he actually keeps for every hour of clinical work.
 
-We spent the next twenty minutes doing the math. And when we arrived at the number, the room got quiet.
+Here's how the math works for a surgeon in this position. When you run the calculation, the result is sobering.
 
-His collections said $2.4 million. His effective hourly rate said $185.
+His collections say $2.4 million. His effective hourly rate says $185.
 
 ## Why Collections Lie to You
 
@@ -54,7 +55,7 @@ Your effective hourly rate is what remains after five forces act on your collect
 
 **1. Gross Collections**
 
-This is the starting point. For our example, we'll use $2.4 million annually, which sits in the range I see most often among mid-career orthopedic practice owners.
+This is the starting point. For our example, we'll use $2.4 million annually, which sits in the typical range for mid-career orthopedic practice owners.
 
 **2. Practice Overhead**
 
@@ -100,7 +101,7 @@ The counterintuitive insight: the surgeon who improves structure by 5% often gai
 
 ## The Same Practice, Restructured
 
-Let's take Dr. M's $2.4 million practice and apply the structural improvements from the first three weeks of this series.
+Let's take Dr. A's $2.4 million practice and apply the structural improvements from the first three weeks of this series.
 
 Overhead drops from 55% to 52% through a vendor contract renegotiation and a billing audit that recovered underpayments. That's $1.248 million in overhead instead of $1.32 million. The surgeon's pre-tax share rises to $1.152 million.
 
@@ -114,13 +115,13 @@ Divide by the same 2,600 clinical hours, and the effective hourly rate rises fro
 
 That's a $30 per hour difference. Over 2,600 hours, it's $78,000 per year. Over ten years, assuming even modest investment returns on the difference, it's well north of a million dollars.
 
-And here's what matters most: Dr. M didn't work a single additional hour to capture that $78,000. He didn't add cases. He didn't take on more call. He didn't negotiate higher reimbursements (though he should explore that, too). The improvement came entirely from how the money flowed after he earned it.
+And here's what matters most: Dr. A didn't work a single additional hour to capture that $78,000. He didn't add cases. He didn't take on more call. He didn't negotiate higher reimbursements (though he should explore that, too). The improvement came entirely from how the money flowed after he earned it.
 
 ## Your Q1 Checkpoint
 
-Q1 data is in, or close to it. You have three months of real numbers to work with. Here's what I'd encourage you to do this week.
+Q1 closes at the end of March. In two weeks, you'll have three months of real numbers to work with. Here's the framework I'd encourage you to have ready so you can run the calculation the moment that data is available.
 
-**Step 1: Pull your Q1 collections.** Your billing department or practice management software has this number. Write it down.
+**Step 1: Pull your Q1 collections.** Your billing department or practice management software will have this number as soon as the quarter closes. Write it down.
 
 **Step 2: Calculate your annualized overhead rate.** Take Q1 operating expenses, multiply by four, and divide by your annualized collections. If you're above 55%, there's almost certainly room to tighten.
 
@@ -134,11 +135,11 @@ Now compare it to last year. Is it higher or lower? If it's lower, and your coll
 
 ## The Number That Changes the Conversation
 
-I started tracking effective hourly rates with my surgeon clients about four years ago. What struck me was how often the conversation changed once they saw it.
+As a CFP who focuses on complex planning for high-income professionals, one thing stands out about the effective hourly rate: it changes the conversation.
 
-Before the calculation, the questions were always about the top line. "How do I collect more?" "Should I add another surgery day?" "Can I renegotiate my payer contracts?"
+Before running this calculation, the questions tend to be about the top line. "How do I collect more?" "Should I add another surgery day?" "Can I renegotiate my payer contracts?"
 
-Those are good questions. But after seeing their effective hourly rate, the questions shifted. "Where is the money going between collections and my bank account?" "Which of those buckets can I actually shrink?" "Am I structured the way I should be?"
+Those are good questions. But after seeing the effective hourly rate, the questions shift. "Where is the money going between collections and my bank account?" "Which of those buckets can I actually shrink?" "Am I structured the way I should be?"
 
 The second set of questions is where the real leverage lives.
 
@@ -174,7 +175,7 @@ Capably Yours, Jared
 
 ### Relevance Validation
 - [x] All facts, figures, and legal references are current as of publication date (2026 contribution limits, S-Corp and cash balance plan structures)
-- [x] Content is appropriately timed relative to the annual calendar (Q1 close, time to review first-quarter results before Q2 planning)
+- [x] Content is appropriately timed relative to the annual calendar (mid-March, giving surgeons the framework before Q1 closes so they're ready to run the numbers immediately)
 - [x] No conflicting current events that would undermine the message
 - [x] Relevance Score is Green
 
@@ -193,3 +194,15 @@ Capably Yours, Jared
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

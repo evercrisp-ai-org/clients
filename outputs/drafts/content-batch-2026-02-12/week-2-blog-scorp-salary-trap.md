@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Blog Post
-- **Week:** Week 2 (March 9–15)
+- **Week:** Week 2 (March 2–8)
 - **Theme:** S-Corp Salary Optimization
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 2, Anchor
 - **Strategic context:** Zooms into the first structural gap from Week 1 (S-Corp salary misalignment) and provides the full decision framework. This is the anchor piece for Week 2. Builds on the "understructured" thesis by showing how one number, the reasonable compensation, interacts with three financial variables. All Week 2 social content distills or extends this analysis. Sets up Week 3's pivot to the CMS reimbursement cut.
+- **Story classifications used:** [ILLUSTRATIVE] — surgeon S-Corp salary optimization scenario ($745K income, $300K vs $360K salary); [GENERAL-PRINCIPLE] — three-variable framework for S-Corp salary decisions
 
 ---
 ## Visual Assets
@@ -28,7 +29,7 @@
 
 "Keep your salary as low as possible."
 
-That's what a surgeon told me his CPA had recommended when they set up his S-Corp. And honestly? It's advice I hear repeated so often it's become orthodoxy. Lower salary means lower payroll taxes. Simple. Case closed.
+That's the standard CPA advice when setting up an S-Corp for a surgeon. And honestly? It's so widely repeated it's become orthodoxy. Lower salary means lower payroll taxes. Simple. Case closed.
 
 Except it's not that simple. Not at $745K in practice income. And not when three financial variables (not one) are all fighting for control of that single number.
 
@@ -54,11 +55,11 @@ Here's what's actually happening when you set your S-Corp salary:
 
 These three variables interact. Optimizing for one while ignoring the other two is like adjusting one leg of a three-legged stool.
 
-## The Math That Changed My Client's Mind
+## The Math That Changes the Equation
 
-Let me show you what this looks like for a real scenario.
+Here's how the math works for a surgeon in this position.
 
-A surgeon. $745K in total practice income. Two options:
+Consider a surgeon with $745K in total practice income. Two options:
 
 **Scenario A: Salary set at $300K (the "low" default)**
 - Payroll tax savings: strong
@@ -142,3 +143,15 @@ Jared
 - [x] Text on images (if any) specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

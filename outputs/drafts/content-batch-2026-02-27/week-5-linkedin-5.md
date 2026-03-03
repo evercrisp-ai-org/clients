@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** LinkedIn Post
-- **Week:** Week 5 (March 30 – April 5)
+- **Week:** Week 5 (March 23–29)
 - **Theme:** Your tax return is a diagnostic report
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 5, LinkedIn 5
 - **Strategic context:** Month-closing synthesis that bookends the transition from March's structural diagnosis arc to April's post-filing interpretation. Connects every prior week's insight (entity design, S-Corp salary, reimbursement pressure, effective hourly rate) to the tax return as the single validating document, reinforcing the cumulative argument built across the entire March content arc.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — month synthesis connecting four structural concepts (entity, salary, reimbursement, hourly rate) to tax return as validating document
 
 ---
 ## Visual Assets
@@ -78,3 +79,15 @@ Have you looked at yours with fresh eyes?
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 1 (March 2–8)
+- **Week:** Week 1 (February 23 – March 1)
 - **Theme:** Tax Structure Optimization
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 1, Facebook 2
 - **Strategic context:** Lighter, story-driven companion to Facebook 1. Adapts the client narrative from LinkedIn 2 (the surgeon leaving $130K/year on the table) into a warmer, more personal retelling focused on the human moment of realization rather than the full diagnostic. Extends the week's structural awareness theme through storytelling rather than argument.
+- **Story classifications used:** [ILLUSTRATIVE] — surgeon leaving $130K/year on the table due to uncoordinated structure
 
 ---
 ## Visual Assets
@@ -19,15 +20,15 @@
 
 ---
 
-I sat down with a surgeon last month to review his full financial picture. Great practice. Strong income. Good CPA.
+Let's walk through what this looks like for a surgeon with a great practice, strong income, and a good CPA.
 
-And he was leaving $130K on the table. Every single year.
+And he's leaving $130K on the table. Every single year.
 
-Not because of bad decisions. Because his entity structure, his retirement plan setup, and his real estate depreciation strategy hadn't been reviewed as a coordinated whole in over six years.
+Not because of bad decisions. Because the entity structure, retirement plan setup, and real estate depreciation strategy haven't been reviewed as a coordinated whole in over six years.
 
-The fix took about three months. The hard part wasn't the fix.
+A fix like this typically takes about three months. The hard part isn't the fix.
 
-The hard part? Nobody had ever looked.
+The hard part? Nobody ever looks.
 
 If it's been a while since someone looked at your entire financial structure together (not just your tax return, but the structure underneath it), that conversation might be worth having this quarter.
 
@@ -72,3 +73,15 @@ If it's been a while since someone looked at your entire financial structure tog
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

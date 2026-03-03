@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** LinkedIn Post
-- **Week:** Week 5 (March 30 – April 5)
+- **Week:** Week 5 (March 23–29)
 - **Theme:** Your tax return is a diagnostic report
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 5, LinkedIn 2
 - **Strategic context:** Isolates the most visceral diagnostic marker from the anchor's four-line framework: the retirement contribution gap. Lets the numbers speak directly and positions the tax return as the document that exposes how much tax-sheltered capacity a surgeon is leaving unused every year.
+- **Story classifications used:** [ILLUSTRATIVE] — surgeon with $31K retirement contributions vs. $203K available capacity; [GENERAL-PRINCIPLE] — retirement plan architecture layers for S-Corp surgeons
 
 ---
 ## Visual Assets
@@ -25,7 +26,7 @@ Here is what that gap looks like in practice.
 
 A 401(k) with catch-up contributions for a surgeon over 50 allows $32,500 annually. Add a profit-sharing layer through an S-Corp, and you reach roughly $70,000. Layer in a cash balance plan, and the total available capacity can push past $200,000 in a single year, all tax-deferred.
 
-Most surgeons I see are using the 401(k) only. Some are maxing the employee contribution. Very few are using the profit-sharing component at all. Almost none have a cash balance plan in place.
+Most surgeons at this income level are using the 401(k) only. Some are maxing the employee contribution. Very few are using the profit-sharing component at all. Almost none have a cash balance plan in place.
 
 The result shows up on one line of the return: retirement plan contributions. And when that line reads $31,000 instead of $203,000, you are looking at the single largest structural gap in most surgical practices.
 
@@ -76,3 +77,15 @@ What does your retirement contribution line say?
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

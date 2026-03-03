@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 3 (March 16–22)
+- **Week:** Week 3 (March 9–15)
 - **Theme:** Reimbursement Shift and Practice Wealth
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 3, Facebook 1
 - **Strategic context:** Anchors the Facebook conversation for the week by naming the emotional reality of incremental reimbursement cuts before introducing the conceptual shift. More empathetic and less analytical than the blog or LinkedIn versions. No math. Designed for early-week engagement (Monday/Tuesday publish) to prime the audience for deeper posts later in the week.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — structural response vs. volume response to reimbursement pressure
 
 ---
 ## Visual Assets
@@ -19,7 +20,7 @@
 
 ---
 
-I keep hearing from surgeons that the CMS reimbursement cuts feel like death by a thousand cuts.
+The CMS reimbursement cuts feel like death by a thousand cuts.
 
 They're not wrong.
 
@@ -27,7 +28,7 @@ Every year, the per-procedure number gets a little smaller. And every year, the 
 
 I understand why that feels like the answer. It's action. It's tangible. It looks like progress on a spreadsheet.
 
-But here's what I've noticed, working alongside surgeon-owned practices for years. The ones who respond to reimbursement pressure by adding volume end up running faster on the same treadmill. And the ones who pause, look at how their practice income actually flows, and tighten the system? They recover more, keep more, and spend fewer hours in the OR doing it.
+But here's the structural pattern. The practices that respond to reimbursement pressure by adding volume end up running faster on the same treadmill. And the ones that pause, look at how practice income actually flows, and tighten the system? They recover more, keep more, and the surgeons spend fewer hours in the OR doing it.
 
 The difference isn't how much revenue comes in. It's what happens to that revenue between the point where the practice collects it and the point where it reaches you.
 
@@ -38,7 +39,7 @@ If that distinction feels worth exploring, we wrote something this week that wal
 ## Quality Checklist
 
 ### Voice Alignment
-- [x] Opens with a story, conversation, or specific scenario (hearing from surgeons about reimbursement frustration)
+- [x] Opens with a story, conversation, or specific scenario (naming the emotional reality of incremental reimbursement cuts)
 - [x] Contains at least one contrarian reframe or myth-bust (volume response is least efficient; focus on income flow, not income amount)
 - [x] Uses direct "you" address throughout
 - [x] Reads like a conversation with a trusted advisor, not a brochure or sales piece
@@ -74,3 +75,15 @@ If that distinction feels worth exploring, we wrote something this week that wal
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

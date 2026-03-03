@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Blog Post
-- **Week:** Week 6 (April 6–12)
+- **Week:** Week 6 (March 30 – April 5)
 - **Theme:** The April 15 trifecta — filing, estimated taxes, and the Roth question
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 6, Anchor
-- **Strategic context:** Arrives in the week before April 15 when surgeons are deciding whether to fund prior-year IRA contributions. Challenges the reflexive "always do a backdoor Roth" habit by showing how OBBBA's permanent 37% rate changes the Roth vs. traditional calculus. Extends the April interpretation arc by turning the April 15 deadline from a single event into a three-decision framework. Builds on Week 5's "return as diagnostic" message by showing how the findings lead to specific, time-sensitive decisions.
+- **Strategic context:** Arrives in the two weeks before April 15 when surgeons are deciding whether to fund prior-year IRA contributions. Challenges the reflexive "always do a backdoor Roth" habit by showing how OBBBA's permanent 37% rate changes the Roth vs. traditional calculus. Extends the April interpretation arc by turning the April 15 deadline from a single event into a three-decision framework. Builds on Week 5's "return as diagnostic" message by showing how the findings lead to specific, time-sensitive decisions.
+- **Story classifications used:** [ILLUSTRATIVE] — surgeon considering backdoor Roth autopilot decision; [GENERAL-PRINCIPLE] — Roth vs. traditional/cash balance tax analysis, decision tree framework
 
 ---
 ## Visual Assets
@@ -26,15 +27,15 @@
 
 ---
 
-Last week I had a conversation with a surgeon (let's call her Dr. K) that I've had, in some variation, at least a dozen times every April.
+Here's a conversation that plays out in planning offices across the country every April.
 
-She had just come out of a meeting with her CPA, return filed, Q1 estimated payment calculated. Then she asked the question I was expecting: "Should I go ahead and fund my backdoor Roth before the fifteenth? I do it every year."
+A surgeon sits down with her advisor after meeting with her CPA. Return filed, Q1 estimated payment calculated. Then comes the question: "Should I go ahead and fund my backdoor Roth before the fifteenth? I do it every year."
 
-I asked her a question back. "Why?"
+The advisor asks: "Why?"
 
-She paused. "Because I've always done it. My old advisor told me years ago to do a backdoor Roth every year, and I never stopped."
+A pause. "Because I've always done it. My old advisor told me years ago to do a backdoor Roth every year, and I never stopped."
 
-That answer, the autopilot answer, is the one I hear most often. And for years, it was perfectly reasonable advice. But the tax landscape shifted in 2025, and a lot of surgeons haven't updated their thinking to match.
+That autopilot answer is remarkably common. And for years, it was perfectly reasonable advice. But the tax landscape shifted in 2025, and a lot of surgeons haven't updated their thinking to match.
 
 ## The Assumption That Stopped Being Automatic
 
@@ -52,7 +53,7 @@ Rather than defaulting to "always do the Roth," the better approach is to walk t
 
 **Branch 1: Roth still makes sense.** If your current marginal rate is relatively low (maybe you're in a transition year with lower income, or you're early in practice and not yet at peak earnings), and you expect your retirement income to be higher than it is today, or estate planning is a top priority (Roth IRAs have no required minimum distributions and pass tax-free to heirs under the current $15 million per person estate exemption), then funding the Roth remains a strong move. The tax-free growth and flexible withdrawal rules are genuinely powerful tools in estate and legacy planning.
 
-**Branch 2: Traditional and cash balance contributions win.** This is where Dr. K landed. She's 55, earning north of $1.2 million, paying a combined federal and state rate of 42%. She plans to retire at 62 and move from a state with a 5% income tax to one with no income tax. Her expected retirement withdrawal rate will place her around 24% federal.
+**Branch 2: Traditional and cash balance contributions win.** Consider a surgeon in this position. She's 55, earning north of $1.2 million, paying a combined federal and state rate of 42%. She plans to retire at 62 and move from a state with a 5% income tax to one with no income tax. Her expected retirement withdrawal rate will place her around 24% federal.
 
 At 42% now versus 24% later, every dollar she converts to a Roth is taxed at nearly double the rate she'd pay in retirement. The backdoor Roth contribution of $7,500 has already been taxed at 42% on the way in. The growth is tax-free, yes. But on the contribution itself, there's no tax arbitrage. She's paying the high rate and gaining nothing on the principal.
 
@@ -82,7 +83,7 @@ The point is that the decision should follow the data. Not the calendar. Not the
 
 ## Why This Matters Beyond April
 
-There's a deeper principle here that extends well past the filing deadline. The surgeons I work with who build the most durable wealth are the ones who resist autopilot. They question assumptions, even comfortable ones. They update their strategies when the rules change. They treat every financial decision with the same rigor they bring to a complex surgical case: evaluate the current data, consider the alternatives, choose deliberately.
+There's a deeper principle here that extends well past the filing deadline. The surgeons who build the most durable wealth are the ones who resist autopilot. They question assumptions, even comfortable ones. They update their strategies when the rules change. They treat every financial decision with the same rigor they bring to a complex surgical case: evaluate the current data, consider the alternatives, choose deliberately.
 
 A backdoor Roth is a fine tool. But a tool used reflexively, without evaluating whether it's the right tool for the current situation, isn't strategy. It's routine. And routine, in the operating room or on the balance sheet, is where outcomes quietly erode.
 
@@ -97,7 +98,7 @@ Capably Yours, Jared
 ## Quality Checklist
 
 ### Voice Alignment
-- [x] Opens with a story, conversation, or specific scenario (April conversation with Dr. K about her annual backdoor Roth)
+- [x] Opens with a story, conversation, or specific scenario (illustrative April conversation about reflexive backdoor Roth funding)
 - [x] Contains at least one contrarian reframe or myth-bust (challenges the reflexive "always do a backdoor Roth" habit; reframes the permanent 37% rate as changing the Roth calculus)
 - [x] Uses direct "you" address throughout
 - [x] Reads like a conversation with a trusted advisor, not a brochure or sales piece
@@ -114,7 +115,7 @@ Capably Yours, Jared
 
 ### Relevance Validation
 - [x] All facts, figures, and legal references are current as of publication date (2026 IRA limits $7,500/$8,600, 37% permanent under OBBBA, $15M/$30M estate exemption, April 15 prior-year contribution deadline)
-- [x] Content is appropriately timed relative to the annual calendar (week before April 15, prior-year IRA contribution deadline, Q1 estimated tax payment due)
+- [x] Content is appropriately timed relative to the annual calendar (two weeks before April 15, prior-year IRA contribution deadline, Q1 estimated tax payment due)
 - [x] No conflicting current events that would undermine the message
 - [x] Relevance Score is Green
 
@@ -133,3 +134,15 @@ Capably Yours, Jared
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

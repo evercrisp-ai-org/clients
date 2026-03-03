@@ -8,31 +8,38 @@ alwaysApply: false
 
 ## Weekly Content Volume (Non-Negotiable)
 
-Every week in a production batch must contain exactly 12 pieces:
+Every week in a production batch must contain exactly 12 core pieces, plus 2-5 derivative clips:
 
 | Channel | Pieces per Week | Format |
 |---------|----------------|--------|
 | Anchor blog post | 1 | Long-form article, signs off "Capably Yours, Jared" |
-| Podcast script | 1 | Solo episode (max 25 min), also distributed as YouTube video |
+| Video podcast script | 1 | Solo episode (max 25 min), recorded as video podcast, uploaded to YouTube + podcast platforms |
+| Short-form clips | 2-5 (from podcast) | Extracted from podcast; vertical video for YouTube Shorts + Instagram Reels |
 | LinkedIn posts | 5 | Professional insight posts, no sign-off |
 | Facebook posts | 5 | Warmer/personal tone, no sign-off |
+
+Clips are derivative content, not net-new creation. They are identified during script writing via the Clip Extraction Map and produced from the recorded podcast episode. The clip count varies organically: only extract where a segment naturally stands alone. Do not force clips to hit a number.
 
 ## File Naming Convention
 
 ```
 week-N-blog-slug.md
 week-N-podcast-slug.md
+week-N-clip-1.md through week-N-clip-5.md
 week-N-linkedin-1.md through week-N-linkedin-5.md
 week-N-facebook-1.md through week-N-facebook-5.md
 ```
 
+Clip files are created after the podcast script is finalized. Each clip file contains the trimmed script, caption text, platform tags, and a cover frame visual asset brief. The podcast draft file contains the Clip Extraction Map (planning stage); the individual clip files are the production-ready output.
+
 ## File Template (All Content Types)
 
 1. **Title** (H1)
-2. **Post Metadata** -- Type, Week, Theme, Quarterly plan reference, Strategic context
+2. **Post Metadata** -- Type, Week, Theme, Quarterly plan reference, Strategic context, **Story classifications used**
 3. **Visual Assets** -- Image type, Rationale, AI image prompt (9-point standard, Capable Wealth palette only), Text overlay, Platform/dimensions
-4. **Full content draft** -- Jared's voice per voice-profile.md and content-recipe.md
-5. **Quality Checklist** -- Voice Alignment, Audience Specificity, Relevance Validation, Pull Signal Design, Visual Assets
+4. **Clip Extraction Map** (video podcast scripts only) -- 2-5 clip candidates with source segment, hook line, core insight, platform tags, estimated duration
+5. **Full content draft** -- Jared's voice per voice-profile.md and content-recipe.md, all stories/examples classified per content-integrity rule
+6. **Quality Checklist** -- Voice Alignment, Audience Specificity, Relevance Validation, Pull Signal Design, Visual Assets, **Content Integrity**, **Short-Form Clips** (podcast only)
 
 ## Image Type Variety (Non-Negotiable)
 
@@ -56,19 +63,51 @@ Hard rules:
 
 See content-recipe.md Section 10 "Weekly Image Type Distribution" for full guidance and example prompts (Examples D and E).
 
-## Podcast Script Structure
+## Video Podcast Script Structure
 
-Podcast scripts replace the old YouTube script format. Structure:
+Recorded as a video podcast and uploaded to YouTube. Audio is also distributed to podcast platforms (Apple Podcasts, Spotify). Audio must stand alone; the video version is a different consumption angle of the same content.
+
+Structure:
 
 - **COLD OPEN** (30-60s) -- Hook that pulls the listener in immediately
 - **INTRO AND CONTEXT** (1-2 min) -- Set the stakes, why this matters now
-- **MAIN SEGMENTS** (3-5 segments, each 3-5 min) -- Core teaching, math examples, frameworks
+- **MAIN SEGMENTS** (3-5 segments, each 3-5 min) -- Core teaching, math examples, frameworks. Annotate with `[CLIP-CANDIDATE]` where a moment could stand alone as a short-form clip.
 - **LISTENER TAKEAWAY** (1-2 min) -- Actionable summary, one thing to do this week
 - **PHILOSOPHICAL CLOSE** (1-2 min) -- Connect to bigger life principles
 
-Tone: Conversational, exploratory, Jared thinking out loud with the listener. More depth and nuance than blog. Audio must stand alone; video version is a different consumption angle.
+Tone: Conversational, exploratory, Jared thinking out loud with the listener. More depth and nuance than blog.
 
 Visual asset: Podcast cover art card (1400x1400 for podcast feeds, 1280x720 variant for YouTube thumbnail).
+
+## Clip Extraction (from Video Podcast)
+
+Every video podcast script includes a Clip Extraction Map identifying 2-5 segments that can be extracted as standalone short-form clips for YouTube Shorts and Instagram Reels.
+
+Clip identification rules:
+
+- Minimum 2 clips per episode, maximum 5
+- Only extract where a segment naturally stands alone (no forced clips)
+- Each clip must make sense without any context from the rest of the episode
+- Each clip must have a clear hook in the first 3 seconds
+- Each clip must end with a clean takeaway or curiosity beat, never mid-sentence
+- Tag each clip: `[YT-SHORT]`, `[IG-REEL]`, or `[BOTH]`
+
+What to look for when marking `[CLIP-CANDIDATE]` during script writing:
+
+- A striking math reveal or data point that shocks on its own
+- A contrarian take or myth-bust that needs no setup
+- A self-contained explanation or framework
+- A vivid metaphor or analogy that lands immediately
+- A direct, actionable recommendation
+
+Platform-specific guidance:
+
+| Platform | Target Duration | Format | Pacing |
+|----------|----------------|--------|--------|
+| YouTube Shorts | 45-58 seconds | 9:16 vertical, 1080x1920px | Punchier, faster; end with curiosity driver to full episode |
+| Instagram Reels | 60-90 seconds | 9:16 vertical, 1080x1920px | Slightly more breathing room; can include text overlays |
+
+Both platforms: captions required (most viewers watch muted), keep critical content within center 4:5 safe zone (platform UI overlays top/bottom 10%).
 
 ## Social Post Expansion
 
@@ -87,6 +126,18 @@ python3 src/export_content_batch.py outputs/drafts/content-batch-[YYYY-MM-DD]/
 ```
 
 This produces `content-batch-summary-[YYYYMMDD].xlsx` in the same folder. The spreadsheet is the primary handoff artifact and must always reflect the current state of the markdown drafts. Never leave the xlsx out of sync.
+
+## Content Integrity (Non-Negotiable)
+
+Before drafting any content, read `brand/experience-inventory.md`. All client stories, experience claims, and case studies must comply with the content integrity rule (`.cursor/rules/content-integrity.mdc`) and content-recipe.md Section 5.1.
+
+Key requirements:
+
+- Every client story must be classified as `[REAL-ANONYMIZED]`, `[ILLUSTRATIVE]`, or `[GENERAL-PRINCIPLE]`
+- Classifications must be listed in Post Metadata under "Story classifications used"
+- Illustrative examples must use approved framing language; never imply a real client interaction that isn't sourced from the experience inventory
+- The Content Integrity checklist (see content-recipe.md Section 13) must appear in every draft's Quality Checklist and all items must pass
+- If the experience inventory is unpopulated, all stories default to `[ILLUSTRATIVE]` with appropriate framing
 
 ## Capable Wealth Palette (Exclusive)
 

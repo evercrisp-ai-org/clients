@@ -1,0 +1,156 @@
+---
+description: Content integrity standards for Capable Wealth. Enforces accuracy, compliance, and honest framing in all content by requiring story classification, prohibiting fabricated claims, and mandating cross-reference against the experience inventory.
+globs: outputs/drafts/**/*.md
+alwaysApply: false
+---
+
+# Content Integrity Standards
+
+Every piece of Capable Wealth content must be true, compliant, and resonant. This rule governs the accuracy and honesty of all claims, stories, and examples. It works alongside the voice profile and content recipe, not against them. The goal is compelling content grounded in reality.
+
+**Mandatory reference before drafting:** Read `brand/experience-inventory.md` before writing any content. Every client story, experience claim, and authority statement must be traceable to that document.
+
+## Story Classification System
+
+Every client story, case study, or example in any piece of content must carry one of three classifications. The classification appears in the Post Metadata section under a field called `Story classifications used`.
+
+### [REAL-ANONYMIZED]
+
+A story based on a verified entry in `brand/experience-inventory.md` Section 4 (Verified Stories). Details have been changed to protect client privacy.
+
+**Requirements:**
+- Must trace to a specific numbered story in the experience inventory
+- Details (income, industry, dollar amounts, timelines) may be adjusted for anonymization but must remain proportionally realistic
+- May use natural temporal references ("last month," "recently") only if the real engagement timeframe supports it
+- May use phrases like "a client I work with," "someone I advise," or "in my practice" because the story is real
+
+### [ILLUSTRATIVE]
+
+A constructed example using realistic but hypothetical numbers to demonstrate a financial concept. The scenario is plausible but did not happen.
+
+**Requirements:**
+- Must be framed with language that signals the example is hypothetical or illustrative
+- Approved framing: "Consider a surgeon earning..." / "Here's how this might look for a practice owner..." / "Let's walk through a scenario..." / "Imagine a surgeon in this position..." / "A common pattern I study in practice structures like these..."
+- Must NOT use language that implies a real advisory relationship: no "I reviewed," "I sat down with," "a client told me," "when I looked at her return," or similar
+- Must NOT use specific temporal references implying recent real work: no "last Tuesday," "last week," "last month," "earlier this year," "a few weeks ago"
+- Must NOT assign pseudonyms that suggest a real person: no "Dr. K," "Dr. M," "let's call him..." unless clearly introduced as a hypothetical character ("Let's call our hypothetical surgeon Dr. A")
+
+### [GENERAL-PRINCIPLE]
+
+A statement of financial principle, planning strategy, or industry observation without a specific client narrative attached.
+
+**Requirements:**
+- Frame as expertise-based authority: "As a CFP," "The planning opportunity here is," "This strategy works because," "The data shows," "In orthopedic practice economics..."
+- Does not require an experience inventory reference because no specific client claim is being made
+- May reference published data, industry statistics, tax code, or regulation directly
+
+## Prohibited Patterns
+
+These patterns are banned in all content unless the specific exception noted applies.
+
+### Fabricated temporal references
+Phrases like "last Tuesday," "last week," "a few weeks ago," "earlier this year," "I just got off a call with" that imply a recent real client interaction.
+
+**Exception:** Permitted only in `[REAL-ANONYMIZED]` stories where the experience inventory confirms a real engagement in that approximate timeframe.
+
+### Fabricated relationship duration claims
+Phrases like "a surgeon I've worked with for five years," "in my years working with orthopedic practices," "I've been tracking this with my surgeon clients for four years."
+
+**Exception:** Permitted only when the experience inventory (Section 3) confirms the claimed duration and client type.
+
+### Fabricated pseudonymous characters
+Assigning names ("Dr. K," "Dr. M") or identity markers ("a 52-year-old orthopedic surgeon in a mid-size metro") specific enough to imply a real person, when no corresponding verified story exists.
+
+**Exception:** Permitted in `[REAL-ANONYMIZED]` stories sourced from the experience inventory. Also permitted in `[ILLUSTRATIVE]` examples if explicitly introduced as hypothetical ("Let's build a hypothetical profile").
+
+### Unverified experience-pattern claims
+Phrases like "in my experience working with surgeon-owned practices," "more than half the surgeon clients I work with," "I see this fairly often in first meetings with surgeon clients," "I started tracking this with my clients about four years ago."
+
+**Exception:** Permitted only when the experience inventory (Sections 3 and 5-Practiced) confirms the claimed pattern with sufficient client volume to support it.
+
+### Fabricated "quality checklist" passes
+Checking off "Relevance Score is Green" or "All facts and figures are current" without actually validating the claims against the experience inventory. The Content Integrity checklist items (below) must reflect honest assessment.
+
+## Approved Alternative Framing
+
+When the experience inventory does not support a real-client claim, use these patterns instead. They preserve Jared's warm, authoritative voice while being honest about the source of the insight.
+
+### For illustrative examples (no real client story available)
+
+- "Consider a surgeon earning $820K through an S-Corp..."
+- "Here's a scenario that illustrates the gap..."
+- "Let's walk through what this looks like at surgeon-level income..."
+- "In practice structures like these, the common pattern is..."
+- "Here's how the math works for a surgeon in this position..."
+
+### For knowledge-based authority (studied, not yet practiced with this client type)
+
+- "As a CFP who focuses on complex planning for high-income professionals..."
+- "The planning opportunity for surgeons in this position is significant..."
+- "This is a structural pattern that shows up frequently in surgeon-owned practices..."
+- "The tax code creates a specific opportunity here..."
+- "When I analyze practice structures at this income level..."
+
+### For Jared's personal story (always authentic)
+
+Continue using the personal anecdotes from the voice profile and experience inventory Section 6 freely. These are real, verified, and carry the emotional authenticity that distinguishes the brand. No classification tag needed for personal stories about Jared's own life.
+
+### For industry data and research
+
+- "AAOS compensation data shows..."
+- "According to MGMA benchmarking..."
+- "The average orthopedic surgeon earns... which means..."
+- "CMS reimbursement data indicates..."
+
+No classification tag needed for sourced industry data, but cite the source.
+
+## Compliance Guardrails
+
+These apply to all content regardless of story classification.
+
+1. **No implied guarantees.** Do not suggest that a specific dollar outcome is guaranteed or typical for future clients. Phrases like "I saved a surgeon $130K" are acceptable for `[REAL-ANONYMIZED]` stories. Phrases like "I can save you $130K" or "surgeons typically save $130K" are not, unless supported by a statistically valid dataset.
+
+2. **No testimonial framing.** Do not present client outcomes as if the client is endorsing the service. "A client told me this changed everything" is testimonial-adjacent. "The restructuring produced $85K in annual tax savings" is factual.
+
+3. **No misleading track record claims.** Content must not imply a longer or deeper history with a specific niche than what the experience inventory supports. If Capable Wealth is new to the surgeon niche, content should reflect that honestly (positioning as specialized expertise being applied to a new audience, not as a decade of surgeon-specific experience).
+
+4. **Forward-looking projections.** Any projection of future financial outcomes ("this could save you $X over Y years") must be framed as illustrative, not promissory. Use qualifying language: "based on current tax law," "assuming these conditions hold," "this illustrative example shows."
+
+5. **Regulatory disclaimers.** If the experience inventory Section 8 identifies specific compliance requirements (state regulations, RIA marketing rules, etc.), those constraints override all other content rules.
+
+## Content Integrity Checklist
+
+This checklist must appear in every draft's Quality Checklist section, after the existing Visual Assets checklist.
+
+```
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language
+```
+
+## Post Metadata Addition
+
+Every content draft's Post Metadata section must include this field:
+
+```
+- **Story classifications used:** [List each classification used in the piece, e.g., "[ILLUSTRATIVE] — tax structure scenario" or "[REAL-ANONYMIZED] — Story #3 from experience inventory" or "[GENERAL-PRINCIPLE] — no client narrative"]
+```
+
+## When the Inventory Is Unpopulated
+
+If `brand/experience-inventory.md` has not yet been populated from the interview guide:
+
+1. All client stories default to `[ILLUSTRATIVE]` classification
+2. All illustrative stories must use approved framing language (no real-client implications)
+3. Authority claims must use knowledge-based framing ("as a CFP," "the planning opportunity is")
+4. Personal anecdotes from the voice profile Section 6 (Jared's own life) remain available
+5. Industry data and research references remain available with proper sourcing
+6. No experience-pattern claims ("in my experience with surgeons") are permitted

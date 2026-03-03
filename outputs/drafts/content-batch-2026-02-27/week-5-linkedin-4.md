@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** LinkedIn Post
-- **Week:** Week 5 (March 30 – April 5)
+- **Week:** Week 5 (March 23–29)
 - **Theme:** Your tax return is a diagnostic report
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 5, LinkedIn 4
 - **Strategic context:** Zooms into one specific diagnostic marker from the anchor's four-line framework: the QBI deduction. Expands on the anchor's finding that QBI presence or absence reveals whether S-Corp salary calibration is correct, giving surgeons a concrete line item to find on their own returns.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — QBI deduction mechanics, S-Corp salary calibration impact on deduction eligibility
 
 ---
 ## Visual Assets
@@ -29,7 +30,7 @@ Pay yourself too much in W-2 salary relative to the practice's net income, and t
 
 The line between those two outcomes is not luck. It is structure. Specifically, it is the ratio between your W-2 salary and your total S-Corp distributions, and whether anyone has looked at that ratio since you set up the entity.
 
-I've seen surgeons with nearly identical gross incomes file returns with a $30,000 difference in QBI deductions. Same specialty, same region, same revenue range. The only variable was how the S-Corp salary had been calibrated.
+Surgeons with nearly identical gross incomes can file returns with a $30,000 difference in QBI deductions. Same specialty, same region, same revenue range. The only variable is how the S-Corp salary has been calibrated.
 
 If your return shows a QBI deduction, check whether the amount reflects your full available capacity. If it shows zero, ask why. The answer usually points to a salary calibration conversation that should have happened a year ago.
 
@@ -74,3 +75,15 @@ If your return shows a QBI deduction, check whether the amount reflects your ful
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

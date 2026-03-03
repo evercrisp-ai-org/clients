@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 6 (April 6–12)
+- **Week:** Week 6 (March 30 – April 5)
 - **Theme:** The April 15 trifecta: filing, estimated taxes, and the Roth question
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 6, Facebook 5
 - **Strategic context:** Closes the week and the pre-April 15 window with a reflective, philosophical post. Reframes the deadline from a compliance obligation to a decision point, encouraging surgeons to approach April 15 as an annual moment of financial intentionality rather than anxiety.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — April 15 as decision point reflection
 
 ---
 ## Visual Assets
@@ -19,9 +20,9 @@
 
 ---
 
-There's a particular kind of stress that builds in the days before April 15. I see it every year, even among surgeons who have everything organized, who have excellent CPAs, who are in great financial shape. The date itself carries weight.
+There's a particular kind of stress that builds in the days before April 15. It shows up even among surgeons who have everything organized, who have excellent CPAs, who are in great financial shape. The date itself carries weight.
 
-But here's something I've come to believe after years of working through this week with clients. April 15 is more useful as a decision point than as a deadline.
+But here's a perspective worth considering. April 15 is more useful as a decision point than as a deadline.
 
 A deadline asks: did you get it done? A decision point asks: are you on the right path?
 
@@ -54,7 +55,7 @@ That's the best use of the date.
 
 ### Relevance Validation
 - [x] Facts current as of publication date
-- [x] Appropriately timed (week before April 15)
+- [x] Appropriately timed (two weeks before April 15)
 - [x] No conflicting current events
 - [x] Relevance Score is Green
 
@@ -72,3 +73,15 @@ That's the best use of the date.
 - [x] No cartoons, clip art, generic stock, clickbait
 - [x] Correct palette hex codes
 - [x] Passes credibility test
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 5 (March 30 – April 5)
+- **Week:** Week 5 (March 23–29)
 - **Theme:** Your tax return is a diagnostic report
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 5, Facebook 5
 - **Strategic context:** Bridges the transition from March (diagnosis month) into April (post-filing insights month). Wraps the month's themes into one reflective takeaway and signals what's ahead. Positioned as a Friday/weekend post to close the week with a forward-looking, invitational tone.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — month-close synthesis bridging March diagnosis arc to April interpretation arc
 
 ---
 ## Visual Assets
@@ -19,7 +20,7 @@
 
 ---
 
-March was about looking at the numbers. Your effective tax rate. Your retirement contributions. Your QBI deduction. Your state tax exposure. Four lines on a return that most people file and forget.
+This month we've been looking at the numbers. Your effective tax rate. Your retirement contributions. Your QBI deduction. Your state tax exposure. Four lines on a return that most people file and forget.
 
 If you followed along this month, you've already done something most surgeons never do: you treated your tax return like a diagnostic report instead of a receipt.
 
@@ -70,3 +71,15 @@ What's one thing you noticed on your return this year that surprised you?
 - [x] No cartoons, clip art, generic stock, clickbait
 - [x] Correct palette hex codes
 - [x] Passes credibility test
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

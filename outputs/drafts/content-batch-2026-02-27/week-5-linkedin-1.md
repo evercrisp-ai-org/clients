@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** LinkedIn Post
-- **Week:** Week 5 (March 30 – April 5)
+- **Week:** Week 5 (March 23–29)
 - **Theme:** Your tax return is a diagnostic report
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 5, LinkedIn 1
-- **Strategic context:** Opens the April "Post-Filing Insights" month by reframing the tax return from a compliance document into a strategic diagnostic. Compresses the anchor blog's four-marker framework into a single, actionable LinkedIn post that positions the return as the most underread financial document a surgeon owns.
+- **Strategic context:** Leads into April's "Post-Filing Insights" month by reframing the tax return from a compliance document into a strategic diagnostic. Compresses the anchor blog's four-marker framework into a single, actionable LinkedIn post that positions the return as the most underread financial document a surgeon owns.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — four diagnostic markers framework and structural optimization opportunity at surgeon-level income
 
 ---
 ## Visual Assets
@@ -74,3 +75,15 @@ If you filed in the past two weeks, pull it back out. Look at those four lines. 
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

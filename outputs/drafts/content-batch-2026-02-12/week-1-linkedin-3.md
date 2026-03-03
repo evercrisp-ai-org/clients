@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** LinkedIn Post
-- **Week:** Week 1 (March 2–8)
+- **Week:** Week 1 (February 23 – March 1)
 - **Theme:** Tax Structure Optimization
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 1, LinkedIn 3
 - **Strategic context:** Zooms into the single highest-leverage structural gap from the anchor (the cash balance plan) and makes it the standalone hero. This is the "deep cut" post for the week, spotlighting Leak #2 from "You're Not Overtaxed. You're Understructured." as a standalone insight.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — cash balance plan contribution gap explanation (no client narrative)
 
 ---
 ## Visual Assets
@@ -37,7 +38,7 @@ The tax deferral alone saves $74K to $80K annually at a 37% federal rate.
 
 So why don't more surgeons have one?
 
-Three reasons I hear most often:
+Three reasons that come up most often:
 
 → "My CPA never mentioned it." (CPAs focus on compliance, not optimization.)
 → "I didn't know it existed." (You're not alone.)
@@ -88,3 +89,15 @@ Not next year. This year. The setup window for meaningful 2026 contributions is 
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

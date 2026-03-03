@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 3 (March 16–22)
+- **Week:** Week 3 (March 9–15)
 - **Theme:** Reimbursement Shift and Practice Wealth
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 3, Facebook 2
-- **Strategic context:** Story-driven post using an anonymized client composite to make the structural optimization argument tangible. While colleagues were working longer hours, this surgeon spent an afternoon reviewing practice overhead and recovered more than the reimbursement gap. Designed for mid-week (Wednesday) to build on the conceptual foundation laid in Facebook 1.
+- **Strategic context:** Story-driven post using an illustrative scenario to make the structural optimization argument tangible. While colleagues were working longer hours, this surgeon spent an afternoon reviewing practice overhead and recovered more than the reimbursement gap. Designed for mid-week (Wednesday) to build on the conceptual foundation laid in Facebook 1.
+- **Story classifications used:** [ILLUSTRATIVE] — surgeon finding $40K in overhead savings through practice review instead of adding volume
 
 ---
 ## Visual Assets
@@ -19,24 +20,24 @@
 
 ---
 
-I want to share a quick story (details changed for privacy, of course).
+Here's a scenario that illustrates the opportunity sitting inside most practices.
 
-A surgeon I work with came to me earlier this year, frustrated about the CMS reimbursement cut. Several of his partners and colleagues were already planning to add cases to their schedules. One was talking about picking up extra half-days every other week. Another was considering expanding into a new procedure just to fill the revenue gap.
+A surgeon hears about the CMS reimbursement cut. Several of his partners and colleagues are already planning to add cases to their schedules. One is talking about picking up extra half-days every other week. Another is considering expanding into a new procedure just to fill the revenue gap.
 
-This surgeon didn't do any of that. Instead, he blocked out a Tuesday afternoon, sat down with his practice administrator, and pulled three reports: supply costs per procedure, staffing ratios, and their vendor contracts.
+But instead of adding volume, this surgeon blocks out a Tuesday afternoon, sits down with his practice administrator, and pulls three reports: supply costs per procedure, staffing ratios, and vendor contracts.
 
-What they found surprised them both. Two of their implant vendors hadn't been rebid in over four years. Their staffing ratio was running a full position above the MGMA benchmark for their practice size. And they were paying for a software subscription that had been auto-renewing since 2021 for a system they'd stopped using in 2023.
+What they find surprises them both. Two implant vendors haven't been rebid in over four years. The staffing ratio is running a full position above the MGMA benchmark for their practice size. And they're paying for a software subscription that has been auto-renewing since 2021 for a system they stopped using in 2023.
 
-Total savings once they made the adjustments? Just over $40,000 a year. More than the entire reimbursement gap, recovered without a single extra case, a single extra OR hour, or a single extra ounce of fatigue.
+Total savings once they make the adjustments? Just over $40,000 a year. More than the entire reimbursement gap, recovered without a single extra case, a single extra OR hour, or a single extra ounce of fatigue.
 
-His colleagues are working more. He's working the same amount and keeping more. That difference compounds every single year.
+The colleagues are working more. This surgeon is working the same amount and keeping more. That difference compounds every single year.
 
 ---
 
 ## Quality Checklist
 
 ### Voice Alignment
-- [x] Opens with a story, conversation, or specific scenario (anonymized client story about finding overhead savings)
+- [x] Opens with a story, conversation, or specific scenario (illustrative scenario about finding overhead savings)
 - [x] Contains at least one contrarian reframe or myth-bust (colleagues working more while this surgeon reviewed overhead and came out ahead)
 - [x] Uses direct "you" address where appropriate (primarily third-person story with implicit reader connection)
 - [x] Reads like a conversation with a trusted advisor, not a brochure or sales piece
@@ -72,3 +73,15 @@ His colleagues are working more. He's working the same amount and keeping more. 
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

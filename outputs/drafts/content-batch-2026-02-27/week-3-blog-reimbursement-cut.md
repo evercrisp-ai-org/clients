@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Blog Post
-- **Week:** Week 3 (March 16–22)
+- **Week:** Week 3 (March 9–15)
 - **Theme:** The reimbursement shift and what it means for your wealth
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 3, Anchor
 - **Strategic context:** Pivots the Q2 arc from internal structural gaps (Weeks 1–2: entity structure, S-Corp salary) to external revenue pressure. The CMS 2.5% reimbursement cut has been active since January 1, and surgeons are now feeling it in their Q1 numbers. This piece frames the reimbursement reduction as a financial planning event, not just a practice management headache, and challenges the instinctive "do more procedures" response. Sets up Week 4's effective hourly rate discussion by introducing the concept that what you keep matters more than what you bill.
+- **Story classifications used:** [ILLUSTRATIVE] — surgeon reviewing Q1 numbers and considering adding cases to offset reimbursement cut; [GENERAL-PRINCIPLE] — marginal cost analysis of volume response vs. structural optimization; [GENERAL-PRINCIPLE] — overhead reduction categories (supply contracts, staffing, facility utilization)
 
 ---
 ## Visual Assets
@@ -26,15 +27,15 @@
 
 ---
 
-Last Tuesday, I was on a call with a surgeon I've worked with for three years. Midway through our conversation about his Q1 numbers, he mentioned, almost in passing, that his practice manager had flagged a drop in reimbursements on several of his most-performed procedures.
+Here's a scenario playing out in orthopedic practices right now. A surgeon reviews his Q1 numbers and notices something his practice manager already flagged: a drop in reimbursements on several of his most-performed procedures.
 
-"It's that CMS efficiency adjustment," he said. "About 2.5% across the board on the non-time-based codes. My practice manager showed me the numbers in our staff meeting."
+"It's that CMS efficiency adjustment. About 2.5% across the board on the non-time-based codes."
 
-Then he said the part that made me sit up in my chair.
+And the natural next thought?
 
 "I guess I'll just have to add a few more cases to the schedule to make up the difference."
 
-I hear some version of this from surgeons every time reimbursement comes up. Revenue goes down, so volume goes up. It's the instinctive response. It feels logical. And it's one of the most expensive ways to solve the problem.
+This is the instinctive response when reimbursement drops. Revenue goes down, so volume goes up. It feels logical. And it's one of the most expensive ways to solve the problem.
 
 ## The Imaging Result
 
@@ -74,7 +75,7 @@ A 2% reduction in overhead, across a $1.6M practice, saves $32,000.
 
 That's the entire reimbursement loss, recovered. No additional procedures. No additional OR time. No additional staff costs. No additional physical wear.
 
-And 2% is realistic. In my experience working with surgeon-owned practices, there are almost always opportunities in three categories that go unexamined:
+And 2% is realistic. In practice structures like these, there are almost always opportunities in three categories that go unexamined:
 
 **Supply and vendor contracts.** When was the last time your practice benchmarked its supply costs against peer practices? Implant pricing, surgical supplies, and office materials are negotiable, and most practices haven't renegotiated in years. A 5% reduction in supply costs alone can recover $10K to $20K annually for a typical orthopedic practice.
 
@@ -130,7 +131,7 @@ Jared
 ## Quality Checklist
 
 ### Voice Alignment
-- [x] Opens with a story, conversation, or specific scenario (Tuesday call with a surgeon client)
+- [x] Opens with a story, conversation, or specific scenario (illustrative scenario of a surgeon reviewing Q1 numbers)
 - [x] Contains at least one contrarian reframe or myth-bust (challenges the "do more procedures" reflex; reframes the cut as a diagnostic tool)
 - [x] Uses direct "you" address throughout
 - [x] Reads like a conversation with a trusted advisor, not a brochure or sales piece
@@ -166,3 +167,15 @@ Jared
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

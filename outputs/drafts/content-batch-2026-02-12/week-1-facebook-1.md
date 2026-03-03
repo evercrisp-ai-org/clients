@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 1 (March 2–8)
+- **Week:** Week 1 (February 23 – March 1)
 - **Theme:** Tax Structure Optimization
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 1, Facebook 1
 - **Strategic context:** Lightest-touch version of the week's thesis. Opens with a personal conversation, teases the structural reframe, and invites curiosity without listing all three gaps. Conversational adaptation of "You're Not Overtaxed. You're Understructured." that drives awareness without explaining the full framework.
+- **Story classifications used:** [ILLUSTRATIVE] — surgeon frustrated about tax bill, seeking a better accountant
 
 ---
 ## Visual Assets
@@ -19,11 +20,11 @@
 
 ---
 
-I had a conversation this week that I keep coming back to.
+Here's a conversation that keeps coming up, and it's one worth unpacking.
 
-An orthopedic surgeon (great practice, strong income) told me he was frustrated that he wasn't further along financially. His first instinct: "I need a better accountant."
+Picture an orthopedic surgeon with a great practice and strong income, but frustrated that he isn't further along financially. His first instinct: "I need a better accountant."
 
-I hear this all the time. And the answer is almost never a better accountant.
+This is one of the most common refrains in surgeon financial planning. And the answer is almost never a better accountant.
 
 It's a better structure.
 
@@ -76,3 +77,15 @@ There's a difference. And at surgeon-level income, that difference can be six fi
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

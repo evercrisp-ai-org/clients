@@ -127,15 +127,15 @@ The content pipeline is decomposed into discrete, composable jobs. Each block ha
 - Autonomy: L2 (human-led with AI assist)
 
 **Block 3: Draft**
-- Inputs: Content brief + voice profile + content recipe
-- Processing: Write the first draft following Jared's structural DNA and voice characteristics
-- Outputs: First draft
+- Inputs: Content brief + voice profile + content recipe + experience inventory (`brand/experience-inventory.md`)
+- Processing: Write the first draft following Jared's structural DNA and voice characteristics. Classify all client stories and examples per the Content Integrity Filter (Section 5.1). Cross-reference claims against the experience inventory.
+- Outputs: First draft with story classifications in Post Metadata
 - Autonomy: L3 (AI drafts, human reviews)
 
 **Block 4: Relevance Validation**
-- Inputs: Draft + content calendar + current date
-- Processing: Fact-check all references. Confirm timeliness. Check for conflicting current events. Apply the Relevance Filter (Section 5 below).
-- Outputs: Validated draft with relevance score (Green / Yellow / Red)
+- Inputs: Draft + content calendar + current date + experience inventory (`brand/experience-inventory.md`)
+- Processing: Fact-check all references. Confirm timeliness. Check for conflicting current events. Apply the Relevance Filter (Section 5 below). Validate all story classifications and experience claims against the experience inventory per the Content Integrity Filter (Section 5.1).
+- Outputs: Validated draft with relevance score (Green / Yellow / Red) and integrity confirmation
 - Autonomy: L3 (AI validates, human confirms)
 
 **Block 5: Voice Validation**
@@ -180,7 +180,8 @@ The content pipeline is decomposed into discrete, composable jobs. Each block ha
 |-------------|------------|-------|
 | Blog post / article | All 8 | Full sequence |
 | LinkedIn post | 1, 3, 4, 5, 7, 8 | Lighter brief, shorter draft |
-| YouTube script | 1, 2, 3, 4, 5, 6, 7, 8 | Full sequence, script format |
+| Video podcast script | 1, 2, 3, 4, 5, 6, 7, 8 | Full sequence, script format; also distributed as YouTube video |
+| Short-form clips (Shorts / Reels) | 7, 8 | Derived from validated podcast; Distribution + Performance only |
 | Facebook post | 1, 3, 5, 7, 8 | Lightest touch, adapted from LinkedIn or blog |
 | Lead magnet / report | All 8 + Design block | Adds layout/design step (see note below) |
 | Email sequence | 1, 2, 3, 5, 6, 7, 8 | Brief is critical for sequence arc |
@@ -235,6 +236,47 @@ Every piece receives a score before publication:
 - **Red:** Contains stale information, conflicts with current events, or is poorly timed. Hold and rework.
 
 Only Green content publishes. Yellow content is revised. Red content is shelved until conditions change.
+
+---
+
+## 5.1. The Content Integrity Filter
+
+A mandatory validation gate applied alongside the Relevance Filter. While the Relevance Filter ensures content is timely and factually current, the Content Integrity Filter ensures that all claims about experience, client work, and advisory outcomes are honest and verifiable.
+
+**Mandatory reference:** [experience-inventory.md](experience-inventory.md)
+
+### Story Classification
+
+Every client story, case study, or example must be classified as one of three types. The classification determines what language and framing the content may use.
+
+**[REAL-ANONYMIZED]:** Based on a verified story in the experience inventory (Section 4). Details changed for privacy. May use natural client-relationship language ("a client I work with," "someone I advise"). Must trace to a specific inventory entry.
+
+**[ILLUSTRATIVE]:** A constructed example using hypothetical but realistic numbers. Must use framing language that signals the example is illustrative: "Consider a surgeon earning..." / "Here's how this might look..." / "Let's walk through a scenario..." Must NOT imply a real advisory relationship (no "I reviewed," "a client told me," "last Tuesday").
+
+**[GENERAL-PRINCIPLE]:** A statement of financial principle or planning strategy without a specific client narrative. Framed as expertise-based authority: "As a CFP," "The planning opportunity here is," "The tax code creates a specific opening here."
+
+Each piece's Post Metadata must list all story classifications used under a field called `Story classifications used`.
+
+### Experience Claim Validation
+
+Before any content claims experience with a specific client type, niche, or planning strategy, check the experience inventory:
+
+- **Sections 2 and 3** (Current Practice Profile, Surgeon Experience): Governs claims about who Jared serves and how long he has served them
+- **Section 5, Practiced**: Governs claims about direct implementation experience with specific strategies
+- **Section 5, Studied**: Governs claims about knowledge-based authority (requires different framing than practiced experience)
+- **Section 8** (Off-Limits): Absolute prohibitions that override all other content decisions
+
+If the inventory does not support a claim, the claim must be reframed or removed. See the Content Integrity Rule (`.cursor/rules/content-integrity.mdc`) for the full list of prohibited patterns and approved alternative framing.
+
+### Integrity Score
+
+Every piece receives an integrity assessment alongside its relevance score:
+
+- **Clean:** All stories classified, all claims verified against inventory, no prohibited patterns. Proceed.
+- **Flagged:** Contains claims that need reframing or inventory verification. Revise before publication.
+- **Blocked:** Contains fabricated experience claims, unverifiable stories presented as real, or off-limits material. Do not publish. Rework required.
+
+Only Clean content proceeds to the next stage.
 
 ---
 
@@ -298,14 +340,70 @@ Follows Jared's six-step structural DNA, adapted for surgeons:
 - **Tone:** Same warmth as blog posts but tighter. Every word earns its place.
 - **Visual Asset:** One accompanying image. Typically a stat highlight card, simple infographic, or quote card. Must be readable in-feed at mobile size. Full brief following the 9-point standard (Section 10).
 
-### YouTube Script (Talking Points Outline)
+### Video Podcast Script
 
-- **Hook** (15-30 seconds): The contrarian question or surprising stat that earns the viewer's attention.
-- **Context** (30-60 seconds): Why this matters specifically to orthopedic surgeons. Set the stakes.
-- **Key Points** (3-5 points, 60-90 seconds each): Structured teaching. Each point is self-contained.
-- **Close** (30-60 seconds): The philosophical tie-back + invitation to engage (subscribe, comment, visit site).
-- **Tone:** Conversational, as if talking to one surgeon across a desk. Not a lecture.
-- **Visual Asset:** Thumbnail image (1280x720). Must be readable at small size (phone screen). Clean composition with minimal text (5 words maximum), strong contrast, and a clear focal point. No clickbait faces or exaggerated expressions. Full brief following the 9-point standard (Section 10).
+The primary long-form audio/video format. Recorded as a video podcast and uploaded to YouTube. Audio is also distributed to podcast platforms (Apple Podcasts, Spotify). The video version is a different consumption angle of the same content; audio must stand alone.
+
+- **Cold Open** (30-60 seconds): Hook that pulls the listener in immediately. A contrarian question, surprising stat, or vivid scenario. No intro music preamble.
+- **Intro and Context** (1-2 minutes): Set the stakes. Why this matters now, specifically to orthopedic surgeons. Establish what the episode will cover.
+- **Main Segments** (3-5 segments, each 3-5 minutes): Core teaching, math examples, frameworks. Each segment is a self-contained argument that builds on the previous one. Annotate segments with `[CLIP-CANDIDATE]` where a moment could stand alone as a short-form clip (see Clip Extraction Map below).
+- **Listener Takeaway** (1-2 minutes): Actionable summary. One specific thing to do this week. Concrete, achievable, measurable.
+- **Philosophical Close** (1-2 minutes): Connect to bigger life principles (control, purpose, legacy, precision). The emotional and intellectual punctuation mark.
+- **Tone:** Conversational, exploratory, Jared thinking out loud with the listener. More depth and nuance than the blog. Not a lecture.
+- **Target duration:** 15-25 minutes at conversational pace.
+- **Visual Asset:** Podcast cover art card (1400x1400 for podcast feeds, 1280x720 variant for YouTube thumbnail). Must be readable at small size (phone screen). Clean composition with minimal text (5 words maximum), strong contrast, and a clear focal point. No clickbait faces or exaggerated expressions. Full brief following the 9-point standard (Section 10).
+
+#### Clip Extraction Map
+
+Every video podcast script includes a Clip Extraction Map identifying segments that can be extracted as standalone short-form clips for YouTube Shorts and Instagram Reels. Clips are identified during script writing, not after production.
+
+**Rules:**
+- Minimum 2 clips per episode, maximum 5. Only extract where a segment naturally stands alone.
+- Each clip must make sense without any context from the rest of the episode.
+- Each clip must have a clear scroll-stopping hook in the first 3 seconds.
+- Each clip must end with a clean takeaway or curiosity beat, never mid-sentence.
+- Tag each clip for platform suitability: `[YT-SHORT]`, `[IG-REEL]`, or `[BOTH]`.
+- Do not force clips. If an episode only has two natural standalone moments, extract two.
+
+**What to look for:**
+- A striking math reveal or data point that shocks on its own
+- A contrarian take or myth-bust that needs no setup
+- A self-contained explanation or framework
+- A vivid metaphor or analogy that lands immediately
+- A direct, actionable recommendation
+
+**Clip map entry format (in the podcast draft file):**
+
+```
+### Clip N
+- **Source segment:** [Segment name and number]
+- **Timestamp markers:** [Approximate start–end in the script]
+- **Hook line:** [The first sentence the viewer hears]
+- **Core insight:** [What the clip teaches or reveals]
+- **Platform tags:** [YT-SHORT] / [IG-REEL] / [BOTH]
+- **Estimated duration:** [e.g., ~55 seconds]
+```
+
+### Short-Form Clip (YouTube Shorts / Instagram Reels)
+
+Clips extracted from the video podcast, reshaped for vertical short-form platforms. These are not raw cuts; each clip is a standalone micro-piece with its own arc.
+
+- **Format:** 9:16 vertical, 1080x1920px
+- **Hook** (first 3 seconds): The moment that earns the scroll-stop. A bold claim, a surprising number, or a direct question. Must land immediately.
+- **Core content** (40-80 seconds): The standalone insight, math point, contrarian take, or framework. Pacing is tighter than the podcast; every sentence earns its place.
+- **Closing beat** (3-5 seconds): A clear takeaway or a curiosity driver back to the full episode. Not a hard CTA.
+- **Captions:** Required on all clips. Most viewers watch without sound. Captions should be clean and readable, not stylized.
+- **Safe zone:** Keep all critical content (text, face, key visuals) within the center 4:5 area of the frame. Platform UI elements overlay the top and bottom 10%.
+- **Tone:** Same Jared voice as the podcast, but the energy is slightly higher. Clips reward directness and confidence.
+
+**Platform-specific guidance:**
+
+| Platform | Target Duration | Pacing | End Treatment |
+|----------|----------------|--------|---------------|
+| YouTube Shorts | 45-58 seconds | Punchier, faster cuts, get to the point | Curiosity driver to full episode |
+| Instagram Reels | 60-90 seconds | Slightly more breathing room, can include text overlays | Clean takeaway or soft CTA |
+
+**Visual Asset:** Cover frame / thumbnail for the clip (1080x1920, vertical). Typically a branded text card with the clip's hook line or key number, following the same palette and typography rules as other Capable Wealth visuals. Full brief following the 9-point standard (Section 10), adapted for vertical dimensions.
 
 ### Facebook Post (100-200 words)
 
@@ -401,6 +499,9 @@ Every piece of content gets a corresponding visual asset. The image reinforces t
 | Blog hero | 1200x628 | Landscape | Title/featured image for the post |
 | Blog in-body | 1200x628 or context-dependent | Landscape | Infographics, data visualizations, stat highlights within the post |
 | YouTube thumbnail | 1280x720 | Landscape (16:9) | Must be readable at small size on phone screens |
+| Podcast cover art | 1400x1400 | Square | For podcast feed distribution (Apple Podcasts, Spotify) |
+| YouTube Shorts cover | 1080x1920 | Vertical (9:16) | Cover frame for short-form clips; keep text in center 4:5 safe zone |
+| Instagram Reels cover | 1080x1920 | Vertical (9:16) | Cover frame for short-form clips; keep text in center 4:5 safe zone |
 
 ### Visual Types and When to Use Each
 
@@ -413,6 +514,8 @@ Every piece of content gets a corresponding visual asset. The image reinforces t
 **Quote/insight card:** A short pull quote from the post, typeset on brand. Best for Facebook where conversational tone dominates. Playfair Display for the quote, Inter for attribution. Keep text minimal and let negative space dominate.
 
 **Data visualization:** A branded chart or graph when the math example is the centerpiece of the post. Bar charts, comparison tables, or before/after visuals. Use the brand chart color series. No chart junk, no 3D effects, no decorative elements.
+
+**Short-form clip cover frame:** A vertical (1080x1920) branded card used as the cover/thumbnail for YouTube Shorts and Instagram Reels. Typically features the clip's hook line or key number as the focal point. Keep all text and critical elements within the center 4:5 safe zone (the top and bottom ~10% of the frame are obscured by platform UI). Use Deep Muted Blue (#243A4B) as the background, Antique Gold (#B08D57) for the key number or accent, Playfair Display for the headline, Inter for supporting text. The cover must be readable at thumbnail size in a vertical feed. No clickbait styling; the same credibility standard applies as all other Capable Wealth visuals.
 
 ### Weekly Image Type Distribution (Mandatory)
 
@@ -435,6 +538,7 @@ A feed full of identical text-on-block cards looks monotonous and signals low ef
 - **At least 1 infographic or data visualization per week per platform** that uses chart elements, process flows, comparison layouts, or visual data representation.
 - **Blog heroes** default to conceptual photograph unless the post is math-heavy (then use data visualization).
 - **Podcast/YouTube thumbnails** use conceptual photograph or scene-based imagery, never text-only cards.
+- **Short-form clip covers** (YouTube Shorts, Instagram Reels) use the short-form clip cover frame type. Text-dominant cards are acceptable here because vertical feed thumbnails are consumed differently than horizontal thumbnails.
 
 **Conceptual photograph guidance:**
 
@@ -593,7 +697,7 @@ Every draft content file must follow a standardized four-part structure. This fo
 ```
 ---
 ## Post Metadata
-- **Type:** [Blog Post / LinkedIn Post / Facebook Post / YouTube Script]
+- **Type:** [Blog Post / LinkedIn Post / Facebook Post / Video Podcast Script]
 - **Week:** [Week N (date range)]
 - **Theme:** [e.g., Tax Structure Optimization]
 - **Quarterly plan reference:** [e.g., quarterly-plan-Q2-2026.md, Week 1, Anchor]
@@ -623,6 +727,20 @@ Every draft content file must follow a standardized four-part structure. This fo
 - (same fields as Primary Image)
 
 ---
+## Clip Extraction Map (video podcast scripts only)
+
+### Clip 1
+- **Source segment:** [Segment name and number]
+- **Timestamp markers:** [Approximate start–end in the script]
+- **Hook line:** [The first sentence the viewer hears]
+- **Core insight:** [What the clip teaches or reveals]
+- **Platform tags:** [YT-SHORT] / [IG-REEL] / [BOTH]
+- **Estimated duration:** [e.g., ~55 seconds]
+
+### Clip 2
+- (same fields as Clip 1; add Clips 3–5 as needed)
+
+---
 ## Content
 
 [The full post content goes here]
@@ -638,7 +756,7 @@ Every draft content file must follow a standardized four-part structure. This fo
 - **Blog posts:** Include a hero image brief plus 1-3 in-body image briefs as needed (infographics, data visualizations, stat highlights that appear within the post body)
 - **LinkedIn posts:** One primary image brief
 - **Facebook posts:** One primary image brief
-- **YouTube scripts:** One thumbnail brief. The AI image prompt should specify composition, text overlay (5 words maximum), and visual approach suitable for thumbnail-size viewing
+- **Video podcast scripts:** One podcast cover art / YouTube thumbnail brief. The AI image prompt should specify composition, text overlay (5 words maximum), and visual approach suitable for thumbnail-size viewing. Include a Clip Extraction Map (Section 7) identifying 2-5 standalone clip candidates with platform tags.
 - **Email:** One header image brief (if applicable)
 
 ---
@@ -689,6 +807,32 @@ The final gate before any content publishes. Every item must pass.
 - [ ] Text on images (if any) specifies exact font, weight, size, color hex, and position
 - [ ] Image uses only the Capable Wealth color palette with correct hex codes
 - [ ] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language
+- [ ] Integrity Score is Clean (or Flagged with documented justification and revisions completed)
+
+### Short-Form Clips (video podcast scripts only)
+
+- [ ] Clip Extraction Map is included in the draft with 2-5 clip candidates
+- [ ] Each clip stands alone without requiring context from the full episode
+- [ ] Hook lands in the first 3 seconds (contrarian take, striking number, or direct question)
+- [ ] Duration is within platform target (45-58s for YouTube Shorts, 60-90s for Instagram Reels)
+- [ ] Platform tags are assigned: [YT-SHORT], [IG-REEL], or [BOTH]
+- [ ] Caption/subtitle script is included or noted for production
+- [ ] Content stays within 4:5 safe zone (no critical visual info in top/bottom 10%)
+- [ ] Clip ends with a clear takeaway or curiosity beat (not mid-sentence)
+- [ ] Clips are not forced; each earns its extraction through natural standalone value
 
 ---
 

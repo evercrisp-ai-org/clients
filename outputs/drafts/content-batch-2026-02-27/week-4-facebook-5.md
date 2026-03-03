@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 4 (March 23–29)
+- **Week:** Week 4 (March 16–22)
 - **Theme:** The Number That Matters More Than Collections
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 4, Facebook 5
 - **Strategic context:** Forward-looking bridge post that closes the Q1 Financial Health Check arc and sets up April's post-tax-filing content. Connects the effective hourly rate concept to the tax return as complementary views of the same financial picture. Teases April's theme without being salesy.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — effective hourly rate and tax return connection, April bridge
 
 ---
 ## Visual Assets
@@ -51,7 +52,7 @@ When that return is in front of you next month, you'll have everything you need 
 
 ### Relevance Validation
 - [x] All facts, figures, and legal references are current as of publication date
-- [x] Content is appropriately timed relative to the annual calendar (end of March, April filing season ahead)
+- [x] Content is appropriately timed relative to the annual calendar (mid-March, April filing season ahead)
 - [x] No conflicting current events that would undermine the message
 - [x] Relevance Score is Green
 
@@ -70,3 +71,15 @@ When that return is in front of you next month, you'll have everything you need 
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

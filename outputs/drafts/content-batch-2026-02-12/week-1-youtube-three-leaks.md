@@ -1,11 +1,12 @@
 # The Three Leaks Draining Your Surgeon Paycheck
 
 ## Post Metadata
-- **Type:** YouTube Script
-- **Week:** Week 1 (March 2–8)
+- **Type:** Video Podcast Script (uploaded to YouTube; audio distributed to podcast platforms)
+- **Week:** Week 1 (February 23 – March 1)
 - **Theme:** Tax Structure Optimization
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 1, YouTube
 - **Strategic context:** Visual companion to the anchor blog post. Uses a "bucket with holes" metaphor to walk through the three structural gaps. Designed for mid-week depth viewing (Thursday/Friday publish). Adapts the full argument from "You're Not Overtaxed. You're Understructured." into a conversational video format with visual math walkthroughs.
+- **Story classifications used:** [ILLUSTRATIVE] — surgeon earning $800K who feels behind financially; [GENERAL-PRINCIPLE] — S-Corp salary mechanics, cash balance plan opportunity, cost segregation strategy, CPA vs. optimizer distinction
 
 ---
 ## Visual Assets
@@ -16,6 +17,34 @@
 - **AI image prompt:** Create a 1280x720px landscape YouTube thumbnail. Background: solid Deep Muted Blue (#243A4B) covering the full canvas. Layout: text-dominant composition with the primary text positioned in the center-left two-thirds of the canvas. Primary text: "3 Leaks" in Playfair Display SemiBold, approximately 120pt, Off-White (#F6F7F5), left-aligned with 80px left margin, vertically centered. Secondary text: "$130K/yr" in Inter SemiBold, approximately 64pt, Antique Gold (#B08D57), positioned directly below the primary text with 16px spacing, same left alignment. A thin vertical accent line (3px, Antique Gold #B08D57) runs along the left edge of the text block, from the top of "3 Leaks" to the bottom of "$130K/yr", positioned 60px from the left edge. Right third of the canvas: a subtle, softly blurred image of stacked coins or a financial document in muted tones, opacity reduced to 30-40%, serving as atmospheric texture only. No cartoons, no clip art, no bucket icons, no illustrations, no people. Brand constraints: only Capable Wealth palette (#243A4B, #5F7483, #B08D57, #F6F7F5, #1E2428, #9AA3A8), 60/30/10 ratio. No generic stock, no clickbait styling, no flashy or sensational elements, no busy compositions. Mood: urgent, authoritative, clean. Professional financial advisory aesthetic for orthopedic surgeons ages 45-65.
 - **Text overlay:** "3 Leaks" in Playfair Display SemiBold, ~120pt, Off-White (#F6F7F5), center-left. "$130K/yr" in Inter SemiBold, ~64pt, Antique Gold (#B08D57), below primary text.
 - **Platform and dimensions:** YouTube thumbnail, 1280x720
+
+---
+
+## Clip Extraction Map
+
+### Clip 1
+- **Source segment:** Key Point 2: The Cash Balance Plan Gap
+- **Timestamp markers:** "In 2026, the most you can put into a 401(k)..." through "...Over a decade, that gap becomes a canyon."
+- **Hook line:** "In 2026, the most you can put into a 401(k) is $32,500. But there's another vehicle that lets you shelter $150K to $350K on top of that."
+- **Core insight:** The cash balance plan is the most powerful wealth-building tool for high-income practice owners, yet most surgeons over 50 don't have one. The annual gap is $45K-$80K in lost tax-deferred compounding.
+- **Platform tags:** [BOTH]
+- **Estimated duration:** ~50 seconds
+
+### Clip 2
+- **Source segment:** Key Point 4: The Cumulative Cost
+- **Timestamp markers:** "So let's add it up." through "...From a structure that was never built correctly."
+- **Hook line:** "S-Corp salary: $25K. Missing cash balance plan: $45K-$80K. No cost seg: $15K-$30K. Total: $85K-$130K per year. Left on the table."
+- **Core insight:** The three structural gaps combined cost $85K-$130K per year. Over ten years, that's over a million dollars from structural neglect alone.
+- **Platform tags:** [BOTH]
+- **Estimated duration:** ~45 seconds
+
+### Clip 3
+- **Source segment:** Key Point 5: Why CPAs Aren't the Villain
+- **Timestamp markers:** "And I want to be clear about something..." through "...And it's one most surgeons have never had."
+- **Hook line:** "This is not your CPA's fault. Compliance and optimization are two different disciplines."
+- **Core insight:** CPAs are trained for accuracy and compliance. The question of whether your structure is optimal requires a different conversation entirely.
+- **Platform tags:** [YT-SHORT]
+- **Estimated duration:** ~40 seconds
 
 ---
 
@@ -33,11 +62,11 @@ Today I'm going to walk you through each one, show you exactly what they're cost
 
 ## CONTEXT AND STAKES (30–60 seconds)
 
-I work with orthopedic surgeons every day. And here's the pattern I see over and over: a surgeon earning $700K, $800K, even north of a million dollars, and they feel like they should be further along. More saved. More invested. More in control.
+This is a structural pattern that shows up frequently in surgeon-owned practices. A surgeon earning $700K, $800K, even north of a million dollars, and they feel like they should be further along. More saved. More invested. More in control.
 
-They blame the tax rate. They blame their CPA. Sometimes they blame themselves for spending too much.
+The natural instinct is to blame the tax rate. To blame the CPA. Sometimes to blame yourself for spending too much.
 
-But when I actually dig into their financials, the culprit is almost never any of those things. It's the structure, the way their practice income flows from the entity to their personal wealth. And there are three specific structural gaps that account for most of the leakage.
+But when you analyze the financial structure, the culprit is almost never any of those things. It's the structure, the way practice income flows from the entity to personal wealth. And there are three specific structural gaps that account for most of the leakage.
 
 Let me walk you through them.
 
@@ -99,7 +128,7 @@ No cost segregation study: $15K to $30K a year.
 
 Total: $85K to $130K per year. Left on the table. Through structural neglect.
 
-Over ten years (and I've seen this with real clients) that's over a million dollars. Not from bad investments. Not from excessive spending. From a structure that was never built correctly.
+Over ten years, that compounds into over a million dollars. Not from bad investments. Not from excessive spending. From a structure that was never built correctly.
 
 ---
 
@@ -164,3 +193,26 @@ Because at the end of the day, wealth is determined by what you keep, and what y
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language
+
+### Short-Form Clips
+- [x] Clip Extraction Map is included in the draft with 3 clip candidates
+- [x] Each clip stands alone without requiring context from the full episode
+- [x] Hook lands in the first 3 seconds (contrarian take, striking number, or direct question)
+- [x] Duration is within platform target (45-58s for YouTube Shorts, 60-90s for Instagram Reels)
+- [x] Platform tags are assigned: [YT-SHORT], [IG-REEL], or [BOTH]
+- [ ] Caption/subtitle script is included or noted for production
+- [x] Content stays within 4:5 safe zone (no critical visual info in top/bottom 10%)
+- [x] Clip ends with a clear takeaway or curiosity beat (not mid-sentence)
+- [x] Clips are not forced; each earns its extraction through natural standalone value

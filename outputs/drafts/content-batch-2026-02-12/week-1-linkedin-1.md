@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** LinkedIn Post
-- **Week:** Week 1 (March 2–8)
+- **Week:** Week 1 (February 23 – March 1)
 - **Theme:** Tax Structure Optimization
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 1, LinkedIn 1
 - **Strategic context:** First social touchpoint of the quarter. Distills the anchor's central argument ("You're Not Overtaxed. You're Understructured.") into a single LinkedIn-length insight. Presents the $480K vs. $560K comparison as the hook to drive traffic to the full blog post.
+- **Story classifications used:** [ILLUSTRATIVE] — tax structure comparison ($480K vs. $560K take-home scenario)
 
 ---
 ## Visual Assets
@@ -19,11 +20,11 @@
 
 ---
 
-Every week, I sit down with a surgeon who's frustrated about taxes. And every week, the conversation ends in the same place: their entity structure.
+Here's a frustration that comes up constantly for surgeons: the tax bill feels too high. And almost every time, the real issue lands in the same place. Not the tax code. The entity structure.
 
-Last month it was a surgeon making $800K, convinced he was "getting killed on taxes."
+Consider a surgeon making $800K, convinced he's "getting killed on taxes."
 
-His CPA was doing everything right. The issue was further upstream, in how his income flowed through his entity.
+The CPA is doing everything right. The issue is further upstream, in how the income flows through the entity.
 
 Here's the difference:
 
@@ -88,3 +89,15 @@ Once the structure is right, the tax bill takes care of itself.
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

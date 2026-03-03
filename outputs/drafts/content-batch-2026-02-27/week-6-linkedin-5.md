@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** LinkedIn Post
-- **Week:** Week 6 (April 6–12)
+- **Week:** Week 6 (March 30 – April 5)
 - **Theme:** The April 15 trifecta: filing, estimated taxes, and the Roth question
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 6, LinkedIn 5
 - **Strategic context:** Closes the week's LinkedIn sequence by extending the estimated tax discussion into a broader quarterly discipline. Introduces a "quarterly vital signs" framework that gives surgeons four specific numbers to check each quarter, transforming a reactive tax compliance exercise into a proactive wealth-building habit. Positions Capable Wealth as the advisor who builds systems, not just solves problems.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — quarterly financial vital signs framework
 
 ---
 ## Visual Assets
@@ -59,7 +60,7 @@ Which of these four have you looked at this quarter?
 
 ### Relevance Validation
 - [x] All facts, figures, and legal references are current as of publication date (2026 401(k) limit $24,500, catch-up $8,000, cash balance ranges, CMS adjustment)
-- [x] Content is appropriately timed relative to the annual calendar (April 6-12, end of Q1, natural quarterly checkpoint)
+- [x] Content is appropriately timed relative to the annual calendar (March 30 – April 5, end of Q1, natural quarterly checkpoint)
 - [x] No conflicting current events that would undermine the message
 - [x] Relevance Score is Green
 
@@ -78,3 +79,15 @@ Which of these four have you looked at this quarter?
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 4 (March 23–29)
+- **Week:** Week 4 (March 16–22)
 - **Theme:** The Number That Matters More Than Collections
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 4, Facebook 1
 - **Strategic context:** Story-driven anchor post for the week. Uses a real client moment (anonymized) to introduce the surgeon effective hourly rate concept. Designed to create emotional resonance and curiosity before the more tactical posts later in the week.
+- **Story classifications used:** [ILLUSTRATIVE] — surgeon discovering $146/hr effective rate
 
 ---
 ## Visual Assets
@@ -19,11 +20,11 @@
 
 ---
 
-I've been working with surgeons long enough to know that most of them can quote their collections number off the top of their head. Ask them what they actually keep per hour of clinical work, though, and the room goes quiet.
+Most surgeons can quote their collections number off the top of their head. Ask them what they actually keep per hour of clinical work, though, and the room goes quiet.
 
-This week I sat down with a surgeon who was having a great year. Collections were up. Volume was strong. He felt like things were going well, and honestly, they were.
+Here's a scenario that illustrates the gap. Consider a surgeon having a great year. Collections are up. Volume is strong. He feels like things are going well, and honestly, they are.
 
-Then we ran one calculation he'd never thought to run. We took his collections, subtracted overhead, taxes, retirement contributions, and debt service, then divided by the hours he actually spends doing clinical work.
+Then he runs one calculation he's never thought to run. Take collections, subtract overhead, taxes, retirement contributions, and debt service, then divide by the hours actually spent doing clinical work.
 
 The number was $146 an hour.
 
@@ -53,7 +54,7 @@ That gap is where your financial structure lives. And most surgeons have never l
 
 ### Relevance Validation
 - [x] All facts, figures, and legal references are current as of publication date
-- [x] Content is appropriately timed relative to the annual calendar (Q1 close, time to review numbers)
+- [x] Content is appropriately timed relative to the annual calendar (Q1 wrapping up, time to review numbers)
 - [x] No conflicting current events that would undermine the message
 - [x] Relevance Score is Green
 
@@ -72,3 +73,15 @@ That gap is where your financial structure lives. And most surgeons have never l
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

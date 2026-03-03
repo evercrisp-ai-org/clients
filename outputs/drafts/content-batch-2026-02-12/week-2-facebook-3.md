@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 2 (March 9–15)
+- **Week:** Week 2 (March 2–8)
 - **Theme:** S-Corp Salary Optimization
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 2, Facebook 3
 - **Strategic context:** End-of-week reflective wrap that ties Weeks 1 and 2 together. Distills two weeks of structural content (entity structure, three leaks, S-Corp salary, three-variable trade-off) into a single, warm takeaway: the structure you set up years ago probably needs updating, and Q1 is the natural time to do it. Closes the two-week opening arc before the batch moves to new themes.
+- **Story classifications used:** [ILLUSTRATIVE] — surgeon practice structure scenario; [GENERAL-PRINCIPLE] — Q1 structure review timing
 
 ---
 ## Visual Assets
@@ -19,13 +20,13 @@
 
 ---
 
-I've been thinking about a pattern I see over and over again.
+I've been thinking about a structural pattern in surgeon-owned practices.
 
 A surgeon builds a practice, sets up an S-Corp, picks a salary, opens a 401(k), and moves on. The structure works well enough, so it never gets revisited.
 
 Five years pass. Income has grown. Tax law has changed. Contribution limits have shifted. New planning tools (like cash balance plans) have become available. But the structure stays the same.
 
-That gap between where your structure is and where it could be is almost always measured in six figures per year. Not because anything is broken. Because the financial landscape moved and the structure didn't.
+That gap between where your structure is and where it could be can easily reach six figures per year. Not because anything is broken. Because the financial landscape moved and the structure didn't.
 
 Q1 is the natural time to close that gap. The year is young enough to make changes that matter, and the numbers are fresh enough to model accurately.
 
@@ -72,3 +73,15 @@ One coordinated look at your entity, your salary, your retirement plans, and you
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

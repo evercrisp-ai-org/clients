@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 3 (March 16–22)
+- **Week:** Week 3 (March 9–15)
 - **Theme:** Reimbursement Shift and Practice Wealth
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 3, Facebook 5
 - **Strategic context:** Weekend perspective post that zooms out from the tactical reimbursement conversation to address the longer-term trend. References the OBBBA payment formula (75% of MEI) to position reimbursement compression as an ongoing structural reality, not a one-time event. Frames structural optimization as a multi-year practice, not a one-time fix. Forward-looking and philosophical, designed for weekend reading (Saturday) when surgeons have more reflective bandwidth. Sets up Week 4's transition into effective hourly rate and time-as-value.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — long-term reimbursement trajectory under OBBBA and structural optimization as ongoing discipline
 
 ---
 ## Visual Assets
@@ -74,3 +75,15 @@ That kind of attention compounds, just like the savings it produces.
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

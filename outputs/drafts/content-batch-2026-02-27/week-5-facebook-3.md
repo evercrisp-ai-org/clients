@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 5 (March 30 – April 5)
+- **Week:** Week 5 (March 23–29)
 - **Theme:** Your tax return is a diagnostic report
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 5, Facebook 3
 - **Strategic context:** Introduces the effective tax rate as one of the four diagnostic markers from the anchor blog. Uses an observational, personal tone to describe what happens when surgeons see their real rate for the first time. Designed as a mid-week conversation starter.
+- **Story classifications used:** [ILLUSTRATIVE] — surgeon discovering effective tax rate for the first time; [GENERAL-PRINCIPLE] — effective tax rate calculation methodology
 
 ---
 ## Visual Assets
@@ -19,11 +20,11 @@
 
 ---
 
-There's a moment I see fairly often in first meetings with surgeon clients. We pull up their most recent return, and I ask one question: "Do you know your effective tax rate?"
+Here's a question worth asking with your return in front of you: "Do you know your effective tax rate?"
 
-Almost every time, the answer is their marginal bracket. "37 percent." Sometimes "40-something, with state."
+Most surgeons answer with their marginal bracket. "37 percent." Sometimes "40-something, with state."
 
-Then we do the actual math. Total tax divided by total income. And the number that comes back is usually lower than they expected. Sometimes significantly lower.
+Then you do the actual math. Total tax divided by total income. And the number that comes back is usually lower than expected. Sometimes significantly lower.
 
 You'd think that would be good news. And it is, briefly. But then the next question lands: "Wait, if my effective rate is that low, does that mean my deductions are actually working? Or does it mean I'm missing something bigger?"
 
@@ -72,3 +73,15 @@ What did yours come out to?
 - [x] No cartoons, clip art, generic stock, clickbait
 - [x] Correct palette hex codes
 - [x] Passes credibility test
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

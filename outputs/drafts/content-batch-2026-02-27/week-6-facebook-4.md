@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 6 (April 6–12)
+- **Week:** Week 6 (March 30 – April 5)
 - **Theme:** The April 15 trifecta: filing, estimated taxes, and the Roth question
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 6, Facebook 4
 - **Strategic context:** Reframes the Q1 estimated tax payment from a compliance task to a brief planning moment. Offers one concrete action item (a 10-minute review) that turns a check-writing exercise into a forward-looking calibration for the year. Practical and invitational.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — Q1 estimated tax calibration
 
 ---
 ## Visual Assets
@@ -52,7 +53,7 @@ Write the check. But check the math first.
 
 ### Relevance Validation
 - [x] Facts current as of publication date
-- [x] Appropriately timed (week before April 15)
+- [x] Appropriately timed (two weeks before April 15)
 - [x] No conflicting current events
 - [x] Relevance Score is Green
 
@@ -70,3 +71,15 @@ Write the check. But check the math first.
 - [x] No cartoons, clip art, generic stock, clickbait
 - [x] Correct palette hex codes
 - [x] Passes credibility test
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

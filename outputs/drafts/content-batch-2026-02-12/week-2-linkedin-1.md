@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** LinkedIn Post
-- **Week:** Week 2 (March 9–15)
+- **Week:** Week 2 (March 2–8)
 - **Theme:** S-Corp Salary Optimization
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 2, LinkedIn 1
 - **Strategic context:** Direct distillation of the anchor's core argument. The numbers shock; the full blog post explains. Compresses the Scenario A vs. Scenario B math from "The S-Corp Salary Trap" into a single provocation designed to drive traffic to the anchor piece.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — payroll tax vs. retirement contribution trade-off
 
 ---
 ## Visual Assets
@@ -83,3 +84,15 @@ If your salary hasn't been recalculated in the last two years, this is the quart
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

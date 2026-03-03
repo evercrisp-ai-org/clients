@@ -1,11 +1,12 @@
-# Q1 Revenue Is In. Here's the One Number That Matters More Than Collections.
+# Before Q1 Closes: The One Number That Matters More Than Collections
 
 ## Post Metadata
-- **Type:** Podcast Script (also distributed as YouTube video)
-- **Week:** Week 4 (March 23–29)
+- **Type:** Video Podcast Script (uploaded to YouTube; audio distributed to podcast platforms)
+- **Week:** Week 4 (March 16–22)
 - **Theme:** The number that matters more than collections
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 4, Podcast
-- **Strategic context:** This is the capstone episode of the March arc. Weeks 1 through 3 diagnosed structural gaps (entity structure, S-Corp salary calibration, reimbursement cuts and overhead optimization). This episode synthesizes all three into a single metric, the effective hourly rate, that reveals what a surgeon actually keeps for each hour of clinical work. The timing is deliberate: Q1 data is now available, making the calculation immediately actionable. The episode closes the "diagnosis" phase of the quarterly content plan and sets up April's "interpretation" phase.
+- **Strategic context:** This is the capstone episode of the March arc. Weeks 1 through 3 diagnosed structural gaps (entity structure, S-Corp salary calibration, reimbursement cuts and overhead optimization). This episode synthesizes all three into a single metric, the effective hourly rate, that reveals what a surgeon actually keeps for each hour of clinical work. The timing is deliberate: Q1 is about to close, making this the ideal moment to equip surgeons with the framework so they can run the calculation as soon as the data is available. The episode closes the "diagnosis" phase of the quarterly content plan and sets up April's "interpretation" phase.
+- **Story classifications used:** [ILLUSTRATIVE] — $2.4M practice effective hourly rate calculation, structural improvement waterfall; [GENERAL-PRINCIPLE] — five components framework, three structural levers
 
 ---
 ## Visual Assets
@@ -19,9 +20,45 @@
 
 ---
 
+## Clip Extraction Map
+
+### Clip 1
+- **Source segment:** Segment 3: Running the Calculation
+- **Timestamp markers:** "$480,000 divided by 2,600 hours equals $185 per hour." through "...That gap has consequences."
+- **Hook line:** "Your practice collected $2.4M last year. You kept $480K. Your effective hourly rate? $185."
+- **Core insight:** The effective hourly rate reveals the massive gap between perceived earnings and actual take-home. $185/hour for a surgeon collecting $2.4M exposes the structural leakage.
+- **Platform tags:** [BOTH]
+- **Estimated duration:** ~50 seconds
+
+### Clip 2
+- **Source segment:** Segment 4: Structural Improvement Model
+- **Timestamp markers:** "$215 versus $185. That's $30 per hour more." through "...The only thing that changed is the structure."
+- **Hook line:** "A $30/hour difference doesn't sound like much. Over 2,600 clinical hours, it's $78,000 a year."
+- **Core insight:** Structural improvements (overhead reduction, entity optimization, cash balance plan) move the effective hourly rate from $185 to $215, worth $78K/year and over $1M over a decade.
+- **Platform tags:** [BOTH]
+- **Estimated duration:** ~55 seconds
+
+### Clip 3
+- **Source segment:** Listener Takeaway
+- **Timestamp markers:** "Step one: Take your Q1 collections..." through "...It takes fifteen minutes."
+- **Hook line:** "Here's how to calculate your real hourly rate in 15 minutes. Five steps. One number that changes everything."
+- **Core insight:** A step-by-step walkthrough of the effective hourly rate calculation: collections, minus overhead, minus taxes, minus retirement, minus debt, divided by clinical hours.
+- **Platform tags:** [IG-REEL]
+- **Estimated duration:** ~75 seconds
+
+### Clip 4
+- **Source segment:** Segment 1: Why Collections Is a Vanity Metric
+- **Timestamp markers:** "Two surgeons, both collecting $2.4 million a year..." through "...Collections doesn't touch any of them."
+- **Hook line:** "Two surgeons. Same collections. $80,000 difference in what they keep. How?"
+- **Core insight:** Collections measures practice health, not surgeon wealth. The $80K gap between two identical-revenue surgeons sits in overhead, entity design, and tax strategy.
+- **Platform tags:** [YT-SHORT]
+- **Estimated duration:** ~45 seconds
+
+---
+
 ## COLD OPEN (30–60 seconds)
 
-Every surgeon I know can tell me their practice's gross collections within $50K. Almost none of them can tell me their effective hourly rate.
+Most surgeons can tell you their practice's gross collections within $50K. Almost none of them can tell you their effective hourly rate.
 
 That's the actual dollar amount you earn for each hour spent in clinical work, after taxes, overhead, debt, and savings. The number that's left when everything else has been taken.
 
@@ -37,19 +74,19 @@ Let's get into it.
 
 ## INTRO AND CONTEXT (1–2 minutes)
 
-So here's why I wanted to do this episode right now, at the end of March.
+So here's why I wanted to do this episode right now, in mid-March.
 
-Q1 is done, or close enough. If you're running a practice, you have roughly three months of revenue data, expense data, and clinical hours logged. You have enough information to run a real calculation, not a hypothetical, not a projection. An actual number based on actual data from the first quarter of this year.
+Q1 closes at the end of this month. In about two weeks, if you're running a practice, you'll have three months of revenue data, expense data, and clinical hours logged. You'll have enough information to run a real calculation, not a hypothetical, not a projection. An actual number based on actual data from the first quarter of this year. I want you to have the framework in hand before that data arrives.
 
-And I've noticed something in my conversations with surgeon clients. Almost every one of them can tell me what their practice collected last quarter. That number lives in their head. It comes up in partner meetings, in conversations with their practice manager, sometimes even over dinner with colleagues.
+And here's a pattern that shows up frequently in surgeon-owned practices. Almost every surgeon can tell you what their practice collected last quarter. That number lives in their head. It comes up in partner meetings, in conversations with the practice manager, sometimes even over dinner with colleagues.
 
-But when I ask, "What did you actually take home per hour of clinical work after everything?" I get silence. Or I get a rough guess that's almost always too high.
+But ask, "What did you actually take home per hour of clinical work after everything?" and the answer is usually silence. Or a rough guess that's almost always too high.
 
 Collections is a practice metric. It tells you how the business is doing. That's valuable, obviously. But it doesn't tell you how the surgeon is doing. It doesn't tell you whether your time, your most finite resource, is being compensated in a way that reflects the skill you bring, the training you invested, and the life you're trying to build.
 
 The effective hourly rate answers that question. And for most surgeons, the answer is uncomfortable the first time they see it.
 
-I'm not saying that to be dramatic. I'm saying it because I've sat across from enough surgeons running this calculation for the first time to know what happens. There's a pause. There's a recalculation. And then there's a very productive conversation about what to do about it.
+I'm not saying that to be dramatic. I'm saying it because this is a structural pattern that shows up frequently in surgeon-owned practices. When a surgeon runs this calculation for the first time, the reaction is predictable. There's a pause. There's a recalculation. And then there's a very productive conversation about what to do about it.
 
 That's what this episode is for.
 
@@ -69,7 +106,7 @@ And here's what makes this tricky: collections is the number that gets talked ab
 
 So surgeons end up anchoring on a number that flatters them. $800K in compensation sounds fantastic. And it is. But $800K before a 40% effective tax rate, before retirement contributions, before debt service on practice loans? That's a very different picture.
 
-I had a surgeon tell me once that he felt like he should have more to show for fifteen years of practice at his income level. And when we ran the numbers, he was right. His practice was collecting well. His compensation was strong. But his effective hourly rate, what he was actually keeping for each hour of clinical work, was lower than he would have guessed by almost $100 an hour.
+Consider a surgeon who feels like he should have more to show for fifteen years of practice at his income level. When you run the numbers for someone in this position, the feeling is often justified. The practice is collecting well. Compensation looks strong. But the effective hourly rate, what the surgeon is actually keeping for each hour of clinical work, can be lower than expected by $100 an hour or more.
 
 That's the gap. And you can't see it if you're only looking at collections.
 
@@ -127,13 +164,13 @@ Suddenly, the abstract concepts we've been discussing all month, entity structur
 
 And remember that Jose Mujica quote I come back to all the time: "We're not paying with money. We're paying with the time from our lives we had to spend to earn that money." Your effective hourly rate makes that real. It converts every dollar of waste, every structural gap, into hours of clinical work that you're doing for free, essentially.
 
-So here's the question I want you to ask yourself. If you calculated this number right now, today, with your Q1 data, what would it be?
+So here's the question I want you to ask yourself. When Q1 closes and you have the data in front of you, what will this number be?
 
-You have the information. You know your Q1 collections. You can estimate your overhead percentage. You know your tax situation, or close enough. You know your retirement contributions and your debt service payments. And you know how many hours you spent in clinical work.
+You'll have the information. You'll know your Q1 collections. You can estimate your overhead percentage. You know your tax situation, or close enough. You know your retirement contributions and your debt service payments. And you know how many hours you spent in clinical work.
 
 Run the number. It takes fifteen minutes.
 
-Annualize your Q1 data (multiply by four if your Q1 is representative, or adjust for seasonality if it's not). Walk through the five components. Do the division.
+When Q1 closes, annualize your data (multiply by four if your Q1 is representative, or adjust for seasonality if it's not). Walk through the five components. Do the division.
 
 And then write the number down. Because you're going to want to compare it to what it could be.
 
@@ -189,7 +226,7 @@ Today, in Week 4, we've taken those three levers and fed them into a single outp
 
 And what I hope you take away from this month is that these aren't three separate conversations. They're three parts of the same conversation. Your entity structure determines your tax rate. Your tax rate determines your take-home. Your overhead determines how much revenue reaches you in the first place. And your effective hourly rate captures all of it in a single, honest number.
 
-When I sit down with a surgeon client and we calculate this rate together, it changes the nature of every conversation that follows. Because now, every structural improvement has a unit of measurement: hours of your life.
+When a surgeon calculates this rate for the first time, it changes the nature of every financial conversation that follows. Because now, every structural improvement has a unit of measurement: hours of your life.
 
 Reduce overhead by 2%? That's 389 hours of clinical work you just freed up, or $72,000 more in your pocket, however you want to think about it. Optimize your S-Corp salary and add a cash balance plan? That's another 280 hours of value. Accelerate depreciation through a cost segregation study? Another 80 to 160 hours.
 
@@ -201,7 +238,7 @@ Those aren't abstract improvements. Those are days and weeks and months of your 
 
 Here's what I want you to do this week. One thing. Fifteen minutes.
 
-Calculate your effective hourly rate using your Q1 data.
+Calculate your effective hourly rate as soon as Q1 closes at month-end.
 
 Step one: Take your Q1 collections and annualize them. If Q1 was $600,000, your annualized collections estimate is $2.4 million.
 
@@ -271,7 +308,7 @@ Capably yours.
 
 ### Relevance Validation
 - [x] All facts, figures, and legal references are current as of publication date (2026 tax rates, OBBBA provisions, CMS 2.5% adjustment)
-- [x] Content is appropriately timed relative to the annual calendar (Q1 data availability, end of March)
+- [x] Content is appropriately timed relative to the annual calendar (mid-March, equipping surgeons with the framework before Q1 closes)
 - [x] No conflicting current events that would undermine the message
 - [x] Relevance Score is Green
 
@@ -298,6 +335,18 @@ Capably yours.
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
 
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language
+
 ### Duration Check
 - [x] Cold open: ~45 seconds
 - [x] Intro and context: ~2 minutes
@@ -309,3 +358,14 @@ Capably yours.
 - [x] Listener takeaway: ~1.5 minutes
 - [x] Philosophical close: ~2 minutes
 - [x] **Estimated total: ~27.5 minutes** (slightly over 25-minute target; trim Segments 2 and 4 during production for tighter pacing)
+
+### Short-Form Clips
+- [x] Clip Extraction Map is included in the draft with 4 clip candidates
+- [x] Each clip stands alone without requiring context from the full episode
+- [x] Hook lands in the first 3 seconds (contrarian take, striking number, or direct question)
+- [x] Duration is within platform target (45-58s for YouTube Shorts, 60-90s for Instagram Reels)
+- [x] Platform tags are assigned: [YT-SHORT], [IG-REEL], or [BOTH]
+- [ ] Caption/subtitle script is included or noted for production
+- [x] Content stays within 4:5 safe zone (no critical visual info in top/bottom 10%)
+- [x] Clip ends with a clear takeaway or curiosity beat (not mid-sentence)
+- [x] Clips are not forced; each earns its extraction through natural standalone value

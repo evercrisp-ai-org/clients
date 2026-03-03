@@ -1,11 +1,12 @@
 # The Three April 15 Decisions Hiding in Plain Sight
 
 ## Post Metadata
-- **Type:** Podcast Script (also distributed as YouTube video)
-- **Week:** Week 6 (April 6–12)
+- **Type:** Video Podcast Script (uploaded to YouTube; audio distributed to podcast platforms)
+- **Week:** Week 6 (March 30 – April 5)
 - **Theme:** The April 15 trifecta — filing, estimated taxes, and the Roth question
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 6, Podcast
 - **Strategic context:** Companion piece to the Week 6 anchor blog. While the blog focuses on the backdoor Roth decision tree, this podcast widens the lens to cover all three April 15 decisions (file/extend, IRA contribution, estimated payment) and how they interact. Timing is critical: this episode must be available before April 15 to have maximum impact. Builds on Week 5's diagnostic framework by showing how the return's findings lead to specific, time-sensitive decisions at the April 15 deadline.
+- **Story classifications used:** [ILLUSTRATIVE] — hypothetical surgeon three-decision scenario; [GENERAL-PRINCIPLE] — April 15 decision framework, extension strategy, estimated payment calibration, backdoor Roth analysis
 
 ---
 ## Visual Assets
@@ -16,6 +17,34 @@
 - **AI image prompt:** Create a 1400x1400px square podcast cover art image. Background: solid Deep Muted Blue (#243A4B) covering the full canvas. Layout: text-dominant composition with content centered vertically and left-aligned with 100px left margin. Primary text: "Three Decisions" in Playfair Display SemiBold, approximately 100pt, Off-White (#F6F7F5), left-aligned, positioned in the upper-center area of the canvas. Secondary text: "April 15" in Inter Regular, approximately 48pt, Warm Gray (#9AA3A8), positioned directly below primary text with 20px spacing, same left alignment. A thin horizontal accent line (2px, Antique Gold #B08D57) spans 60% of the canvas width beneath the secondary text, starting from the left margin. Below the accent line, three small squares (24x24px each) arranged horizontally with 20px spacing, each filled with Antique Gold (#B08D57) at 80% opacity, representing the three decisions. Bottom of canvas: "CAPABLE WEALTH" in Inter Medium, 24pt, Blue Slate (#5F7483), centered horizontally, 60px from bottom edge. No cartoons, no clip art, no stock photography, no illustrations of people, no medical imagery, no calendar or clock imagery. Brand constraints: only Capable Wealth palette (#243A4B, #5F7483, #B08D57, #F6F7F5, #1E2428, #9AA3A8), 60/30/10 ratio. No generic stock, no clickbait styling, no busy compositions. Mood: deliberate, strategic, calm authority. Professional financial advisory aesthetic for orthopedic surgeons ages 45-65.
 - **Text overlay:** "Three Decisions" in Playfair Display SemiBold, ~100pt, Off-White (#F6F7F5), upper-center left-aligned. "April 15" in Inter Regular, ~48pt, Warm Gray (#9AA3A8), below primary text. "CAPABLE WEALTH" in Inter Medium, 24pt, Blue Slate (#5F7483), centered at bottom.
 - **Platform and dimensions:** Podcast cover 1400x1400, YouTube thumbnail variant 1280x720 (text repositioned to center-left two-thirds, right third left open for subtle atmospheric texture)
+
+---
+
+## Clip Extraction Map
+
+### Clip 1
+- **Source segment:** Cold Open
+- **Timestamp markers:** "Most surgeons think April 15 is about one thing..." through "...That's not a strategy. That's inertia dressed up as a deadline."
+- **Hook line:** "April 15 has three decisions hidden inside it. Most surgeons see only one."
+- **Core insight:** April 15 bundles three distinct decisions: file/extend, prior-year IRA contribution, and Q1 estimated payment. Most surgeons only address the first consciously.
+- **Platform tags:** [BOTH]
+- **Estimated duration:** ~50 seconds
+
+### Clip 2
+- **Source segment:** Segment 2: Decision Two, The Prior-Year IRA Contribution
+- **Timestamp markers:** "But OBBBA changed that calculation..." through "...April 15 should trigger a deliberate analysis, not a reflexive deposit."
+- **Hook line:** "You've been funding a backdoor Roth every year because someone told you to. OBBBA changed the math. Here's why."
+- **Core insight:** With the 37% top rate made permanent, paying 40%+ now to avoid 22-24% later may be the most expensive way to save $7,500. A cash balance plan redirect saves $3,150 immediately.
+- **Platform tags:** [BOTH]
+- **Estimated duration:** ~55 seconds
+
+### Clip 3
+- **Source segment:** Segment 1: Decision One, File or Extend
+- **Timestamp markers:** "Here's the reality. More than half of high-income taxpayers file extensions." through "...I'll take that trade every time."
+- **Hook line:** "The extension isn't procrastination. More than half of high-income taxpayers file extensions. Here's why it might be the smarter move."
+- **Core insight:** Extensions give time for late K-1s, complex modeling, and current-year planning. The cost of overpaying by $5K for six months is ~$100 in forgone interest.
+- **Platform tags:** [IG-REEL]
+- **Estimated duration:** ~70 seconds
 
 ---
 
@@ -55,7 +84,7 @@ The first decision is the one everybody thinks about: do you file your return by
 
 Most people assume that filing an extension is a bad thing. It feels like procrastination. It feels like you're behind. And there's a vague sense that extensions attract audit attention, which (for the record) is not true. The IRS has said explicitly that filing an extension does not increase audit risk.
 
-Here's what I tell surgeons. More than half of high-income taxpayers file extensions. This is not a fringe behavior. It is the norm for people with complex financial lives. And for surgeons in particular, there are real strategic reasons to extend.
+Here's the reality. More than half of high-income taxpayers file extensions. This is not a fringe behavior. It is the norm for people with complex financial lives. And for surgeons in particular, there are real strategic reasons to extend.
 
 Let me walk through when extending makes sense.
 
@@ -147,7 +176,7 @@ Let me walk through a few examples.
 
 This is why I encourage surgeons to treat the extension not as a deferral of attention but as a commitment to increased attention. If you extend, you should be reviewing your estimated payment pacing at least quarterly with your advisor. Not just paying the voucher, but checking whether the voucher still makes sense.
 
-**A quick scenario to tie these together.** Dr. Patel is a 54-year-old orthopedic surgeon earning $1.2 million. She's filing an extension because her surgery center K-1 hasn't arrived yet. She has $85,000 in cash reserves. Her Q1 estimated payment voucher says $82,000. She hasn't made her 2025 IRA contribution yet.
+**A quick scenario to tie these together.** Consider a 54-year-old orthopedic surgeon earning $1.2 million. She's filing an extension because her surgery center K-1 hasn't arrived yet. She has $85,000 in cash reserves. Her Q1 estimated payment voucher says $82,000. She hasn't made her 2025 IRA contribution yet.
 
 If she pays the full estimated payment and funds the backdoor Roth at $8,600 (she's over 50), her total April 15 outflow is $90,600. That brings her cash reserves to negative territory, which means she'd need to pull from investments or a line of credit.
 
@@ -225,7 +254,7 @@ But the most important moments in your financial life aren't the deadlines. They
 
 April 15 feels like a deadline. And it is one, technically. But it's also a decision point. Three of them, actually. And the quality of your financial life is determined not by the deadlines you meet, but by the decisions you make at each one.
 
-A surgeon friend once told me that the most critical moment in a procedure isn't the one everyone expects. It's the quiet decision two steps before: the angle of approach, the plane of dissection, the choice that shapes everything that follows. By the time the dramatic moment arrives, the outcome was already determined by the deliberate choice nobody saw.
+In surgery, the most critical moment in a procedure isn't the one everyone expects. It's the quiet decision two steps before: the angle of approach, the plane of dissection, the choice that shapes everything that follows. By the time the dramatic moment arrives, the outcome was already determined by the deliberate choice nobody saw.
 
 April 15 works the same way. The filing, the payment, the contribution. Those are the visible actions. But the decisions behind them (should I extend? should I fund the Roth or redirect? should I adjust my quarterly pacing?) are the quiet choices that shape the next twelve months of your financial life.
 
@@ -245,7 +274,7 @@ Make them deliberately. Make them with good data. And make all three of them, no
 - [x] Tone matches the voice profile: warm, encouraging, gently contrarian
 - [x] Free of em dashes and formulaic "not X / it's Y" pivot constructions
 - [x] Conversational, exploratory tone throughout (Jared thinking out loud with the listener)
-- [x] More depth and nuance than the blog version (covers all three decisions plus interactions, real-world scenario with Dr. Patel, full protocol walkthrough)
+- [x] More depth and nuance than the blog version (covers all three decisions plus interactions, illustrative scenario, full protocol walkthrough)
 
 ### Audience Specificity
 - [x] Could only have been written for orthopedic surgeons (K-1 income from surgery centers, practice entity structures, clinical schedule references, CMS reimbursement context)
@@ -256,7 +285,7 @@ Make them deliberately. Make them with good data. And make all three of them, no
 
 ### Relevance Validation
 - [x] All facts, figures, and legal references are current as of publication date (2026 IRA limits $7,500/$8,600, 401(k) $24,500 + $8,000, 37% top rate permanent under OBBBA, fed funds 3.50–3.75%)
-- [x] Content is appropriately timed relative to the annual calendar (Week of April 6–12, immediately before April 15 deadline)
+- [x] Content is appropriately timed relative to the annual calendar (Week of March 30 – April 5, approximately two weeks before April 15 deadline)
 - [x] No conflicting current events that would undermine the message
 - [x] Relevance Score is Green
 - [x] OBBBA permanent 37% top rate referenced accurately
@@ -287,3 +316,26 @@ Make them deliberately. Make them with good data. And make all three of them, no
 - [x] Segments are clearly delineated with natural transitions
 - [x] Works as both audio-only podcast and video consumption
 - [x] No sign-off (philosophical close only, per podcast convention)
+
+### Short-Form Clips
+- [x] Clip Extraction Map is included in the draft with 3 clip candidates
+- [x] Each clip stands alone without requiring context from the full episode
+- [x] Hook lands in the first 3 seconds (contrarian take, striking number, or direct question)
+- [x] Duration is within platform target (45-58s for YouTube Shorts, 60-90s for Instagram Reels)
+- [x] Platform tags are assigned: [YT-SHORT], [IG-REEL], or [BOTH]
+- [ ] Caption/subtitle script is included or noted for production
+- [x] Content stays within 4:5 safe zone (no critical visual info in top/bottom 10%)
+- [x] Clip ends with a clear takeaway or curiosity beat (not mid-sentence)
+- [x] Clips are not forced; each earns its extraction through natural standalone value
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

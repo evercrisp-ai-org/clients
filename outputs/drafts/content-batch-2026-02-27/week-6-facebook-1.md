@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 6 (April 6–12)
+- **Week:** Week 6 (March 30 – April 5)
 - **Theme:** The April 15 trifecta: filing, estimated taxes, and the Roth question
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 6, Facebook 1
 - **Strategic context:** Opens the Facebook sequence for the week by reframing April 15 as three separate decisions rather than one filing deadline. Practical and brief, designed to cut through the noise of tax-season anxiety and refocus surgeons on the two decisions that often get overlooked when filing dominates the conversation.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — April 15 three-decision overview
 
 ---
 ## Visual Assets
@@ -19,11 +20,11 @@
 
 ---
 
-April 15 is next week. Quick reminder: it's more than a filing deadline.
+April 15 is two weeks away. Quick reminder: it's more than a filing deadline.
 
 It's also the last day to make a prior-year IRA contribution (up to $7,500 if you're over 50). And it's the due date for your Q1 estimated tax payment. Three decisions, one date.
 
-Most surgeons I work with are focused on the filing question. That's understandable. But I've watched the filing conversation crowd out the other two, and those two decisions often have a bigger impact on the year ahead.
+Most surgeons focus on the filing question. That's understandable. But the filing conversation tends to crowd out the other two, and those two decisions often have a bigger impact on the year ahead.
 
 Whether you file or extend, that's a process question. Whether you fund a prior-year IRA and how you calibrate your Q1 estimated payment? Those are strategy questions. They shape your tax position for the rest of 2026.
 
@@ -50,7 +51,7 @@ If you're meeting with your CPA this week, bring all three to the table. Filing 
 
 ### Relevance Validation
 - [x] Facts current as of publication date
-- [x] Appropriately timed (week before April 15)
+- [x] Appropriately timed (two weeks before April 15)
 - [x] No conflicting current events
 - [x] Relevance Score is Green
 
@@ -68,3 +69,15 @@ If you're meeting with your CPA this week, bring all three to the table. Filing 
 - [x] No cartoons, clip art, generic stock, clickbait
 - [x] Correct palette hex codes
 - [x] Passes credibility test
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

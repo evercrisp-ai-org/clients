@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** LinkedIn Post
-- **Week:** Week 1 (March 2–8)
+- **Week:** Week 1 (February 23 – March 1)
 - **Theme:** Tax Structure Optimization
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 1, LinkedIn 2
 - **Strategic context:** Narrative companion to the anchor. While LinkedIn 1 argues the thesis, this post tells a specific client-story version of the three structural gaps to hook through narrative rather than argument. Tells a concrete case-study version from "You're Not Overtaxed. You're Understructured."
+- **Story classifications used:** [ILLUSTRATIVE] — surgeon leaving $130K/year on the table through three structural gaps
 
 ---
 ## Visual Assets
@@ -19,23 +20,25 @@
 
 ---
 
-I reviewed a surgeon's financials last month. He was leaving $130K on the table. Every year. For six years.
+Here's how the math works for a surgeon in a position I see all the time in the planning data.
 
-He wasn't doing anything wrong. His CPA was competent. His investments were fine.
+Consider a surgeon earning $800K with a solid CPA and reasonable investments, but leaving $130K on the table. Every year. For six years.
 
-But three structural gaps had been silently draining his wealth:
+Nothing is being done wrong. The CPA is competent. The investments are fine.
 
-1. His S-Corp salary hadn't been recalibrated since he formed the entity in 2019. The number was too high, costing him roughly $25K/year in excess payroll taxes.
+But three structural gaps are silently draining wealth:
 
-2. He had no cash balance plan. At 54 years old, he could have been sheltering $200K+ per year in tax-deferred contributions, on top of his 401(k). Instead, his retirement contributions topped out at $32,500.
+1. The S-Corp salary hasn't been recalibrated since the entity was formed. The number is too high, costing roughly $25K/year in excess payroll taxes.
 
-3. He owned his practice building but had never done a cost segregation study. Accelerated depreciation alone was worth $18K/year in missed deductions.
+2. No cash balance plan. At 54 years old, this surgeon could be sheltering $200K+ per year in tax-deferred contributions, on top of the 401(k). Instead, retirement contributions top out at $32,500.
+
+3. The surgeon owns the practice building but has never done a cost segregation study. Accelerated depreciation alone is worth $18K/year in missed deductions.
 
 Total: $130K/year. Over six years, that's nearly $800K in wealth that simply evaporated. Not because of bad decisions, but because of outdated structure.
 
-The fix wasn't complicated. It took three months to implement.
+The fix in a scenario like this isn't complicated. It typically takes about three months to implement.
 
-The hard part? Nobody had ever looked.
+The hard part? Nobody ever looks.
 
 If it's been more than two years since someone reviewed your entire financial structure (entity, retirement plans, and real estate) you might have your own version of this story.
 
@@ -80,3 +83,15 @@ If it's been more than two years since someone reviewed your entire financial st
 - [x] Text on images (if any) specifies exact font, weight, size, color hex, and position (none for this image)
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

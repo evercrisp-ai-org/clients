@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 6 (April 6–12)
+- **Week:** Week 6 (March 30 – April 5)
 - **Theme:** The April 15 trifecta: filing, estimated taxes, and the Roth question
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 6, Facebook 2
 - **Strategic context:** Normalizes filing an extension and reframes the October 15 window as a planning opportunity rather than procrastination. Reassures surgeons who extend and positions Capable Wealth as the advisor who helps them use that time strategically.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — extension as planning tool
 
 ---
 ## Visual Assets
@@ -21,7 +22,7 @@
 
 If you're filing an extension this year, I want you to hear something: that's a perfectly reasonable decision.
 
-More than half the surgeon clients I work with extend. The reason is simple. Complex returns take time, and rushing a return with multiple entities, retirement plan contributions, and K-1s waiting to arrive doesn't help anyone. An extension gives you until October 15 to file accurately and thoughtfully.
+More than half of high-income filers extend. The reason is simple. Complex returns take time, and rushing a return with multiple entities, retirement plan contributions, and K-1s waiting to arrive doesn't help anyone. An extension gives you until October 15 to file accurately and thoughtfully.
 
 Here's what most people miss about that window. The six months between April and October are some of the most valuable planning months of the year. Your Q1 income is visible. Your practice trajectory for the year is taking shape. You have real numbers to work with, not projections from last November.
 
@@ -50,7 +51,7 @@ So if you extended, don't feel behind. You just gave yourself room to be more de
 
 ### Relevance Validation
 - [x] Facts current as of publication date
-- [x] Appropriately timed (week before April 15)
+- [x] Appropriately timed (two weeks before April 15)
 - [x] No conflicting current events
 - [x] Relevance Score is Green
 
@@ -68,3 +69,15 @@ So if you extended, don't feel behind. You just gave yourself room to be more de
 - [x] No cartoons, clip art, generic stock, clickbait
 - [x] Correct palette hex codes
 - [x] Passes credibility test
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

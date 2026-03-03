@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** LinkedIn Post
-- **Week:** Week 5 (March 30 – April 5)
+- **Week:** Week 5 (March 23–29)
 - **Theme:** Your tax return is a diagnostic report
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 5, LinkedIn 3
 - **Strategic context:** Extends the anchor's "return as diagnostic" message to surgeons who haven't filed yet. Reframes the extension from a sign of disorganization into the most valuable planning window of the year, creating a bridge between the April 15 deadline and the October 15 opportunity.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — filing extension as strategic planning window with specific action items
 
 ---
 ## Visual Assets
@@ -31,7 +32,7 @@ The catch is that most people treat the extension as extra time to gather docume
 
 Used correctly, the extension period is when you sit down with your return (or last year's return, if this year's is still being prepared), identify the four diagnostic markers, and build a plan to close any structural gaps before October.
 
-If you filed an extension this year, you are not behind. You are in the strongest planning position of the calendar. The question is whether you will use the time.
+If you're planning to file an extension, or if you've already filed one, you are not behind. You are in the strongest planning position of the calendar. The question is whether you will use the time.
 
 What is one decision you could make before October 15 that would change next year's return?
 
@@ -76,3 +77,15 @@ What is one decision you could make before October 15 that would change next yea
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

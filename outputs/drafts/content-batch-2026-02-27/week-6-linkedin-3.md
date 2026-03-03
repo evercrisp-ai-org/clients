@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** LinkedIn Post
-- **Week:** Week 6 (April 6–12)
+- **Week:** Week 6 (March 30 – April 5)
 - **Theme:** The April 15 trifecta: filing, estimated taxes, and the Roth question
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 6, LinkedIn 3
 - **Strategic context:** Unifying post that connects all three April 15 decisions into a single framework. Most surgeons see April 15 as a filing deadline. This post reveals that it is simultaneously the Q1 estimated payment deadline, the prior-year IRA contribution deadline, and the implicit start of the extension planning window. Positions Capable Wealth as the advisor who sees the full picture.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — April 15 three-decision framework
 
 ---
 ## Visual Assets
@@ -57,7 +58,7 @@ Which of these three have you addressed?
 
 ### Relevance Validation
 - [x] All facts, figures, and legal references are current as of publication date (2025 IRA limits for prior-year contribution, April 15 and October 15 deadlines, 2026 estimated tax obligations)
-- [x] Content is appropriately timed relative to the annual calendar (April 6-12, one week before the April 15 trifecta)
+- [x] Content is appropriately timed relative to the annual calendar (March 30 – April 5, two weeks before the April 15 trifecta)
 - [x] No conflicting current events that would undermine the message
 - [x] Relevance Score is Green
 
@@ -76,3 +77,15 @@ Which of these three have you addressed?
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

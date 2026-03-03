@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** LinkedIn Post
-- **Week:** Week 2 (March 9–15)
+- **Week:** Week 2 (March 2–8)
 - **Theme:** S-Corp Salary Optimization
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 2, LinkedIn 3
 - **Strategic context:** Isolates the least understood of the three S-Corp salary variables (the QBI deduction) as a standalone insight. LinkedIn 1 showed the payroll-vs-retirement trade-off; LinkedIn 2 introduced all three variables; LinkedIn 3 deep-dives into the one most surgeons have never examined. Completes the week's LinkedIn arc by moving from provocation (LinkedIn 1) to framework (LinkedIn 2) to the hidden variable (LinkedIn 3).
+- **Story classifications used:** [GENERAL-PRINCIPLE] — QBI deduction optimization for S-Corp owners
 
 ---
 ## Visual Assets
@@ -78,3 +79,15 @@ This is Q1. The right time to model it.
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

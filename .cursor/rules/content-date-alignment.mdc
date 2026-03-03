@@ -1,0 +1,67 @@
+---
+description: Enforces temporal alignment between content topics and their scheduled publication dates. Content must never claim an event has occurred if the publication week predates it.
+globs: outputs/drafts/content-batch-*/**/*.md
+alwaysApply: false
+---
+
+# Content-Date Temporal Alignment
+
+## Core Rule
+
+Every content piece's topic, title, and body text must be validated against its scheduled publication week dates. Content must be temporally honest: it must not reference events, deadlines, or data as having occurred or being available if the publication week predates them.
+
+## Fiscal Quarter Boundaries
+
+- Q1 closes March 31
+- Q2 closes June 30
+- Q3 closes September 30
+- Q4 closes December 31
+
+Never reference quarterly data as "in," "available," or "complete" before these dates. Use forward-looking framing instead: "as Q1 wraps up," "before Q1 closes," "when Q1 data comes in."
+
+## Key Tax and Financial Deadlines
+
+- January 15: Q4 estimated tax payment (prior year)
+- April 15: Tax filing deadline, Q1 estimated tax payment, prior-year IRA contribution deadline
+- June 15: Q2 estimated tax payment
+- September 15: Q3 estimated tax payment
+- October 15: Extended filing deadline
+- December 31: Year-end deadline for most tax strategies, RMDs, retirement contributions
+
+## Date-Sensitive Content Rules
+
+1. **Deadline-referenced content** should publish 2-4 weeks before the deadline to give the audience time to act. Content that says "the deadline is next week" must actually publish the week before the deadline, not earlier.
+
+2. **Post-deadline content** (e.g., "the window just opened," "now that April 15 has passed") must not publish before the deadline date falls within or before the publication week.
+
+3. **Quarterly review content** (e.g., "your Q1 numbers are in") must not publish before the relevant quarter has closed. If the content is about preparing for a quarterly review, use proactive framing: "here's the framework to apply when Q1 closes."
+
+4. **Conference/event-timed content** should align with actual event dates. Verify conference schedules before referencing "conference season is here."
+
+## When Dates Shift
+
+If publication dates are adjusted (shifted earlier or later), every content piece in the affected range must be audited for:
+
+- Titles that reference specific timing ("Q1 Revenue Is In," "The Window Just Opened")
+- Body text that assumes a position in the calendar ("this week," "next week," "last month")
+- Quality checklist entries referencing specific date ranges
+- Strategic context descriptions with temporal assumptions
+- Social post text with date-specific references ("April 15 is next week")
+
+## Cross-Reference Requirement
+
+When generating or reviewing content, cross-reference the publication week dates against:
+
+- `brand/content-calendar.md` Layer 1 (static annual cycles) for deadline alignment
+- `brand/quarterly-plan-Q2-2026.md` (or current quarter's plan) for the authoritative week-to-date mapping
+- The fiscal quarter boundaries listed above
+
+## Validation Checklist (Add to Quality Checklist)
+
+Before finalizing any content piece, confirm:
+
+- [ ] No claims that a quarter has closed before its actual close date
+- [ ] No references to deadlines as "next week" unless the publication week is actually the week before the deadline
+- [ ] No post-event framing used before the event has occurred
+- [ ] Forward-looking framing used for events that fall after the publication week
+- [ ] All "this week" and "next week" references are accurate for the publication date range

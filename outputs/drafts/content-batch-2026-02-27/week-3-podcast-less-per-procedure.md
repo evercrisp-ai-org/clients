@@ -1,11 +1,12 @@
 # Your Practice Makes Less Per Procedure Than It Did Last Year. Here's What to Do About It.
 
 ## Post Metadata
-- **Type:** Podcast Script (also distributed as YouTube video)
-- **Week:** Week 3 (March 16–22)
+- **Type:** Video Podcast Script (uploaded to YouTube; audio distributed to podcast platforms)
+- **Week:** Week 3 (March 9–15)
 - **Theme:** The reimbursement shift and what it means for your wealth
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 3, Podcast
 - **Strategic context:** CMS's 2.5% "efficiency adjustment" on non-time-based orthopedic procedures has been active since January 1. Surgeons are now seeing 10+ weeks of reduced reimbursements reflected in their Q1 numbers. This episode reframes the reimbursement cut as a structural planning event, challenges the instinctive "do more volume" response, and walks through three concrete alternatives that protect personal wealth without requiring additional OR time. Builds on Weeks 1–2 (entity structure, S-Corp salary optimization) by extending the structural lens to practice economics.
+- **Story classifications used:** [ILLUSTRATIVE] — surgeon considering adding half-days to offset reimbursement cut; [ILLUSTRATIVE] — two-surgeon comparison (Surgeon A vs. Surgeon B) showing structural vs. revenue differences; [GENERAL-PRINCIPLE] — marginal cost math, overhead benchmarking categories, OBBBA payment formula analysis
 
 ---
 ## Visual Assets
@@ -19,9 +20,37 @@
 
 ---
 
+## Clip Extraction Map
+
+### Clip 1
+- **Source segment:** Segment 2: The Volume Trap
+- **Timestamp markers:** "So those 10 additional procedures..." through "...You did 100% more work to get back 39% of what you lost."
+- **Hook line:** "Adding 10 procedures to offset a $32K revenue loss sounds logical. Here's why it costs you more than it recovers."
+- **Core insight:** The marginal cost of additional procedures consumes ~60% of the revenue, so 10 extra cases only recover $12,480 of a $32K gap. A 39% recovery rate for 100% more work.
+- **Platform tags:** [BOTH]
+- **Estimated duration:** ~55 seconds
+
+### Clip 2
+- **Source segment:** Segment 3: Three Overhead Line Items
+- **Timestamp markers:** "The first is supply costs..." through "...Most practices just never use it."
+- **Hook line:** "Most orthopedic practices negotiate implant pricing once and never revisit it. That single habit could be costing you $40,000 a year."
+- **Core insight:** Implant pricing varies 15-30% across vendors for equivalent devices. A 10% reduction on $400K in annual supply spend saves $40K, more than the entire reimbursement gap.
+- **Platform tags:** [IG-REEL]
+- **Estimated duration:** ~65 seconds
+
+### Clip 3
+- **Source segment:** Segment 5: Revenue or Wealth?
+- **Timestamp markers:** "I work with two surgeons..." through "...Completely different financial outcomes."
+- **Hook line:** "Surgeon A collects $1.4 million. Surgeon B collects $1.35 million. Surgeon B takes home $80,000 more per year."
+- **Core insight:** Two surgeons with nearly identical revenue have an $80K/year wealth gap driven entirely by structural differences: implant contracts, staffing efficiency, and S-Corp salary calibration.
+- **Platform tags:** [BOTH]
+- **Estimated duration:** ~55 seconds
+
+---
+
 ## COLD OPEN (30–60 seconds)
 
-Most orthopedic surgeons I talk to are planning to respond to the CMS reimbursement cut by doing more surgery.
+The most common response to the CMS reimbursement cut? More surgery.
 
 And I get it. The math feels intuitive. Revenue went down, so you do more procedures to make it up. That's how it should work, right?
 
@@ -83,7 +112,7 @@ Let me say that differently, because I think this is the number that matters. Fo
 
 And there's a compounding problem here. If you're adding cases, you're also adding fatigue, surgical risk, administrative burden, and time away from everything else. Time away from your family. Time away from the strategic work on your practice. Time away from the financial planning that could actually solve this problem more efficiently.
 
-I had a conversation with a surgeon last month who told me he was planning to add a half-day of surgery every other week to offset the CMS cut. When we sat down and ran the numbers together, the incremental revenue from those sessions, after accounting for the additional overhead, was going to net him about $14,000 a year. He was going to give up 26 half-days (that's 13 full days, or about two and a half weeks of his life) for $14,000. That's roughly $1,077 per day. Which, for a surgeon earning $800,000 a year, is well below what his time is worth on any rational analysis.
+Let's walk through what this looks like for a surgeon considering adding a half-day of surgery every other week to offset the CMS cut. The incremental revenue from those sessions, after accounting for the additional overhead, would net roughly $14,000 a year. That surgeon would give up 26 half-days (that's 13 full days, or about two and a half weeks of life) for $14,000. That's roughly $1,077 per day. For a surgeon earning $800,000 a year, that's well below what the time is worth on any rational analysis.
 
 The volume response feels productive. It feels like taking action. But it's the most expensive way to solve this problem. And there are alternatives that cost nothing in terms of additional time.
 
@@ -105,7 +134,7 @@ And I want to be specific about how to approach this. You don't have to switch v
 
 **The second line item is staffing ratios.**
 
-The Medical Group Management Association publishes benchmarks for clinical and administrative staffing ratios in orthopedic practices. The benchmark for a well-run orthopedic group is approximately 4.5 to 5.0 total staff per full-time-equivalent physician. Many practices I encounter are running at 5.5 to 6.5.
+The Medical Group Management Association publishes benchmarks for clinical and administrative staffing ratios in orthopedic practices. The benchmark for a well-run orthopedic group is approximately 4.5 to 5.0 total staff per full-time-equivalent physician. Many practices are running at 5.5 to 6.5.
 
 Now, I'm not suggesting you fire people. But understanding where your staffing ratio sits relative to the benchmark tells you something important about operational efficiency. Are there roles that could be restructured? Are there tasks being done manually that could be systematized or automated? Is there duplication across front-office and back-office functions?
 
@@ -157,7 +186,7 @@ Those sound like the same thing, and for a long time in medicine, they were clos
 
 But that margin is compressing. The reimbursement environment is getting tighter. Practice costs are rising faster than payments. And the gap between revenue and personal wealth is widening for surgeons who haven't updated their structure.
 
-Here's a way to think about this. I work with two surgeons (I'm anonymizing the details, of course) who have almost identical practices. Similar case volumes, similar specialties, similar geographic markets. Surgeon A collects $1.4 million in gross revenue. Surgeon B collects $1.35 million. So Surgeon A actually has higher revenue.
+Here's a way to think about this. Consider two surgeons with almost identical practices. Similar case volumes, similar specialties, similar geographic markets. Surgeon A collects $1.4 million in gross revenue. Surgeon B collects $1.35 million. So Surgeon A actually has higher revenue.
 
 But Surgeon B takes home $80,000 more per year. How? Three things. Surgeon B renegotiated implant contracts two years ago and saves about $35,000 annually. Surgeon B runs one fewer FTE than Surgeon A for the same patient volume, saving another $60,000. And Surgeon B's S-Corp salary is calibrated to maximize retirement plan contributions (which we talked about last week), adding another $25,000 in tax-deferred value.
 
@@ -199,7 +228,7 @@ Your financial life deserves that same precision.
 
 When revenue drops, the reflexive response is to work more. More hours, more procedures, more volume. And sometimes that's the right answer. But sometimes, the most productive thing you can do is stop, look at the structure, and ask whether the system itself is working as efficiently as it should.
 
-The surgeons I work with who build the most wealth over the course of a career aren't necessarily the ones who operate the most. They're the ones who pay attention to the entire system: the revenue, the overhead, the entity structure, the tax strategy, the retirement plan design. They treat their financial life with the same rigor they bring to clinical practice.
+The surgeons who build the most wealth over the course of a career aren't necessarily the ones who operate the most. They're the ones who pay attention to the entire system: the revenue, the overhead, the entity structure, the tax strategy, the retirement plan design. They treat their financial life with the same rigor they bring to clinical practice.
 
 And I think that's the real lesson of the reimbursement cut. It's a signal. A diagnostic finding. And like any finding, it points you toward a treatment plan. The question is whether you'll address the underlying condition, or just try to outrun the symptoms.
 
@@ -219,7 +248,7 @@ Thanks for spending this time with me today. Talk to you next week.
 - [x] Tone matches the voice profile: warm, encouraging, gently contrarian
 - [x] Free of em dashes and formulaic "not X / it's Y" pivot constructions
 - [x] Conversational, exploratory tone throughout (Jared thinking out loud with the listener)
-- [x] More depth and nuance than the blog version (extended math examples, multiple scenarios, real-world conversation references)
+- [x] More depth and nuance than the blog version (extended math examples, multiple illustrative scenarios, structural comparisons)
 
 ### Audience Specificity
 - [x] Could only have been written for orthopedic surgeons (CMS efficiency adjustment, non-time-based procedure codes, implant pricing, OR time, ASC references)
@@ -253,9 +282,32 @@ Thanks for spending this time with me today. Talk to you next week.
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
 
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language
+
 ### Podcast-Specific Checks
 - [x] Audio stands alone without visual aids (all math explained verbally, no references to on-screen elements)
 - [x] Structure follows podcast format: Cold Open, Intro and Context, Main Segments, Listener Takeaway, Philosophical Close
 - [x] Estimated duration within 15–25 minute range (~22 minutes at conversational pace)
 - [x] Segments are clearly delineated with natural transitions
 - [x] Works as both audio-only podcast and video consumption
+
+### Short-Form Clips
+- [x] Clip Extraction Map is included in the draft with 3 clip candidates
+- [x] Each clip stands alone without requiring context from the full episode
+- [x] Hook lands in the first 3 seconds (contrarian take, striking number, or direct question)
+- [x] Duration is within platform target (45-58s for YouTube Shorts, 60-90s for Instagram Reels)
+- [x] Platform tags are assigned: [YT-SHORT], [IG-REEL], or [BOTH]
+- [ ] Caption/subtitle script is included or noted for production
+- [x] Content stays within 4:5 safe zone (no critical visual info in top/bottom 10%)
+- [x] Clip ends with a clear takeaway or curiosity beat (not mid-sentence)
+- [x] Clips are not forced; each earns its extraction through natural standalone value

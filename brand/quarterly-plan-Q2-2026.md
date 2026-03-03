@@ -25,10 +25,12 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 | Channel | Pieces per Week | 13-Week Total |
 |---------|----------------|---------------|
 | Anchor (blog/article) | 1 | 13 |
+| Video podcast | 1 | 13 |
+| Short-form clips (from podcast) | 2-5 (varies) | ~26-65 |
 | LinkedIn posts | 3 | 39 |
-| YouTube concepts | 1 | 13 |
 | Facebook posts | 3 | 39 |
-| **Total** | **8** | **~104** |
+| **Core total** | **8** | **~104** |
+| **Including clips** | **10-13** | **~130-169** |
 
 ---
 
@@ -38,7 +40,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-### Week 1: March 2–8
+### Week 1: February 23 – March 1
 
 #### Theme: The structure problem, not the tax problem
 
@@ -73,7 +75,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**YOUTUBE CONCEPT**
+**VIDEO PODCAST CONCEPT**
 
 - **Topic and angle:** "The Three Leaks Draining Your Surgeon Paycheck" — a visual walkthrough of the three structural gaps, using a "bucket with holes" metaphor.
 - **Contrarian hook (first 15 seconds):** "If you make $800K a year and feel like you should have more to show for it... you're right. The answer comes down to three holes in your financial structure that nobody has told you about."
@@ -84,6 +86,12 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
   4. Why CPAs aren't the villain — their job is compliance, not optimization
   5. The cumulative cost: show the 10-year impact of these three gaps at surgeon income levels
 - **Philosophical close:** "You didn't spend a decade in training to be efficient in the OR and careless with everything that comes after. The same precision you bring to a procedure — that's what your financial structure deserves."
+
+**CLIP CANDIDATES**
+
+1. **The cash balance plan reveal** (talking point 2): The $150K-$350K shelter stat delivered cold. Hook: "In 2026, the most you can put into a 401(k) is $32,500. But there's another vehicle..." ~50s `[BOTH]`
+2. **The cumulative cost** (talking point 5): Add up all three leaks to $85K-$130K/year, then show the 10-year number. Hook: "Let me add up what these three structural gaps are actually costing..." ~55s `[BOTH]`
+3. **CPAs aren't the villain** (talking point 4): The compliance vs. optimization distinction. Hook: "This is not your CPA's fault..." ~45s `[YT-SHORT]`
 
 ---
 
@@ -104,11 +112,11 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**Timing rationale:** Publish the anchor piece at the top of the month to set the Q1 health check theme. Tax-related content must be out by mid-March to give surgeons time to act before April 15. Starting with the structural message early gives the rest of March content a foundation to build on.
+**Timing rationale:** Publish the anchor piece in the last week of February to set the Q1 health check theme early. Tax-related content must be out by mid-March to give surgeons time to act before April 15. Starting with the structural message before March even begins gives the rest of the quarter's content a foundation to build on.
 
 ---
 
-### Week 2: March 9–15
+### Week 2: March 2–8
 
 #### Theme: The S-Corp salary question
 
@@ -143,7 +151,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**YOUTUBE CONCEPT**
+**VIDEO PODCAST CONCEPT**
 
 - **Topic and angle:** "The Salary You Pay Yourself Could Be Your Most Expensive Financial Decision" — show the whiteboard math on the S-Corp salary trade-off in real time.
 - **Contrarian hook (first 15 seconds):** "What if I told you that the salary you're paying yourself — the number you've barely thought about since your CPA set it up — could be the single most impactful number in your entire financial plan? Not your investment returns. Not your tax rate. Your salary."
@@ -154,6 +162,12 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
   4. The QBI deduction wrinkle — how the 20% pass-through deduction interacts with salary
   5. The annual review cadence: this isn't a set-it-and-forget-it number
 - **Philosophical close:** "Control over your financial life starts with understanding the numbers your own structure is built on. Most surgeons can describe the biomechanics of every implant they use — but they can't explain why their salary is what it is. That's a gap worth closing."
+
+**CLIP CANDIDATES**
+
+1. **The payroll tax math** (talking point 2): $300K vs. $360K comparison delivered as a quick reveal. Hook: "Your CPA told you to keep your S-Corp salary low. Here's what that's actually costing you." ~55s `[BOTH]`
+2. **The retirement plan unlock** (talking point 3): How a higher salary feeds $20K-$60K more into retirement. Hook: "A $60K salary adjustment just unlocked $60K in retirement contributions. Same income. Different structure." ~50s `[YT-SHORT]`
+3. **The QBI deduction wrinkle** (talking point 4): The hidden third variable most surgeons don't know exists. Hook: "There's a deduction worth up to $29,800 that depends entirely on one number you've never optimized." ~60s `[IG-REEL]`
 
 ---
 
@@ -174,11 +188,11 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**Timing rationale:** Week 2 builds on Week 1's structural theme by zooming into the single most common structural misalignment — the S-Corp salary. Q1 is the natural review window for reasonable compensation. Publishing this in the second week of March gives surgeons (or their advisors) 5 weeks to recalibrate before April 15.
+**Timing rationale:** Week 2 builds on Week 1's structural theme by zooming into the single most common structural misalignment — the S-Corp salary. Q1 is the natural review window for reasonable compensation. Publishing this in the first week of March gives surgeons (or their advisors) 6 weeks to recalibrate before April 15.
 
 ---
 
-### Week 3: March 16–22
+### Week 3: March 9–15
 
 #### Theme: The reimbursement shift and what it means for your wealth
 
@@ -213,7 +227,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**YOUTUBE CONCEPT**
+**VIDEO PODCAST CONCEPT**
 
 - **Topic and angle:** "Your Practice Makes Less Per Procedure Than It Did Last Year. Here's What to Do About It." — walk through the reimbursement math and the three response strategies.
 - **Contrarian hook (first 15 seconds):** "Most orthopedic surgeons I talk to are planning to respond to the CMS reimbursement cut by doing more surgery. That's like treating a fracture by asking the patient to walk faster. The problem isn't volume — it's structure."
@@ -225,6 +239,12 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
   5. The strategic question: is your practice structured to build wealth or just to generate revenue?
 - **Philosophical close:** "You wouldn't treat every patient with the same implant regardless of the pathology. Don't treat every financial challenge with the same response — more hours, more procedures, more volume. Sometimes the most productive thing you can do is stop and look at the structure."
 
+**CLIP CANDIDATES**
+
+1. **The volume trap math** (talking point 2): 10 extra procedures to recover $32K, but only $12,480 nets. Hook: "Adding 10 procedures to offset a $32K revenue loss sounds logical. Here's why it costs you more than it recovers." ~55s `[BOTH]`
+2. **The three overhead benchmarks** (talking point 3): Quick reveal of supply costs, staffing ratios, facility utilization as untouched levers. Hook: "Three line items in your practice financials that nobody has ever benchmarked." ~60s `[IG-REEL]`
+3. **Revenue vs. wealth** (talking point 5): Two surgeons, similar revenue, $80K/year gap in take-home. Hook: "Surgeon A collects $1.4 million. Surgeon B collects $1.35 million. Surgeon B takes home $80K more." ~55s `[BOTH]`
+
 ---
 
 **FACEBOOK POST**
@@ -234,11 +254,11 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**Timing rationale:** Mid-March is the right moment for this piece. The CMS cuts have been active since January 1 — surgeons have now seen 10+ weeks of reduced reimbursements and are starting to feel it in their Q1 numbers. Publishing before the conversation goes stale, while the pain is fresh and actionable.
+**Timing rationale:** Early-to-mid March is the right moment for this piece. The CMS cuts have been active since January 1 — surgeons have now seen 10 weeks of reduced reimbursements and are starting to feel it in their Q1 numbers. Publishing before the conversation goes stale, while the pain is fresh and actionable.
 
 ---
 
-### Week 4: March 23–29
+### Week 4: March 16–22
 
 #### Theme: The number that matters more than collections
 
@@ -246,10 +266,10 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 **ANCHOR PIECE**
 
-- **Working title:** "Your Q1 Revenue Is In. Here's the One Number That Matters More Than Collections."
-- **Target angle & key argument:** Surgeons track collections religiously — it's the headline number in every practice meeting. But collections tell you how much the practice earned, not how much the surgeon kept. Introduce the "surgeon effective hourly rate" — a single number that captures what remains after taxes, overhead, debt service, and mandatory savings. If a practice collects $2.4M annually but the surgeon's take-home after everything is $380K, and the surgeon works 2,600 clinical hours, the effective rate is $146/hour. Compare that to what the surgeon assumes they're earning. The reframe: you don't have a revenue problem — you have a keep rate problem.
+- **Working title:** "Before Q1 Closes: The One Number That Matters More Than Collections"
+- **Target angle & key argument:** Surgeons track collections religiously — it's the headline number in every practice meeting. But collections tell you how much the practice earned, not how much the surgeon kept. Introduce the "surgeon effective hourly rate" — a single number that captures what remains after taxes, overhead, debt service, and mandatory savings. If a practice collects $2.4M annually but the surgeon's take-home after everything is $380K, and the surgeon works 2,600 clinical hours, the effective rate is $146/hour. Compare that to what the surgeon assumes they're earning. The reframe: you don't have a revenue problem — you have a keep rate problem. Position this as the framework to apply as soon as Q1 data is available at month-end.
 - **Math example:** A $2.4M-collecting practice with 55% overhead ($1.32M), leaving $1.08M for the surgeon. After federal + state taxes (~40% effective on $1.08M = $432K), mandatory retirement contributions ($72K), and debt service ($96K/year on practice loans), the surgeon keeps ~$480K. At 2,600 clinical hours/year, the effective hourly rate is $185/hour. Now model the same surgeon with structural improvements from Weeks 1–3: overhead reduced to 52% ($1.25M), S-Corp salary optimized, cash balance plan added. After-tax keep rate improves to ~$560K, effective hourly rate rises to $215/hour. The $30/hour difference — over 2,600 hours — is $78,000 annually.
-- **Structural approach:** Math-First Approach — open with the collections number everyone celebrates, then immediately introduce the effective hourly rate calculation that deflates it. The contrast creates the hook. Core Teaching walks through the five components that determine the effective rate (gross collections, overhead, taxes, mandatory savings, debt service) and which ones the surgeon can actually influence. Close with the Q1 checkpoint: calculate your effective hourly rate from Q1 data and compare it to last year. If it's lower, the CMS cuts and structural gaps from the previous three weeks are the likely culprits.
+- **Structural approach:** Math-First Approach — open with the collections number everyone celebrates, then immediately introduce the effective hourly rate calculation that deflates it. The contrast creates the hook. Core Teaching walks through the five components that determine the effective rate (gross collections, overhead, taxes, mandatory savings, debt service) and which ones the surgeon can actually influence. Close with the Q1 checkpoint: when Q1 closes at the end of March, calculate your effective hourly rate and compare it to last year. If it's lower, the CMS cuts and structural gaps from the previous three weeks are the likely culprits. Give surgeons the framework now so they're ready to run the numbers as soon as Q1 data is available.
 
 ---
 
@@ -261,23 +281,29 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 **LINKEDIN POST 2**
 
-- **Hook line:** "Q1 revenue data is in. Before you celebrate (or panic), ask this: did your keep rate go up or down?"
+- **Hook line:** "Q1 closes in two weeks. Before you celebrate (or panic) over the top-line number, ask this: did your keep rate go up or down?"
 - **Core insight:** Revenue growth without structural improvement just means the practice is generating more income for everyone except the surgeon. The keep rate — what percentage of collections the surgeon actually retains — is the Q1 vital sign that matters.
 - **Relationship to anchor:** Positions the keep rate as the Q1 health check metric, tying the month's theme into a single actionable diagnostic.
 
 ---
 
-**YOUTUBE CONCEPT**
+**VIDEO PODCAST CONCEPT**
 
-- **Topic and angle:** "Q1 Revenue Is In. Here's the One Number That Matters More Than Collections." — the editorial plan's designated YouTube piece for March, adapted as a visual walkthrough of the effective hourly rate calculation.
+- **Topic and angle:** "Before Q1 Closes: The One Number That Matters More Than Collections" — the editorial plan's designated YouTube piece for March, adapted as a visual walkthrough of the effective hourly rate calculation.
 - **Contrarian hook (first 15 seconds):** "Every surgeon I know can tell me their practice's gross collections within $50K. Almost none of them can tell me their effective hourly rate — the actual dollar amount they earn for each hour spent in clinical work, after taxes, overhead, debt, and savings. That gap between what you think you make and what you actually keep is where wealth disappears."
 - **Key talking points:**
   1. Why collections is a vanity metric for the surgeon (it measures practice health, not surgeon wealth)
   2. The five components of the effective hourly rate: gross revenue, overhead, taxes, retirement, debt service
-  3. How to calculate yours in 15 minutes using Q1 data
+  3. How to calculate yours in 15 minutes as soon as Q1 data is available
   4. What the number should be vs. what it usually is at the $800K compensation level
   5. The three levers that move the rate: overhead (Week 3), structure (Week 1), and time allocation
 - **Philosophical close:** "You measure outcomes in the OR because you know that what gets measured gets improved. The same principle applies to your finances. If you've never calculated your effective hourly rate — the real measure of what your time is worth — this is the week to do it. Not because the number will be comfortable, but because it will be true."
+
+**CLIP CANDIDATES**
+
+1. **The effective hourly rate reveal** (talking point 1-2): Collections of $2.4M, but effective rate is $185/hour. Hook: "Your practice collected $2.4M last year. You kept $480K. Your effective hourly rate? $185." ~55s `[BOTH]`
+2. **The $30/hour structural gap** (talking point 5): Same surgeon, structural improvements move rate from $185 to $215/hour, worth $78K/year. Hook: "A $30/hour difference doesn't sound like much. Over 2,600 clinical hours, it's $78,000." ~50s `[YT-SHORT]`
+3. **The 15-minute calculation** (talking point 3): Walk through how to calculate the number in 15 minutes with Q1 data. Hook: "Here's how to calculate your real hourly rate in 15 minutes." ~75s `[IG-REEL]`
 
 ---
 
@@ -293,7 +319,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**Timing rationale:** End of March — Q1 data is complete or nearly so. This is the natural moment to look at the numbers. Publishing the effective hourly rate piece in the last week of March sets up April's post-filing theme: if March was about diagnosing the structural gaps, April is about what the tax return reveals.
+**Timing rationale:** Mid-March — Q1 is approaching its close but hasn't ended yet. Publishing the effective hourly rate framework now gives surgeons the tool before the data arrives: when Q1 closes on March 31, they're primed to run the calculation immediately. This positions them to act rather than react. Sets up April's post-filing theme: if March was about diagnosing the structural gaps, April is about what the tax return reveals.
 
 ---
 
@@ -303,7 +329,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-### Week 5: March 30 – April 5
+### Week 5: March 23–29
 
 #### Theme: Your tax return is a diagnostic report
 
@@ -338,7 +364,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**YOUTUBE CONCEPT**
+**VIDEO PODCAST CONCEPT**
 
 - **Topic and angle:** "How to Read Your Tax Return Like a Surgeon Reads an MRI" — visual walkthrough of a (redacted, hypothetical) surgeon tax return highlighting the four diagnostic markers.
 - **Contrarian hook (first 15 seconds):** "You spent 10+ years learning to read diagnostic images. You can look at an MRI and see what everyone else misses. But I'm willing to bet you've never looked at your own tax return with that same diagnostic eye. You hand it to your CPA. They file it. You move on. That 30-page document is trying to tell you something — and nobody's reading it."
@@ -350,6 +376,12 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
   5. The "treatment plan" — one action to take based on each finding
 - **Philosophical close:** "A diagnosis without a treatment plan is just information. The same is true for your tax return. The return tells you what happened. What you do with it determines what happens next."
 
+**CLIP CANDIDATES**
+
+1. **The $172K retirement gap** (talking point 3): $31K contributed vs. $203K available, delivered as a single devastating number. Hook: "A surgeon's return showed $31,000 in retirement contributions. The available capacity was $203,000." ~50s `[BOTH]`
+2. **The effective tax rate diagnostic** (talking point 1): What "normal" looks like at $800K and what a high reading signals. Hook: "Your effective tax rate should be between 31% and 33% at $800K. If it's 36%+, your structure is leaking." ~55s `[YT-SHORT]`
+3. **The MRI metaphor** (contrarian hook + talking point 5): The full diagnostic parallel, condensed. Hook: "You spent 10 years learning to read diagnostic images. Have you ever read your own tax return with the same eye?" ~65s `[IG-REEL]`
+
 ---
 
 **FACEBOOK POST**
@@ -359,11 +391,11 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**Timing rationale:** First week of April — the most critical publishing window of the month. Surgeons who filed are receiving returns. Surgeons who haven't must decide by April 15 whether to file or extend. This piece must land before April 15 to have maximum impact.
+**Timing rationale:** Last week of March — three weeks before the April 15 deadline. Surgeons who filed early are receiving returns. Surgeons who haven't must decide by April 15 whether to file or extend. Publishing the diagnostic framework now gives maximum lead time to act on the findings before the deadline.
 
 ---
 
-### Week 6: April 6–12
+### Week 6: March 30 – April 5
 
 #### Theme: The April 15 trifecta — filing, estimated taxes, and the Roth question
 
@@ -398,7 +430,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**YOUTUBE CONCEPT**
+**VIDEO PODCAST CONCEPT**
 
 - **Topic and angle:** "The Three April 15 Decisions Hiding in Plain Sight" — walk through the trifecta of decisions embedded in the April 15 deadline.
 - **Contrarian hook (first 15 seconds):** "Most surgeons think April 15 is about one thing: taxes. File or extend. Pay what you owe. Move on. But April 15 is actually three separate financial decisions compressed into one day — and most surgeons make only one of them consciously."
@@ -410,12 +442,18 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
   5. The one-hour April 15 protocol: a checklist for surgeons to run through with their advisor
 - **Philosophical close:** "April 15 feels like a deadline. It's actually a decision point. And the quality of your financial life is determined not by the deadlines you meet, but by the decisions you make at each one."
 
+**CLIP CANDIDATES**
+
+1. **The Roth math challenge** (talking point 2): OBBBA made 37% permanent; if you're paying 37% now and expect less later, the Roth may be the most expensive way to save $7,500. Hook: "You've been funding a backdoor Roth every year because someone told you to. The math just changed." ~55s `[BOTH]`
+2. **Three decisions, one date** (talking points 1-3): The April 15 trifecta as a rapid-fire reveal. Hook: "April 15 has three decisions hidden inside it. Most surgeons see only one." ~50s `[YT-SHORT]`
+3. **The one-hour protocol** (talking point 5): Condensed checklist for surgeons to run through before April 15. Hook: "Here's the one-hour April 15 protocol every surgeon should run with their advisor." ~70s `[IG-REEL]`
+
 ---
 
 **FACEBOOK POST 1**
 
-- **Core idea:** "April 15 is next week. Quick reminder: it's not just a filing deadline. It's also the last day to make a prior-year IRA contribution, and the due date for your Q1 estimated tax payment. Three decisions, one date. Don't let the filing question crowd out the other two."
-- **Tone adjustment notes:** Practical, brief. This is a genuine reminder wrapped in a strategic reframe. Keep it to 3–4 sentences.
+- **Core idea:** "April 15 is two weeks away. Quick reminder: it's not just a filing deadline. It's also the last day to make a prior-year IRA contribution, and the due date for your Q1 estimated tax payment. Three decisions, one date. Don't let the filing question crowd out the other two."
+- **Tone adjustment notes:** Practical, brief. This is a genuine reminder wrapped in a strategic reframe. Keep it to 3–4 sentences. Two weeks of lead time gives surgeons enough runway to act on all three decisions.
 
 **FACEBOOK POST 2**
 
@@ -424,29 +462,29 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**Timing rationale:** The week before April 15 — this is the last moment to influence decisions tied to the hard deadline. The Roth piece challenges a reflexive habit at the exact moment surgeons are deciding whether to fund it. The estimated tax content arrives with the Q1 payment. Maximum relevance, minimum time to act.
+**Timing rationale:** Two weeks before April 15 — early enough to influence decisions tied to the hard deadline while giving surgeons time to consult their advisors. The Roth piece challenges a reflexive habit at the moment surgeons are beginning to think about whether to fund it. The estimated tax content arrives ahead of the Q1 payment. Maximum relevance with sufficient runway to act.
 
 ---
 
-### Week 7: April 13–19
+### Week 7: April 6–12
 
-#### Theme: Post-deadline reset — from reactive to proactive
+#### Theme: The six-month window — your post-deadline playbook
 
 ---
 
 **ANCHOR PIECE**
 
-- **Working title:** "The Six-Month Window Just Opened: Four Moves to Make Between Now and October 15"
-- **Target angle & key argument:** April 15 has passed. Whether the surgeon filed or extended, the most valuable planning period of the year just started. Most surgeons mentally close the "tax chapter" after April 15 and don't reopen it until October (if they extended) or the following January. Challenge this: the April–October window is when the real optimization happens. Four specific moves that can only be made (or are best started) during this window: (1) S-Corp salary recalibration for the current year, (2) cash balance plan establishment or amendment (requires plan document changes with lead time), (3) Roth conversion analysis (the full-year income picture starts to clarify), and (4) entity restructuring evaluation (with enough runway to implement before year-end).
+- **Working title:** "The Six-Month Window Opens April 16: Four Moves to Make Between Now and October 15"
+- **Target angle & key argument:** April 15 is this week. Whether the surgeon files or extends, the most valuable planning period of the year is about to start. Most surgeons mentally close the "tax chapter" after April 15 and don't reopen it until October (if they extended) or the following January. Challenge this: the April–October window is when the real optimization happens. Four specific moves that can only be made (or are best started) during this window: (1) S-Corp salary recalibration for the current year, (2) cash balance plan establishment or amendment (requires plan document changes with lead time), (3) Roth conversion analysis (the full-year income picture starts to clarify), and (4) entity restructuring evaluation (with enough runway to implement before year-end).
 - **Math example:** A surgeon who filed an extension and uses the six-month window to (1) recalibrate S-Corp salary from $300K to $350K (unlocking $20K in additional retirement contributions), (2) establish a cash balance plan by July 1 (half-year funding of $75K–$150K depending on age), and (3) identify a $40K Roth conversion opportunity in a low-income quarter. Total first-year benefit: $35K–$60K in tax-advantaged value. If the same surgeon had waited until October or later, moves (2) and (3) would have been impossible or severely constrained.
-- **Structural approach:** The Checklist/Protocol — open with the post-April 15 mental state ("done with taxes, back to the OR") and challenge it: "You just walked out of the most information-rich moment of your financial year — and you're about to waste the next six months." Core Teaching presents the four moves as a protocol with timing deadlines for each: Move 1 by May 15, Move 2 by July 1, Move 3 by September 30, Move 4 by August 31. The protocol format mirrors surgical planning — sequenced, time-bound, and reason-justified.
+- **Structural approach:** The Checklist/Protocol — open with the imminent April 15 deadline and the mental state that follows ("done with taxes, back to the OR") and challenge it: "You're about to walk out of the most information-rich moment of your financial year — don't waste the next six months." Core Teaching presents the four moves as a protocol with timing deadlines for each: Move 1 by May 15, Move 2 by July 1, Move 3 by September 30, Move 4 by August 31. The protocol format mirrors surgical planning — sequenced, time-bound, and reason-justified.
 
 ---
 
 **LINKEDIN POST 1**
 
-- **Hook line:** "April 15 passed. You filed (or extended). Now what? Most surgeons do nothing for the next six months. That's a $60K mistake."
-- **Core insight:** The April-to-October window is the most underutilized planning period in a surgeon's financial year. Four specific moves — salary recalibration, cash balance plan setup, Roth analysis, entity restructuring — are best initiated now.
+- **Hook line:** "April 15 is here. You're filing (or extending). What happens next will matter more. Most surgeons do nothing for the next six months. That's a $60K mistake."
+- **Core insight:** The April-to-October window is the most underutilized planning period in a surgeon's financial year. Four specific moves — salary recalibration, cash balance plan setup, Roth analysis, entity restructuring — are best initiated immediately after the deadline.
 - **Relationship to anchor:** Direct summary of the anchor's thesis and four-move framework. Creates urgency without the full explanation.
 
 **LINKEDIN POST 2**
@@ -457,10 +495,10 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**YOUTUBE CONCEPT**
+**VIDEO PODCAST CONCEPT**
 
 - **Topic and angle:** "What to Do Between Now and October 15 — The Surgeon's Post-Tax-Season Protocol" — a time-sequenced walkthrough of the four planning moves.
-- **Contrarian hook (first 15 seconds):** "Tax season is over. Your CPA is on a beach somewhere. You've moved on. And that's exactly the problem. The six months between April 15 and October 15 are when the most valuable financial moves of the year get made — or missed. Here's the protocol."
+- **Contrarian hook (first 15 seconds):** "Tax season is wrapping up. In a few days your CPA will be on a beach somewhere. You'll move on. And that's exactly the problem. The six months between April 15 and October 15 are when the most valuable financial moves of the year get made — or missed. Here's the protocol."
 - **Key talking points:**
   1. Why April–October is the real planning season (you have current-year data, time to implement, and no deadline pressure)
   2. Move 1: S-Corp salary recalibration (deadline: May 15 for payroll adjustments)
@@ -469,20 +507,26 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
   5. Move 4: Entity restructuring evaluation (deadline: August 31 for year-end implementation)
 - **Philosophical close:** "In surgery, the preparation before the procedure determines the outcome more than the procedure itself. Your financial life works the same way. The six months of preparation between now and year-end determine whether December is a scramble or a celebration."
 
+**CLIP CANDIDATES**
+
+1. **The $60K mistake** (talking point 1): Most surgeons do nothing for six months after April 15. Hook: "April 15 is here. Most surgeons do nothing for the next six months. That's a $60K mistake." ~50s `[YT-SHORT]`
+2. **Cash balance plan clock** (talking point 3): Time-sensitive move with a clear deadline. Hook: "If you want a cash balance plan for 2026, the clock started April 16. Here's why July 1 matters." ~55s `[BOTH]`
+3. **The four-move protocol** (talking points 2-5): Rapid overview of all four moves with deadlines. Hook: "Four financial moves, four deadlines, six months. Here's the post-tax-season protocol." ~80s `[IG-REEL]`
+
 ---
 
 **FACEBOOK POST**
 
-- **Core idea:** "If you just filed (or extended), you might feel like the financial to-do list is done for a while. It's not — but the good news is, the next six months are about building, not reacting. One thing to put on your calendar this week: a 30-minute call with your financial advisor to set the planning agenda for April through October. That one call could be worth more than the last three months of tax preparation."
+- **Core idea:** "Whether you file this week or extend, here's the thing most surgeons miss: the next six months are about building, not reacting. One thing to put on your calendar right now: a 30-minute call with your financial advisor to set the planning agenda for April through October. That one call could be worth more than the last three months of tax preparation."
 - **Tone adjustment notes:** Encouraging, forward-looking. No urgency language — just an invitational nudge. Frame the call as a simple, low-effort first step.
 
 ---
 
-**Timing rationale:** The week of April 15 (and just after). Surgeons are in the mental exhale after the deadline. This is the moment to redirect that energy from "it's over" to "it's starting." The post-deadline psychology creates a receptive window for proactive messaging.
+**Timing rationale:** The week leading into April 15. Surgeons are in the final push of tax season — the perfect moment to plant the seed for what comes next. Publishing the six-month playbook the week before the deadline means it lands when surgeons are most receptive to "what now?" messaging. By the time April 15 passes, the protocol is already in their hands.
 
 ---
 
-### Week 8: April 20–26
+### Week 8: April 13–19
 
 #### Theme: The financial second opinion — are you getting one?
 
@@ -511,7 +555,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**YOUTUBE CONCEPT**
+**VIDEO PODCAST CONCEPT**
 
 - **Topic and angle:** "Why I Recommend Every Surgeon Get a Financial Second Opinion — and What to Look For" — conversational, advisory tone.
 - **Contrarian hook (first 15 seconds):** "I'm about to say something that might sound self-serving coming from a financial advisor: I think every surgeon should get an independent second opinion on their financial plan. Not because your current advisor is bad. But because the cost of not getting one — at your income level — is too high to leave to assumption."
@@ -523,6 +567,12 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
   5. How to evaluate a second opinion: what questions to ask and what red flags to watch for
 - **Philosophical close:** "The best surgeons I know aren't threatened by a second opinion. They're strengthened by it. The same should be true of your financial plan. If your strategy is sound, a second opinion confirms it. If it's not — you'd rather know now than in ten years."
 
+**CLIP CANDIDATES**
+
+1. **The silo gap** (talking point 4): Your CPA, advisor, and lawyer each see one piece. The gaps between them are where the money leaks. Hook: "Your CPA is great at compliance. Your advisor is great at investments. But who's looking at the whole picture?" ~55s `[BOTH]`
+2. **The surgical parallel** (talking point 1): The second opinion as good medicine and good finance. Hook: "You've ordered hundreds of second opinions in your career. Have you ever gotten one on your financial plan?" ~50s `[YT-SHORT]`
+3. **What to look for** (talking point 5): Red flags and questions for evaluating a second opinion. Hook: "If someone offers you a financial second opinion, here are the three questions to ask before you sit down." ~65s `[IG-REEL]`
+
 ---
 
 **FACEBOOK POST**
@@ -532,7 +582,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**Timing rationale:** Late April — the tax-deadline urgency has passed, and there's breathing room for a broader strategic message. The "second opinion" piece transitions naturally from April's tax-focused content to May's practice transition theme. Many surgeons are in a reflective post-tax-season mindset — the ideal moment to introduce the idea of stepping back and examining the full picture.
+**Timing rationale:** The week of April 15 and just after — the tax-deadline urgency is resolving, and there's breathing room for a broader strategic message. The "second opinion" piece transitions naturally from April's tax-focused content to May's practice transition theme. Many surgeons are in a reflective post-tax-season mindset — the ideal moment to introduce the idea of stepping back and examining the full picture.
 
 ---
 
@@ -542,7 +592,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-### Week 9: April 27 – May 3
+### Week 9: April 20–26
 
 #### Theme: The 5-year exit timeline starts now
 
@@ -577,7 +627,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**YOUTUBE CONCEPT**
+**VIDEO PODCAST CONCEPT**
 
 - **Topic and angle:** "Conference Season Is Here — and PE Firms Are Buying Dinner. What to Know Before You Go." — a pre-conference briefing on the practice transition landscape.
 - **Contrarian hook (first 15 seconds):** "You're about to walk into a conference where at least three private equity firms will try to buy you dinner. They'll have beautiful pitch decks, compelling multiples, and a vision for 'partnership.' I'm not here to tell you they're wrong. I'm here to tell you what they won't mention — and what you need to know before the appetizers arrive."
@@ -589,6 +639,12 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
   5. What "options later" actually means — why starting the planning process gives you leverage, not commitment
 - **Philosophical close:** "The surgeons who get the best outcomes in practice transitions aren't the ones with the best negotiators. They're the ones who started planning early enough to have choices. Conference season is a wonderful time to start thinking. Just make sure you're thinking on your timeline, not someone else's."
 
+**CLIP CANDIDATES**
+
+1. **The $1.4M exit gap** (talking point 2): 5-year timeline exit at $4.2M vs. distressed 2-year exit at $2.8M. Hook: "The difference between a $4.2M exit and a $2.8M exit is three years of planning." ~55s `[BOTH]`
+2. **Three questions for any acquirer** (talking point 3): Timeline, goodwill, earnout. Hook: "Conference season is here. Before you sit down with any PE firm, ask these three questions." ~50s `[YT-SHORT]`
+3. **Partnership vs. extraction** (talking point 4): How to tell the difference. Hook: "They'll call it a partnership. Here's how to tell if it's actually a financial extraction." ~60s `[IG-REEL]`
+
 ---
 
 **FACEBOOK POST**
@@ -598,11 +654,11 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**Timing rationale:** First week of May — just before the major conference season. Surgeons are booking travel, reviewing agendas, and mentally shifting from clinical work to industry conversations. This is the moment to set the strategic frame before PE firms and colleagues set it for them.
+**Timing rationale:** Late April — just before the major conference season. Surgeons are booking travel, reviewing agendas, and mentally shifting from clinical work to industry conversations. This is the moment to set the strategic frame before PE firms and colleagues set it for them.
 
 ---
 
-### Week 10: May 4–10
+### Week 10: April 27 – May 3
 
 #### Theme: Concentration risk — your practice is your biggest bet
 
@@ -637,7 +693,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**YOUTUBE CONCEPT**
+**VIDEO PODCAST CONCEPT**
 
 - **Topic and angle:** "Your Practice Is Your Biggest Bet. Are You Treating It Like One?" — the editorial plan's designated YouTube piece for May.
 - **Contrarian hook (first 15 seconds):** "If I told you that 46% of your net worth was concentrated in a single, illiquid asset that you can't sell in pieces, can't hedge, and can't diversify — you'd call that reckless. But that's exactly what your practice ownership represents. And almost nobody is talking about it that way."
@@ -649,6 +705,13 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
   5. How to evaluate your practice as an investment: what return are you earning on the time and capital invested?
 - **Philosophical close:** "You built your practice with precision, skill, and an enormous investment of your best years. It deserves to be treated with the same financial rigor you'd apply to any asset of its size. The question isn't whether you'll exit eventually — you will. The question is whether the exit will be on your terms."
 
+**CLIP CANDIDATES**
+
+1. **The 46% concentration** (talking point 1): The net worth math delivered cold. Hook: "46% of your net worth is in a single illiquid asset you can't sell in pieces. You'd call that reckless in any portfolio." ~50s `[BOTH]`
+2. **The most dangerous sentence** (talking point 2): "My practice IS my retirement plan." Hook: "There's one sentence I hear from surgeons that tells me everything about their financial risk." ~55s `[YT-SHORT]`
+3. **The $678K tax difference** (from anchor context): Personal goodwill documentation turns ordinary income into capital gains. Hook: "The difference between ordinary income and capital gains on a $4M practice sale? $678,000 in taxes." ~55s `[BOTH]`
+4. **Rollover equity reality** (from anchor context): What PE pitch decks don't mention. Hook: "A surgeon showed me a PE pitch deck last week. It was beautiful. It was also missing four things." ~70s `[IG-REEL]`
+
 ---
 
 **FACEBOOK POST**
@@ -658,11 +721,11 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**Timing rationale:** First full week of May, during the peak of early conference season. PE conversations are happening in real time. This content meets surgeons where the conversation already is — and provides the framework they need before (not after) a deal gets serious.
+**Timing rationale:** Late April into early May, during the peak of early conference season. PE conversations are happening in real time. This content meets surgeons where the conversation already is — and provides the framework they need before (not after) a deal gets serious.
 
 ---
 
-### Week 11: May 11–17
+### Week 11: May 4–10
 
 #### Theme: Personal goodwill — the tax strategy hidden inside your reputation
 
@@ -691,7 +754,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**YOUTUBE CONCEPT**
+**VIDEO PODCAST CONCEPT**
 
 - **Topic and angle:** "The Hidden Tax Bill in Every Practice Sale — and How to Reduce It by $300K" — visual walkthrough of the personal goodwill allocation and its tax impact.
 - **Contrarian hook (first 15 seconds):** "When you sell your practice, the IRS is going to look at the total price and ask one question: how much of this was the surgeon, and how much was the business? Your answer to that question — backed by documentation — could mean the difference between a $950K tax bill and a $1.28M tax bill. That $330K gap is entirely within your control. But only if you start now."
@@ -703,6 +766,12 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
   5. The IRS perspective — why after-the-fact claims fail and how to bulletproof yours
 - **Philosophical close:** "You've spent decades building a reputation that patients trust and colleagues respect. That reputation has a value — a significant, measurable, taxable value. The question is whether you'll document it proactively, or lose hundreds of thousands of dollars because nobody told you to."
 
+**CLIP CANDIDATES**
+
+1. **The $330K gap** (contrarian hook): The tax difference between documenting personal goodwill and not. Hook: "When you sell your practice, the IRS asks one question. Your answer could save you $330K." ~50s `[BOTH]`
+2. **Capital gains vs. ordinary income** (talking point 2): The rate comparison on practice sale proceeds. Hook: "23.8% or 40.8%. The tax rate on your practice sale depends on one thing you should have documented two years ago." ~55s `[YT-SHORT]`
+3. **How to document personal goodwill** (talking point 3): The three documentation components. Hook: "Three things you need to document now if you plan to sell your practice in the next five years." ~70s `[IG-REEL]`
+
 ---
 
 **FACEBOOK POST**
@@ -712,11 +781,11 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**Timing rationale:** Mid-May, during active conference season. Surgeons are having practice transition conversations. Personal goodwill is one of the most valuable and least understood aspects of practice exit planning. Timing this piece when surgeons are already thinking about transitions maximizes the chance they'll act on it.
+**Timing rationale:** Early May, during active conference season. Surgeons are having practice transition conversations. Personal goodwill is one of the most valuable and least understood aspects of practice exit planning. Timing this piece when surgeons are already thinking about transitions maximizes the chance they'll act on it.
 
 ---
 
-### Week 12: May 18–24
+### Week 12: May 11–17
 
 #### Theme: What "normalized EBITDA" really means — and why it matters for your exit
 
@@ -745,7 +814,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**YOUTUBE CONCEPT**
+**VIDEO PODCAST CONCEPT**
 
 - **Topic and angle:** "Practice Valuation 101: What Buyers See That You Don't" — an accessible explanation of EBITDA normalization for surgeon practice owners.
 - **Contrarian hook (first 15 seconds):** "If someone offered to buy your practice tomorrow, you'd probably quote a number based on your revenue or net income. The buyer would quote a very different number — based on something called normalized EBITDA. And the gap between your number and their number could be more than a million dollars in either direction. Let me explain what you're missing."
@@ -757,6 +826,12 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
   5. The strategic preparation: cleaning up your financials 2–3 years before a sale
 - **Philosophical close:** "Knowledge is leverage. When you understand how buyers evaluate your practice, you stop being a passive seller and start being a strategic one. And that shift — from passive to strategic — is the difference between accepting a number and negotiating from a position of strength."
 
+**CLIP CANDIDATES**
+
+1. **The $1.1M valuation gap** (talking points 1-2): Net income says $4.4M, normalized EBITDA says $5.5M. Hook: "Your practice is worth $4.4M. Or is it $5.5M? The answer depends on one concept most surgeons have never heard of." ~55s `[BOTH]`
+2. **The family payroll adjustment** (talking point 2): A relatable normalization example. Hook: "If your spouse is on your practice payroll, a buyer is already adjusting for it. Here's what that means for your valuation." ~50s `[YT-SHORT]`
+3. **30-minute EBITDA calculation** (talking point 3): How to calculate your own number. Hook: "You can calculate your practice's normalized EBITDA in 30 minutes. Here's how." ~75s `[IG-REEL]`
+
 ---
 
 **FACEBOOK POST**
@@ -766,11 +841,11 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**Timing rationale:** Late May — conference season is in full swing, and many surgeons have had their first conversations with PE firms or colleagues about practice transitions. This is the "now that you're interested, here's what you need to understand" piece. It builds on the PE content from Week 10 and the personal goodwill content from Week 11 to complete the valuation literacy arc.
+**Timing rationale:** Mid-May — conference season is in full swing, and many surgeons have had their first conversations with PE firms or colleagues about practice transitions. This is the "now that you're interested, here's what you need to understand" piece. It builds on the PE content from Week 10 and the personal goodwill content from Week 11 to complete the valuation literacy arc.
 
 ---
 
-### Week 13: May 25–31
+### Week 13: May 18–24
 
 #### Theme: Designing the next chapter — from exit planning to life planning
 
@@ -805,7 +880,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**YOUTUBE CONCEPT**
+**VIDEO PODCAST CONCEPT**
 
 - **Topic and angle:** "Life Beyond the OR: What the Best Practice Transitions Have in Common" — a reflective, conversational piece on what makes a successful post-practice life.
 - **Contrarian hook (first 15 seconds):** "I've worked with dozens of surgeons through practice transitions. The ones who are happiest two years later aren't the ones who got the highest multiple. They're the ones who knew what they were transitioning to — not just what they were leaving. This video is about the difference between an exit and a transition."
@@ -816,6 +891,13 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
   4. The financial guardrail system — structured spending, systematic investing, and quarterly check-ins as the antidote to impulsive post-exit decisions
   5. Two case studies (anonymized): one surgeon who planned, one who didn't — and where they stood three years later
 - **Philosophical close:** "Retirement is a financial construct. Transition is a human one. The financial plan gets you out of the OR. The life plan determines whether what comes next is your best chapter or just the one that came last. Design it with the same precision you brought to everything else."
+
+**CLIP CANDIDATES**
+
+1. **The identity question** (talking point 1): The hardest question in practice transition. Hook: "Who are you when you're not a surgeon? That question is worth more than any valuation." ~45s `[YT-SHORT]`
+2. **The spending trap** (talking point 2): $2.9M becomes $1.7M in three years without a plan. Hook: "A surgeon netted $2.9M from a practice sale. Three years later, $1.7M was left. Here's what happened." ~55s `[BOTH]`
+3. **The planned vs. unplanned comparison** (talking point 5): Two surgeons, same exit, different outcomes. Hook: "Two surgeons. Same exit value. One planned, one didn't. Here's where they stood three years later." ~75s `[IG-REEL]`
+4. **The philosophical close** (philosophical close): "Retirement is a financial construct. Transition is a human one." Hook: "Stop planning your retirement. Start planning your transition." ~45s `[BOTH]`
 
 ---
 
@@ -831,7 +913,7 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 
 ---
 
-**Timing rationale:** Last week of May — closing the quarter's content arc. After four weeks of practice transition mechanics, this philosophical close provides the "why" behind all the "how." It's also a natural transition point: June shifts to mid-year tax check, and this piece sets up that pivot by moving from "what's your exit plan?" to "what's your life plan?" The reflective tone matches the end-of-conference-season wind-down.
+**Timing rationale:** Mid-to-late May — closing the quarter's content arc. After four weeks of practice transition mechanics, this philosophical close provides the "why" behind all the "how." It's also a natural transition point: June shifts to mid-year tax check, and this piece sets up that pivot by moving from "what's your exit plan?" to "what's your life plan?" The reflective tone matches the end-of-conference-season wind-down.
 
 ---
 
@@ -860,7 +942,9 @@ The entire quarter follows a single trajectory: **from diagnosis to treatment pl
 |---------|------------------------|-------|
 | Anchor (blog) | Monday or Tuesday | Start the week's theme; allow social content to build on it |
 | LinkedIn | Tuesday, Wednesday, Thursday | One per day during business hours; space for engagement |
-| YouTube | Thursday or Friday | Midweek depth piece; weekend viewing window |
+| Video podcast (YouTube) | Thursday or Friday | Midweek depth piece; weekend viewing window |
+| Short-form clips (YouTube Shorts) | Friday, Saturday, or Sunday | Stagger after full episode; space clips across 2-3 days |
+| Short-form clips (Instagram Reels) | Friday, Saturday, or Sunday | Can post same day as YouTube Shorts or offset by a day |
 | Facebook | Wednesday and/or Saturday | Midweek for conversational pieces; Saturday for reflective |
 
 ### Building Block Assembly Reminders
@@ -868,7 +952,8 @@ The entire quarter follows a single trajectory: **from diagnosis to treatment pl
 Per the Content Recipe:
 - **Blog posts:** All 8 blocks (Research → Brief → Draft → Relevance Validation → Voice Validation → Edit/Polish → Distribution → Performance)
 - **LinkedIn posts:** Blocks 1, 3, 4, 5, 7, 8 (lighter brief, shorter draft)
-- **YouTube scripts:** All 8 blocks (full sequence, script format)
+- **Video podcast scripts:** All 8 blocks (full sequence, script format) + Clip Extraction Map
+- **Short-form clips:** Blocks 7, 8 only (Distribution + Performance; clips derive from validated podcast)
 - **Facebook posts:** Blocks 1, 3, 5, 7, 8 (lightest touch, adapted from LinkedIn or blog)
 
 ### Voice Validation Reminders

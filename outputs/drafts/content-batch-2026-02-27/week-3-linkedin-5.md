@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** LinkedIn Post
-- **Week:** Week 3 (March 16–22)
+- **Week:** Week 3 (March 9–15)
 - **Theme:** Reimbursement Shift and Practice Wealth
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 3, LinkedIn 5
 - **Strategic context:** Closes the week's LinkedIn sequence with a reflective, strategic-level post that ties the reimbursement theme back to the broader Q2 arc. Connects Week 3's external pressure (reimbursement cuts) to Weeks 1 and 2's internal structural gaps (entity structure, S-Corp salary, retirement plans), reinforcing the cumulative argument that financial structure determines how much of what you earn you actually keep.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — revenue vs. wealth structural analysis with cumulative gap illustration
 
 ---
 ## Visual Assets
@@ -19,7 +20,7 @@
 
 ---
 
-There is a question I ask almost every surgeon I work with, usually within the first two meetings. It tends to land quietly, and then it stays with them.
+There is a question worth asking every surgeon who owns a practice. It tends to land quietly, and then it stays with them.
 
 Is your practice structured to build wealth, or just to generate revenue?
 
@@ -40,7 +41,7 @@ You spent years building a practice that generates excellent revenue. The questi
 ## Quality Checklist
 
 ### Voice Alignment
-- [x] Opens with a story, conversation, or specific scenario (describes a question Jared asks surgeons in their first meetings)
+- [x] Opens with a story, conversation, or specific scenario (poses a fundamental question for practice-owning surgeons)
 - [x] Contains at least one contrarian reframe or myth-bust (challenges the assumption that high revenue equals wealth-building)
 - [x] Uses direct "you" address throughout
 - [x] Reads like a conversation with a trusted advisor, not a brochure or sales piece
@@ -76,3 +77,15 @@ You spent years building a practice that generates excellent revenue. The questi
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

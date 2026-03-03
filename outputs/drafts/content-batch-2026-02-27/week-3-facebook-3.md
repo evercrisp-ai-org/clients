@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 3 (March 16–22)
+- **Week:** Week 3 (March 9–15)
 - **Theme:** Reimbursement Shift and Practice Wealth
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 3, Facebook 3
 - **Strategic context:** Micro-action post designed to translate the week's structural optimization theme into a single, low-friction step. The question targets supply costs because they represent the most accessible overhead lever for most orthopedic practices. Positioned for mid-to-late week (Thursday) to give surgeons a practical takeaway before the weekend.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — supply cost benchmarking as actionable overhead lever
 
 ---
 ## Visual Assets
@@ -29,7 +30,7 @@ That's it. You don't need to renegotiate anything today. You don't need to fire 
 
 Here's why. Most orthopedic practices set their vendor relationships years ago and haven't revisited them since. The rep is great, the products work, and nobody has time to shop around. I get it. But pricing drifts. Competitors introduce new options. And what was a competitive rate in 2021 may not be competitive in 2026.
 
-The surgeons I work with who have the most efficient practices aren't necessarily the ones who negotiate the hardest. They're the ones who ask the question regularly. That habit, by itself, tends to surface opportunities that would otherwise sit invisible in the overhead.
+The surgeons who run the most efficient practices aren't necessarily the ones who negotiate the hardest. They're the ones who ask the question regularly. That habit, by itself, tends to surface opportunities that would otherwise sit invisible in the overhead.
 
 One question. Five minutes. It might be the most productive thing you do for your bottom line this week.
 
@@ -74,3 +75,15 @@ One question. Five minutes. It might be the most productive thing you do for you
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

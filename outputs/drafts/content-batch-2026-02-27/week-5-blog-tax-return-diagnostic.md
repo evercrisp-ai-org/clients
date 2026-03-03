@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Blog Post
-- **Week:** Week 5 (March 30 – April 5)
+- **Week:** Week 5 (March 23–29)
 - **Theme:** Your tax return is a diagnostic report
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 5, Anchor
 - **Strategic context:** Transitions the quarterly arc from March's "diagnosis" phase (structural gaps, S-Corp salary, reimbursement cuts, effective hourly rate) into April's "interpretation" phase. Reframes the tax return as a strategic planning tool rather than a compliance document. Surgeons who filed are receiving returns; surgeons who haven't must decide by April 15 whether to file or extend. This piece gives both groups a framework for extracting strategic insight from their return, building directly on the structural concepts introduced over the previous four weeks.
+- **Story classifications used:** [ILLUSTRATIVE] — surgeon receiving return and treating it as completed task; [ILLUSTRATIVE] — surgeon with $31K retirement contributions vs. $203K capacity; [GENERAL-PRINCIPLE] — four diagnostic markers framework and target ranges
 
 ---
 ## Visual Assets
@@ -26,9 +27,9 @@
 
 ---
 
-A colleague of mine, an orthopedic surgeon I've worked with for about five years, called me last week. He'd just gotten his 2025 return back from his CPA. Everything was filed. Everything was accurate. And his exact words were, "Alright, that's done. See you in January."
+Here's a conversation that illustrates the gap. A surgeon gets his 2025 return back from his CPA. Everything was filed. Everything was accurate. And his response: "Alright, that's done. See you in January."
 
-I asked him if he'd read it.
+Ask that surgeon if he's read it.
 
 "Read it? My CPA read it. That's what I pay him for."
 
@@ -50,7 +51,7 @@ Let me walk through them.
 
 Where to find it: divide your total tax (line 24 on Form 1040, or the "total tax" figure your CPA provides) by your adjusted gross income (line 11).
 
-For a surgeon with AGI of $820,000, an effective rate of 36.3% ($298,000 in total tax) is in the range I commonly see. But it's not in the range it should be.
+For a surgeon with AGI of $820,000, an effective rate of 36.3% ($298,000 in total tax) is common at this income level. But it's not in the range it should be.
 
 An optimally structured surgeon at $820K AGI, one with a calibrated S-Corp salary, a fully funded cash balance plan, maximized retirement contributions, and proper deduction strategies, typically lands between 31% and 33%.
 
@@ -74,9 +75,9 @@ If your QBI deduction is $0 or significantly below $20,000 at your income level,
 
 Where to find it: pull your W-2 Box 12 (retirement plan contributions), any SEP-IRA or cash balance plan contribution records, and your total retirement savings for the year.
 
-A surgeon I reviewed last month had total retirement contributions of $31,000 on his return. That's the 401(k) maximum (close to the 2025 limit). He was proud of it. "I maxed out my 401(k)," he told me.
+Consider a surgeon whose return shows total retirement contributions of $31,000. That's the 401(k) maximum (close to the 2025 limit). A common reaction: "I maxed out my 401(k)."
 
-He did. But the available capacity was $203,000.
+And technically, yes. But the available capacity was $203,000.
 
 At his age (54) and income level, he was eligible for 401(k) contributions of $30,500 (including the catch-up), employer profit-sharing of approximately $23,500, and cash balance plan contributions of up to $150,000. He was capturing $31,000 out of $203,000 in available tax-deferred space. That's 15% utilization.
 
@@ -98,9 +99,9 @@ If your state tax burden exceeds $50,000, the return is telling you that state-l
 
 ## The Diagnosis Nobody Made
 
-Here's what struck me about the surgeon who called me last week. His return contained every one of these findings. Effective rate above 35%. QBI deduction at $0. Retirement contributions at $34,000 against $200,000+ in available capacity. State tax of $63,000.
+Here's what makes this framework so powerful. Consider a return that contains every one of these findings. Effective rate above 35%. QBI deduction at $0. Retirement contributions at $34,000 against $200,000+ in available capacity. State tax of $63,000.
 
-His CPA filed a perfect return. Every number was accurate. Every form was correct. There was nothing wrong with the compliance work.
+The CPA filed a perfect return. Every number was accurate. Every form was correct. There was nothing wrong with the compliance work.
 
 But nobody read the return for strategy. Nobody looked at those four numbers and said, "Here's what this means for your wealth over the next decade." The return was treated as a historical document, a record of what happened, rather than a diagnostic tool that reveals what needs to change.
 
@@ -143,7 +144,7 @@ Jared
 ## Quality Checklist
 
 ### Voice Alignment
-- [x] Opens with a story, conversation, or specific scenario (colleague calling after getting his return back)
+- [x] Opens with a story, conversation, or specific scenario (illustrative scenario of surgeon receiving return)
 - [x] Contains at least one contrarian reframe or myth-bust (challenges the assumption that a filed return is a completed task; reframes return as strategic diagnostic tool)
 - [x] Uses direct "you" address throughout
 - [x] Reads like a conversation with a trusted advisor, not a brochure or sales piece
@@ -160,7 +161,7 @@ Jared
 
 ### Relevance Validation
 - [x] All facts, figures, and legal references are current as of publication date (2025 filing season, 2026 contribution limits, OBBBA tax framework)
-- [x] Content is appropriately timed relative to the annual calendar (early April, returns being received, April 15 approaching)
+- [x] Content is appropriately timed relative to the annual calendar (late March, returns being received, April 15 approaching)
 - [x] No conflicting current events that would undermine the message
 - [x] Relevance Score is Green
 
@@ -179,3 +180,15 @@ Jared
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

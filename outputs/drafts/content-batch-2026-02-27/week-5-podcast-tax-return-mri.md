@@ -1,11 +1,12 @@
 # How to Read Your Tax Return Like a Surgeon Reads an MRI
 
 ## Post Metadata
-- **Type:** Podcast Script (also distributed as YouTube video)
-- **Week:** Week 5 (March 30 – April 5)
+- **Type:** Video Podcast Script (uploaded to YouTube; audio distributed to podcast platforms)
+- **Week:** Week 5 (March 23–29)
 - **Theme:** Your tax return is a diagnostic report
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 5, Podcast
 - **Strategic context:** Companion piece to the Week 5 anchor blog. While the blog presents the four diagnostic markers as a framework, this podcast walks through them conversationally, with extended examples and more personal reflection. Builds on four weeks of structural diagnosis (entity, salary, reimbursement, hourly rate) by showing surgeons how their tax return confirms or reveals each gap. The MRI metaphor bridges clinical expertise to financial literacy.
+- **Story classifications used:** [ILLUSTRATIVE] — hypothetical surgeon "Dr. K" case study walkthrough of four tax return diagnostic markers; [GENERAL-PRINCIPLE] — tax return as diagnostic framework, four-marker analysis methodology, state tax planning strategies
 
 ---
 ## Visual Assets
@@ -16,6 +17,42 @@
 - **AI image prompt:** Create a 1400x1400px square podcast cover art image. Background: solid Deep Muted Blue (#243A4B) covering the full canvas. Layout: text-dominant composition with content centered vertically and left-aligned with 100px left margin. Primary text: "Your Tax Return" in Playfair Display SemiBold, approximately 90pt, Off-White (#F6F7F5), left-aligned, positioned in the upper-center area of the canvas. Secondary text: "Is a Diagnostic Report" in Inter Regular, approximately 48pt, Warm Gray (#9AA3A8), positioned directly below primary text with 20px spacing, same left alignment. A thin horizontal accent line (2px, Antique Gold #B08D57) spans 60% of the canvas width beneath the secondary text, starting from the left margin. Below the accent line, four short horizontal bar segments of varying lengths arranged vertically (suggesting diagnostic readings or chart findings), rendered in Antique Gold (#B08D57) at 40% opacity, with subtle spacing between them. The bars decrease in length from top to bottom, evoking a waterfall chart or diagnostic marker readout. Bottom of canvas: "CAPABLE WEALTH" in Inter Medium, 24pt, Blue Slate (#5F7483), centered horizontally, 60px from bottom edge. No cartoons, no clip art, no stock photography, no illustrations of people, no medical imagery, no MRI scans. Brand constraints: only Capable Wealth palette (#243A4B, #5F7483, #B08D57, #F6F7F5, #1E2428, #9AA3A8), 60/30/10 ratio. No generic stock, no clickbait styling, no busy compositions. Mood: analytical, calm, authoritative. Professional financial advisory aesthetic for orthopedic surgeons ages 45-65.
 - **Text overlay:** "Your Tax Return" in Playfair Display SemiBold, ~90pt, Off-White (#F6F7F5), upper-center left-aligned. "Is a Diagnostic Report" in Inter Regular, ~48pt, Warm Gray (#9AA3A8), below primary text. "CAPABLE WEALTH" in Inter Medium, 24pt, Blue Slate (#5F7483), centered at bottom.
 - **Platform and dimensions:** Podcast cover 1400x1400, YouTube thumbnail variant 1280x720 (text repositioned to center-left two-thirds, right third left open for subtle atmospheric texture)
+
+---
+
+## Clip Extraction Map
+
+### Clip 1
+- **Source segment:** Segment 4: Finding Three, the Retirement Contribution Gap
+- **Timestamp markers:** "So let's do the math on Dr. K..." through "...nearly $2 million in retirement wealth."
+- **Hook line:** "A surgeon contributed $31,000 to retirement last year. The available capacity was $203,000. That $172,000 gap compounds every single year."
+- **Core insight:** The retirement contribution gap ($31K contributed vs. $203K available) represents the single largest missed opportunity on most surgeon returns. Over 10 years, the difference is nearly $2M in retirement wealth.
+- **Platform tags:** [BOTH]
+- **Estimated duration:** ~55 seconds
+
+### Clip 2
+- **Source segment:** Segment 2: Finding One, the Effective Tax Rate
+- **Timestamp markers:** "So what does 'normal' look like?" through "...it compounds to something considerably north of half a million dollars."
+- **Hook line:** "Your effective tax rate should be between 30% and 33% at $800K. If it's 36%+, your structure is leaking $35K a year."
+- **Core insight:** A 4.3 percentage point gap in effective tax rate means $35K-$40K per year in excess taxes. Over a decade, that compounds to over $500K.
+- **Platform tags:** [YT-SHORT]
+- **Estimated duration:** ~50 seconds
+
+### Clip 3
+- **Source segment:** Segment 6: The Treatment Plan
+- **Timestamp markers:** "The combined potential impact of all four treatments..." through "...And the only input required was reading the return."
+- **Hook line:** "Four findings on a tax return. Four structural fixes. Combined impact: $120,000 to $156,000 per year. No additional OR time."
+- **Core insight:** The four diagnostic markers (effective rate, QBI, retirement gap, state tax) together represent $120K-$156K in annual optimization, all from structural adjustments.
+- **Platform tags:** [BOTH]
+- **Estimated duration:** ~50 seconds
+
+### Clip 4
+- **Source segment:** Segment 3: Finding Two, the QBI Deduction
+- **Timestamp markers:** "Now, when the QBI line shows zero..." through "...From a single calibration adjustment."
+- **Hook line:** "Your QBI deduction is zero. That's the financial equivalent of an ACL that should be intact but isn't. One number on your S-Corp setup could save you $17,000 a year."
+- **Core insight:** A zero QBI deduction on a surgeon's S-Corp return reveals a salary calibration issue. Adjusting one number can generate $11K-$17K in annual tax savings.
+- **Platform tags:** [IG-REEL]
+- **Estimated duration:** ~65 seconds
 
 ---
 
@@ -33,9 +70,9 @@ And here's the thing: your tax return is trying to tell you something. It contai
 
 ## INTRO AND CONTEXT (1–2 minutes)
 
-So here's the situation. We are either right at April 15 or just past it, depending on when you're listening to this. Which means one of two things is true. Either you've already filed your 2025 return, or you've filed an extension (which, by the way, is perfectly fine and something we'll talk about in a future episode).
+So here's the situation. We're in late March, which means April 15 is a few weeks away. Some of you have already filed your 2025 return. Others are in the final stretch of preparation. And some of you are planning to file an extension (which, by the way, is perfectly fine and something we'll talk about in a future episode).
 
-Either way, you have a tax return in hand. Or you will very soon. And that document represents the single most comprehensive snapshot of your financial life from the past 12 months. Your income, your deductions, your entity structure, your retirement funding, your state tax exposure. It's all there, on paper, in black and white.
+Whichever camp you're in, you either have a return in hand already or you will very soon. And that document represents the single most comprehensive snapshot of your financial life from the past 12 months. Your income, your deductions, your entity structure, your retirement funding, your state tax exposure. It's all there, on paper, in black and white.
 
 The problem is that most surgeons treat their tax return the way most patients treat their discharge paperwork. They glance at the summary, maybe ask one or two questions, and then put it in a drawer. The return gets filed as a compliance exercise. The CPA did their job. Box checked. Move on.
 
@@ -43,15 +80,15 @@ But over the last four weeks, we've been building a framework for thinking about
 
 This week, we're going to pull all of those threads together. Because your tax return is the document that confirms or reveals every single one of those structural gaps. Think of it as the post-op imaging study on your financial year. The surgery (your financial decisions from last year) is done. The return shows you the results.
 
-And I'm going to use one specific return, anonymized of course, to walk through exactly what to look for.
+And I'm going to build a hypothetical return, based on the kind of profile that's common at surgeon-level income, to walk through exactly what to look for.
 
 ---
 
 ## SEGMENT 1: The Case Study, and Why Most Surgeons Miss the Findings (3–5 minutes)
 
-Let me introduce you to a return I reviewed earlier this year. The surgeon (I'll call her Dr. K) is 52 years old, practices orthopedic surgery in a mid-size metro area, and runs her practice through an S-Corp. She's busy. Clinically excellent. Her patients love her. She takes home a strong income by any reasonable standard.
+Let me build a hypothetical profile to walk through. We'll call her Dr. K. She's 52 years old, practices orthopedic surgery in a mid-size metro area, and runs her practice through an S-Corp. She's busy. Clinically excellent. Her patients love her. She takes home a strong income by any reasonable standard.
 
-When she brought me her return, the first thing she said was, "Everything looks normal. My CPA said we're in good shape."
+In a scenario like this, the typical reaction is, "Everything looks normal. My CPA said we're in good shape."
 
 And from a compliance standpoint, her CPA was right. The return was accurately prepared. Every number was correct. Every form was attached. No red flags for audit. From a compliance standpoint, it was a clean return.
 
@@ -59,7 +96,7 @@ But compliance and strategy are two very different things.
 
 Here are the headline numbers from Dr. K's return. Adjusted gross income: $820,000. Total federal and state tax: $298,000. Effective tax rate: 36.3%. QBI deduction: zero. Total retirement contributions: $31,000. State income tax: $52,000.
 
-Now, if you're a surgeon and those numbers feel roughly familiar, that's because they're common. I see variations of this return constantly. The income is high. The tax bill is large but feels "about right" given the income. The CPA confirms everything is in order. And the surgeon moves on, because nothing looks obviously broken.
+Now, if you're a surgeon and those numbers feel roughly familiar, that's because they're common. Returns with this profile are common at surgeon-level income. The income is high. The tax bill is large but feels "about right" given the income. The CPA confirms everything is in order. And the surgeon moves on, because nothing looks obviously broken.
 
 But let me show you what a diagnostic reading of this return actually reveals. Because when I look at those five numbers through a structural lens, I see four distinct findings, each pointing to a specific treatment recommendation.
 
@@ -93,7 +130,7 @@ The second diagnostic marker is the Qualified Business Income deduction, or QBI.
 
 On Dr. K's return, the QBI deduction was zero.
 
-Now, when I see a zero on the QBI line for a surgeon operating through an S-Corp, that's a significant finding. It's the financial equivalent of seeing an ACL that should be intact but isn't. Something structural has happened.
+Now, when the QBI line shows zero for a surgeon operating through an S-Corp, that's a significant finding. It's the financial equivalent of seeing an ACL that should be intact but isn't. Something structural has happened.
 
 So why was Dr. K's QBI deduction zero? The answer lives in how her S-Corp salary was calibrated. Remember, the QBI deduction applies to the pass-through income from the S-Corp, not the W-2 salary. The more income that flows through as salary, the less qualifies for QBI.
 
@@ -111,7 +148,7 @@ If your QBI deduction is zero and you run an S-Corp, that's a finding. It deserv
 
 ## SEGMENT 4: Finding Three, the Retirement Contribution Gap (3–5 minutes)
 
-This is the finding that stops most surgeons when I show it to them. It's the one that makes the room go quiet, the same way Dr. M's room went quiet when we calculated his effective hourly rate last week.
+This is the finding that tends to land hardest. It's the one that makes the math impossible to ignore, the same way the effective hourly rate calculation from last week changed the entire picture.
 
 On Dr. K's return, total retirement contributions were $31,000. That's the 2025 401(k) employee deferral maximum (including catch-up, since she's over 50, it could have been $32,500, but she contributed $31,000). She funded her 401(k). She felt good about it. Her CPA confirmed it was maxed out.
 
@@ -143,7 +180,7 @@ The fourth diagnostic marker is one that surgeons often overlook entirely, becau
 
 Dr. K paid $52,000 in state income tax. She practices in a state with a top marginal rate of about 6.5%. On $820,000 of income, that comes out to roughly $52,000. Straightforward math.
 
-But here's the question I always ask: is that $52,000 a necessary cost of doing business, or is it a wealth drag that could be mitigated?
+But here's the question worth asking: is that $52,000 a necessary cost of doing business, or is it a wealth drag that could be mitigated?
 
 Now, I want to be careful here. I'm not going to tell you to move to Florida or Texas. That's the lazy version of this conversation, and it ignores everything that makes your life work: your practice, your referral network, your community, your family's roots. Uprooting your life to save on state taxes is rarely the right answer, and frankly, it's rarely necessary.
 
@@ -151,7 +188,7 @@ But there are structural strategies within a high-tax state that most surgeons n
 
 There's also the question of trajectory. If Dr. K is planning to retire in 8 to 10 years and relocate to a lower-tax state at that point, the timing of certain income events (selling a practice interest, triggering capital gains, taking large retirement distributions) can be strategically planned around the move. A $52,000 annual state tax bill, multiplied by the remaining years in a high-tax state, is a planning variable worth quantifying.
 
-And for surgeons who split time between states, who do locum work in different jurisdictions, or who have practice interests in multiple locations, the state tax picture gets more complex and more optimizable. I've seen surgeons save $15,000 to $30,000 annually through thoughtful state tax planning that didn't involve moving.
+And for surgeons who split time between states, who do locum work in different jurisdictions, or who have practice interests in multiple locations, the state tax picture gets more complex and more optimizable. Thoughtful state tax planning can reduce the burden by $15,000 to $30,000 annually without requiring a change of address.
 
 The point here is not that $52,000 in state tax is "wrong." The point is that it's a finding worth investigating. Just like a radiological finding that may be incidental or may be clinically significant, the state tax line deserves a focused look. And for many surgeons, it reveals options they didn't know they had.
 
@@ -207,7 +244,7 @@ That skill transfers. It transfers directly to your financial life.
 
 A diagnosis without a treatment plan is just information. The same is true for your tax return. The return tells you what happened. What you do with it determines what happens next.
 
-And the surgeons I work with who build the most wealth over the course of a career are the ones who bring that diagnostic rigor to their financial documents. They don't just file and forget. They read, they interpret, and they act. The same way they do in the clinic every single day.
+And the surgeons who build the most wealth over the course of a career are the ones who bring that diagnostic rigor to their financial documents. They don't just file and forget. They read, they interpret, and they act. The same way they do in the clinic every single day.
 
 Your tax return is not a compliance document. It's a diagnostic report. And nobody should be better at reading diagnostic reports than you.
 
@@ -238,7 +275,7 @@ Thanks for spending this time with me today. Talk to you next week.
 
 ### Relevance Validation
 - [x] All facts, figures, and legal references are current as of publication date (2026 401(k) limits, OBBBA permanent 37% rate, QBI deduction rules, cash balance plan ranges)
-- [x] Content is appropriately timed relative to the annual calendar (first week of April, returns being filed or just filed, April 15 deadline approaching)
+- [x] Content is appropriately timed relative to the annual calendar (late March, returns being filed or in preparation, April 15 deadline approaching)
 - [x] No conflicting current events that would undermine the message
 - [x] Relevance Score is Green
 - [x] OBBBA permanent rate framework referenced accurately
@@ -261,9 +298,32 @@ Thanks for spending this time with me today. Talk to you next week.
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
 
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language
+
 ### Podcast-Specific Checks
 - [x] Audio stands alone without visual aids (all math explained verbally, no references to on-screen elements)
 - [x] Structure follows podcast format: Cold Open, Intro and Context, Main Segments, Listener Takeaway, Philosophical Close
 - [x] Estimated duration within 15–25 minute range (~23 minutes at conversational pace)
 - [x] Segments are clearly delineated with natural transitions
 - [x] Works as both audio-only podcast and video consumption
+
+### Short-Form Clips
+- [x] Clip Extraction Map is included in the draft with 4 clip candidates
+- [x] Each clip stands alone without requiring context from the full episode
+- [x] Hook lands in the first 3 seconds (contrarian take, striking number, or direct question)
+- [x] Duration is within platform target (45-58s for YouTube Shorts, 60-90s for Instagram Reels)
+- [x] Platform tags are assigned: [YT-SHORT], [IG-REEL], or [BOTH]
+- [ ] Caption/subtitle script is included or noted for production
+- [x] Content stays within 4:5 safe zone (no critical visual info in top/bottom 10%)
+- [x] Clip ends with a clear takeaway or curiosity beat (not mid-sentence)
+- [x] Clips are not forced; each earns its extraction through natural standalone value

@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** LinkedIn Post
-- **Week:** Week 3 (March 16–22)
+- **Week:** Week 3 (March 9–15)
 - **Theme:** Reimbursement Shift and Practice Wealth
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 3, LinkedIn 4
 - **Strategic context:** Extends the week's reimbursement theme into actionable territory. Posts 1 through 3 established why structural optimization matters more than volume increases. This post gives surgeons three specific overhead categories to examine, making the "2% overhead reduction" concept from the anchor blog concrete and immediately actionable.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — three overhead benchmark categories with industry data
 
 ---
 ## Visual Assets
@@ -23,7 +24,7 @@ Most orthopedic practices track revenue closely. Far fewer benchmark the three o
 
 If a 2.5% reimbursement cut costs your practice $32,000 a year, and a 2% overhead reduction recovers the same $32,000 with zero additional procedures, the question becomes: where does that 2% come from?
 
-In my experience, there are three line items that almost always have room:
+When you analyze orthopedic practice overhead, there are three line items that almost always have room:
 
 → Supply and vendor contracts. When was the last time your practice benchmarked implant pricing, surgical supplies, and office materials against peer practices? Most practices haven't renegotiated in years. A 5% reduction in supply costs alone can recover $10,000 to $20,000 annually.
 
@@ -78,3 +79,15 @@ When was the last time your practice ran that comparison?
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

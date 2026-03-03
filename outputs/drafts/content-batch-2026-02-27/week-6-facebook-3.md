@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 6 (April 6–12)
+- **Week:** Week 6 (March 30 – April 5)
 - **Theme:** The April 15 trifecta: filing, estimated taxes, and the Roth question
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 6, Facebook 3
 - **Strategic context:** Surfaces a quiet observation that many surgeons fund their backdoor Roth IRA reflexively every year without revisiting whether the math still favors it, especially now that the 37% top rate is permanent under OBBBA. Warm and curious in tone, designed to prompt reflection without judgment.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — backdoor Roth autopilot reassessment
 
 ---
 ## Visual Assets
@@ -19,9 +20,9 @@
 
 ---
 
-I've noticed something interesting in the conversations I have with surgeons this time of year.
+There's an interesting pattern that surfaces this time of year.
 
-Almost every one of them funds a backdoor Roth IRA. It's on the annual checklist. Contribute $7,500 to a traditional IRA, convert it, move on. Many have been doing it for years without a second thought.
+A large number of surgeons fund a backdoor Roth IRA every April. It's on the annual checklist. Contribute $7,500 to a traditional IRA, convert it, move on. Many have been doing it for years without a second thought.
 
 And for a long time, that was the right call. When the top rate was expected to sunset back to 39.6%, converting at a potentially lower rate today made strong mathematical sense.
 
@@ -52,7 +53,7 @@ The April 15 deadline to fund a prior-year Roth is a good moment to ask: does th
 
 ### Relevance Validation
 - [x] Facts current as of publication date
-- [x] Appropriately timed (week before April 15)
+- [x] Appropriately timed (two weeks before April 15)
 - [x] No conflicting current events
 - [x] Relevance Score is Green
 
@@ -70,3 +71,15 @@ The April 15 deadline to fund a prior-year Roth is a good moment to ask: does th
 - [x] No cartoons, clip art, generic stock, clickbait
 - [x] Correct palette hex codes
 - [x] Passes credibility test
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

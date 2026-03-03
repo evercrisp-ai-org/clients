@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** LinkedIn Post
-- **Week:** Week 6 (April 6–12)
+- **Week:** Week 6 (March 30 – April 5)
 - **Theme:** The April 15 trifecta: filing, estimated taxes, and the Roth question
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 6, LinkedIn 4
 - **Strategic context:** Zooms into the specific math comparison from the anchor blog, isolating the backdoor Roth vs. cash balance plan decision as a direct side-by-side. At surgeon income levels, the opportunity cost of a backdoor Roth contribution compared to redirecting those dollars to a cash balance plan is measurable and significant. This post makes the comparison visceral and concrete.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — Roth vs. cash balance plan math comparison
 
 ---
 ## Visual Assets
@@ -59,7 +60,7 @@ The Roth is a good tool. But at your income level, is it the best use of the nex
 
 ### Relevance Validation
 - [x] All facts, figures, and legal references are current as of publication date (2026 IRA limit $7,500, OBBBA 37% rate permanent, cash balance plan limits $150K-$350K+)
-- [x] Content is appropriately timed relative to the annual calendar (April 6-12, before April 15 IRA contribution deadline)
+- [x] Content is appropriately timed relative to the annual calendar (March 30 – April 5, before April 15 IRA contribution deadline)
 - [x] No conflicting current events that would undermine the message
 - [x] Relevance Score is Green
 
@@ -78,3 +79,15 @@ The Roth is a good tool. But at your income level, is it the best use of the nex
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

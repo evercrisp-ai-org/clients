@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 4 (March 23–29)
+- **Week:** Week 4 (March 16–22)
 - **Theme:** The Number That Matters More Than Collections
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 4, Facebook 4
 - **Strategic context:** Reflective post exploring why surgeons track collections but not their keep rate. Builds on the week's theme by examining the psychology behind the blind spot. Pairs with the action post (Facebook 3) by offering the "why" after the "how."
+- **Story classifications used:** [GENERAL-PRINCIPLE] — why keep rate goes untracked
 
 ---
 ## Visual Assets
@@ -21,7 +22,7 @@
 
 Here's something I think about a lot.
 
-Every surgeon I know can tell you their collections. It shows up in practice reports, partner meetings, year-end summaries. Your practice tracks it. Your partners compare it. Your accountant files around it.
+Most surgeons can tell you their collections. It shows up in practice reports, partner meetings, year-end summaries. Your practice tracks it. Your partners compare it. Your accountant files around it.
 
 But nobody reports what you actually keep per hour of clinical work. It doesn't show up in any dashboard. No practice management system calculates it. No year-end report highlights it.
 
@@ -53,7 +54,7 @@ Unless you decide to watch it yourself.
 
 ### Relevance Validation
 - [x] All facts, figures, and legal references are current as of publication date
-- [x] Content is appropriately timed relative to the annual calendar (Q1 close, reviewing numbers)
+- [x] Content is appropriately timed relative to the annual calendar (Q1 wrapping up, reviewing numbers)
 - [x] No conflicting current events that would undermine the message
 - [x] Relevance Score is Green
 
@@ -72,3 +73,15 @@ Unless you decide to watch it yourself.
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

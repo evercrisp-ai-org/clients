@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 3 (March 16–22)
+- **Week:** Week 3 (March 9–15)
 - **Theme:** Reimbursement Shift and Practice Wealth
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 3, Facebook 4
 - **Strategic context:** Reflective midweek post that ties the Week 3 reimbursement theme back to the structural concepts from Weeks 1 and 2 (S-Corp salary calibration, cash balance plans, cost segregation). Reframes the CMS cut as a revealer of pre-existing structural leaks, not the source of the problem itself. Designed for late-week (Thursday/Friday) to create a reflective pause before the weekend perspective post.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — reimbursement cut as diagnostic revealer of pre-existing structural gaps
 
 ---
 ## Visual Assets
@@ -21,7 +22,7 @@
 
 Something I've been thinking about this week.
 
-The CMS reimbursement cut is real. Nobody enjoys earning less per procedure. But the more I look at the practices that are feeling it most, the more I notice a pattern: the cut didn't create a new problem. It made an existing one louder.
+The CMS reimbursement cut is real. Nobody enjoys earning less per procedure. But the more you look at the practices that are feeling it most, the clearer a pattern becomes: the cut didn't create a new problem. It made an existing one louder.
 
 Over the past couple of weeks, I've been writing about the structural gaps that quietly drain surgeon wealth. Things like an S-Corp salary that hasn't been recalibrated in years, retirement plans that aren't using their full capacity, depreciation strategies that were never implemented on a building the surgeon already owns.
 
@@ -29,7 +30,7 @@ Those gaps existed before January 1. They were just easier to ignore when revenu
 
 The reimbursement cut is uncomfortable, but it's also clarifying. It's the financial equivalent of an imaging result you weren't expecting. You can be frustrated by the finding, or you can use it as a reason to look more carefully at the structure underneath.
 
-Most of the surgeons I work with, once they actually trace how their income flows from the practice to their personal balance sheet, find that the structural leaks are costing them far more than the CMS cut ever will.
+When surgeons actually trace how their income flows from the practice to their personal balance sheet, they typically find that the structural leaks cost far more than the CMS cut ever will.
 
 That's the real conversation worth having this quarter.
 
@@ -74,3 +75,15 @@ That's the real conversation worth having this quarter.
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

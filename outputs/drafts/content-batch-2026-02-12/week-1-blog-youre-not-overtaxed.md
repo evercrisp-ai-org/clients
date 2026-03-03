@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Blog Post
-- **Week:** Week 1 (March 2–8)
+- **Week:** Week 1 (February 23 – March 1)
 - **Theme:** Tax Structure Optimization
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 1, Anchor
 - **Strategic context:** Opens the Q2 arc by establishing the core thesis that entity structure, not tax rates, determines how much a surgeon keeps. This is the anchor piece for Week 1. All social content this week distills, narrates, or spotlights elements from this post. Sets the foundation that Weeks 2–4 build on (S-Corp salary, reimbursement shift, effective hourly rate).
+- **Story classifications used:** [ILLUSTRATIVE] — surgeon earning $800K frustrated about taxes, used to frame the three structural leaks; [GENERAL-PRINCIPLE] — S-Corp salary optimization, cash balance plan mechanics, cost segregation strategy
 
 ---
 ## Visual Assets
@@ -26,21 +27,21 @@
 
 ---
 
-Last month, I sat across from a surgeon (an orthopedic practice owner making just north of $800K) who said something I hear almost every week.
+Here's a scenario I want you to picture. An orthopedic practice owner earning just north of $800K sits down for a financial planning conversation and says something that gets right to the core of this problem.
 
-"Jared, I'm getting killed on taxes. I need a better accountant."
+"I'm getting killed on taxes. I need a better accountant."
 
-I paused. Took a sip of coffee. And then I told him what I'm about to tell you.
+And here's what I'd tell that surgeon, the same thing I'm about to tell you.
 
 Your accountant probably isn't the problem.
 
 ## The Real Diagnosis
 
-When a surgeon tells me they're overtaxed, I don't reach for the tax code. I reach for their entity structure. Because nine times out of ten, the tax bill they're frustrated about is really a structure problem disguised as a tax problem.
+When the conversation starts with "I'm overtaxed," the instinct is to reach for the tax code. But as a CFP focused on high-income professionals, I reach for the entity structure first. Because the tax bill that frustrates surgeons is frequently a structure problem disguised as a tax problem.
 
 Think about it this way. You wouldn't diagnose a patient based on their chief complaint alone. You'd order imaging. You'd look at the whole picture. The same applies here.
 
-When I look at a surgeon's financial structure, I'm scanning for three specific gaps, three structural leaks that, in my experience, account for most of the wealth erosion I see in orthopedic practices.
+When you analyze a surgeon's financial structure, three specific gaps stand out, three structural leaks that account for most of the wealth erosion in orthopedic practices.
 
 ## Leak #1: A Misaligned S-Corp Salary
 
@@ -54,7 +55,7 @@ To put that in perspective: $25K a year compounds into a vacation home over time
 
 ## Leak #2: An Underfunded (or Nonexistent) Cash Balance Plan
 
-This one makes my heart hurt every time I see it.
+This one genuinely hurts to think about.
 
 A cash balance plan is the single most powerful tax-deferral tool available to high-income practice owners. Depending on your age, you can shelter between $150K and $350K per year, on top of your 401(k), in tax-deferred contributions.
 
@@ -87,7 +88,7 @@ If you compound that gap over ten years, even conservatively, you're looking at 
 
 ## Structure Is Control
 
-Here's what I keep coming back to. The surgeon I sat with that morning? He didn't need a new accountant. He needed someone to look at the whole architecture of how his income flows from practice to personal wealth, and to diagnose where the leaks were.
+Here's what I keep coming back to. The surgeon in that scenario? He doesn't need a new accountant. He needs someone to look at the whole architecture of how his income flows from practice to personal wealth, and to diagnose where the leaks are.
 
 When I talk about financial freedom, what I really mean is control. Control over your time. Control over your choices. Control over the trajectory of your life beyond the OR.
 
@@ -143,3 +144,15 @@ Jared
 - [x] Text on images (if any) specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

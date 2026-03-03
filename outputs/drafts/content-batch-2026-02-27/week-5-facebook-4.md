@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 5 (March 30 – April 5)
+- **Week:** Week 5 (March 23–29)
 - **Theme:** Your tax return is a diagnostic report
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 5, Facebook 4
 - **Strategic context:** Surfaces the QBI (Qualified Business Income) deduction as one of the four diagnostic markers. Most surgeon-practice owners don't realize they may qualify, or that their current entity structure may be preventing them from claiming it. Positioned later in the week as a "did you know" informational post.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — QBI deduction awareness, qualification mechanics, and entity structure impact
 
 ---
 ## Visual Assets
@@ -25,7 +26,7 @@ The QBI deduction (Qualified Business Income, Section 199A) allows certain pass-
 
 The catch? Surgeons often get told they "make too much" to qualify. And for some, that's true. But the income thresholds interact with filing status, entity structure, and how W-2 wages are set within the practice. The details matter, and they're not always intuitive.
 
-I've seen surgeons who assumed they were phased out discover, after a closer look at their entity setup, that they qualified all along.
+It's not uncommon for surgeons who assumed they were phased out to discover, after a closer look at their entity setup, that they qualified all along.
 
 Pull up your 1040 and look for Form 8995 or 8995-A. If it's missing entirely, that's worth a conversation with your tax advisor.
 
@@ -70,3 +71,15 @@ Have you checked yours?
 - [x] No cartoons, clip art, generic stock, clickbait
 - [x] Correct palette hex codes
 - [x] Passes credibility test
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

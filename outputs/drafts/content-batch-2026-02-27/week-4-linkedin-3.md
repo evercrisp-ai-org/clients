@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** LinkedIn Post
-- **Week:** Week 4 (March 23–29)
+- **Week:** Week 4 (March 16–22)
 - **Theme:** The Number That Matters More Than Collections
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 4, LinkedIn 3
 - **Strategic context:** Framework post that breaks the effective hourly rate into five actionable components. Gives surgeons a mental model for understanding which variables they can influence, shifting the conversation from "I need to earn more" to "I need to optimize what flows through." Supports the anchor blog's core math.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — five components of effective hourly rate framework
 
 ---
 ## Visual Assets
@@ -57,7 +58,7 @@ The key insight: most surgeons try to improve their rate by increasing the first
 
 ### Relevance Validation
 - [x] All facts, figures, and legal references are current as of publication date
-- [x] Content is appropriately timed relative to the annual calendar (Q1 close)
+- [x] Content is appropriately timed relative to the annual calendar (Q1 wrapping up)
 - [x] No conflicting current events that would undermine the message
 - [x] Relevance Score is Green
 
@@ -76,3 +77,15 @@ The key insight: most surgeons try to improve their rate by increasing the first
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

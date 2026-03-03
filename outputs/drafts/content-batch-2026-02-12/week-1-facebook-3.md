@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 1 (March 2–8)
+- **Week:** Week 1 (February 23 – March 1)
 - **Theme:** Tax Structure Optimization
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 1, Facebook 3
 - **Strategic context:** Conversational adaptation of LinkedIn 3's cash balance plan spotlight. Distills the contribution gap ($32,500 vs. $200K+) into a warm, curiosity-driven "did you know" moment. Closes the week's Facebook arc by moving from the broad structural problem (Facebook 1) to a specific client story (Facebook 2) to one high-leverage solution (Facebook 3).
+- **Story classifications used:** [GENERAL-PRINCIPLE] — cash balance plan contribution gap explanation (no client narrative)
 
 ---
 ## Visual Assets
@@ -19,7 +20,7 @@
 
 ---
 
-Something that still surprises me: most orthopedic surgeons I work with are contributing $32,500 a year to their retirement plans. That's the 401(k) limit with catch-up.
+Something that still surprises me: most orthopedic surgeons are contributing just $32,500 a year to their retirement plans. That's the 401(k) limit with catch-up.
 
 For a surgeon earning $800K, that shelters about 4% of income.
 
@@ -72,3 +73,15 @@ The setup window for meaningful 2026 contributions is open right now.
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language

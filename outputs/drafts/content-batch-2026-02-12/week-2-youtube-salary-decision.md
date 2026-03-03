@@ -1,11 +1,12 @@
 # The Salary You Pay Yourself Could Be Your Most Expensive Financial Decision
 
 ## Post Metadata
-- **Type:** YouTube Script
-- **Week:** Week 2 (March 9–15)
+- **Type:** Video Podcast Script (uploaded to YouTube; audio distributed to podcast platforms)
+- **Week:** Week 2 (March 2–8)
 - **Theme:** S-Corp Salary Optimization
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 2, YouTube
 - **Strategic context:** Whiteboard-math companion to the anchor blog post. Shows the S-Corp salary trade-off in real time with visual calculations. Designed for mid-week depth viewing (Thursday/Friday publish). Adapts the full three-variable analysis from "The S-Corp Salary Trap" into a visual walkthrough format with real-time math.
+- **Story classifications used:** [ILLUSTRATIVE] — surgeon S-Corp salary trade-off walkthrough ($745K income, $300K vs $360K salary); [GENERAL-PRINCIPLE] — three-variable framework and annual review cadence
 
 ---
 ## Visual Assets
@@ -16,6 +17,34 @@
 - **AI image prompt:** Create a 1280x720px landscape YouTube thumbnail. Background: split composition. Left two-thirds: solid Deep Muted Blue (#243A4B). Right third: a softly blurred, desaturated image of a professional whiteboard or screen showing faint numbers, color-graded toward Blue Slate (#5F7483), opacity reduced to 40%, serving as atmospheric texture. Primary text: "Your Salary Costs You" in Playfair Display SemiBold, approximately 96pt, Off-White (#F6F7F5), left-aligned with 80px left margin, positioned in the upper half of the canvas. Secondary text: "$25K/yr" in Inter SemiBold, approximately 72pt, Antique Gold (#B08D57), left-aligned with same margin, positioned directly below the primary text with 12px spacing. A thin horizontal accent line (2px, Antique Gold #B08D57) spans from the left margin to approximately 50% of the canvas width, positioned 20px below the secondary text. No people, no cartoons, no clip art, no illustrations, no icons. Brand constraints: only Capable Wealth palette (#243A4B, #5F7483, #B08D57, #F6F7F5, #1E2428, #9AA3A8), 60/30/10 ratio. No generic stock, no clickbait styling, no flashy or sensational elements, no busy compositions. Mood: provocative, authoritative, clean. Professional financial advisory aesthetic for orthopedic surgeons ages 45-65.
 - **Text overlay:** "Your Salary Costs You" in Playfair Display SemiBold, ~96pt, Off-White (#F6F7F5), left-aligned, upper half. "$25K/yr" in Inter SemiBold, ~72pt, Antique Gold (#B08D57), left-aligned, below primary.
 - **Platform and dimensions:** YouTube thumbnail, 1280x720
+
+---
+
+## Clip Extraction Map
+
+### Clip 1
+- **Source segment:** Key Point 2: The Payroll Tax Math
+- **Timestamp markers:** Payroll tax comparison at $300K vs. $360K salary
+- **Hook line:** "Your CPA told you to keep your S-Corp salary low. That advice might be costing you $25K a year."
+- **Core insight:** The "low salary" strategy optimizes for payroll tax savings but sacrifices retirement plan contribution capacity, which is worth more at surgeon income levels.
+- **Platform tags:** [BOTH]
+- **Estimated duration:** ~55 seconds
+
+### Clip 2
+- **Source segment:** Key Point 3: The Retirement Plan Unlock
+- **Timestamp markers:** How a higher salary feeds 401(k) + cash balance contributions
+- **Hook line:** "A $60K salary adjustment just unlocked $60K in additional retirement contributions. Same income. Different structure."
+- **Core insight:** Higher S-Corp salary unlocks $20K-$60K more in retirement plan contributions through 401(k) employer match and cash balance plan capacity.
+- **Platform tags:** [YT-SHORT]
+- **Estimated duration:** ~50 seconds
+
+### Clip 3
+- **Source segment:** Key Point 4: The QBI Deduction Wrinkle
+- **Timestamp markers:** QBI deduction interaction with salary level
+- **Hook line:** "There's a deduction worth up to $29,800 that depends entirely on one number you've probably never optimized."
+- **Core insight:** The QBI deduction (20% of pass-through income) is directly affected by S-Corp salary calibration. Most surgeons have never modeled the optimal range.
+- **Platform tags:** [IG-REEL]
+- **Estimated duration:** ~60 seconds
 
 ---
 
@@ -160,3 +189,26 @@ And finding it? That's a conversation worth having this quarter.
 - [x] Text on images specifies exact font, weight, size, color hex, and position
 - [x] Image uses only the Capable Wealth color palette with correct hex codes
 - [x] Image would pass the credibility test: "Would an orthopedic surgeon earning $800K+ take this seriously?"
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language
+
+### Short-Form Clips
+- [x] Clip Extraction Map is included in the draft with 3 clip candidates
+- [x] Each clip stands alone without requiring context from the full episode
+- [x] Hook lands in the first 3 seconds (contrarian take, striking number, or direct question)
+- [x] Duration is within platform target (45-58s for YouTube Shorts, 60-90s for Instagram Reels)
+- [x] Platform tags are assigned: [YT-SHORT], [IG-REEL], or [BOTH]
+- [ ] Caption/subtitle script is included or noted for production
+- [x] Content stays within 4:5 safe zone (no critical visual info in top/bottom 10%)
+- [x] Clip ends with a clear takeaway or curiosity beat (not mid-sentence)
+- [x] Clips are not forced; each earns its extraction through natural standalone value

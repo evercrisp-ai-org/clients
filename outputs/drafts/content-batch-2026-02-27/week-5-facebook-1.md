@@ -2,10 +2,11 @@
 
 ## Post Metadata
 - **Type:** Facebook Post
-- **Week:** Week 5 (March 30 – April 5)
+- **Week:** Week 5 (March 23–29)
 - **Theme:** Your tax return is a diagnostic report
 - **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 5, Facebook 1
 - **Strategic context:** Opens the week with a confessional story that reframes the tax return as a diagnostic tool. Uses a single, specific dollar figure ($172K in unused retirement plan capacity) to make the abstract tangible. Designed to prime the Facebook audience for deeper posts on the four diagnostic markers later in the week.
+- **Story classifications used:** [ILLUSTRATIVE] — surgeon with $172K in unused retirement plan capacity discovered through diagnostic return review
 
 ---
 ## Visual Assets
@@ -19,9 +20,9 @@
 
 ---
 
-Tax season confession: the first time I really looked at a surgeon client's return for strategy instead of compliance, I found $172,000 in unused retirement plan capacity. Every year. For years.
+Here's a scenario worth sitting with. Take a surgeon's return and read it for strategy instead of compliance. What shows up? $172,000 in unused retirement plan capacity. Every year. For years.
 
-They weren't doing anything wrong. Their CPA was solid. The return was accurate. Every number checked out.
+Nothing was wrong with the compliance work. The CPA was solid. The return was accurate. Every number checked out.
 
 But nobody had ever read it the way a surgeon reads an MRI, looking for what's not there as much as what is.
 
@@ -70,3 +71,15 @@ This week, we're walking through those four lines. If you want to start with the
 - [x] No cartoons, clip art, generic stock, clickbait
 - [x] Correct palette hex codes
 - [x] Passes credibility test
+
+### Content Integrity
+- [ ] Every client story or case study is classified: [REAL-ANONYMIZED], [ILLUSTRATIVE], or [GENERAL-PRINCIPLE]
+- [ ] Story classifications are listed in the Post Metadata under "Story classifications used"
+- [ ] All [REAL-ANONYMIZED] stories trace to a specific entry in experience-inventory.md Section 4
+- [ ] All [ILLUSTRATIVE] examples use approved framing language (no "I reviewed," "a client told me," or specific temporal references)
+- [ ] No fabricated relationship-duration claims or experience-pattern claims without inventory support
+- [ ] No pseudonymous characters presented as real without an inventory source
+- [ ] No implied guarantees of specific outcomes for future clients
+- [ ] No testimonial-style framing of client results
+- [ ] Track record claims are consistent with experience-inventory.md Sections 2 and 3
+- [ ] Forward-looking projections include appropriate qualifying language
