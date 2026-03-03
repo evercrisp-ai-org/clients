@@ -15,6 +15,7 @@
 | `brand/content-calendar.md` | **WHEN**: Annual cycles, research checkpoints, signal triggers, source library | For timing decisions and relevance validation. Updated monthly. |
 | `brand/brand_config.json` | **LOOK + TONE**: Visual standards, colors, fonts, imagery rules, and calibrated brand voice attributes | For designed deliverables AND voice/language guidance. The `voice_and_tone` section defines the calibrated output voice for the surgeon audience. |
 | `brand/performance-log-template.md` | **MEASURE**: Standardized format for logging real engagement metrics from platform analytics | Before running a Recursive Learning cycle (Session 5). Copy to `outputs/performance-logs/` and fill in with real data. |
+| `brand/system-guide.md` | **GUIDE**: Client-facing walkthrough of the entire content system, document relationships, maintenance rhythm, and update procedures | Share with Jared as orientation. Reference when onboarding or when Jared asks how the system works. |
 
 ### Source Material
 
