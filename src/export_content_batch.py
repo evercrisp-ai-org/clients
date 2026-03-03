@@ -84,16 +84,18 @@ def parse_content_file(filepath: str) -> dict:
         result["platform"] = "LinkedIn"
     elif "-facebook-" in fname:
         result["platform"] = "Facebook"
-    elif "-youtube-" in fname:
-        result["platform"] = "YouTube"
+    elif "-podcast-" in fname or "-youtube-" in fname:
+        result["platform"] = "Podcast"
+    elif "-clip-" in fname:
+        result["platform"] = "Clips"
 
     # --- Week number for sorting ---
     week_match = re.search(r"week-(\d+)", fname)
     if week_match:
         result["week_num"] = int(week_match.group(1))
 
-    # --- Post number for social posts ---
-    post_match = re.search(r"(?:linkedin|facebook)-(\d+)", fname)
+    # --- Post number for social posts and clips ---
+    post_match = re.search(r"(?:linkedin|facebook|clip)-(\d+)", fname)
     if post_match:
         result["post_num"] = int(post_match.group(1))
 
@@ -199,7 +201,7 @@ def create_workbook(content_items: List[Dict], batch_date: str) -> Workbook:
     wb = Workbook()
 
     # Platform order
-    platforms = ["Blog", "LinkedIn", "Facebook", "YouTube"]
+    platforms = ["Blog", "Podcast", "Clips", "LinkedIn", "Facebook"]
 
     # Column definitions
     columns = [
