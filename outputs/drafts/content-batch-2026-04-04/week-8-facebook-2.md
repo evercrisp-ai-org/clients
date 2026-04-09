@@ -34,7 +34,7 @@ Third: $180,000 in investment losses have been sitting in taxable accounts for y
 
 Total value of someone looking at the full picture: $50,000 to $80,000 in Year 1.
 
-The hard part? Nobody had ever looked. Not because anyone was doing a bad job. But because nobody was doing the same job: seeing how all the pieces connect.
+The hard part? Nobody had ever looked. Every advisor was doing good work in their lane. The gap existed where nobody was doing the same job: seeing how all the pieces connect.
 
 ---
 

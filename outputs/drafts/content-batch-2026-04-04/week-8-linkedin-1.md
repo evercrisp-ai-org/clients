@@ -1,81 +1,56 @@
-# You've Ordered Hundreds of Second Opinions. Have You Gotten One on Your Financial Plan?
+# $50K–$80K Usually Sits Between Your Advisors, Not Inside Them
 
 ## Post Metadata
 - **Type:** LinkedIn Post
 - **Week:** Week 8 (April 13–19)
+- **Planned publish day:** Tuesday
 - **Theme:** The financial second opinion: are you getting one?
-- **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 8, LinkedIn 1
-- **Strategic context:** Opens the week's LinkedIn sequence with the core surgical parallel. The question format creates immediate personal relevance for any surgeon scrolling LinkedIn during tax week. Drives curiosity about what a financial second opinion reveals and positions the blog as the deeper resource.
-- **Story classifications used:** [GENERAL-PRINCIPLE] — clinical second opinion discipline applied to financial planning, $50K+ annual optimization at surgeon income levels
+- **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 8, LinkedIn 1 (hook)
+- **Strategic context:** Hook post. Opens with silent-loss dollars in the coordination gap between CPA, advisor, and attorney. Positions a coordinated second read as diagnostic, not a personnel swap. Execution follows `rules/linkedin-content-creation-guidelines.md`.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — coordination gaps at surgeon income levels; illustrative dollar range from common review patterns, not a guaranteed client outcome
 
 ---
 ## Visual Assets
 
 ### Primary Image
-- **Image type:** Quote card
-- **Rationale:** The hook question is the post's strongest standalone line. A clean quote card lets the question itself stop the scroll and prompt self-reflection before the reader even engages with the post body.
-- **AI image prompt:** Create a 1080x1080px square social media graphic. Background: solid Charcoal (#1E2428). Layout: centered text composition with generous margins (minimum 120px all sides). Primary text: "You've ordered hundreds of second opinions in your career." in Playfair Display Medium, approximately 28pt, Off-White (#F6F7F5), centered horizontally, positioned in the upper-center area, maximum width 75% of canvas, line height 1.5. Secondary text: "Have you ever gotten one on your financial plan?" in Playfair Display Medium, approximately 28pt, Antique Gold (#B08D57), centered horizontally, 32px below primary text, maximum width 75% of canvas, line height 1.5. A thin horizontal rule (1px, Blue Slate #5F7483) spans 25% of the canvas width, centered horizontally, 48px below secondary text. Bottom-right corner: Capable Wealth logo mark in Warm Gray (#9AA3A8), 32px from edges, approximately 80px wide. No imagery, no illustrations, no gradients, no drop shadows. Brand constraints: only Capable Wealth palette (#243A4B, #5F7483, #B08D57, #F6F7F5, #1E2428, #9AA3A8), 60/30/10 ratio. Mood: reflective, provocative, authoritative. Professional financial advisory aesthetic for orthopedic surgeons ages 45-65.
-- **Text overlay:** "You've ordered hundreds of second opinions in your career." in Playfair Display Medium, ~28pt, Off-White (#F6F7F5), upper-center. "Have you ever gotten one on your financial plan?" in Playfair Display Medium, ~28pt, Antique Gold (#B08D57), below. Capable Wealth logo in Warm Gray, bottom-right.
+- **Image type:** Stat highlight card
+- **Rationale:** The dollar range is the scroll-stopper per LinkedIn guidelines. One stat-forward card for Tuesday hook.
+- **AI image prompt:** Create a 1080x1080px square social media graphic. Background: solid Deep Muted Blue (#243A4B). Layout: centered text with generous margins (minimum 120px all sides). Primary text: "$50K–$80K" in Playfair Display SemiBold, approximately 88pt, Antique Gold (#B08D57), centered, upper third. Secondary text: "Year 1, often between siloed advisors" in Inter Regular, approximately 20pt, Off-White (#F6F7F5), centered, 20px below. Thin horizontal rule (1px, Warm Gray #9AA3A8), 30% width, centered, 40px below. Bottom-right: Capable Wealth logo in Off-White, 32px from edges, ~80px wide. Palette only: #243A4B, #5F7483, #B08D57, #F6F7F5, #1E2428, #9AA3A8. No gradients, no photos.
+- **Text overlay:** As in prompt.
 - **Platform and dimensions:** LinkedIn, 1080x1080
 
 ---
 
-You've ordered hundreds of second opinions in your career. Have you ever gotten one on your financial plan?
+$50,000 to $80,000 in first-year findings often sits between your CPA's return, your advisor's portfolio, and your attorney's documents. Each professional did their job. The gap exists where nobody owns the full wiring diagram.
 
-In clinical practice, the second opinion is standard for complex cases. You send the imaging. You ask a colleague for a fresh read. You do this because the stakes are high enough that a second perspective makes the outcome better.
+Your CPA optimizes the filing. Your advisor optimizes the allocation. Your attorney optimizes the documents. Each piece can look correct while the handoffs leak: retirement capacity versus salary, loss harvesting versus gain recognition, entity cash flow versus what actually lands on your 1040.
 
-Your financial structure carries similar stakes. At surgeon income levels, an independent review of tax strategy, entity structure, retirement plan design, and investment allocation typically identifies $50,000 or more in annual optimization.
+At surgeon income levels, that coordination gap routinely shows up as six-figure money left on the table in Year 1 alone. Most high earners only see it after a life event forces everyone into one room.
 
-The value of a financial second opinion, just like a clinical one, isn't in contradicting your current advisors. It's in catching what falls between the silos: the interactions between your CPA's tax work, your advisor's portfolio, and your attorney's estate plan that no single professional is positioned to see.
+The return shows one slice. The portfolio statement shows another. The operating agreement shows a third. None of them fail on their own. They fail to meet in one model.
 
-The same discipline that makes you a better surgeon applies here. Seeking another perspective isn't doubt. It's diligence.
+A coordinated second read is the financial version of a second look at complex imaging. The point is not to replace your team. It is to name where the case was read in slices instead of as one film.
 
-When was the last time someone looked at your full financial picture with fresh eyes?
+When was the last time someone reviewed tax, retirement, investments, and entity structure in the same sitting and gave you dollar amounts for what was misaligned?
+
+#orthopedicsurgeon #orthopedicsurgery #physicianfinance
 
 ---
 
 ## Quality Checklist
 
 ### Voice Alignment
-- [x] Opens with a story, conversation, or specific scenario (the second opinion question)
-- [x] Contains at least one contrarian reframe (second opinion discipline absent from financial life)
-- [x] Uses direct "you" address throughout
-- [x] Reads like a conversation with a trusted advisor, not a brochure or sales piece
-- [x] Avoids all banned language (no em dashes, no "not X / it's Y" constructions)
-- [x] Ends with a clear takeaway and appropriate sign-off (reflective question, no sign-off per LinkedIn format)
-- [x] Tone matches the voice profile: warm, encouraging, gently contrarian
-- [x] Free of em dashes and formulaic pivot constructions
+- [x] Direct "you" address; calm diagnostic tone (no hype)
+- [x] No em dashes; no "not X, it's Y" pivot construction
+- [x] No hard CTA; closes on audit question
 
 ### Audience Specificity
-- [x] Could only have been written for orthopedic surgeons (clinical second opinion parallel, surgeon income levels, CPA-advisor-attorney silos)
-- [x] Includes concrete numerical examples ($50K+ annual optimization)
-- [x] References practice-specific context (entity structure, retirement plan design)
-- [x] Respects the reader's intelligence and time
+- [x] Surgeon-owned practice context; advisor silos; six-figure magnitude credible at stated income levels
 
-### Relevance Validation
-- [x] All facts and figures are current as of publication date
-- [x] Content is appropriately timed (tax week, reflective moment)
-- [x] No conflicting current events
-- [x] Relevance Score is Green
-
-### Pull Signal Design
-- [x] Content provides genuine value a surgeon would share
-- [x] Ties tactical advice to a bigger principle (clinical discipline applied to finances)
-- [x] Includes a natural next step (question prompts self-assessment)
-- [x] Reader finishes feeling informed and in control
-
-### Visual Assets
-- [x] Visual Asset Brief included in standard format
-- [x] Image type appropriate (quote card, LinkedIn 1080x1080)
-- [x] AI image prompt follows 9-point standard
-- [x] Self-contained and production-ready
-- [x] Only Capable Wealth palette with correct hex codes
-- [x] Passes credibility test
+### LinkedIn guidelines pass (`rules/linkedin-content-creation-guidelines.md` Section 6)
+- [x] Silent loss / diagnostician frame; number in opening line; one core idea
+- [x] ~180–230 words; loss framing; diagnostic question close
+- [x] Identity hashtags only; no link in body; no recap/meta open
 
 ### Content Integrity
-- [x] Every story/case study classified
-- [x] Classifications listed in Post Metadata
-- [x] All examples use approved framing language
-- [x] No fabricated relationship-duration claims
-- [x] No implied guarantees
-- [x] Forward-looking projections include qualifying language
+- [x] Story classifications in metadata; no implied guarantees; forward-looking language qualified as pattern, not promise

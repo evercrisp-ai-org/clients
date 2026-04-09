@@ -218,7 +218,7 @@ The worst time to start de-risking is when you need to. The best time is before 
 
 You built your practice with precision, skill, and an enormous investment of your best years. It represents not just financial value, but professional identity, community standing, and the tangible result of decades of training and work.
 
-It deserves to be treated with the same financial rigor you'd apply to any asset of its size. Not because the practice is "just an investment" (it's far more than that), but because the financial decisions surrounding it affect everything else in your life. Your retirement security. Your family's future. Your ability to choose what comes next on your own terms.
+It deserves to be treated with the same financial rigor you'd apply to any asset of its size. The practice is far more than an investment. And the financial decisions surrounding it affect everything else in your life. Your retirement security. Your family's future. Your ability to choose what comes next on your own terms.
 
 The question isn't whether you'll exit your practice eventually. You will. Every surgeon does. The question is whether that exit will be on your terms, at a time of your choosing, with a structure that preserves the value you've built. Or whether it will be reactive, compressed, and shaped by circumstances you didn't anticipate.
 

@@ -1,76 +1,56 @@
-# The $50K–$80K Finding That Lives Between Your Advisors
+# $225,000 of Capacity Reading Zero Is a Silo Finding, Not an Insult
 
 ## Post Metadata
 - **Type:** LinkedIn Post
 - **Week:** Week 8 (April 13–19)
+- **Planned publish day:** Thursday
 - **Theme:** The financial second opinion: are you getting one?
-- **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 8, expanded LinkedIn (isolates math example from anchor)
-- **Strategic context:** Third LinkedIn post of the week. Isolates the blog's math example as a standalone insight: the three findings from a second-opinion review that together produce $50K-$80K in Year 1 value. The dollar range is the scroll-stopper; the three findings provide the credibility. Publishes Thursday, post-April 15.
-- **Story classifications used:** [ILLUSTRATIVE] — surgeon whose second-opinion review reveals cash balance plan, SEP restructuring, and tax-loss harvesting coordination; [GENERAL-PRINCIPLE] — financial second opinion value at surgeon income levels
+- **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 8, LinkedIn 3 (mechanism)
+- **Strategic context:** Mechanism post. Practical screen between a diagnostic second opinion and an asset-gathering pitch. Single tactical framework. Execution follows `rules/linkedin-content-creation-guidelines.md`.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — how to evaluate quality of an independent financial review
 
 ---
 ## Visual Assets
 
 ### Primary Image
 - **Image type:** Simple infographic
-- **Rationale:** The three findings are the post's core content. A clean numbered list infographic makes the structure scannable and reinforces the idea that a second opinion produces specific, quantified results, not vague advice.
-- **AI image prompt:** Create a 1080x1080px square social media infographic. Background: Off-White (#F6F7F5). Layout: three rows stacked vertically with equal spacing, each representing one finding. Each row contains a left-aligned number circle (36px diameter, filled Deep Muted Blue #243A4B, number in Off-White #F6F7F5, Inter SemiBold 16pt) and right-aligned text block. Row 1: number "1", heading "Cash Balance Plan" in Inter SemiBold, 16pt, Charcoal (#1E2428), descriptor "$150K–$250K in additional tax-deferred capacity" in Inter Regular, 13pt, Blue Slate (#5F7483). Row 2: number "2", heading "SEP Restructuring" in same style, descriptor "$15K–$25K in freed contribution room" in same style. Row 3: number "3", heading "Tax-Loss Harvesting" in same style, descriptor "$43K in capital gains tax savings" in same style. Top of canvas, centered: "What a Financial Second Opinion Reveals" in Playfair Display Medium, approximately 20pt, Deep Muted Blue (#243A4B). Below the three rows, centered: "Year 1 Value: $50K–$80K" in Playfair Display SemiBold, approximately 22pt, Antique Gold (#B08D57). Bottom-right: Capable Wealth logo mark in Charcoal (#1E2428), 24px from edges, approximately 60px wide. Generous margins (minimum 80px all sides). No 3D effects, no gradients, no decorative elements. Brand constraints: only Capable Wealth palette, 60/30/10 ratio. Mood: precise, credible, data-driven. Professional financial infographic for orthopedic surgeons ages 45-65.
-- **Text overlay:** As specified in prompt. Headings in Charcoal, descriptors in Blue Slate, value callout in Antique Gold.
+- **Rationale:** Thursday mechanism; red versus green flags as scannable list (palette-true, no neon red; use Deep Muted Blue and Antique Gold accents).
+- **AI image prompt:** Create a 1080x1080px square infographic. Background Off-White (#F6F7F5). Title: "Second opinion or sales pitch?" Playfair Display Medium ~22pt Charcoal (#1E2428), centered. Two columns below: left header "Signals of a pitch" Inter SemiBold 16pt Blue Slate (#5F7483); right header "Signals of a diagnostic" Inter SemiBold 16pt Antique Gold (#B08D57). Three bullet rows each side, Inter Regular 13pt Charcoal, concise phrases: Left: move assets before analysis completes; vague "not optimized" with no dollars; immediate advice to fire your CPA. Right: fee for analysis without custody requirement; findings with line-item dollars; roadmap that coordinates existing professionals. Logo Charcoal, bottom-right, ~60px. Margins 80px. Only Capable Wealth palette.
+- **Text overlay:** As in prompt.
 - **Platform and dimensions:** LinkedIn, 1080x1080
 
 ---
 
-A financial second opinion at surgeon income levels typically reveals findings in the $50,000 to $80,000 range. In Year 1.
+$225,000 of plan capacity showing zero on a coordinated read is a silo finding. It is not proof your CPA failed. It is proof nobody ran one model that connected the pieces.
 
-Here's how those numbers break down in a common scenario.
+A real second opinion ends with numbers tied to line items and tradeoffs. A sales process ends with a transfer form. If the meeting ends with paperwork instead of a written findings memo, you already know which one you got.
 
-Consider a surgeon earning $850,000 with a 401(k) maxed at $31,000, a SEP contribution, and individual investment accounts managed by a separate advisor.
+Three pitch signals: they need assets moved before the analysis is finished; the takeaways are mood without math; the first move is to fire someone you already trust.
 
-Finding 1: Cash balance plan opportunity. No cash balance plan in place. Adding one allows $150,000 to $250,000 in additional tax-deferred contributions per year. At a 42% combined marginal rate, the immediate tax savings on $200,000 in sheltered income is $84,000.
+Three diagnostic signals: you pay for the work product, not custody; findings read like contribution room, tax brackets, and cash flow; the write-up helps your current team execute together.
 
-Finding 2: SEP restructuring. The existing SEP conflicts with the 401(k) employer contribution. Restructuring it into a profit-sharing component frees up $15,000 to $25,000 in additional contribution capacity.
+The same screening standard you apply to a new device rep belongs here. Show me the data, show me the mechanism, show me the downside if I say no.
 
-Finding 3: Tax-loss harvesting coordination. $180,000 in unrealized losses sitting in individual accounts, never harvested because the advisor and CPA don't coordinate. Systematic harvesting saves approximately $43,000 in capital gains taxes.
+If you cannot get dollars on the page, you are not getting a second read. You are getting a funnel.
 
-None of these findings reflect badly on any individual professional. The CPA wasn't asked about retirement plan design. The advisor wasn't looking at the tax return. The opportunities existed in the spaces between them.
+Which of the three pitch signals would have shown up first in your last "financial review"?
 
-That's the math on a single, structured review.
+#orthopedicsurgeon #orthopedicsurgery #physicianfinance
 
 ---
 
 ## Quality Checklist
 
 ### Voice Alignment
-- [x] Opens with a concrete scenario (dollar range as hook)
-- [x] Contains contrarian element (value lives between advisors, not within them)
-- [x] Direct "you" address
-- [x] Warm, professional tone
-- [x] No em dashes, no pivot constructions
-- [x] Ends with a clean takeaway
+- [x] Protective, clinical-adjacent rigor without alarmism
+- [x] No em dashes; no pivot construction
 
 ### Audience Specificity
-- [x] Surgeon-specific ($850K, S-Corp, cash balance plan, 401(k), SEP)
-- [x] Concrete numerical examples throughout
-- [x] Respects reader's time
+- [x] High-income practice owners evaluating advisors; dollar example illustrative
 
-### Relevance Validation
-- [x] Facts and figures current (2026 limits, OBBBA rates)
-- [x] Appropriately timed
-- [x] Relevance Score is Green
-
-### Pull Signal Design
-- [x] Genuine value, shareable
-- [x] Specific enough to prompt action
-- [x] Reader finishes feeling informed
-
-### Visual Assets
-- [x] Simple infographic, LinkedIn 1080x1080
-- [x] 9-point standard prompt
-- [x] Only Capable Wealth palette
+### LinkedIn guidelines pass
+- [x] Number in first sentence; single mechanism (screening framework); Thursday role
+- [x] Word count in range; diagnostic question close; identity hashtags
 
 ### Content Integrity
-- [x] Classifications in Post Metadata
-- [x] Illustrative example uses approved framing ("Consider a surgeon earning...")
-- [x] No fabricated claims
-- [x] No implied guarantees
-- [x] Forward-looking projections include qualifying language
+- [x] General-principle evaluation criteria; no fabricated client stories

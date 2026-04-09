@@ -22,13 +22,13 @@
 
 A thought to close out the week.
 
-The best surgeons welcome second opinions. Not because they doubt their skills. Because they understand that the stakes are high enough, and the cases are complex enough, that completeness matters more than confidence. A second perspective doesn't replace their judgment. It strengthens it.
+The best surgeons welcome second opinions. The stakes are high enough, and the cases complex enough, that completeness matters more than confidence. A second perspective strengthens judgment. It never replaces it.
 
 The same principle applies to your financial plan.
 
 If your strategy is sound, a second opinion confirms it. You walk away with the confidence that your structure is working the way it should. If there are coordination gaps between your CPA, your advisor, and your estate plan (and at surgeon income levels, there almost always are), you'd rather know now than discover them years from now, when the compounded cost is much harder to recover.
 
-Financial planning, at its core, is about the quality of your life. The control you have over your time, your choices, and your future. A plan that's been independently reviewed gives you more of all three. Not because the plan changes dramatically. But because you know, with certainty, that the foundation is solid.
+Financial planning, at its core, is about the quality of your life. The control you have over your time, your choices, and your future. A plan that's been independently reviewed gives you more of all three. The plan may not change dramatically. What changes is your certainty that the foundation is solid.
 
 The best plans welcome a second look. The best planners do, too.
 

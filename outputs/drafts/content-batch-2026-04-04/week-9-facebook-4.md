@@ -32,7 +32,7 @@ Same starting point. Same age at exit. Same market conditions. The difference: $
 
 That $1.4 million gap has nothing to do with intelligence, surgical skill, or luck. The only variable is when the planning started.
 
-If you're anywhere in the five-year window, this is the most valuable time you have. Not because you need to make any decisions now, but because the decisions you'll want to make later require groundwork that starts today.
+If you're anywhere in the five-year window, this is the most valuable time you have. The decisions you'll want to make later require groundwork that starts today.
 
 ---
 

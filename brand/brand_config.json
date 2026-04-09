@@ -243,7 +243,8 @@
       "Crush, dominate, optimize everything",
       "Fear-based urgency",
       "Em dashes (use commas, periods, parentheses, or colons instead; Jared never uses em dashes)",
-      "'It's not X. It's Y.' pivot construction (weave contrarian reframes naturally into the argument)"
+      "'It's not X. It's Y.' pivot construction (weave contrarian reframes naturally into the argument)",
+      "'Not X, but Y' / 'Not because X, because Y' formulaic pivot (state the actual cause directly; the artificial negative-then-positive structure is an LLM crutch)"
     ],
     "final_rule": "If it sounds like marketing, rewrite it. If it sounds like a thoughtful professional explaining a decision, it's correct."
   },

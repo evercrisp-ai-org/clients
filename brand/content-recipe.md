@@ -332,13 +332,29 @@ Follows Jared's six-step structural DNA, adapted for surgeons:
 6. **Sign-Off:** "Capably Yours, Jared" (or adapted brand sign-off)
 7. **Visual Assets:** Hero image (sets the tone for the post) plus 1-3 in-body images as needed. In-body images support the core teaching: infographics for frameworks, data visualizations for math examples, stat highlight cards for key numbers. Each image gets its own full brief following the 9-point standard (Section 10).
 
-### LinkedIn Post (150-300 words)
+### LinkedIn Post (180–230 words, hard cap 230)
 
-- **Line 1:** Hook. A bold statement, contrarian observation, or provocative question. Must earn the "see more" click.
-- **Body:** One core insight, clearly stated. Use line breaks for readability. Include one specific number or example.
-- **Close:** A question to the reader or a clear takeaway. No hard CTA. The value IS the CTA.
-- **Tone:** Same warmth as blog posts but tighter. Every word earns its place.
-- **Visual Asset:** One accompanying image. Typically a stat highlight card, simple infographic, or quote card. Must be readable in-feed at mobile size. Full brief following the 9-point standard (Section 10).
+Capable Wealth LinkedIn execution is performance-calibrated. Full rules, hook templates, kill phrases, and the pre-publish checklist live in **[rules/linkedin-content-creation-guidelines.md](../rules/linkedin-content-creation-guidelines.md)** (use Section 6 before approving any draft).
+
+**Length:** Target **180–230 words**. Do not exceed 230. If you need another angle, that is a separate post or another format (native video, carousel, Facebook), not a longer single post.
+
+**Cadence:** Three text posts per week, **Tuesday (hook), Wednesday (story), Thursday (mechanism)**. Record **Planned publish day** in post metadata.
+
+**Line 1 (non-negotiable):** Open with a **dollar figure, percentage, or specific number** tied to surgeon income or loss in the first ~8 words. Create a **mental math gap** (big number in, smaller number out, reader fills the hole). No throat-clearing ("There is a question worth asking…"). No **acronym-first** opens (lead with pocket impact, then name the policy if needed).
+
+**Trust gap:** Where it fits, challenge or complicate a **trusted role** (CPA, advisor, practice manager) in the first two sentences. This is diagnostic tension, not an attack.
+
+**Body:** **One idea only** (one number, one story, one takeaway). Prefer **loss framing** (what is leaking, mispriced, or missed) over brochure-style **gain** framing ("you can shelter…"). This is **silent structural leakage**, not hype or fear-based urgency (see brand_config `language_to_avoid`).
+
+**Voice:** **Diagnostician, not educator.** Use clinical parallels where natural (tax return as diagnostic, structure as treatment plan). Prefer **"A surgeon I spoke with"** specifics over "most surgeons" abstractions. Never use the **"Not X, but Y" / "Not because X, because Y"** formulaic pivot anywhere in the post; state the actual cause directly (see `brand_config.json` `language_to_avoid`).
+
+**Close:** End with a **diagnostic question** the reader can only answer by auditing their own situation. No "DM me," "book a call," or "link in comments." No weekly recap / meta posts ("four weeks of…").
+
+**Hashtags:** Use **#orthopedicsurgeon #orthopedicsurgery #physicianfinance** on every post. Do not use the low-performing generic set `#money #wealth #orthopedics`.
+
+**Distribution:** No **external links in the post body** (algorithm suppression). Upload **native video** to LinkedIn; do not paste a YouTube link as the primary asset.
+
+**Visual Asset:** One accompanying image per text post. Follow `.cursor/rules/content-production-batch.mdc` three-post LinkedIn image rotation. Must be readable in-feed at mobile size. Full brief following the 9-point standard (Section 10).
 
 ### Video Podcast Script
 

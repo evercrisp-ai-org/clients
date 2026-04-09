@@ -41,7 +41,7 @@ The CPA sees tax compliance. The advisor sees the investment portfolio. The atto
 
 In most cases, nobody. And the gaps between these silos are where the biggest opportunities (and the biggest leaks) tend to live.
 
-This is what a financial second opinion is designed to catch. Not the things your current advisors are doing wrong, but the things that fall between them.
+This is what a financial second opinion is designed to catch: the things that fall between your advisors, in the gaps where no single professional has a clear line of sight.
 
 ## What a Financial Second Opinion Actually Covers
 
@@ -71,7 +71,7 @@ A second opinion looks at effective tax rate benchmarking (what should your rate
 
 This isn't about picking better stocks. It's about whether your investment allocation is coordinated with your overall financial structure. Are taxable accounts holding tax-inefficient assets that should be in retirement accounts? Is your portfolio risk level calibrated to your timeline and liquidity needs? Are you harvesting losses systematically, or only when your advisor remembers?
 
-The coordination between investment strategy and tax strategy is where many advisors leave value on the table, not because they're bad at investing, but because they're not looking at the tax picture simultaneously.
+The coordination between investment strategy and tax strategy is where many advisors leave value on the table. They are strong investors. They are simply working from a portfolio screen, not a tax return, when they make allocation decisions.
 
 ## The Math: What a Second Opinion Can Reveal
 
@@ -119,7 +119,7 @@ You already know why second opinions work. You've been on both sides of them. Yo
 
 You know that the best surgeons welcome second opinions because they understand the stakes of getting it wrong. And you know that the value isn't in contradicting the first reading. It's in completeness. In catching what the first reader, through no fault of their own, wasn't positioned to see.
 
-Your financial structure deserves the same discipline. Not because your current advisors are failing you. But because the complexity of surgeon-level financial planning, where entity design, retirement vehicles, tax strategy, and investment allocation all interact, is exactly the kind of case where a second set of eyes reveals findings that no single reader would catch alone.
+Your financial structure deserves the same discipline. The complexity of surgeon-level financial planning, where entity design, retirement vehicles, tax strategy, and investment allocation all interact, is exactly the kind of case where a second set of eyes reveals findings that no single reader would catch alone.
 
 April 15 arrives this week. Whether you're filing or extending, this is a natural moment to step back and ask a simple question: has anyone ever looked at my full financial picture with the same diagnostic rigor I bring to complex cases?
 

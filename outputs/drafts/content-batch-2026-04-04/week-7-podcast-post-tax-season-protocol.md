@@ -64,7 +64,7 @@ Today, I want to give you the calendar.
 
 ## INTRO AND CONTEXT (1-2 minutes)
 
-Here's the reality. The months between April 15 and October 15 are the most valuable planning period of the financial year. Not because there are deadlines breathing down your neck (the opposite, actually). But because this is when you have current-year data, time to implement, and no deadline pressure forcing reactive decisions.
+Here's the reality. The months between April 15 and October 15 are the most valuable planning period of the financial year. The deadlines are behind you. Current-year data is arriving. You have time to implement, and nothing is forcing reactive decisions.
 
 Tax season, by contrast, is reactive. You're looking backward at a year that already happened, trying to minimize a bill that's already been calculated. April through October is proactive. You're looking forward, building the structure that will determine next year's bill before it ever gets calculated.
 

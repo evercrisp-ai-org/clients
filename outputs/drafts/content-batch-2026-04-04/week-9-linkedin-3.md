@@ -1,76 +1,60 @@
-# Conference Season Filter
+# $400,000 Can Ride on Goodwill Allocation Alone. Three Questions Cut Through the Deck.
 
 ## Post Metadata
 - **Type:** LinkedIn Post
 - **Week:** Week 9 (April 20–26)
+- **Planned publish day:** Thursday
 - **Theme:** The 5-year exit timeline starts now
-- **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 9, LinkedIn 3
-- **Strategic context:** Third LinkedIn post, timed for peak conference season. Positions Jared as the advisor who prepares surgeons before they get pitched. The three diagnostic questions (timeline, goodwill, earnout) give surgeons a portable evaluation framework for any conference conversation about practice transition. Bridges the anchor's strategic planning message to immediate real-world application.
-- **Story classifications used:** [GENERAL-PRINCIPLE] — PE deal evaluation framework, conference season information filtering, practice transition due diligence questions
+- **Quarterly plan reference:** quarterly-plan-Q2-2026.md, Week 9, LinkedIn 3 (mechanism)
+- **Strategic context:** Mechanism post. Portable diligence questions with tax magnitude anchor; avoids "conference season is here" as opening. Execution follows `rules/linkedin-content-creation-guidelines.md`.
+- **Story classifications used:** [GENERAL-PRINCIPLE] — practice sale diligence questions; tax treatment varies by facts and law
 
 ---
 ## Visual Assets
 
 ### Primary Image
 - **Image type:** Simple infographic
-- **Rationale:** The three questions are a portable framework. An infographic makes them scannable, saveable, and shareable, which is exactly how this content should function during conference season.
-- **AI image prompt:** Create a 1080x1080px square social media infographic. Background: Off-White (#F6F7F5). Layout: structured vertical stack with generous margins (minimum 80px all sides). Top of canvas: "Conference Season Filter" in Playfair Display Medium, approximately 28pt, Charcoal (#1E2428), centered. A thin horizontal accent line (2px, Antique Gold #B08D57) spans 40% of canvas width, centered, 20px below title. Below accent line: subtitle "3 questions before any deal conversation" in Inter Regular, 14pt, Blue Slate (#5F7483), centered, 16px below accent. Three content blocks stacked vertically, each 160px tall, separated by 20px. Each block has a left-aligned number in Playfair Display SemiBold, 48pt, Antique Gold (#B08D57), with label text in Inter SemiBold, 16pt, Charcoal (#1E2428) to the right of the number, and description text in Inter Regular, 13pt, Blue Slate (#5F7483) below the label. Block 1: "Timeline" / "What was the timeline from first conversation to close?" Block 2: "Goodwill" / "How was personal goodwill handled in the deal?" Block 3: "Earnout" / "What does the earnout look like at Year 3?" Bottom-right: Capable Wealth logo mark in Charcoal (#1E2428), 32px from edges, approximately 60px wide. No 3D effects, no chart junk, no gradients, no illustrations. Brand constraints: only Capable Wealth palette, 60/30/10 ratio. Mood: structured, practical, authoritative. Professional financial infographic for orthopedic surgeons ages 45-65.
-- **Text overlay:** Title, subtitle, and three numbered question blocks as specified in the prompt.
+- **Rationale:** Thursday mechanism; three-question filter as saveable graphic.
+- **AI image prompt:** Create a 1080x1080px square infographic. Background Off-White (#F6F7F5). Title "Three diligence questions" Playfair Display Medium ~24pt Charcoal (#1E2428), centered. Subtitle "Before you trust the headline multiple" Inter Regular 14pt Blue Slate (#5F7483). Three stacked blocks, each: number in Antique Gold (#B08D57) Playfair SemiBold ~40pt left; label Inter SemiBold 16pt Charcoal; line Inter Regular 13pt Blue Slate. (1) Timeline: "First conversation to close, and what got skipped to speed it?" (2) Goodwill: "How is personal goodwill documented, not just described?" (3) Earnout: "Year-three economics if volume, staff, or your hours move?" Logo Charcoal bottom-right. Margins 80px. No chart junk. Capable Wealth palette only.
+- **Text overlay:** As in prompt.
 - **Platform and dimensions:** LinkedIn, 1080x1080
 
 ---
 
-Conference season is here. You'll hear more about practice transitions in the next 30 days than in the last 12 months. Here's what to filter for.
+$400,000 of tax economics can swing on how goodwill is allocated on a $4 million practice sale. The deck will celebrate the multiple on page one. The allocation table is where your wire transfer meets the IRS.
 
-Not every conversation is created equal. The pitch decks are polished. The multiples sound compelling. The word "partnership" will come up more times than you can count. But three questions will tell you more about any deal than 50 slides ever could.
+Three questions before you treat a pitch like a done deal.
 
-**Question 1: What was the timeline from first conversation to close?**
-Clean, well-structured deals typically take 9 to 14 months. If the answer is four months, the surgeon likely didn't have time to optimize entity structure, document personal goodwill, or properly evaluate the earnout. Speed benefits the buyer, not the seller.
+What was the real timeline from first conversation to close, and what structural work was skipped to protect that speed?
 
-**Question 2: How was personal goodwill handled?**
-Personal goodwill is taxed at long-term capital gains rates (23.8%). Enterprise goodwill allocated to certain asset classes can be taxed at ordinary income rates (up to 40.8%). The allocation between them can mean a $300,000 to $500,000 difference on a $4 million sale. If the acquirer treats this as a footnote, they're not optimizing for your outcome.
+How is personal goodwill documented today, not promised in a slide footnote?
 
-**Question 3: What does the earnout structure look like three years out?**
-A headline multiple of 5x means nothing if 40% of the purchase price is contingent on post-sale performance metrics. Ask what happens if you reduce clinical hours. Ask what happens if a key staff member leaves. The three-year view reveals the real deal.
+What does the earnout look like in year three if your volume, your staff, or your clinical hours shift?
 
-Timeline tells you the pace. Goodwill tells you the sophistication. Earnout tells you the risk.
+Write the answers down. If you cannot, you are not ready to nod at a number.
 
-Save these three questions. You'll need them this month.
+Speed usually helps buyers. Vague goodwill language helps buyers. Heavy earnouts push risk back to you. If you cannot get plain answers at the first meeting, assume the ambiguity was priced in before you sat down.
+
+Treat it like a multidisciplinary case conference. Data first, story second.
+
+Which of the three questions would have broken the weakest part of the last deal story you heard?
+
+#orthopedicsurgeon #orthopedicsurgery #physicianfinance
 
 ---
 
 ## Quality Checklist
 
 ### Voice Alignment
-- [x] Opens with timely context (conference season is here)
-- [x] Contains a contrarian reframe (three questions reveal more than 50 slides)
-- [x] Uses direct "you" address throughout
-- [x] Warm, advisory tone
-- [x] No em dashes, no pivot constructions
-- [x] Ends with an actionable takeaway (save these questions)
+- [x] Advisory, screening tone; no attack on any buyer type
+- [x] No em dashes; no banned pivot construction
 
 ### Audience Specificity
-- [x] Conference season context specific to orthopedic surgeons
-- [x] Tax rate specifics at surgeon-level sale values
-- [x] Practice-specific references (personal goodwill, earnout)
-- [x] Respects reader's time
+- [x] Practice transition, goodwill, earnout context for surgical practice owners
 
-### Relevance Validation
-- [x] Appropriately timed (conference season, April 20-26)
-- [x] Relevance Score is Green
-
-### Pull Signal Design
-- [x] Highly shareable framework (three questions)
-- [x] Actionable at the next conference dinner
-- [x] Reader finishes feeling prepared
-
-### Visual Assets
-- [x] Simple infographic, LinkedIn 1080x1080
-- [x] 9-point standard prompt
-- [x] Only Capable Wealth palette
+### LinkedIn guidelines pass
+- [x] Dollar-led hook; single mechanism (question triad); loss/risk frame
+- [x] Word count in range; diagnostic close; identity hashtags
 
 ### Content Integrity
-- [x] Classifications in Post Metadata
-- [x] No fabricated claims
-- [x] No implied guarantees
-- [x] Forward-looking projections qualified
+- [x] Tax outcomes described as variable by facts; illustrative magnitude only

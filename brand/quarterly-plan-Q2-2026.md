@@ -9,6 +9,11 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 - [content-recipe.md](content-recipe.md) — Production workflow, building blocks, templates
 - [content-calendar.md](content-calendar.md) — Static cycles, research checkpoints, signal triggers
 - [voice-profile.md](voice-profile.md) — Jared's voice, philosophy, structural DNA
+- [rules/linkedin-content-creation-guidelines.md](../rules/linkedin-content-creation-guidelines.md) — **LinkedIn execution standard** (hooks, 180–230 words, Tue–Thu cadence, hashtags, loss framing, checklist)
+
+### LinkedIn execution (all weeks)
+
+LinkedIn drafts follow **three text posts per week**, published **Tuesday (hook), Wednesday (story), Thursday (mechanism)**. Hooks and bullets under "LINKEDIN POST" in this plan are **creative starting points**; if they conflict with the performance rules in `rules/linkedin-content-creation-guidelines.md`, **the guidelines win** (for example: number-led opens, silent-loss framing, no recap/meta posts, identity hashtags). Optional **native LinkedIn video** and carousel outlines sit outside these three text posts (see Rule 12 in that document).
 
 ---
 
@@ -27,10 +32,10 @@ This plan drills the editorial plan's March–May 2026 slate into 13 weekly cont
 | Anchor (blog/article) | 1 | 13 |
 | Video podcast | 1 | 13 |
 | Short-form clips (from podcast) | 2-5 (varies) | ~26-65 |
-| LinkedIn posts | 3 | 39 |
-| Facebook posts | 3 | 39 |
-| **Core total** | **8** | **~104** |
-| **Including clips** | **10-13** | **~130-169** |
+| LinkedIn text posts | 3 | 39 |
+| Facebook posts | 5 | 65 |
+| **Core total** | **10** | **130** |
+| **Including clips** | **12-15** | **~156-195** |
 
 ---
 

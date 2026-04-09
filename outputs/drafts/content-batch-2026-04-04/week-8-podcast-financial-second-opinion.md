@@ -52,7 +52,7 @@
 
 I'm about to say something that might sound self-serving coming from a financial advisor: I think every surgeon should get an independent second opinion on their financial plan.
 
-Not because your current advisor is bad. Not because your CPA is missing something obvious. But because the cost of not getting one, at your income level, is too high to leave to assumption.
+Your current advisor may be excellent. Your CPA may be catching everything in their lane. The cost of skipping an independent second read, at your income level, is still too high to leave to assumption.
 
 You already know this intuitively. You've built an entire career around the principle that a second set of eyes catches what the first set misses. Complex imaging, ambiguous pathology, a surgical plan that doesn't sit quite right. You pick up the phone. You send the study. You ask a colleague to take a fresh look.
 
@@ -68,7 +68,7 @@ April 15 falls this week. Whether you filed, extended, or are wrapping things up
 
 That question is simple: has anyone ever looked at my full financial picture, all at once, with fresh eyes?
 
-For most surgeons, the answer is no. And that's not because they're careless. It's because the way financial services are structured creates silos. Your CPA does your taxes. Your advisor manages your portfolio. Your attorney handles your estate plan. Each one does their job well. But nobody is looking at how those pieces interact.
+For most surgeons, the answer is no. The reason is structural, not personal. Financial services are built in silos. Your CPA does your taxes. Your advisor manages your portfolio. Your attorney handles your estate plan. Each one does their job well. Nobody is looking at how those pieces interact.
 
 The clinical analogy is exact. Imagine sending a patient's knee MRI to an orthopedist, their bloodwork to an internist, and their cardiac history to a cardiologist, but never having a single physician look at all three together. You'd never practice medicine that way. But most surgeons manage their finances exactly that way.
 
@@ -182,7 +182,7 @@ If you take one thing from this episode, let it be this.
 
 You already practice the discipline of seeking second opinions where the stakes are high. You do it in clinical practice because you know that completeness matters more than confidence. A second perspective catches what the first one, through no fault of its own, wasn't positioned to see.
 
-Apply that same discipline to your financial structure. Not because your advisors are failing you. But because the complexity of surgeon-level planning, where entity design, retirement vehicles, tax strategy, and investment allocation all interact, is exactly the kind of case where a second set of eyes changes the outcome.
+Apply that same discipline to your financial structure. Surgeon-level planning, where entity design, retirement vehicles, tax strategy, and investment allocation all interact, is exactly the kind of case where a second set of eyes changes the outcome.
 
 April 15 falls this week. Whether you're filing or extending, this is a natural moment to ask one question: has anyone ever looked at my full financial picture, all at once, with fresh eyes?
 

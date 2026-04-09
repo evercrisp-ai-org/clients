@@ -8,15 +8,19 @@ alwaysApply: false
 
 ## Weekly Content Volume (Non-Negotiable)
 
-Every week in a production batch must contain exactly 12 core pieces, plus 2-5 derivative clips:
+Every week in a production batch must contain exactly **10 core pieces**, plus 2-5 derivative clips:
 
 | Channel | Pieces per Week | Format |
 |---------|----------------|--------|
 | Anchor blog post | 1 | Long-form article, signs off "Capably Yours, Jared" |
 | Video podcast script | 1 | Solo episode (max 25 min), recorded as video podcast, uploaded to YouTube + podcast platforms |
 | Short-form clips | 2-5 (from podcast) | Extracted from podcast; vertical video for YouTube Shorts + Instagram Reels |
-| LinkedIn posts | 5 | Professional insight posts, no sign-off |
+| LinkedIn text posts | 3 | Professional insight posts, no sign-off; see `rules/linkedin-content-creation-guidelines.md` |
 | Facebook posts | 5 | Warmer/personal tone, no sign-off |
+
+**LinkedIn (Capable Wealth):** Hooks, length (180–230 words), cadence (Tue–Wed–Thu), hashtags, loss framing, and quality gates are defined in [rules/linkedin-content-creation-guidelines.md](../../rules/linkedin-content-creation-guidelines.md). Each LinkedIn draft must pass Section 6 of that document before approval.
+
+**LinkedIn native video (recommended):** One ~60s native upload per week from podcast/YouTube material (separate distribution lane). Optional carousel outline for mechanism-style posts. See the same guidelines, Rule 12.
 
 Clips are derivative content, not net-new creation. They are identified during script writing via the Clip Extraction Map and produced from the recorded podcast episode. The clip count varies organically: only extract where a segment naturally stands alone. Do not force clips to hit a number.
 
@@ -26,7 +30,8 @@ Clips are derivative content, not net-new creation. They are identified during s
 week-N-blog-slug.md
 week-N-podcast-slug.md
 week-N-clip-1.md through week-N-clip-5.md
-week-N-linkedin-1.md through week-N-linkedin-5.md
+week-N-linkedin-1.md through week-N-linkedin-3.md
+week-N-linkedin-native-video.md (optional but recommended; Rule 12)
 week-N-facebook-1.md through week-N-facebook-5.md
 ```
 
@@ -38,24 +43,42 @@ Clip files are created after the podcast script is finalized. Each clip file con
 2. **Post Metadata** -- Type, Week, Theme, Quarterly plan reference, Strategic context, **Story classifications used**
 3. **Visual Assets** -- Image type, Rationale, AI image prompt (9-point standard, Capable Wealth palette only), Text overlay, Platform/dimensions
 4. **Clip Extraction Map** (video podcast scripts only) -- 2-5 clip candidates with source segment, hook line, core insight, platform tags, estimated duration
-5. **Full content draft** -- Jared's voice per voice-profile.md and content-recipe.md, all stories/examples classified per content-integrity rule
-6. **Quality Checklist** -- Voice Alignment, Audience Specificity, Relevance Validation, Pull Signal Design, Visual Assets, **Content Integrity**, **Short-Form Clips** (podcast only)
+5. **Full content draft** -- Jared's voice per voice-profile.md and content-recipe.md, all stories/examples classified per content-integrity rule. No formulaic "Not X, but Y" / "Not because X, because Y" pivots (see brand_config.json `language_to_avoid`); state the cause directly.
+6. **Quality Checklist** -- Voice Alignment, Audience Specificity, Relevance Validation, Pull Signal Design, Visual Assets, **Content Integrity**, **Short-Form Clips** (podcast only), **LinkedIn guidelines** (LinkedIn text posts only: Section 6 of `rules/linkedin-content-creation-guidelines.md`)
+
+**LinkedIn post metadata:** Include **Planned publish day:** Tuesday, Wednesday, or Thursday (see below). Batch weeks still start Monday for planning; LinkedIn text posts publish mid-week only.
+
+## LinkedIn text post roles and schedule
+
+| File | Planned publish day | Role |
+|------|----------------------|------|
+| `week-N-linkedin-1.md` | Tuesday | Hook post: strongest number, trust gap, scroll-stop |
+| `week-N-linkedin-2.md` | Wednesday | Story post: specific surgeon scenario |
+| `week-N-linkedin-3.md` | Thursday | Mechanism post: one tactical "how it works" angle |
 
 ## Image Type Variety (Non-Negotiable)
 
-Each week's 5 social posts per platform must use a mix of visual styles. A feed of identical text-on-block cards is not acceptable.
+**Facebook:** Each week's **5** Facebook posts must use a mix of visual styles. A feed of identical text-on-block cards is not acceptable.
 
-| Post # | Required Image Type |
-|--------|-------------------|
+| Post # | Required Image Type (Facebook) |
+|--------|-------------------------------|
 | 1 of 5 | Stat highlight card OR quote card (text-on-block) |
 | 2 of 5 | Conceptual photograph (photorealistic people or environment) |
 | 3 of 5 | Simple infographic or data visualization |
 | 4 of 5 | Conceptual photograph (photorealistic, different subject from #2) |
 | 5 of 5 | Any type not already used this week |
 
+**LinkedIn (3 text posts per week):** Use three distinct visual types. Recommended mapping:
+
+| Post # | Required Image Type (LinkedIn) |
+|--------|-------------------------------|
+| 1 of 3 (Tuesday hook) | Stat highlight card OR quote card (max one text-on-block per week on LinkedIn) |
+| 2 of 3 (Wednesday story) | Conceptual photograph (photorealistic) |
+| 3 of 3 (Thursday mechanism) | Simple infographic or data visualization |
+
 Hard rules:
 
-- Max 1 text-on-block card per 5 posts per platform per week
+- Max 1 text-on-block card per **5** Facebook posts per week; max **1** text-on-block among the **3** LinkedIn posts per week
 - Conceptual photographs must be photorealistic (AI-generated photography), never cartoon or illustrated
 - People in images: professional, mid-to-late career, natural lighting, calm expressions, medical-adjacent or professional environments
 - Each week's images must look visually distinct when viewed as a set in a feed
@@ -111,10 +134,12 @@ Both platforms: captions required (most viewers watch muted), keep critical cont
 
 ## Social Post Expansion
 
-When the quarterly plan briefs fewer than 5 posts for a channel, create additional posts by:
+**LinkedIn:** Do not add a fourth or fifth text post to "fill" the week. Extra angles go into **native LinkedIn video**, **carousel (PDF) outline**, short-form clips, Facebook, or the blog. When the quarterly plan lists extra LinkedIn hooks, merge the best into three posts or reassign to those formats.
+
+**Facebook:** When the quarterly plan briefs fewer than 5 Facebook posts, create additional posts by:
 - Isolating individual talking points from the anchor/podcast as standalone insights
-- Creating story-driven variations (especially for Facebook)
-- Adding action prompts ("one question to ask", "calculate this number")
+- Creating story-driven variations
+- Adding reflective questions (not hard CTAs)
 - Building week-to-week narrative continuity
 
 ## Excel Summary Sync (Non-Negotiable)
