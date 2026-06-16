@@ -86,6 +86,80 @@ Hard rules:
 
 See content-recipe.md Section 10 "Weekly Image Type Distribution" for full guidance and example prompts (Examples D and E).
 
+## Image Prompt Variation (Non-Negotiable)
+
+The Image Type Variety rules above ensure the correct *category* rotation (stat card, photo, infographic). This section ensures visual *uniqueness within each category* so that images across a week and across a batch look distinct when viewed as a set in a feed.
+
+### Text-on-block cards (stat highlights and quote cards)
+
+No two text-on-block cards in the same batch may share the same background color. Rotate through the palette:
+
+| Card # in batch | Background | Primary text color | Accent |
+|-----------------|------------|-------------------|--------|
+| 1st | Deep Muted Blue (#243A4B) | Antique Gold / Off-White | Antique Gold accent line |
+| 2nd | Charcoal (#1E2428) | Off-White | Antique Gold accent line |
+| 3rd | Off-White (#F6F7F5) | Charcoal / Deep Muted Blue | Antique Gold accent line |
+| 4th+ | Repeat cycle, but vary layout (see below) | | |
+
+Layout variation is equally important. Not every card should be centered-text-with-horizontal-accent-line. Alternate among these compositions across the batch:
+
+- **Centered stack:** Primary number/quote centered, subtitle below, accent line below (the default; use for at most half of text-on-block cards in a batch)
+- **Asymmetric anchor:** Primary number large and left-aligned in the upper-left quadrant, supporting text right-aligned or bottom-right, no accent line
+- **Split comparison:** Two numbers side by side (e.g., strikethrough vs. corrected), vertical divider between them
+- **Full-bleed number:** Single oversized number filling 60%+ of the canvas, minimal supporting text below in small type
+- **Stacked contrast:** Two short lines of text stacked with a color shift between them (e.g., line 1 in Off-White, line 2 in Antique Gold), no accent line
+
+### Conceptual photographs
+
+Each week's conceptual photographs must depict **different subjects, settings, and compositions**. Within a single batch, no two conceptual photographs may describe the same core scene.
+
+**Subject/setting rotation (max 1 per week across all platforms combined):**
+
+| Setting category | Example scenes |
+|-----------------|---------------|
+| Office/desk | Professional reviewing documents, desk still-life with pen and glasses |
+| Corridor/path/road | Hospital corridor, walking path, open road |
+| Outdoor/landscape | Coastline at golden hour, campus courtyard, park bench |
+| People in conversation | Two professionals at a conference table, advisor and client |
+| Object/still-life close-up | Surgical instrument on clean surface, brass desk clock, leather planner |
+| Domestic/non-work | Kitchen morning scene, home study, lakeside dock |
+| Architectural/exterior | Medical office building at golden hour, modern campus entrance |
+
+**Cross-week uniqueness:** When generating multiple weeks in a single batch, maintain a running awareness of subjects already used. No conceptual photograph subject may repeat in back-to-back weeks. If Week N uses "professional at desk" and "corridor," Week N+1 must use different settings (e.g., "outdoor landscape" and "object close-up").
+
+**Person descriptions must vary:** Do not reuse the same person archetype (e.g., "early-60s silver-haired man") in more than 2 conceptual photos per batch. Vary age (late 40s through mid-60s), gender, and presentation across the batch. When a photo includes no people, state that explicitly rather than defaulting to the recurring archetype.
+
+### Infographics
+
+Vary the layout structure across the batch. Not every infographic should be a two-column comparison. Rotate among:
+
+- **Timeline** (horizontal or vertical, with milestone markers)
+- **Checklist** (checkbox rows with labels)
+- **Comparison columns** (side-by-side with divider)
+- **Step flow** (numbered sequential steps with arrows or connectors)
+- **Single-stat callout** (one large number with supporting bullet points below)
+- **Before/after** (stacked horizontal bars or gauges)
+
+No two infographics in the same week may use the same layout structure.
+
+### Clip cover frames
+
+Clip cover frames are the most templated asset. To prevent visual monotony across 2-5 clips per week:
+
+- **Vary the background color** across clips within the same week. Use Deep Muted Blue for at most 2 clips; use Charcoal or Off-White (inverted text) for the others.
+- **Vary the text hierarchy.** Not every cover should be "big number top, subtitle middle, subtext bottom." Alternatives: question-as-headline (no number), side-by-side comparison layout, list format (numbered items), quote-style (large italic text).
+- **Vary the accent element.** Not every cover needs a horizontal accent line at 40% width. Alternatives: vertical accent bar on the left edge, no accent element (let whitespace separate sections), a thin border frame, or a subtle background color block behind the primary text.
+
+### Cross-platform deduplication
+
+When the same data point or visual concept appears on multiple platforms in the same week (e.g., a $330K stat on Facebook, LinkedIn, and a clip cover), each platform's image must use a **different visual treatment:**
+
+- One platform gets the stat highlight card
+- Another gets the number embedded in an infographic or comparison layout
+- The clip cover uses a different background color and layout from both
+
+Never produce the same visual concept with only a dimension change (e.g., 1200x630 vs. 1080x1080 vs. 1080x1920 of the same centered-number-on-blue card).
+
 ## Video Podcast Script Structure
 
 Recorded as a video podcast and uploaded to YouTube. Audio is also distributed to podcast platforms (Apple Podcasts, Spotify). Audio must stand alone; the video version is a different consumption angle of the same content.
@@ -141,6 +215,59 @@ Both platforms: captions required (most viewers watch muted), keep critical cont
 - Creating story-driven variations
 - Adding reflective questions (not hard CTAs)
 - Building week-to-week narrative continuity
+
+## Opening Line Variation (Non-Negotiable)
+
+Content openings across a week and across a batch must feel fresh. A reader scrolling a feed must not encounter the same rhetorical pattern twice in the same week on the same platform, or three times in a batch.
+
+### Banned patterns (never use within a single batch)
+
+The following exact phrase templates are overused and must not appear more than **once per batch** across all platforms combined:
+
+- "Most [professionals] don't [verb] because [reason]..." (the "Most X don't Y" template)
+- "Here's what nobody tells you about..." / "Here's what most [X] miss..."
+- "The math is simple:" / "The math is straightforward:"
+- Any opening that leads with "I talk to [surgeons/specialists/professionals] every [week/day]..."
+
+If a phrase template appears once in a batch, flag it in the quality checklist so it is not reused in subsequent files within the same batch.
+
+### Within-week rules (same platform)
+
+No two posts on the **same platform in the same week** may open with the same rhetorical device. Rhetorical device categories:
+
+| Device | Example | Max per week per platform |
+|--------|---------|--------------------------|
+| **Provocative stat** | "$330,000. That's the average..." | 1 |
+| **Direct question** | "When was the last time you...?" | 1 |
+| **Scenario/scene** | "Picture this: You're sitting in..." | 1 |
+| **Contrarian assertion** | "The highest-earning surgeons rarely..." | 1 |
+| **Anecdote lead** | "A few months ago, a specialist called me..." | 1 |
+| **Simple declarative** | "Practice transitions take 18 months." | 1 |
+| **If/when conditional** | "If you're five years from retirement..." | 1 |
+
+With 5 Facebook posts per week, use at least 4 different devices from the table. With 3 LinkedIn posts per week, use 3 different devices.
+
+### Cross-week rules (within a batch)
+
+When generating multiple weeks in a batch, maintain a running log of which devices have been used for the first post slot on each platform. The first Facebook post and first LinkedIn post in consecutive weeks must use **different** opening devices.
+
+### Sentence structure variation
+
+Beyond rhetorical device, vary the syntactic structure of opening sentences:
+
+- Not every opening should be a short punchy fragment. Alternate between:
+  - Short declarative (under 10 words)
+  - Mid-length compound sentence (15-25 words)
+  - Question
+  - Conditional clause leading to a punchline
+- Avoid opening 3+ posts in the same week with sentences under 8 words. At least 2 posts per week should open with sentences of 15+ words.
+
+### Blog and podcast openings
+
+Blog posts and podcast cold opens have more latitude but still must not repeat the same pattern within a batch:
+
+- No two blogs in the same batch may open with the same device (stat, question, scenario, etc.)
+- No two podcast cold opens in the same batch may use the same hook structure (e.g., both opening with "What if I told you...")
 
 ## Excel Summary Sync (Non-Negotiable)
 
