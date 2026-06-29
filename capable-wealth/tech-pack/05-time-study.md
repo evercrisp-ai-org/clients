@@ -14,24 +14,41 @@ Token *volume* can still be **estimated** from the observable outputs (see the t
 
 ---
 
-## Generation time
+## Time per run vs time per week (read this first)
 
-`generate-batch` is the most generation-heavy skill in the system. It produces the most content of any skill (a full week: blog, podcast script, 3 LinkedIn posts, 5 Facebook posts, clips, plus the optional native video and carousel), and it runs every quality gate during the run, so it takes the longest.
+These are two different numbers and they are easy to confuse:
 
-**Measured baseline: a single week takes roughly 15 to 20 minutes to produce.**
+- **One run of `generate-batch` takes roughly 15 to 20 minutes.** This is the single most generation-heavy skill in the system: it produces the most output of any skill (blog, podcast script, 3 LinkedIn posts, 5 Facebook posts, clips, plus the optional native video and carousel) and runs every quality gate during the run, so it takes the longest of all six skills. **15 to 20 minutes is the time for this one skill, not the time for a full week.**
+- **A full week of the pipeline is the time to run all six skills for that week.** That is the number to plan around, and it is larger than the `generate-batch` run alone.
 
-Multi-week batches scale roughly linearly. Using the conservative (upper-bound) figure for planning:
+## Weekly pipeline time (all six skills)
 
-| Batch scope | Realistic range | Conservative planning figure |
-|---|---|---|
-| 1 week | 15 to 20 min | **20 min** |
-| 2 weeks | 30 to 40 min | **40 min** |
-| 3 weeks | 45 to 60 min | **60 min** |
-| 4 weeks | 60 to 80 min | **80 min** |
+A full week runs the skills in sequence: `research-scan` to refresh the week's plan, `generate-batch` to produce the content (which internally invokes the gates), and the standalone QA passes (`image-brief`, `linkedin-check`, `voice-check`, `validate`) used to double-check the produced batch. Conservative per-skill estimates:
 
-Plan with the conservative figure. Actual time varies with the number of pieces flagged for revision and the depth of the gate passes.
+| Skill | Low | Mid | High |
+|---|---|---|---|
+| research-scan | 3 min | 5 min | 8 min |
+| generate-batch (heaviest) | 15 min | 18 min | 20 min |
+| image-brief (standalone QA) | 2 min | 4 min | 6 min |
+| linkedin-check (standalone QA) | 2 min | 3 min | 5 min |
+| voice-check (standalone QA) | 3 min | 5 min | 8 min |
+| validate (standalone QA) | 3 min | 5 min | 8 min |
+| **Full week, all six skills** | **~30 min** | **~40 min** | **~55 min** |
 
-The other skills (`validate`, `voice-check`, `linkedin-check`, `image-brief`, `research-scan`) are far lighter and run in well under a couple of minutes each on a single piece, because they assess existing content rather than generate a full week.
+> Note: `image-brief`, `linkedin-check`, `voice-check`, and `validate` already run **inside** `generate-batch` as gates. The standalone rows above are an additional explicit QA pass over the produced batch. If you run only `research-scan` then `generate-batch` (gates internal, no separate QA pass), the week is dominated by the `generate-batch` run and lands closer to **~20 to 30 minutes**.
+
+### Multi-week batches (conservative)
+
+`generate-batch` scales roughly linearly with the number of weeks, and the other skills repeat per week, so multiply the per-week figure. Some context-loading economy applies on longer batches, so these are conservative upper bounds:
+
+| Batch scope | Low | Mid | High |
+|---|---|---|---|
+| 1 week | ~30 min | ~40 min | ~55 min |
+| 2 weeks | ~55 min | ~75 min | ~110 min |
+| 3 weeks | ~80 min | ~110 min | ~165 min |
+| 4 weeks | ~105 min | ~145 min | ~220 min |
+
+Plan with the **High** column. Actual time varies with how many pieces get flagged for revision and the depth of the gate passes.
 
 ---
 
@@ -94,6 +111,6 @@ The token estimate above tells you the *relative weight* of a batch (a 4-week ba
 
 ## Summary
 
-- A week of content takes **15 to 20 minutes** of machine time; plan multi-week batches at the conservative figures above.
+- One **`generate-batch` run** takes **15 to 20 minutes** (the heaviest single skill). A **full week of all six skills** takes **~30 / ~40 / ~55 minutes** (low / mid / high); plan with the High column and multiply for multi-week batches.
 - It runs in Cowork, not a cloud API, so **tokens are not monitorable**; monitor **outputs** and **batches per usage window** instead.
 - Token volume can be **estimated** from outputs for planning, but **batches-per-window is measured empirically** because Claude Max uses a rolling usage window, not a fixed published token allowance.
