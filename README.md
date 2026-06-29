@@ -1,281 +1,184 @@
-# Capable Wealth Template System
+# Capable Wealth | Content System & Cowork Harness
 
-A Python-based brand asset management and document generation system for creating consistent, on-brand lead magnets, reports, social media posts, and marketing materials.
+> The complete content operation for **Capable Wealth** (Jared Paul, CFP), a financial advisory brand serving orthopedic surgeons (ages 45-65, $700K-$2M income) approaching practice transition or retirement.
+>
+> This repo holds three things that work together: the **brand brain** (voice, recipe, calendar, rules), a **six-skill Claude Cowork harness** that drafts and quality-gates a full week of on-brand content, and a **Python rendering pipeline** for branded PDFs and social images, plus the acceptance test that proves the harness works.
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Repository structure](#repository-structure)
+- [The Cowork harness: the six skills](#the-cowork-harness-the-six-skills)
+- [How the skills work together](#how-the-skills-work-together)
+- [Setup & use](#setup--use)
+- [Brand system (source of truth)](#brand-system-source-of-truth)
+- [Testing the system](#testing-the-system)
+- [The Python rendering pipeline](#the-python-rendering-pipeline)
+- [The plugin / marketplace](#the-plugin--marketplace)
+- [Diagrams & docs](#diagrams--docs)
+- [Outputs](#outputs)
+
+---
 
 ## Overview
 
-This system provides:
+The bottleneck this system solves: every content session used to require hours of research, brainstorm and brand, voice and rule consistency enforcement. The harness puts that knowledge inside Claude Cowork so you types one command and gets a full week of content drafted, with voice and compliance gated automatically, he reviews and approves rather than writing from scratch.
 
-- **JSON-based templates** for consistent layouts and design
-- **Brand configuration** that centralizes colors, typography, logos, and spacing
-- **Variable substitution** for dynamic content generation
-- **PDF rendering** for multi-page reports and lead magnets
-- **Image rendering** for social media and infographics
+Three layers:
 
-## Quick Start
+1. **Brand brain**: the voice profile, content recipe, calendar, editorial/quarterly plans, brand config, and enforcement rules. The single source of truth every skill reads.
+2. **Cowork harness**: six skills (`/research-scan`, `/generate-batch`, `/image-brief`, `/linkedin-check`, `/voice-check`, `/validate`) packaged as a Cowork plugin.
+3. **Python pipeline**: JSON-templated rendering of branded PDFs (lead magnets, reports) and social images.
 
-### 1. Install Dependencies
+---
 
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Generate a Report
-
-```python
-from src import TemplateParser, load_brand_config
-from src.renderers import render_pdf
-
-# Load brand configuration
-config = load_brand_config()
-
-# Initialize parser
-parser = TemplateParser(brand_config=config)
-
-# Load and fill a template
-template = parser.load_template("templates/lead_magnets/report/cover_dark.json")
-filled = parser.fill_variables(template, {
-    "title": "Your Report Title",
-    "subtitle": "Subtitle Here",
-    "date": "January 2026"
-})
-
-# Render to PDF
-render_pdf([filled], "outputs/final/report.pdf")
-```
-
-## Folder Structure
+## Repository structure
 
 ```
 capable_wealth/
-├── brand/
-│   ├── brand_config.json     # Master brand settings
-│   ├── fonts/                # Font files (.ttf, .otf)
-│   ├── logos/                # Logo variants
-│   ├── graphics/             # Node networks, icons, patterns
-│   └── assets/               # Other reusable graphics
+├── README.md                       ← you are here (master overview)
+├── START_HERE.md                   ← session-by-session content command center
+├── COWORK_PROJECT_INSTRUCTIONS.md  ← paste into the Cowork Project's Instructions panel
 │
-├── templates/
-│   ├── lead_magnets/
-│   │   ├── report/           # Report page templates
-│   │   │   ├── _manifest.json
-│   │   │   ├── cover_light.json
-│   │   │   ├── cover_dark.json
-│   │   │   ├── chart_line.json
-│   │   │   └── ...
-│   │   └── checklist/        # Checklist templates (future)
-│   │
-│   ├── social_media/
-│   │   ├── instagram/
-│   │   ├── linkedin/
-│   │   └── twitter/
-│   │
-│   └── infographics/
+├── brand/                          ← the brand brain (source of truth)
+│   ├── voice-profile.md            ← WHO Jared is (distilled from 126 blog posts)
+│   ├── content-recipe.md           ← HOW content is made (workflow, 9-pt image std, quality checklist)
+│   ├── content-calendar.md         ← WHEN (annual cycles, research checkpoints)
+│   ├── editorial-plan-2026.md      ← 12-month plan (by month)
+│   ├── quarterly-plan-Q2-2026.md   ← weekly slots (weeks 1-13)
+│   ├── brand_config.json           ← palette, fonts, voice_and_tone
+│   ├── experience-inventory.md     ← client-story sourcing (unpopulated → all ILLUSTRATIVE)
+│   ├── fonts/ · logos/ · graphics/ ← brand assets
 │
-├── outputs/
-│   ├── drafts/
-│   └── final/
+├── rules/linkedin-content-creation-guidelines.md   ← the 17-rule LinkedIn rulebook
+├── .cursor/rules/                  ← enforcement rules (integrity, date-alignment, production-batch)
 │
-├── src/
-│   ├── config.py             # Brand configuration loader
-│   ├── template_parser.py    # Template parsing and variable substitution
-│   └── renderers/
-│       ├── pdf_renderer.py   # PDF generation
-│       └── image_renderer.py # PNG/JPEG generation
+├── .claude/skills/                 ← the six skills (dev copies, for Claude Code)
+├── capable-wealth-plugin/          ← the same skills packaged as a Cowork plugin
+├── .claude-plugin/marketplace.json ← marketplace catalog so Cowork can install the plugin
 │
-├── examples/
-│   └── sample_report_content.json
+├── src/                            ← Python rendering pipeline (PDF + image + Excel export)
+├── templates/ · template/          ← JSON page templates for branded reports
+├── examples/                       ← sample report content (JSON)
+├── generate_tax_report.py          ← entry point: render the tax-strategies report
 │
-├── requirements.txt
-└── README.md
+├── tests/                          ← system acceptance test + red-team defect kit
+│   ├── system-acceptance-test.md
+│   └── redteam/                    ← planted-defect files + answer key
+│
+├── diagrams/capable-wealth-sequence.excalidraw   ← UML sequence diagram of the workflow
+├── docs/
+│   ├── Capable-Wealth-Harness-Setup-Guide.docx   ← branded 2-page setup & use guide
+│   └── python-template-system.md                 ← detailed pipeline docs (former root README)
+│
+├── outputs/drafts/                 ← generated content batches (by week)
+├── operating-framework/            ← intellectual backbone (AI-Ready Leader manuscript)
+└── social-media-audit/             ← AEO assessment
 ```
 
-## Template System
+---
 
-### Template Structure
+## The Cowork harness: the six skills
 
-Each template is a JSON file with:
+Each skill is a markdown `SKILL.md` invoked by name in Cowork (e.g. `/generate-batch week-21`).
 
-```json
-{
-  "template_id": "cover_light",
-  "template_name": "Cover Page - Light Background",
-  "dimensions": { "width": 816, "height": 1056, "unit": "px" },
-  "background": {
-    "type": "solid",
-    "color": "$colors.neutral_light"
-  },
-  "elements": [
-    {
-      "id": "title",
-      "type": "text",
-      "content": "{{title}}",
-      "font": "$typography.heading.family",
-      "font_size": 64,
-      "color": "$colors.primary.hex",
-      "position": { "x": 40, "y": 280 }
-    }
-  ],
-  "variables": {
-    "title": { "type": "string", "required": true }
-  }
-}
+| Skill | What it does | When it runs |
+|-------|--------------|--------------|
+| `/research-scan` | Weekly **freshness pass** over the existing plan, re-tunes that week's scheduled items for timeliness. No new web research. | Weekly, before generating |
+| `/generate-batch` | **The engine.** Produces the full week (blog, podcast, 3 LinkedIn, 5 Facebook, 2-5 clips, native video, carousel), enforcing every rule and running the gates as it writes. | Weekly |
+| `/image-brief` | A production-ready **9-point AI image prompt** for every visual asset, with batch-wide rotation rules. | Auto inside `generate-batch`; or on demand |
+| `/linkedin-check` | **17-item** performance checklist on each LinkedIn post (hook, length, loss frame, hashtags). | Auto inside `generate-batch`; or on demand |
+| `/voice-check` | **Voice fidelity** across every produced piece, catches em dashes, formulaic pivots, off-voice lines. | Auto inside `generate-batch`; or on demand |
+| `/validate` | **Compliance gate**: story integrity, date alignment, relevance → Green / Yellow / Red. | Auto inside `generate-batch`; or on demand |
+
+---
+
+## How the skills work together
+
+```
+EACH WEEK            THE ENGINE                       BEFORE PUBLISH
+/research-scan  →    /generate-batch             →    /validate (fresh)
+  refreshes the       ├─ /image-brief (every asset)   /voice-check
+  week's planned      ├─ /linkedin-check (LinkedIn)   /linkedin-check
+  items               ├─ /voice-check (all pieces)         │
+                      └─ /validate (gates batch)           ▼
+                              │                       Jared reviews & approves
+                              ▼
+                       drafts + Excel summary
 ```
 
-### Reference Syntax
+`research-scan` keeps the plan timely → `generate-batch` produces the week and runs the gate skills inline → a **fresh, independent gate pass** re-checks before publishing → Jared approves. The full visual is in [`diagrams/capable-wealth-sequence.excalidraw`](diagrams/capable-wealth-sequence.excalidraw).
 
-- **`$brand.*`** - References to `brand_config.json` values
-  - `$colors.primary.hex` → `"#243A4B"`
-  - `$typography.heading.family` → `"Playfair Display"`
-  
-- **`{{variable}}`** - Content placeholders filled at runtime
-  - `{{title}}` → Your provided title text
-  - `{{chart_data}}` → Your chart data object
+> **The one rule that matters:** always run the independent gate pass before publishing. `generate-batch` grades its own work, and self-checks miss things (em dashes, a fabricated client story, a stale figure). A fresh `/validate` + `/voice-check` pass catches what generation waves through. On-voice is not the same as publish-ready.
 
-## Brand Configuration
+---
 
-The `brand/brand_config.json` file defines:
+## Setup & use
 
-### Colors
-```json
-{
-  "colors": {
-    "primary": { "name": "Deep Muted Blue", "hex": "#243A4B" },
-    "secondary": { "name": "Blue Slate", "hex": "#5F7483" },
-    "accent": { "name": "Antique Gold", "hex": "#B08D57" },
-    "neutral_light": { "name": "Off-White", "hex": "#F6F7F5" },
-    "neutral_dark": { "name": "Charcoal", "hex": "#1E2428" },
-    "neutral_mid": { "name": "Warm Gray", "hex": "#9AA3A8" }
-  }
-}
-```
+The full walkthrough is in [`docs/Capable-Wealth-Harness-Setup-Guide.docx`](docs/Capable-Wealth-Harness-Setup-Guide.docx). In brief:
 
-### Typography
-```json
-{
-  "typography": {
-    "heading": { "family": "Playfair Display", "weights": [400, 500, 600] },
-    "body": { "family": "Inter", "weights": [400, 500, 600] }
-  }
-}
-```
+1. Open the Claude desktop app → **Cowork** mode.
+2. Create a Project ("Capable Wealth Content System") and link it to this folder.
+3. Paste [`COWORK_PROJECT_INSTRUCTIONS.md`](COWORK_PROJECT_INSTRUCTIONS.md) into the Project Instructions; turn Memory on.
+4. Add the `brand/` + `rules/` source files as Project files.
+5. Install the plugin from the marketplace (see [The plugin / marketplace](#the-plugin--marketplace)).
+6. Each week: `/research-scan week N` → `/generate-batch week N` → independent re-grade in a fresh chat → fix & approve.
 
-### Chart Colors
-```json
-{
-  "chart_colors": {
-    "series": ["#5F7483", "#243A4B", "#B08D57", "#9AA3A8"]
-  }
-}
-```
+[`START_HERE.md`](START_HERE.md) is the deeper session-by-session command center.
 
-## Available Templates
+---
 
-### Report Templates
+## Brand system (source of truth)
 
-| Template | Description |
-|----------|-------------|
-| `cover_light.json` | Light background cover page |
-| `cover_dark.json` | Dark background cover page |
-| `quote_key_findings.json` | Quote + numbered findings list |
-| `introduction.json` | Drop cap introduction page |
-| `chart_line.json` | Line chart with section header |
-| `chart_bar_stacked.json` | Horizontal stacked bars |
-| `chart_bar_grouped.json` | Vertical grouped bars |
-| `chart_dot.json` | Dot/strip plot |
-| `chart_area_dual.json` | Dual stacked area charts |
-| `chart_with_sidebar.json` | Chart + dark sidebar callout |
-| `expert_quote.json` | Expert photo + pull quote |
-| `quote_network.json` | Pull quote + node network |
+The skills are prompt-native: they read the brand docs directly, so updating a brand doc updates every skill's behavior with no code change.
 
-## Usage Examples
+- **WHO**: [`brand/voice-profile.md`](brand/voice-profile.md): Jared's voice, distilled from 126 real blog posts. Hard rules: no em dashes, no "It's not X, it's Y" pivots.
+- **HOW**: [`brand/content-recipe.md`](brand/content-recipe.md): the production workflow, the 9-point image standard, the standard draft format, and the quality checklist.
+- **WHEN**: [`brand/content-calendar.md`](brand/content-calendar.md) + [`brand/editorial-plan-2026.md`](brand/editorial-plan-2026.md) + the quarterly plan.
+- **LOOK + TONE**: [`brand/brand_config.json`](brand/brand_config.json): palette (`#243A4B`, `#5F7483`, `#B08D57`, `#F6F7F5`, `#1E2428`, `#9AA3A8`), fonts (Playfair Display + Inter), and `voice_and_tone.language_to_avoid`.
+- **RULES**: [`rules/linkedin-content-creation-guidelines.md`](rules/linkedin-content-creation-guidelines.md) and the three `.cursor/rules/*.mdc` enforcement rules.
+- **COMPLIANCE**: [`brand/experience-inventory.md`](brand/experience-inventory.md): currently unpopulated, so **every client example must be illustrative** ("Consider a surgeon earning…"), never an implied real relationship.
 
-### Render a Complete Report
+---
 
-```python
-import json
-from src import TemplateParser
-from src.renderers import PDFRenderer
+## Testing the system
 
-# Load content
-with open("examples/sample_report_content.json") as f:
-    content = json.load(f)
+[`tests/system-acceptance-test.md`](tests/system-acceptance-test.md) is a five-phase acceptance test built around a real scenario ("the mid-year push"): freshness → production → independent re-grade → **red-team** → business acceptance.
 
-# Initialize
-parser = TemplateParser()
-renderer = PDFRenderer()
+The red-team kit ([`tests/redteam/`](tests/redteam/)) contains deliberately broken drafts with an answer key, it proves the gates actually catch planted defects (em dashes, a fabricated client interaction, a premature quarter-close, an over-length LinkedIn post) and don't trust a draft's own checkmarks.
 
-# Build pages
-pages = []
-for page_config in content["pages"]:
-    template = parser.load_template(
-        f"templates/lead_magnets/report/{page_config['template']}.json"
-    )
-    filled = parser.fill_variables(template, page_config["content"])
-    pages.append(filled)
+---
 
-# Render PDF
-renderer.render_document(pages, "outputs/final/report.pdf")
-```
+## The Python rendering pipeline
 
-### Generate Social Media Image
-
-```python
-from src import TemplateParser
-from src.renderers import ImageRenderer
-
-parser = TemplateParser()
-renderer = ImageRenderer()
-
-template = parser.load_template("templates/social_media/instagram/post_square.json")
-filled = parser.fill_variables(template, {
-    "headline": "5 Tax Strategies",
-    "subheadline": "Every Surgeon Should Know"
-})
-
-renderer.render_image(filled, "outputs/final/social_post.png")
-```
-
-## Adding New Templates
-
-1. Create a new JSON file in the appropriate template directory
-2. Define `template_id`, `dimensions`, `background`, `elements`, and `variables`
-3. Use `$` references for brand values and `{{}}` for content variables
-4. Add the template to the `_manifest.json` for discoverability
-
-## Font Setup
-
-Place your font files in `brand/fonts/`:
-
-- `PlayfairDisplay-Regular.ttf`
-- `PlayfairDisplay-Medium.ttf`
-- `PlayfairDisplay-SemiBold.ttf`
-- `Inter-Regular.ttf`
-- `Inter-Medium.ttf`
-- `Inter-SemiBold.ttf`
-
-Fonts can be downloaded from Google Fonts:
-- [Playfair Display](https://fonts.google.com/specimen/Playfair+Display)
-- [Inter](https://fonts.google.com/specimen/Inter)
-
-## Development
-
-### Running Tests
+A JSON-templated engine that renders branded PDFs (lead magnets, multi-page reports) and social images. Full documentation: [`docs/python-template-system.md`](docs/python-template-system.md).
 
 ```bash
-pytest tests/
+pip install -r requirements.txt
+python generate_tax_report.py          # render the tax-strategies report
+python src/export_content_batch.py outputs/drafts/content-batch-YYYY-MM-DD/   # Excel summary
 ```
 
-### Code Formatting
+---
 
-```bash
-black src/
-```
+## The plugin / marketplace
 
-## License
+The six skills are packaged as a Cowork plugin under [`capable-wealth-plugin/`](capable-wealth-plugin/), cataloged by [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json).
 
-Proprietary - Capable Wealth
+**Install in Cowork:** Personal plugins → Add marketplace → point at this repo → install `capable-wealth`. After any skill change, just **refresh** the plugin in Cowork, no re-zip, no re-upload.
 
-## Support
+---
 
-For questions or support, contact the Capable Wealth team.
+## Diagrams & docs
+
+- [`diagrams/capable-wealth-sequence.excalidraw`](diagrams/capable-wealth-sequence.excalidraw), UML sequence diagram of the full workflow (open at excalidraw.com → File → Open).
+- [`docs/Capable-Wealth-Harness-Setup-Guide.docx`](docs/Capable-Wealth-Harness-Setup-Guide.docx), branded 2-page setup & use guide.
+- [`docs/python-template-system.md`](docs/python-template-system.md), detailed pipeline reference.
+
+---
+
+## Outputs
+
+Generated content batches live in [`outputs/drafts/`](outputs/drafts/), one folder per batch (e.g. `content-batch-2026-07-20/`), each with the week's markdown drafts plus an Excel summary. Approved, published deliverables go in `outputs/final/`.

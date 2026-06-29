@@ -1,0 +1,17 @@
+{
+  "name": "capable-wealth",
+  "owner": {
+    "name": "evercrisp.ai"
+  },
+  "metadata": {
+    "description": "Capable Wealth content-production harness — skills for on-brand financial content for orthopedic surgeons.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "capable-wealth",
+      "source": "./capable-wealth-plugin",
+      "description": "Six skills (generate-batch, validate, linkedin-check, image-brief, voice-check, research-scan) that load the brand context, enforce every production rule, gate quality, and produce on-voice content. Requires the Project/working folder to contain brand/, rules/, src/, outputs/."
+    }
+  ]
+}
