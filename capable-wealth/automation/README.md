@@ -41,24 +41,23 @@ Automation removes the manual labor of *generating* the week. It deliberately do
 
 ## Runtime
 
-Claude Cowork is an interactive surface, so a plain unix cron cannot drive a Cowork chat session directly. The schedule needs one of these to actually execute, all of which use the same `weekly-pipeline.md` instruction and the same `0 4 * * 3` schedule:
+The schedule is expressed as code in this repo: a standard cron definition (`0 4 * * 3`) in [`crontab.example`](crontab.example), paired with the instruction in [`weekly-pipeline.md`](weekly-pipeline.md). You attach that schedule to whatever execution environment you run it in.
 
-| Option | How it runs | Best when |
-|---|---|---|
-| **Claude scheduled routines / cloud agents** (recommended) | A Claude-native scheduled agent runs the pipeline prompt on the cron; no infrastructure to manage | You want the simplest path and the plan supports scheduled agents |
-| **Claude Code headless CLI** | OS cron / launchd runs `claude -p "$(cat automation/weekly-pipeline.md)"` in this repo on a machine that stays on | You have an always-on Mac or server and prefer local control |
-| **GitHub Actions (scheduled workflow)** | A `schedule:` workflow checks out the repo and invokes Claude Code headless in CI | You want it to run in the cloud off your machine, tied to the repo |
+One thing to keep in mind: Claude Cowork is an interactive surface, so a plain unix cron line cannot drive a Cowork chat session by itself. The committed schedule needs an executor that can run a Claude session unattended. Common ways, all using the same `0 4 * * 3` schedule and the same `weekly-pipeline.md` instruction:
 
-> The runtime is the one decision that changes the concrete glue file (a routine config vs a launchd plist/crontab vs a `.github/workflows/*.yml`). Once it is chosen, the matching glue file gets added here. The schedule, the pipeline instruction, and the HITL rules above are the same regardless.
+- **Claude Code headless CLI** on an always-on machine: OS cron / launchd runs `claude -p "$(cat automation/weekly-pipeline.md)"` from the repo root (this is what `crontab.example` shows).
+- **A Claude-native scheduled agent / routine** that runs the pipeline prompt on the cron, if your plan supports scheduled agents.
+- **GitHub Actions** (`schedule:` workflow) that checks out the repo and invokes Claude Code in CI, if you prefer it to run off your machine.
 
-## Setup (high level; finalized once the runtime is chosen)
+The schedule, the pipeline instruction, and the HITL rules are identical across all three; only the executor differs.
 
-1. Pick a runtime from the table above.
-2. Point it at [`weekly-pipeline.md`](weekly-pipeline.md) as the instruction to run.
-3. Set the schedule to `0 4 * * 3` in the correct timezone.
-4. Ensure the runtime has access to this repo (so it can read the brand docs and skills and write to `outputs/drafts/`) and to Slack (for the summary).
-5. Do a **manual dry run** of `weekly-pipeline.md` first and confirm the output before enabling the schedule.
-6. After enabling, monitor the first few automated runs against the outputs (file completeness, Yellow flags, elapsed time).
+## Setup
+
+1. Pick an executor (see above).
+2. Point it at [`weekly-pipeline.md`](weekly-pipeline.md) as the instruction to run, from the repo root, on the `0 4 * * 3` schedule in the correct timezone.
+3. Ensure it can read this repo (brand docs and skills) and write to `outputs/drafts/`, and reach Slack for the summary.
+4. Do a **manual dry run** of `weekly-pipeline.md` first and confirm the output before enabling the schedule.
+5. After enabling, monitor the first few automated runs against the outputs (file completeness, Yellow flags, elapsed time).
 
 ## Monitoring
 
