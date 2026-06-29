@@ -11,7 +11,7 @@ The harness produces a full week of on-brand content (blog, podcast script, Link
 | [02-model-selected.md](02-model-selected.md) | Model choice (Claude Sonnet 4.6) and the full rationale | Complete |
 | [03-tech-stack.md](03-tech-stack.md) | Every tool and library, by role, plus a recommendation on Google Sheets | Complete |
 | [04-workflow-maps.md](04-workflow-maps.md) | Visual maps of the workflows as GitHub-rendered Mermaid flow + sequence diagrams | Complete |
-| [05-time-study.md](05-time-study.md) | Stage-by-stage timing with HITL dependency callouts | **Pinned** (template ready, awaiting measured data) |
+| [05-time-study.md](05-time-study.md) | Time per run (15-20 min/week), throughput, and HITL callouts. Notes that Cowork is not a metered API, so monitoring focuses on outputs | Complete (empirical batches-per-window log still to fill) |
 | [06-risk-assessment.md](06-risk-assessment.md) | Risk register with severity, mitigation, and residual risk | Complete |
 | [07-guardrails.md](07-guardrails.md) | The always-on and gate-enforced guardrails | Complete |
 | [08-evals.md](08-evals.md) | The evals (the quality gates), criteria, and how to run them as a regression set | Complete |
@@ -25,6 +25,6 @@ The harness produces a full week of on-brand content (blog, podcast script, Link
 
 ## Open items
 
-- **Time study (05):** awaiting measured run data from Jared/Dave.
+- **Time study (05):** generation time and throughput method are in; the empirical batches-per-usage-window log still needs a capacity test on Claude Max.
 - **Evals (08):** recommend building a small seeded "bad batch" so the gates have a permanent regression target.
 - **Google Sheets (03):** decision deferred; add only if a stakeholder needs a browser-based shared tracker.
