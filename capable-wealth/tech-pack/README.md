@@ -8,7 +8,6 @@ The harness produces a full week of on-brand content (blog, podcast script, Link
 
 | Doc | What it covers | Status |
 |---|---|---|
-| [01-token-cost-estimate.md](01-token-cost-estimate.md) | How to measure real per-run token cost on Cowork, plus a grounded estimate (~$1 to $2 per batch) | Complete (estimate; replace with measured) |
 | [02-model-selected.md](02-model-selected.md) | Model choice (Claude Sonnet 4.6) and the full rationale | Complete |
 | [03-tech-stack.md](03-tech-stack.md) | Every tool and library, by role, plus a recommendation on Google Sheets | Complete |
 | [04-workflow-maps.md](04-workflow-maps.md) | Visual maps of the workflows as GitHub-rendered Mermaid flow + sequence diagrams | Complete |
@@ -22,11 +21,10 @@ The harness produces a full week of on-brand content (blog, podcast script, Link
 - The **model** (02) runs inside **Cowork** with the **tech stack** (03).
 - The **workflow maps** (04) show how `generate-batch` orchestrates the gates.
 - The **guardrails** (07) are the constraints; the **evals** (08) are how those constraints are checked; the **risk assessment** (06) is what they protect against.
-- The **token cost** (01) and **time study** (05) quantify what a run costs in money and time.
+- The **time study** (05) quantifies what a run costs in time.
 
 ## Open items
 
 - **Time study (05):** awaiting measured run data from Jared/Dave.
-- **Token cost (01):** estimate in place; replace with a Console-measured run when available.
 - **Evals (08):** recommend building a small seeded "bad batch" so the gates have a permanent regression target.
 - **Google Sheets (03):** decision deferred; add only if a stakeholder needs a browser-based shared tracker.
