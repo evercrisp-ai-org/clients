@@ -7,7 +7,7 @@ The full set of tools, services, and libraries this harness depends on, grouped 
 | Layer | Tool | Role |
 |---|---|---|
 | **Agent runtime** | **Claude Cowork** | The environment the workflows run in. Hosts the conversation, loads the project context, executes the skills, and runs the agentic loop that drafts and gates content. |
-| **Model** | **Claude Sonnet 4.6** (`claude-sonnet-4-6`) | The single model behind every workflow. See `02-model-selected.md`. |
+| **Model** | **Claude Sonnet 4.6** (selected in the Cowork model picker) | The single model behind every workflow. See `02-model-selected.md`. |
 | **Skill layer** | **`capable-wealth` plugin** (v1.1.0) | Packages the 6 skills (`generate-batch`, `validate`, `linkedin-check`, `image-brief`, `voice-check`, `research-scan`) that load brand context, enforce rules, and gate quality. |
 | **Always-on guardrails** | **Cowork Project Instructions** + **`.cursor/rules/*.mdc`** | Keep the workspace on-voice and compliant even for plain-English prompts that do not name a skill. |
 

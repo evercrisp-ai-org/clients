@@ -58,11 +58,11 @@ Severity key: **Critical** = compliance / reputational exposure; **High** = off-
 **Severity: Medium.** `generate-batch` writes everything to disk and does not halt for approval mid-run. If the async human review is skipped, unreviewed content could be published.
 - **Likelihood:** Low-Medium, depends on team discipline.
 - **Mitigation:** The Slack summary to `#content-review` and the explicit "next action for Jared" in the final report make review the expected next step. Drafts land in `outputs/drafts/`, not `outputs/final/`, so the drafts/final split is itself a guardrail against accidental publish.
-- **Residual risk:** Medium. This is a process dependency, not a hard technical lock. Worth considering whether a publish step should require an explicit human sign-off token.
+- **Residual risk:** Medium. This is a process dependency, not a hard technical lock. Worth considering whether a publish step should require an explicit human sign-off.
 
-## R10. Model or provider change shifts behavior (operational)
-**Severity: Low-Medium.** A future model swap could change tone, instruction-following, or token economics.
-- **Mitigation:** Model is pinned to `claude-sonnet-4-6` (see `02-model-selected.md`), and the eval set (`08-evals.md`) provides a regression baseline to re-run after any model change.
+## R10. Model change shifts behavior (operational)
+**Severity: Low-Medium.** Switching the Cowork model selector to a different model could change tone, instruction-following, or how much of the usage window a run consumes.
+- **Mitigation:** The model is kept on Claude Sonnet 4.6 in Cowork (see `02-model-selected.md`), and the eval set (`08-evals.md`) provides a regression baseline to re-run after any model change.
 - **Residual risk:** Low, as long as the eval set is run on any model change.
 
 ---
