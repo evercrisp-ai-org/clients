@@ -1,10 +1,13 @@
-# Capable Wealth: weekly content pipeline schedule
-# 4:00 AM every Wednesday, scheduler local time.
+# Capable Wealth: weekly content pipeline schedule (timing reference)
+#
+# The pipeline is scheduled inside Cowork's built-in "Scheduled" feature, NOT via a
+# system crontab. This file just records the intended timing in standard cron syntax
+# so it is unambiguous: configure the Cowork Scheduled task to match it.
+#
+# 4:00 AM every Wednesday, local timezone.
 # Generates the upcoming week's drafts so Jared can approve before the following week.
 #
-# Set the timezone of whatever runs this so it fires at 4 AM LOCAL, not 4 AM UTC.
-# The command below is the Claude Code headless option; adapt to your chosen runtime
-# (see README.md "Runtime"). It must run from the repo root so the skills and brand docs resolve.
+# minute hour day-of-month month day-of-week
+  0      4    *            *     3
 #
-# minute hour day-of-month month day-of-week  command
-  0      4    *            *     3             cd /path/to/capable-wealth && claude -p "$(cat automation/weekly-pipeline.md)"
+# Instruction the scheduled task runs: automation/weekly-pipeline.md

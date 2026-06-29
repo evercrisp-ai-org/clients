@@ -4,7 +4,7 @@ This folder holds the configuration for running the content pipeline on a schedu
 
 ## What it does
 
-On a cron schedule, a Claude agent runs the **weekly pipeline** end to end:
+On a schedule, set up through **Cowork's built-in Scheduled feature** (the "Scheduled" item in the Cowork sidebar), Claude runs the **weekly pipeline** end to end:
 
 1. `research-scan` to refresh the upcoming week's plan for timeliness.
 2. `generate-batch` to produce the full week of content (which internally runs the image-brief, linkedin-check, voice-check, and validate gates).
@@ -41,23 +41,17 @@ Automation removes the manual labor of *generating* the week. It deliberately do
 
 ## Runtime
 
-The schedule is expressed as code in this repo: a standard cron definition (`0 4 * * 3`) in [`crontab.example`](crontab.example), paired with the instruction in [`weekly-pipeline.md`](weekly-pipeline.md). You attach that schedule to whatever execution environment you run it in.
+This runs natively inside Cowork. Cowork has a built-in **Scheduled** feature (the "Scheduled" item in the left sidebar) that runs a task on a recurring schedule, so no external cron, headless CLI, or CI is needed. You create one Scheduled task that runs the [`weekly-pipeline.md`](weekly-pipeline.md) instruction inside this project.
 
-One thing to keep in mind: Claude Cowork is an interactive surface, so a plain unix cron line cannot drive a Cowork chat session by itself. The committed schedule needs an executor that can run a Claude session unattended. Common ways, all using the same `0 4 * * 3` schedule and the same `weekly-pipeline.md` instruction:
-
-- **Claude Code headless CLI** on an always-on machine: OS cron / launchd runs `claude -p "$(cat automation/weekly-pipeline.md)"` from the repo root (this is what `crontab.example` shows).
-- **A Claude-native scheduled agent / routine** that runs the pipeline prompt on the cron, if your plan supports scheduled agents.
-- **GitHub Actions** (`schedule:` workflow) that checks out the repo and invokes Claude Code in CI, if you prefer it to run off your machine.
-
-The schedule, the pipeline instruction, and the HITL rules are identical across all three; only the executor differs.
+The `0 4 * * 3` cron expression in [`crontab.example`](crontab.example) is kept only as a precise, copy-pasteable record of the intended timing (4 AM every Wednesday). The actual schedule is configured in the Cowork Scheduled UI, not in a crontab file.
 
 ## Setup
 
-1. Pick an executor (see above).
-2. Point it at [`weekly-pipeline.md`](weekly-pipeline.md) as the instruction to run, from the repo root, on the `0 4 * * 3` schedule in the correct timezone.
-3. Ensure it can read this repo (brand docs and skills) and write to `outputs/drafts/`, and reach Slack for the summary.
-4. Do a **manual dry run** of `weekly-pipeline.md` first and confirm the output before enabling the schedule.
-5. After enabling, monitor the first few automated runs against the outputs (file completeness, Yellow flags, elapsed time).
+1. In Cowork, open **Scheduled** in the sidebar and create a new scheduled task **inside this project** (the Capable Wealth project), so it has access to the brand docs, skills, and `outputs/`.
+2. Set the recurrence to **weekly, Wednesday, 4:00 AM** (your local timezone). This matches `0 4 * * 3`.
+3. Use the contents of [`weekly-pipeline.md`](weekly-pipeline.md) as the task's instruction / prompt.
+4. Before relying on the schedule, run `weekly-pipeline.md` once **manually** and confirm the output (full file set, no Red flags, drafts in the right folder).
+5. Enable the schedule, then watch the first couple of automated runs against the outputs (file completeness, Yellow flags, elapsed time).
 
 ## Monitoring
 
