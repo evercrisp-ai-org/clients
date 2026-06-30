@@ -186,7 +186,7 @@ The content pipeline is decomposed into discrete, composable jobs. Each block ha
 | Lead magnet / report | All 8 + Design block | Adds layout/design step (see note below) |
 | Email sequence | 1, 2, 3, 5, 6, 7, 8 | Brief is critical for sequence arc |
 
-**Note on the Design block:** For lead magnets, reports, and designed PDFs, an additional Design/Layout step sits between Block 6 (Edit/Polish) and Block 7 (Distribution). This step uses the page templates in `templates/` and the brand config for visual standards. It is not numbered as a formal building block because it follows a different workflow, driven by the PDF generation pipeline in `src/` rather than the content production sequence. Inputs: final content + page templates + brand_config.json. Outputs: branded PDF. Autonomy: L2 (human-led with AI rendering).
+**Note on the Design block:** For lead magnets, reports, and designed PDFs, an additional Design/Layout step sits between Block 6 (Edit/Polish) and Block 7 (Distribution). This step uses the page templates in `pdf-page-templates/` and the brand config for visual standards. It is not numbered as a formal building block because it follows a different workflow, driven by the PDF generation pipeline in `src/` rather than the content production sequence. Inputs: final content + page templates + brand_config.json. Outputs: branded PDF. Autonomy: L2 (human-led with AI rendering).
 
 ---
 

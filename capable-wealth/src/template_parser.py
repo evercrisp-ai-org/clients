@@ -65,7 +65,7 @@ class TemplateParser:
     
     Usage:
         parser = TemplateParser()
-        template = parser.load_template("templates/lead_magnets/report/cover_light.json")
+        template = parser.load_template("pdf-page-templates/lead_magnets/report/cover_light.json")
         filled = parser.fill_variables(template, {"title": "My Report", "subtitle": "2024 Edition"})
     """
     

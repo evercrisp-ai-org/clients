@@ -45,7 +45,7 @@ capable_wealth/
 ├── START_HERE.md                   ← session-by-session content command center
 ├── COWORK_PROJECT_INSTRUCTIONS.md  ← paste into the Cowork Project's Instructions panel
 │
-├── brand/                          ← the brand brain (source of truth)
+├── brand/                          ← the brand brain (single source of truth)
 │   ├── voice-profile.md            ← WHO Jared is (distilled from 126 blog posts)
 │   ├── content-recipe.md           ← HOW content is made (workflow, 9-pt image std, quality checklist)
 │   ├── content-calendar.md         ← WHEN (annual cycles, research checkpoints)
@@ -53,7 +53,11 @@ capable_wealth/
 │   ├── quarterly-plan-Q2-2026.md   ← weekly slots (weeks 1-13)
 │   ├── brand_config.json           ← palette, fonts, voice_and_tone
 │   ├── experience-inventory.md     ← client-story sourcing (unpopulated → all ILLUSTRATIVE)
-│   ├── fonts/ · logos/ · graphics/ ← brand assets
+│   ├── experience-interview-guide.md  ← interview script to populate the inventory
+│   ├── performance-log-template.md ← format for logging real engagement data
+│   ├── corrections-log.md          ← behavioral log for the recursive learning loop
+│   ├── system-guide.md             ← plain-English guide to the whole system
+│   └── fonts/ · logos/ · graphics/ ← brand assets
 │
 ├── rules/linkedin-content-creation-guidelines.md   ← the 17-rule LinkedIn rulebook
 ├── .cursor/rules/                  ← enforcement rules (integrity, date-alignment, production-batch)
@@ -61,16 +65,22 @@ capable_wealth/
 ├── .claude/skills/                 ← the seven skills (dev copies, for Claude Code)
 ├── capable-wealth-plugin/          ← the same skills packaged as a Cowork plugin
 ├── .claude-plugin/marketplace.json ← marketplace catalog so Cowork can install the plugin
+├── automation/                     ← scheduled-pipeline config (Cowork Scheduled task)
 │
 ├── src/                            ← Python rendering pipeline (PDF + image + Excel export)
-├── templates/ · template/          ← JSON page templates for branded reports
+├── pdf-page-templates/             ← JSON page templates the pipeline renders report PDFs from
 ├── examples/                       ← sample report content (JSON)
 ├── generate_tax_report.py          ← entry point: render the tax-strategies report
 │
-├── tests/                          ← system acceptance test + red-team defect kit
+├── client-starter-kit/             ← self-contained boilerplate to launch a NEW client's system
+│
+├── tests/                          ← acceptance test, red-team defect kit, render test
 │   ├── system-acceptance-test.md
+│   ├── test_render.py
 │   └── redteam/                    ← planted-defect files + answer key
 │
+├── tech-pack/                      ← technical documentation (model, stack, workflows, risks, evals, learning loop)
+├── reference/                      ← brand-standard PDFs + the rendered lead-magnet report
 ├── diagrams/capable-wealth-sequence.excalidraw   ← UML sequence diagram of the workflow
 ├── docs/
 │   ├── Capable-Wealth-Harness-Setup-Guide.docx   ← branded 2-page setup & use guide

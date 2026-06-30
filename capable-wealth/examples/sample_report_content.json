@@ -156,6 +156,6 @@
       "3. For each page, load the corresponding template and fill with the content",
       "4. Use PDFRenderer to combine all pages into a single PDF document"
     ],
-    "example_code": "python\nfrom src import TemplateParser, load_brand_config\nfrom src.renderers import render_pdf\n\nparser = TemplateParser()\ntemplates = []\nfor page in content['pages']:\n    template = parser.load_template(f'templates/lead_magnets/report/{page[\"template\"]}.json')\n    filled = parser.fill_variables(template, page['content'])\n    templates.append(filled)\n\nrender_pdf(templates, 'output/report.pdf')"
+    "example_code": "python\nfrom src import TemplateParser, load_brand_config\nfrom src.renderers import render_pdf\n\nparser = TemplateParser()\ntemplates = []\nfor page in content['pages']:\n    template = parser.load_template(f'pdf-page-templates/lead_magnets/report/{page[\"template\"]}.json')\n    filled = parser.fill_variables(template, page['content'])\n    templates.append(filled)\n\nrender_pdf(templates, 'output/report.pdf')"
   }
 }

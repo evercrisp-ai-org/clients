@@ -33,7 +33,7 @@ config = load_brand_config()
 parser = TemplateParser(brand_config=config)
 
 # Load and fill a template
-template = parser.load_template("templates/lead_magnets/report/cover_dark.json")
+template = parser.load_template("pdf-page-templates/lead_magnets/report/cover_dark.json")
 filled = parser.fill_variables(template, {
     "title": "Your Report Title",
     "subtitle": "Subtitle Here",
@@ -55,7 +55,7 @@ capable_wealth/
 │   ├── graphics/             # Node networks, icons, patterns
 │   └── assets/               # Other reusable graphics
 │
-├── templates/
+├── pdf-page-templates/
 │   ├── lead_magnets/
 │   │   ├── report/           # Report page templates
 │   │   │   ├── _manifest.json
@@ -209,7 +209,7 @@ renderer = PDFRenderer()
 pages = []
 for page_config in content["pages"]:
     template = parser.load_template(
-        f"templates/lead_magnets/report/{page_config['template']}.json"
+        f"pdf-page-templates/lead_magnets/report/{page_config['template']}.json"
     )
     filled = parser.fill_variables(template, page_config["content"])
     pages.append(filled)
@@ -227,7 +227,7 @@ from src.renderers import ImageRenderer
 parser = TemplateParser()
 renderer = ImageRenderer()
 
-template = parser.load_template("templates/social_media/instagram/post_square.json")
+template = parser.load_template("pdf-page-templates/social_media/instagram/post_square.json")
 filled = parser.fill_variables(template, {
     "headline": "5 Tax Strategies",
     "subheadline": "Every Surgeon Should Know"

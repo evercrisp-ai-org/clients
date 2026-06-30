@@ -46,7 +46,7 @@ def main():
     
     # Cover page
     try:
-        cover = parser.load_template("templates/lead_magnets/report/cover_dark.json")
+        cover = parser.load_template("pdf-page-templates/lead_magnets/report/cover_dark.json")
         cover_filled = parser.fill_variables(cover, {
             "title": "Hidden Tax Strategies",
             "subtitle": "for Orthopedic Surgeons",
@@ -59,7 +59,7 @@ def main():
     
     # Key findings page
     try:
-        findings = parser.load_template("templates/lead_magnets/report/quote_key_findings.json")
+        findings = parser.load_template("pdf-page-templates/lead_magnets/report/quote_key_findings.json")
         findings_filled = parser.fill_variables(findings, {
             "quote_text": "78% of surgeons underestimate tax impact",
             "findings_header": "Key Findings",
@@ -78,7 +78,7 @@ def main():
     
     # Chart page
     try:
-        chart = parser.load_template("templates/lead_magnets/report/chart_line.json")
+        chart = parser.load_template("pdf-page-templates/lead_magnets/report/chart_line.json")
         chart_filled = parser.fill_variables(chart, {
             "section_header": "Practice Value Over Time",
             "section_subheader": "How planning affects outcomes",

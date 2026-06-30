@@ -39,7 +39,7 @@ def main():
     # Paths
     project_root = Path(__file__).parent
     content_path = project_root / "examples" / "tax_strategies_report.json"
-    templates_dir = project_root / "templates" / "lead_magnets" / "report"
+    templates_dir = project_root / "pdf-page-templates" / "lead_magnets" / "report"
     output_path = project_root / "outputs" / "drafts" / "tax_strategies_report_V6.pdf"
     
     # Step 1: Load brand configuration

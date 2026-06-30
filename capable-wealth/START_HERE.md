@@ -30,7 +30,8 @@
 
 | File / Directory | Purpose |
 |-----------------|---------|
-| `templates/` | Page layout templates (JSON) for branded PDF reports. |
+| `pdf-page-templates/` | Page layout templates (JSON) the pipeline renders branded PDF reports from. |
+| `client-starter-kit/` | Self-contained boilerplate to stand up a new client's content system. |
 | `src/` | Python code: PDF generation (ReportLab-based) and content batch Excel export. |
 | `brand/fonts/` | Playfair Display (headings) and Inter (body) font files. |
 
@@ -181,7 +182,7 @@ Read the following documents:
 - @brand/content-calendar.md, for relevance validation. Check all facts, figures, and legal references against current conditions.
 - @brand/brand_config.json, for exact brand colors, fonts, and imagery rules. Reference the hex codes and social_image_specs when writing image prompts.
 
-CRITICAL: Every draft file must follow the Standard Draft File Format (content-recipe.md Section 12):
+CRITICAL: Every draft file must follow the Standard Draft File Format (brand/content-recipe.md Section 12):
 1. Post Metadata (type, week, theme, quarterly plan reference, strategic context)
 2. Visual Assets (full image briefs with AI prompts following the 9-point standard)
 3. Content (the post itself)
@@ -319,7 +320,7 @@ Run the weekly retro for Capable Wealth.
 
 Read brand/corrections-log.md. Cluster the entries by their rule-candidate (the underlying preference), not by their exact wording. Ignore entries marked one-off. For each cluster:
 - 1 to 2 occurrences: list it as "watching", no action.
-- 3 or more occurrences (or any entry that explicitly states a general rule): propose a concrete edit to the right brand doc (voice-profile.md, content-recipe.md, or the LinkedIn rules), showing the exact text to add and a one-line rationale citing how many times and on which pieces it recurred.
+- 3 or more occurrences (or any entry that explicitly states a general rule): propose a concrete edit to the right brand doc (brand/voice-profile.md, brand/content-recipe.md, or the LinkedIn rules), showing the exact text to add and a one-line rationale citing how many times and on which pieces it recurred.
 
 Do not edit any brand doc yourself. Present the proposals and ask me which to apply. Flag any proposed rule that contradicts an existing one. This is the /retro skill.
 ```
@@ -339,10 +340,10 @@ Also read @brand/brand_config.json for exact brand colors, fonts, and imagery ru
 Topic: [INSERT TOPIC]
 Angle: [INSERT SPECIFIC ANGLE OR CONTRARIAN REFRAME]
 
-Output the file in the Standard Draft File Format (content-recipe.md Section 12):
+Output the file in the Standard Draft File Format (brand/content-recipe.md Section 12):
 
 1. Post Metadata: type, week, theme, quarterly plan reference, strategic context
-2. Visual Assets: one primary image brief with a production-ready AI image prompt following the 9-point standard (content-recipe.md Section 10). The prompt must be fully self-contained with exact canvas dimensions, background hex codes, layout/composition positions, typography specs (font, weight, size, color hex, position), graphic elements, brand constraints with all hex codes, mood descriptors, and audience context. See the example prompts in Section 10.
+2. Visual Assets: one primary image brief with a production-ready AI image prompt following the 9-point standard (brand/content-recipe.md Section 10). The prompt must be fully self-contained with exact canvas dimensions, background hex codes, layout/composition positions, typography specs (font, weight, size, color hex, position), graphic elements, brand constraints with all hex codes, mood descriptors, and audience context. See the example prompts in Section 10.
 3. Content: the LinkedIn post itself
 4. Quality Checklist: Section 13 results including the Visual Assets checklist
 
@@ -370,7 +371,7 @@ Also read @brand/brand_config.json for exact brand colors, fonts, and imagery ru
 Topic: [INSERT TOPIC]
 Angle: [INSERT SPECIFIC ANGLE OR CONTRARIAN REFRAME]
 
-Output the file in the Standard Draft File Format (content-recipe.md Section 12):
+Output the file in the Standard Draft File Format (brand/content-recipe.md Section 12):
 
 1. Post Metadata: type, week, theme, quarterly plan reference, strategic context
 2. Visual Assets: one hero image brief plus 1-3 in-body image briefs as needed (infographics for frameworks, data visualizations for math examples, stat highlights for key numbers). Every AI image prompt must follow the 9-point standard (Section 10) and be fully self-contained with exact canvas dimensions, background hex codes, layout positions, typography specs, brand constraints, mood, and audience context. See the example prompts in Section 10.
@@ -403,7 +404,7 @@ Also read @brand/brand_config.json for exact brand colors, fonts, and imagery ru
 Topic: [INSERT TOPIC]
 Angle: [INSERT SPECIFIC ANGLE]
 
-Output the file in the Standard Draft File Format (content-recipe.md Section 12):
+Output the file in the Standard Draft File Format (brand/content-recipe.md Section 12):
 
 1. Post Metadata: type, week, theme, quarterly plan reference, strategic context
 2. Visual Assets: one thumbnail brief with a production-ready AI image prompt following the 9-point standard (Section 10). Thumbnail is 1280x720. Text overlay must be 5 words maximum. The prompt must be fully self-contained with exact canvas dimensions, background hex codes, layout positions, typography specs, brand constraints, mood, and audience context.
@@ -433,7 +434,7 @@ Also read @brand/brand_config.json for exact brand colors, fonts, and imagery ru
 
 Topic: [INSERT TOPIC]
 
-Output the file in the Standard Draft File Format (content-recipe.md Section 12):
+Output the file in the Standard Draft File Format (brand/content-recipe.md Section 12):
 
 1. Post Metadata: type, week, theme, quarterly plan reference, strategic context
 2. Visual Assets: one primary image brief with a production-ready AI image prompt following the 9-point standard (Section 10). Quote cards and conceptual photographs work well for Facebook. The prompt must be fully self-contained with exact canvas dimensions, background hex codes, layout positions, typography specs, brand constraints, mood, and audience context.
