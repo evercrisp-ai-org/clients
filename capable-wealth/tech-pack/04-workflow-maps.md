@@ -12,7 +12,7 @@ This is the answer to "can you do a sequence diagram that renders in GitHub": ye
 
 ```mermaid
 flowchart TD
-    QP["Quarterly / editorial plan"] --> RS["research-scan<br/>weekly freshness pass"]
+    QP["Quarterly / editorial plan"] --> RS["research-scan<br/>weekly web research + freshness"]
     RS --> GB["generate-batch<br/>master orchestrator"]
     GB --> IB["image-brief"]
     GB --> LC["linkedin-check"]

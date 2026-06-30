@@ -39,7 +39,7 @@ Invoke by name, or describe the task and let Claude pick:
 - `/linkedin-check`: the 17-item LinkedIn checklist on a post.
 - `/image-brief`: 9-point image prompts with rotation rules.
 - `/voice-check`: voice fidelity audit.
-- `/research-scan`: weekly freshness pass over the existing plan; refreshes that week's scheduled items for timeliness. Does not do new external research. Run it before `/generate-batch` for the week.
+- `/research-scan`: weekly research and freshness pass. Researches the live web to confirm the week's planned items are current, timely, and relevant (tax figures, limits, law changes, current events), updates anything stale, cites sources, and flags rate-sensitive facts for confirmation. Run it before `/generate-batch` for the week.
 - `/retro`: weekly recursive-learning pass. Reads the revision requests logged in `brand/corrections-log.md`, and once a preference recurs 3 or more times, proposes a brand-doc diff for your approval. Run it weekly, after a week of content work, before the next batch.
 
 ## Output conventions

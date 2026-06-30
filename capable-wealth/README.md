@@ -99,7 +99,7 @@ Each skill is a markdown `SKILL.md` invoked by name in Cowork (e.g. `/generate-b
 
 | Skill | What it does | When it runs |
 |-------|--------------|--------------|
-| `/research-scan` | Weekly **freshness pass** over the existing plan, re-tunes that week's scheduled items for timeliness. No new web research. | Weekly, before generating |
+| `/research-scan` | Weekly **research + freshness pass**: researches the live web to verify the week's planned items are current (figures, limits, law changes, timely hooks), updates stale items, cites sources, flags rate-sensitive facts. | Weekly, before generating |
 | `/generate-batch` | **The engine.** Produces the full week (blog, podcast, 3 LinkedIn, 5 Facebook, 2-5 clips, native video, carousel), enforcing every rule and running the gates as it writes. | Weekly |
 | `/image-brief` | A production-ready **9-point AI image prompt** for every visual asset, with batch-wide rotation rules. | Auto inside `generate-batch`; or on demand |
 | `/linkedin-check` | **17-item** performance checklist on each LinkedIn post (hook, length, loss frame, hashtags). | Auto inside `generate-batch`; or on demand |

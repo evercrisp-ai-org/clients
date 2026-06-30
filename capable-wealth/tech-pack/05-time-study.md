@@ -27,14 +27,14 @@ A full week runs the skills in sequence: `research-scan` to refresh the week's p
 
 | Skill | Low | Mid | High |
 |---|---|---|---|
-| research-scan | 3 min | 5 min | 8 min |
+| research-scan (now does live web research) | 5 min | 10 min | 15 min |
 | generate-batch (heaviest) | 15 min | 18 min | 20 min |
 | image-brief (standalone QA) | 2 min | 4 min | 6 min |
 | linkedin-check (standalone QA) | 2 min | 3 min | 5 min |
 | voice-check (standalone QA) | 3 min | 5 min | 8 min |
 | validate (standalone QA) | 3 min | 5 min | 8 min |
 | retro (weekly learning pass) | 2 min | 4 min | 6 min |
-| **Full week, all seven skills** | **~30 min** | **~45 min** | **~60 min** |
+| **Full week, all seven skills** | **~32 min** | **~50 min** | **~67 min** |
 
 > Note: `image-brief`, `linkedin-check`, `voice-check`, and `validate` already run **inside** `generate-batch` as gates. The standalone rows above are an additional explicit QA pass over the produced batch. If you run only `research-scan` then `generate-batch` (gates internal, no separate QA pass), the content week is dominated by the `generate-batch` run and lands closer to **~20 to 30 minutes**.
 >
@@ -114,6 +114,6 @@ The token estimate above tells you the *relative weight* of a batch (a 4-week ba
 
 ## Summary
 
-- One **`generate-batch` run** takes **15 to 20 minutes** (the heaviest single skill). A **full week of all seven skills** takes **~30 / ~45 / ~60 minutes** (low / mid / high); plan with the High column and multiply the content portion for multi-week batches (`retro` is a flat weekly add).
+- One **`generate-batch` run** takes **15 to 20 minutes** (the heaviest single skill). A **full week of all seven skills** takes **~32 / ~50 / ~67 minutes** (low / mid / high), now that `research-scan` does live web research; plan with the High column and multiply the content portion for multi-week batches (`retro` is a flat weekly add).
 - It runs in Cowork, not a cloud API, so **tokens are not monitorable**; monitor **outputs** and **batches per usage window** instead.
 - Token volume can be **estimated** from outputs for planning, but **batches-per-window is measured empirically** because Claude Max uses a rolling usage window, not a fixed published token allowance.

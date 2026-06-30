@@ -15,7 +15,7 @@ You are running the automated weekly content pipeline for Capable Wealth. Follow
 
 ## Step 2: Refresh the plan
 
-Run `research-scan` for the target week. This refreshes that week's already-scheduled items for timeliness using only material already in the repo. It does not fetch new external sources. Carry any "verify before publish" flags it raises into the final summary.
+Run `research-scan` for the target week. This researches the live web to confirm the week's already-scheduled items are current, timely, and relevant (tax figures, limits, law changes, current events), updates anything stale, and cites its sources. Carry every "confirm before publish" flag it raises into the final summary so a human verifies rate-sensitive facts before publishing.
 
 ## Step 3: Generate the batch
 

@@ -1,6 +1,6 @@
 # Capable Wealth Plugin (for Claude Cowork)
 
-A content-production harness for Jared Paul, CFP — financial content for orthopedic surgeons. Seven skills that load the brand context, enforce every production rule, gate quality, and produce on-voice content. No connectors — skills only.
+A content-production harness for Jared Paul, CFP, financial content for orthopedic surgeons. Seven skills that load the brand context, enforce every production rule, gate quality, and produce on-voice content. The skills are self-contained; the only external capability used is web search (by `/research-scan`, to verify the plan against current facts), which must be enabled in the Cowork project. Slack is optional.
 
 ## The seven skills
 
@@ -11,7 +11,7 @@ A content-production harness for Jared Paul, CFP — financial content for ortho
 | `/linkedin-check` | 17-item LinkedIn performance checklist; pass/fail, fixes, word count, opening device. | auto inside generate-batch; or on demand |
 | `/image-brief` | 9-point AI image prompts with dimensions, palette, and batch rotation rules. | auto inside generate-batch; or on demand |
 | `/voice-check` | Voice fidelity audit (Voice Alignment / Audience Specificity / Pull Signal). | on demand |
-| `/research-scan` | Weekly freshness pass over the EXISTING plan — refreshes that week's scheduled items for timeliness. No new external research. | before generating a week's batch |
+| `/research-scan` | Weekly research + freshness pass. Researches the live web to verify the week's planned items are current and timely (figures, limits, law changes, hooks), updates stale items, cites sources, flags rate-sensitive facts. Needs web access enabled in the Cowork project. | before generating a week's batch |
 | `/retro` | Recursive learning pass — clusters the revision requests logged in `brand/corrections-log.md`; once a preference recurs 3+ times, proposes a brand-doc diff for Jared's approval. The only skill that improves the source-of-truth itself. | weekly, after content work |
 
 ## The recursive learning loop

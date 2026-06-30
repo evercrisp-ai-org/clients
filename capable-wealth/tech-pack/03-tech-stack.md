@@ -42,6 +42,7 @@ Used by `src/` for rendering the branded PDF/report and the Excel batch summary.
 | Surface | Role | Status |
 |---|---|---|
 | **Excel (.xlsx)** | Per-batch summary workbook, regenerated after any batch change via `python3 src/export_content_batch.py <batch-folder>`. | Active |
+| **Web search / fetch** | `research-scan` uses live web access to verify the week's planned items against current facts (figures, limits, law changes, timely hooks) and cite sources. Must be enabled in the Cowork project. | Active (required for research-scan) |
 | **Slack** | `generate-batch` posts a review summary to Slack at the end of a run, so a human can review before publishing. | Active |
 | **Branded PDF report** | The client-facing report rendered from the template system. | Active |
 

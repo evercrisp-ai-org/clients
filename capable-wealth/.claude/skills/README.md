@@ -15,7 +15,7 @@ Skills are **project-scoped**: they live in the repo, so anyone who opens this p
 | `linkedin-check` | 17-item performance-tested LinkedIn checklist (Rules 1-18, cadence excluded). Pass/fail per item, fixes, word count, opening device. | Auto inside `generate-batch` (×3); or on demand |
 | `image-brief` | 9-point production-ready AI image prompts with platform dimensions, exclusive palette, and batch-wide rotation rules. | Auto inside `generate-batch` (every asset); or on demand |
 | `voice-check` | Voice fidelity audit — Voice Alignment, Audience Specificity, Pull Signal Design. Flags lines, suggests rewrites. | On demand |
-| `research-scan` | Weekly freshness pass over the EXISTING plan — refreshes that week's scheduled items for timeliness. No new external research. | Before generating a week's batch |
+| `research-scan` | Weekly research + freshness pass. Researches the live web to verify the week's planned items are current and timely (figures, limits, law changes, hooks), updates stale items, cites sources, flags rate-sensitive facts for confirmation. | Before generating a week's batch |
 | `retro` | Recursive learning pass. Clusters the revision requests logged in `brand/corrections-log.md`; once a preference recurs 3+ times, proposes a brand-doc diff for Jared's approval. The only skill that improves the source-of-truth itself. | Weekly, after content work |
 
 > Note: this `.claude/skills/` copy is a dev mirror for Claude Code. The Cowork deliverable is the **`capable-wealth-plugin/`** (skills only, no connectors). The two are kept in sync; the plugin is the source of truth.
@@ -35,7 +35,7 @@ research-scan   →    generate-batch              →    validate
                        Jared reviews & approves
 ```
 
-`research-scan` refreshes the week's portion of the existing plan for timeliness → `generate-batch` produces the week and runs the gate skills inside the batch → Jared reviews and approves. No external research, no connectors.
+`research-scan` researches the live web to verify and freshen the week's planned items (figures, limits, timing, hooks) → `generate-batch` produces the week and runs the gate skills inside the batch → Jared reviews and approves. (Slack remains optional; web access must be enabled in the Cowork project for research-scan's live verification.)
 
 Running alongside this, the **recursive learning loop** closes over time: every revision Jared prompts during a week is logged to `brand/corrections-log.md`, and the weekly `retro` skill turns recurring corrections into proposed brand-doc improvements (3+ recurrences, Jared approves). The content flow produces; `retro` makes the brand brain it reads from smarter. See `../../tech-pack/09-learning-loop.md`.
 
