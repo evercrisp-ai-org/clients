@@ -44,16 +44,20 @@ A path to a draft file, a path to a `content-batch-*` folder (validate every pie
 
 ## Output per piece
 
+Lead every status and the verdict with its color emoji: 🟢 = green/clean/pass, 🟡 = yellow/flagged, 🔴 = red/blocked/fail. (Date has no middle state: 🟢 Pass or 🔴 Fail only.) Use these exact emojis every time so a result is scannable at a glance.
+
 ```
 FILE: week-N-linkedin-1.md
-Integrity:  Clean | Flagged | Blocked   — <one line; quote any offending text>
-Date:       Pass | Fail                 — <one line>
-Relevance:  Green | Yellow | Red        — <one line>
-VERDICT:    GREEN (publish) | YELLOW (revise: <what>) | RED (hold: <why>)
+Integrity:  🟢 Clean | 🟡 Flagged | 🔴 Blocked   — <one line; quote any offending text>
+Date:       🟢 Pass | 🔴 Fail                    — <one line>
+Relevance:  🟢 Green | 🟡 Yellow | 🔴 Red          — <one line>
+VERDICT:    🟢 GREEN (publish) | 🟡 YELLOW (revise: <what>) | 🔴 RED (hold: <why>)
 ```
+
+(Show only the one status that applies on each line, with its emoji, not the full menu.)
 
 Then render the full §13 Quality Checklist (Voice Alignment, Audience Specificity, Relevance Validation, Pull Signal Design, Visual Assets, Content Integrity, + Short-Form Clips for podcasts) with each item checked or flagged. For LinkedIn posts, additionally run the Section 6 checklist from `rules/linkedin-content-creation-guidelines.md` (the recipe §13 checklist does not contain it).
 
-A piece is **GREEN** only if Integrity=Clean, Date=Pass, Relevance=Green. Any Blocked or Fail → RED. Otherwise YELLOW with the specific fix. For a folder, end with a summary table: file | verdict | top issue.
+A piece is **🟢 GREEN** only if Integrity=Clean, Date=Pass, Relevance=Green. Any Blocked or Fail → **🔴 RED**. Otherwise **🟡 YELLOW** with the specific fix. For a folder, end with a summary table (file | verdict | top issue) with each verdict cell led by its 🟢/🟡/🔴 emoji.
 
 Do not edit the files — report only, unless the user explicitly asks you to fix.
