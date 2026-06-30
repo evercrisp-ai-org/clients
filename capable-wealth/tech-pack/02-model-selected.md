@@ -8,9 +8,9 @@
 
 Every workflow in this harness runs on **Claude Sonnet 4.6**, selected in Cowork. This is the standing default for all content generation, gating, and validation work unless a specific run is explicitly switched to a larger model.
 
-## Context: this runs in Claude Cowork, not the cloud API
+## Context: this runs in Claude Cowork, not the Claude API
 
-This system runs inside **Claude Cowork on a Claude Max plan**, not against the metered cloud API. That matters for how the model decision is framed: there is **no per-token bill**. You pay a flat subscription, and the practical constraint is the **usage window** (how much work fits before hitting your plan's rolling limit), not a dollar-per-million-tokens rate. So the rationale below is about capability fit and usage-window efficiency, not API pricing.
+This system runs inside **Claude Cowork on a Claude Max plan**, not against the metered API. That matters for how the model decision is framed: there is **no per-token bill**. You pay a flat subscription, and the practical constraint is the **usage window** (how much work fits before hitting your plan's rolling limit), not a dollar-per-million-tokens rate. So the rationale below is about capability fit and usage-window efficiency.
 
 ## Why Sonnet 4.6 is the optimal choice here
 
