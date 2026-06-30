@@ -147,7 +147,7 @@ It cannot drift, because the signal is a human correcting the machine, not the m
 
 ## Setup & use
 
-The full walkthrough is in [`docs/Capable-Wealth-Harness-Setup-Guide.docx`](docs/Capable-Wealth-Harness-Setup-Guide.docx). In brief:
+Step-by-step setup (clone, link the Cowork project, install the skills, paste the project instructions, enable web access) is in [`SETUP.md`](SETUP.md). A branded walkthrough is also in [`docs/Capable-Wealth-Harness-Setup-Guide.docx`](docs/Capable-Wealth-Harness-Setup-Guide.docx). In brief:
 
 1. Open the Claude desktop app → **Cowork** mode.
 2. Create a Project ("Capable Wealth Content System") and link it to this folder.
