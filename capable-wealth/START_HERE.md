@@ -240,6 +240,8 @@ This creates content-batch-summary-[YYYYMMDD].xlsx in the batch folder with one 
 
 **What this produces:** A "What We Learned" brief, recommended updates to master documents, and the next production queue.
 
+**Two tiers of learning.** This is the deeper cycle, driven by real platform analytics, best run monthly. There is also a lighter, weekly mechanism that needs no analytics: the **`retro` skill**, which reads the revision requests automatically logged in `brand/corrections-log.md` and proposes brand-doc improvements once a preference recurs three or more times. Run `retro` weekly (see the "Run the Weekly Retro" prompt in Section D); run this full performance cycle monthly. Together they cover both signals: what you keep correcting (weekly, `retro`) and what the market responded to (monthly, this cycle). The full mechanism is documented in `tech-pack/09-learning-loop.md`.
+
 **Before running this prompt:** You must first fill in a performance data log with real metrics from your platform analytics. Copy `brand/performance-log-template.md` to `outputs/performance-logs/log-[YYYY-MM-DD].md` and populate it with actual data from LinkedIn Analytics, YouTube Studio, Facebook Insights, and your website analytics. The learning cycle cannot produce meaningful insights without real performance data. See the "Log Performance Data" prompt in Section D if you need guidance on filling in the log.
 
 **Copy-paste this prompt:**
@@ -305,6 +307,24 @@ This is not a one-time exercise. It is a recurring rhythm. Each cycle makes the 
 ## D. Ongoing Production Prompts
 
 These are shorter, tactical prompts for day-to-day content work. Copy-paste into a Cursor Agent chat whenever you need to produce a specific piece.
+
+### Run the Weekly Retro
+
+**What this produces:** a short report of the preference patterns from this week's revision requests, plus proposed brand-doc edits for any pattern that has recurred three or more times. You approve which to apply.
+
+**Copy-paste this prompt:**
+
+```
+Run the weekly retro for Capable Wealth.
+
+Read brand/corrections-log.md. Cluster the entries by their rule-candidate (the underlying preference), not by their exact wording. Ignore entries marked one-off. For each cluster:
+- 1 to 2 occurrences: list it as "watching", no action.
+- 3 or more occurrences (or any entry that explicitly states a general rule): propose a concrete edit to the right brand doc (voice-profile.md, content-recipe.md, or the LinkedIn rules), showing the exact text to add and a one-line rationale citing how many times and on which pieces it recurred.
+
+Do not edit any brand doc yourself. Present the proposals and ask me which to apply. Flag any proposed rule that contradicts an existing one. This is the /retro skill.
+```
+
+> Revision requests are logged automatically as you make them during the week, so by the time you run this the log is already populated. This is the weekly, analytics-free half of the Recursive Learning Cycle (Session 5 is the monthly, analytics-driven half).
 
 ---
 

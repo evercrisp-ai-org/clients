@@ -12,6 +12,11 @@ A content-production harness for Jared Paul, CFP — financial content for ortho
 | `/image-brief` | 9-point AI image prompts with dimensions, palette, and batch rotation rules. | auto inside generate-batch; or on demand |
 | `/voice-check` | Voice fidelity audit (Voice Alignment / Audience Specificity / Pull Signal). | on demand |
 | `/research-scan` | Weekly freshness pass over the EXISTING plan — refreshes that week's scheduled items for timeliness. No new external research. | before generating a week's batch |
+| `/retro` | Recursive learning pass — clusters the revision requests logged in `brand/corrections-log.md`; once a preference recurs 3+ times, proposes a brand-doc diff for Jared's approval. The only skill that improves the source-of-truth itself. | weekly, after content work |
+
+## The recursive learning loop
+
+A standing rule (in the Project Instructions) logs every revision Jared prompts to `brand/corrections-log.md` as it is applied. The weekly `/retro` skill clusters those corrections and, once a preference recurs 3+ times, proposes an improvement to the brand docs the other six skills read. Jared approves; brand docs never change automatically. Over time the system needs fewer corrections of the same kind.
 
 ## Requirement: link the Project to the `capable_wealth` folder
 

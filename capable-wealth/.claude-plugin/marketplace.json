@@ -11,7 +11,7 @@
     {
       "name": "capable-wealth",
       "source": "./capable-wealth-plugin",
-      "description": "Six skills (generate-batch, validate, linkedin-check, image-brief, voice-check, research-scan) that load the brand context, enforce every production rule, gate quality, and produce on-voice content. Requires the Project/working folder to contain brand/, rules/, src/, outputs/."
+      "description": "Seven skills (generate-batch, validate, linkedin-check, image-brief, voice-check, research-scan, retro) that load the brand context, enforce every production rule, gate quality, produce on-voice content, and learn from Jared's corrections over time via the weekly retro pass. Requires the Project/working folder to contain brand/, rules/, src/, outputs/."
     }
   ]
 }

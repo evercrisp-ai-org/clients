@@ -10,8 +10,9 @@
 
 - [Overview](#overview)
 - [Repository structure](#repository-structure)
-- [The Cowork harness: the six skills](#the-cowork-harness-the-six-skills)
+- [The Cowork harness: the seven skills](#the-cowork-harness-the-seven-skills)
 - [How the skills work together](#how-the-skills-work-together)
+- [The recursive learning loop](#the-recursive-learning-loop)
 - [Setup & use](#setup--use)
 - [Brand system (source of truth)](#brand-system-source-of-truth)
 - [Testing the system](#testing-the-system)
@@ -29,8 +30,10 @@ The bottleneck this system solves: every content session used to require hours o
 Three layers:
 
 1. **Brand brain**: the voice profile, content recipe, calendar, editorial/quarterly plans, brand config, and enforcement rules. The single source of truth every skill reads.
-2. **Cowork harness**: six skills (`/research-scan`, `/generate-batch`, `/image-brief`, `/linkedin-check`, `/voice-check`, `/validate`) packaged as a Cowork plugin.
+2. **Cowork harness**: seven skills (`/research-scan`, `/generate-batch`, `/image-brief`, `/linkedin-check`, `/voice-check`, `/validate`, `/retro`) packaged as a Cowork plugin.
 3. **Python pipeline**: JSON-templated rendering of branded PDFs (lead magnets, reports) and social images.
+
+A fourth element ties them together: a **recursive learning loop** that logs Jared's revision requests and feeds them back into the brand brain (see below).
 
 ---
 
@@ -55,7 +58,7 @@ capable_wealth/
 ├── rules/linkedin-content-creation-guidelines.md   ← the 17-rule LinkedIn rulebook
 ├── .cursor/rules/                  ← enforcement rules (integrity, date-alignment, production-batch)
 │
-├── .claude/skills/                 ← the six skills (dev copies, for Claude Code)
+├── .claude/skills/                 ← the seven skills (dev copies, for Claude Code)
 ├── capable-wealth-plugin/          ← the same skills packaged as a Cowork plugin
 ├── .claude-plugin/marketplace.json ← marketplace catalog so Cowork can install the plugin
 │
@@ -80,7 +83,7 @@ capable_wealth/
 
 ---
 
-## The Cowork harness: the six skills
+## The Cowork harness: the seven skills
 
 Each skill is a markdown `SKILL.md` invoked by name in Cowork (e.g. `/generate-batch week-21`).
 
@@ -92,6 +95,7 @@ Each skill is a markdown `SKILL.md` invoked by name in Cowork (e.g. `/generate-b
 | `/linkedin-check` | **17-item** performance checklist on each LinkedIn post (hook, length, loss frame, hashtags). | Auto inside `generate-batch`; or on demand |
 | `/voice-check` | **Voice fidelity** across every produced piece, catches em dashes, formulaic pivots, off-voice lines. | Auto inside `generate-batch`; or on demand |
 | `/validate` | **Compliance gate**: story integrity, date alignment, relevance → Green / Yellow / Red. | Auto inside `generate-batch`; or on demand |
+| `/retro` | **Recursive learning pass.** Clusters the revision requests logged in `brand/corrections-log.md`; once a preference recurs 3+ times, proposes a brand-doc diff for Jared's approval. | Weekly, after content work |
 
 ---
 
@@ -112,6 +116,22 @@ EACH WEEK            THE ENGINE                       BEFORE PUBLISH
 `research-scan` keeps the plan timely → `generate-batch` produces the week and runs the gate skills inline → a **fresh, independent gate pass** re-checks before publishing → Jared approves. The full visual is in [`diagrams/capable-wealth-sequence.excalidraw`](diagrams/capable-wealth-sequence.excalidraw).
 
 > **The one rule that matters:** always run the independent gate pass before publishing. `generate-batch` grades its own work, and self-checks miss things (em dashes, a fabricated client story, a stale figure). A fresh `/validate` + `/voice-check` pass catches what generation waves through. On-voice is not the same as publish-ready.
+
+---
+
+## The recursive learning loop
+
+The harness improves itself over time. Because it runs in Cowork (no model fine-tuning), "learning" means the **brand docs get better**, so the same model produces better-aligned content with fewer corrections.
+
+The signal is **Jared's revision requests in Cowork** ("too salesy, pull it back"). A standing rule logs each one to `brand/corrections-log.md` as it is applied. The weekly `/retro` skill clusters the log by rule-candidate and, once a preference recurs 3+ times, proposes a diff to the right brand doc. Jared approves; brand docs never change automatically.
+
+```
+Jared prompts a revision  →  assistant logs it to corrections-log.md
+   →  weekly /retro clusters + counts  →  3+ recurrences = proposed brand-doc diff
+   →  Jared approves  →  next batch reads the improved docs  →  fewer corrections
+```
+
+It cannot drift, because the signal is a human correcting the machine, not the machine grading itself. Full detail in [`tech-pack/09-learning-loop.md`](tech-pack/09-learning-loop.md).
 
 ---
 
@@ -165,7 +185,7 @@ python src/export_content_batch.py outputs/drafts/content-batch-YYYY-MM-DD/   # 
 
 ## The plugin / marketplace
 
-The six skills are packaged as a Cowork plugin under [`capable-wealth-plugin/`](capable-wealth-plugin/), cataloged by [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json).
+The seven skills are packaged as a Cowork plugin under [`capable-wealth-plugin/`](capable-wealth-plugin/), cataloged by [`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json).
 
 **Install in Cowork:** Personal plugins → Add marketplace → point at this repo → install `capable-wealth`. After any skill change, just **refresh** the plugin in Cowork, no re-zip, no re-upload.
 

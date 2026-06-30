@@ -146,6 +146,14 @@ A standardized format for capturing real engagement data from your platform anal
 
 **When you use it:** Before each learning cycle (roughly monthly or after each content batch has been live for 14+ days). The system cannot learn without real data.
 
+**Corrections Log** (`brand/corrections-log.md`)
+
+A second, complementary learning signal that does not require platform analytics. Every time you ask Claude to revise, retone, cut, or restructure a generated piece, that request is logged automatically as a preference candidate. Where the Performance Log captures what the *market* responded to, the Corrections Log captures what *you* keep correcting, which is often the faster, clearer signal about your voice and standards.
+
+**What it captures:** the verbatim revision request, the piece, a category, the generalizable rule it implies, and whether it is a one-off or a real preference.
+
+**When it is used:** the weekly `retro` skill reads it, and once a preference has recurred three or more times, proposes a matching edit to the relevant brand doc for your approval. See Layer 7's role in the Recursive Learning Loop and `tech-pack/09-learning-loop.md`.
+
 ---
 
 ### Layer 8: Guardrails -- Automated Quality Controls
@@ -249,9 +257,9 @@ After content has been live for 14+ days, real performance data is logged using 
 
 ### Step 10: Learn
 
-The Recursive Learning Loop analyzes performance data across a batch: what outperformed, what underperformed, what patterns emerge. Insights feed back into the Content Recipe, Content Calendar, and Editorial Plan. The system gets smarter.
+The Recursive Learning Loop runs on two signals. First, performance data across a batch: what outperformed, what underperformed, what patterns emerge. Second, the Corrections Log: the revision requests you made during the week, captured automatically. The weekly `retro` skill clusters the corrections and, once a preference has recurred three or more times, proposes a matching edit to the relevant brand doc (Voice Profile, Content Recipe, or the LinkedIn rules) for your approval. Insights feed back into the source-of-truth docs, and the system gets smarter, needing fewer corrections of the same kind next time.
 
-**Governed by:** Content Recipe (Section 11)
+**Governed by:** Content Recipe (Section 11), the Corrections Log, and the `retro` skill. See `tech-pack/09-learning-loop.md` for the full mechanism.
 
 ---
 
@@ -267,6 +275,7 @@ The system works best when you contribute at regular intervals. Here is what to 
 - [ ] Check claims and stories -- does anything reference an experience you have not actually had?
 - [ ] Approve, request revisions, or reject each piece
 - [ ] Note any new stories or anecdotes that came up in your practice this week that could be added to the inventory
+- [ ] Run the `retro` skill. It reviews the revision requests logged this week and proposes any brand-doc improvements for your approval. Revision requests are logged automatically as you make them, so this step is just reviewing and approving the proposals.
 
 ### Monthly
 

@@ -15,6 +15,7 @@ The harness produces a full week of on-brand content (blog, podcast script, Link
 | [06-risk-assessment.md](06-risk-assessment.md) | Risk register with severity, mitigation, and residual risk | Complete |
 | [07-guardrails.md](07-guardrails.md) | The always-on and gate-enforced guardrails | Complete |
 | [08-evals.md](08-evals.md) | The evals (the quality gates), criteria, and how to run them as a regression set | Complete |
+| [09-learning-loop.md](09-learning-loop.md) | The recursive learning loop: logging Jared's corrections and feeding them back into the brand docs via the weekly `/retro` skill | Complete |
 
 ## How the pieces fit together
 
@@ -22,6 +23,7 @@ The harness produces a full week of on-brand content (blog, podcast script, Link
 - The **workflow maps** (04) show how `generate-batch` orchestrates the gates.
 - The **guardrails** (07) are the constraints; the **evals** (08) are how those constraints are checked; the **risk assessment** (06) is what they protect against.
 - The **time study** (05) quantifies what a run costs in time.
+- The **learning loop** (09) is how the system improves over time: corrections feed back into the brand docs the skills read.
 
 ## Open items
 

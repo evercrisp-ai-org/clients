@@ -8,7 +8,7 @@ This is the answer to "can you do a sequence diagram that renders in GitHub": ye
 
 ---
 
-## 1. The skill map (how the 6 skills relate)
+## 1. The skill map (how the 7 skills relate)
 
 ```mermaid
 flowchart TD
@@ -26,9 +26,13 @@ flowchart TD
     OUT --> SL["Slack #content-review"]
     SL --> HUMAN{{"Human review<br/>before publish"}}
     XL --> HUMAN
+    HUMAN -.->|"revision requests<br/>logged"| LOG["corrections-log.md"]
+    LOG --> RETRO["retro<br/>weekly learning pass"]
+    RETRO -.->|"proposes diffs<br/>(Jared approves)"| BRAND["brand docs"]
+    BRAND -.->|"read by"| GB
 ```
 
-`generate-batch` is the engine. The other five skills are either run before it (`research-scan`) or called by it as gates (`image-brief`, `linkedin-check`, `voice-check`, `validate`). All five gates can also be invoked standalone on any draft.
+`generate-batch` is the engine. Five skills are either run before it (`research-scan`) or called by it as gates (`image-brief`, `linkedin-check`, `voice-check`, `validate`); the gates can also be invoked standalone on any draft. The seventh skill, `retro`, sits outside the content flow: it closes the **learning loop** by turning logged revision requests into proposed brand-doc improvements, which then feed back into what `generate-batch` reads. See `09-learning-loop.md` for the dedicated diagram.
 
 ---
 

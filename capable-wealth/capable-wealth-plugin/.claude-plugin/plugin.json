@@ -1,7 +1,7 @@
 {
   "name": "capable-wealth",
-  "version": "1.1.0",
-  "description": "Content production harness for Capable Wealth (Jared Paul, CFP) — financial content for orthopedic surgeons. Seven skills that load the brand context, enforce every production rule, gate quality, and produce on-voice content. Invoke a skill by name, e.g. /generate-batch, /validate, /linkedin-check. Requires the Project to be linked to the capable_wealth folder (brand/, rules/, src/, outputs/) for the skills to read the brand docs.",
+  "version": "1.2.0",
+  "description": "Content production harness for Capable Wealth (Jared Paul, CFP): financial content for orthopedic surgeons. Seven skills that load the brand context, enforce every production rule, gate quality, produce on-voice content, and learn from Jared's corrections over time. Invoke a skill by name, e.g. /generate-batch, /validate, /linkedin-check, /retro. The /retro skill runs a weekly recursive-learning pass that turns logged revision requests into proposed brand-doc improvements. Requires the Project to be linked to the capable_wealth folder (brand/, rules/, src/, outputs/) for the skills to read the brand docs.",
   "author": {
     "name": "evercrisp.ai"
   },

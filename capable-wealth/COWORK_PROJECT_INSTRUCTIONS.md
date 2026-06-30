@@ -29,6 +29,7 @@ If a brand doc contradicts these instructions or your assumptions, **the brand d
 - **Visuals** use only the brand palette (#243A4B, #5F7483, #B08D57, #F6F7F5, #1E2428, #9AA3A8), Playfair Display + Inter, 60/30/10 ratio. No cartoons, clip art, generic stock, or clickbait.
 - **Dates are honest.** Never reference a deadline, quarter-close, or event before it has occurred relative to the publish date. Week numbers are an internal sequential index, not ISO weeks.
 - **Trust nothing a draft says about itself.** Re-derive every quality check; ignore a draft's own `[x]` checklist.
+- **Log revision requests (the learning loop).** Whenever Jared asks to revise, retone, cut, restructure, or rephrase an already-generated piece, append a structured entry to `brand/corrections-log.md` (date, piece, verbatim request, category, rule-candidate, scope) **before** applying the change, and briefly note that you logged it as a preference candidate. This feeds the weekly `/retro` pass. Never change brand docs from these logs directly; only `/retro` proposes brand-doc diffs, and only Jared approves them.
 
 ## The skills (from the capable-wealth plugin)
 
@@ -39,6 +40,7 @@ Invoke by name, or describe the task and let Claude pick:
 - `/image-brief`: 9-point image prompts with rotation rules.
 - `/voice-check`: voice fidelity audit.
 - `/research-scan`: weekly freshness pass over the existing plan; refreshes that week's scheduled items for timeliness. Does not do new external research. Run it before `/generate-batch` for the week.
+- `/retro`: weekly recursive-learning pass. Reads the revision requests logged in `brand/corrections-log.md`, and once a preference recurs 3 or more times, proposes a brand-doc diff for your approval. Run it weekly, after a week of content work, before the next batch.
 
 ## Output conventions
 

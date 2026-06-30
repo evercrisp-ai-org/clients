@@ -18,12 +18,12 @@ Token *volume* can still be **estimated** from the observable outputs (see the t
 
 These are two different numbers and they are easy to confuse:
 
-- **One run of `generate-batch` takes roughly 15 to 20 minutes.** This is the single most generation-heavy skill in the system: it produces the most output of any skill (blog, podcast script, 3 LinkedIn posts, 5 Facebook posts, clips, plus the optional native video and carousel) and runs every quality gate during the run, so it takes the longest of all six skills. **15 to 20 minutes is the time for this one skill, not the time for a full week.**
-- **A full week of the pipeline is the time to run all six skills for that week.** That is the number to plan around, and it is larger than the `generate-batch` run alone.
+- **One run of `generate-batch` takes roughly 15 to 20 minutes.** This is the single most generation-heavy skill in the system: it produces the most output of any skill (blog, podcast script, 3 LinkedIn posts, 5 Facebook posts, clips, plus the optional native video and carousel) and runs every quality gate during the run, so it takes the longest of all seven skills. **15 to 20 minutes is the time for this one skill, not the time for a full week.**
+- **A full week of the pipeline is the time to run all seven skills for that week.** That is the number to plan around, and it is larger than the `generate-batch` run alone.
 
-## Weekly pipeline time (all six skills)
+## Weekly pipeline time (all seven skills)
 
-A full week runs the skills in sequence: `research-scan` to refresh the week's plan, `generate-batch` to produce the content (which internally invokes the gates), and the standalone QA passes (`image-brief`, `linkedin-check`, `voice-check`, `validate`) used to double-check the produced batch. Conservative per-skill estimates:
+A full week runs the skills in sequence: `research-scan` to refresh the week's plan, `generate-batch` to produce the content (which internally invokes the gates), the standalone QA passes (`image-brief`, `linkedin-check`, `voice-check`, `validate`) used to double-check the produced batch, and `retro` to fold the week's logged corrections back into the brand docs. Conservative per-skill estimates:
 
 | Skill | Low | Mid | High |
 |---|---|---|---|
@@ -33,22 +33,25 @@ A full week runs the skills in sequence: `research-scan` to refresh the week's p
 | linkedin-check (standalone QA) | 2 min | 3 min | 5 min |
 | voice-check (standalone QA) | 3 min | 5 min | 8 min |
 | validate (standalone QA) | 3 min | 5 min | 8 min |
-| **Full week, all six skills** | **~30 min** | **~40 min** | **~55 min** |
+| retro (weekly learning pass) | 2 min | 4 min | 6 min |
+| **Full week, all seven skills** | **~30 min** | **~45 min** | **~60 min** |
 
-> Note: `image-brief`, `linkedin-check`, `voice-check`, and `validate` already run **inside** `generate-batch` as gates. The standalone rows above are an additional explicit QA pass over the produced batch. If you run only `research-scan` then `generate-batch` (gates internal, no separate QA pass), the week is dominated by the `generate-batch` run and lands closer to **~20 to 30 minutes**.
+> Note: `image-brief`, `linkedin-check`, `voice-check`, and `validate` already run **inside** `generate-batch` as gates. The standalone rows above are an additional explicit QA pass over the produced batch. If you run only `research-scan` then `generate-batch` (gates internal, no separate QA pass), the content week is dominated by the `generate-batch` run and lands closer to **~20 to 30 minutes**.
+>
+> `retro` is the machine time to cluster the corrections log and draft proposals; Jared's approval of those proposals is separate human-in-the-loop time. `retro` runs **once per week regardless of batch scope**, so it is a flat weekly add, not multiplied for multi-week batches.
 
 ### Multi-week batches (conservative)
 
-`generate-batch` scales roughly linearly with the number of weeks, and the other skills repeat per week, so multiply the per-week figure. Some context-loading economy applies on longer batches, so these are conservative upper bounds:
+These figures are for **content production** (`research-scan` + `generate-batch` + the QA gates). `generate-batch` scales roughly linearly with the number of weeks, and the content skills repeat per week, so multiply the per-week figure. Some context-loading economy applies on longer batches, so these are conservative upper bounds:
 
 | Batch scope | Low | Mid | High |
 |---|---|---|---|
-| 1 week | ~30 min | ~40 min | ~55 min |
+| 1 week | ~28 min | ~40 min | ~55 min |
 | 2 weeks | ~55 min | ~75 min | ~110 min |
 | 3 weeks | ~80 min | ~110 min | ~165 min |
 | 4 weeks | ~105 min | ~145 min | ~220 min |
 
-Plan with the **High** column. Actual time varies with how many pieces get flagged for revision and the depth of the gate passes.
+Plan with the **High** column. Actual time varies with how many pieces get flagged for revision and the depth of the gate passes. `retro` is **not** included here: it runs once per week on its own cadence (a flat ~2 to 6 min of machine time plus Jared's approval), independent of how many weeks a content batch covers.
 
 ---
 
@@ -111,6 +114,6 @@ The token estimate above tells you the *relative weight* of a batch (a 4-week ba
 
 ## Summary
 
-- One **`generate-batch` run** takes **15 to 20 minutes** (the heaviest single skill). A **full week of all six skills** takes **~30 / ~40 / ~55 minutes** (low / mid / high); plan with the High column and multiply for multi-week batches.
+- One **`generate-batch` run** takes **15 to 20 minutes** (the heaviest single skill). A **full week of all seven skills** takes **~30 / ~45 / ~60 minutes** (low / mid / high); plan with the High column and multiply the content portion for multi-week batches (`retro` is a flat weekly add).
 - It runs in Cowork, not a cloud API, so **tokens are not monitorable**; monitor **outputs** and **batches per usage window** instead.
 - Token volume can be **estimated** from outputs for planning, but **batches-per-window is measured empirically** because Claude Max uses a rolling usage window, not a fixed published token allowance.
