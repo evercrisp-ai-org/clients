@@ -46,7 +46,7 @@ A path to a draft or pasted content. Audit the Content section. Infer the conten
 Per-item ✓/✗ across all three gates. For every ✗, **quote the offending line** and give a one-line rewrite in Jared's voice.
 
 Scan specifically for:
-- **Em dashes** — search the literal text for `—`.
+- **Em dashes (run this scan first, every time)** — search the literal text for `—` (em dash, U+2014), and also for `–` (en dash, U+2013) and `―` (horizontal bar), which are the same defect. Any hit is a hard fail. This is the most common AI tell in this content; never report a piece as on-voice without having actually run this character search.
 - **The banned pivot, every surface form** — "It's not X, it's Y"; "You don't have an X problem, you have a Y problem"; "Not X, but Y"; "not because X, because Y"; and the quoted question form 'not "[A]," but "[B]."' Search for `not ... but` and `not ... it's` across the whole text. (A real draft slipped a `not "can I push this out," but "what does the year look like"` pivot past an earlier check — catch this class.)
 - **Throat-clearing kill-phrases** — "There is a question worth asking," "Let me put that in perspective," "Here's why that matters," "Most people don't realize."
 - **Brochure tone** — feature-listing with no antagonist or scenario ("A cash balance plan can shelter $150K-$350K").
